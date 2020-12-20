@@ -51,6 +51,26 @@ def search_articles(db, search_term, search_keywords=["generic"], search_fields=
     return searches
 
 
+def fetch_article(id, db="pubmed"):
+    """
+    
+    :param id:
+    :param db:
+    :return:
+    """
+    document = {}
+    handle = Entrez.efetch(db=str(db), id=str(id), rettype="abstract", retmode="XML")
+    record = Entrez.read(handle)
+    article = record["PubmedArticle"][0]["MedlineCitation"]["Article"]
+    document['title'] = article["ArticleTitle"]
+    document['doi'] = record["PubmedArticle"][0]["PubmedData"]["ArticleIdList"][2]
+    if "Abstract" in article:
+        document['abstract'] = article["Abstract"]["AbstractText"][0]
+    else:
+        document['abstract'] = None
+    return document
+
+
 def search_fetch_articles(db, search_term, search_keywords=["generic"], search_fields=['WORD', 'TIAB'], time_period=5):
     """
     returns file with cenas
@@ -61,25 +81,19 @@ def search_fetch_articles(db, search_term, search_keywords=["generic"], search_f
     :param time_period:
     :return:
     """
-    for id in id_list:
-        handle = Entrez.efetch(db="pubmed", id=str(id), rettype="abstract", retmode="XML")
-        record = Entrez.read(handle)
-        article = record["PubmedArticle"][0]["MedlineCitation"]["Article"]
-        title = article["ArticleTitle"]
-        doi = record["PubmedArticle"][0]["PubmedData"]["ArticleIdList"][2]
-        if "Abstract" in article:
-            abstract = article["Abstract"]["AbstractText"][0]
-        else:
-            abstract = None
+    searches = search_articles(db, search_term, search_keywords, search_fields, time_period)
+    articles = {}
+    for key in searches:
+        for value in searches[key]:
 
-        dict = {}
 
-        print(title)
 
-    handle666 = Entrez.efetch(db="pubmed", id=33305306, rettype="abstract", retmode="XML")
-    record666 = Entrez.read(handle666)
-    print("doi={0}".format(record666["PubmedArticle"][0]["PubmedData"]["ArticleIdList"][2]))
-    doi = record666["PubmedArticle"][0]["PubmedData"]["ArticleIdList"][2].attributes["IdType"]
+    print(title)
+
+"""handle666 = Entrez.efetch(db="pubmed", id=33305306, rettype="abstract", retmode="XML")
+record666 = Entrez.read(handle666)
+print("doi={0}".format(record666["PubmedArticle"][0]["PubmedData"]["ArticleIdList"][2]))
+doi = record666["PubmedArticle"][0]["PubmedData"]["ArticleIdList"][2].attributes["IdType"]"""
 
 # bst_handle = Entrez.esearch(db="pubmed", term="BST2[TITL]") #procura por artigos que tenham o BST2 no título
 # bst_record = Entrez.read(bst_handle)
