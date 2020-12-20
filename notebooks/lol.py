@@ -1,2 +1,0 @@
-pcharm = "great"
-print(pcharm)
