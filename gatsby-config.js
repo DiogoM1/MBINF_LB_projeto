@@ -1,16 +1,9 @@
 module.exports = {
   pathPrefix: "/MBINF_LB_site",
   siteMetadata: {
-    title: `Leonids`,
-    author: {
-      name: `@ry_zou`,
-      summary: `web dev`,
-    },
+    title: `Laboratórios de BioInformática Genes ORF7a, BST2, ITGAL`,
     description: `A simple, fixed sidebar two columns Gatsby.js blog starter.`,
-    siteUrl: `https://renyuanz.github.io/leonids`,
-    social: {
-      twitter: `ry_zou`,
-    },
+    siteUrl: `https://lb.diogomacedo.pt/`,
     defaultImage: "images/bg.jpeg",
   },
   plugins: [
