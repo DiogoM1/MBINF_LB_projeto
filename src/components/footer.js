@@ -3,17 +3,17 @@ import React from "react"
 const Footer = () => {
   return (
     <footer className="my-12 text-center">
-      © {new Date().getFullYear()}, Built with
+      © {new Date().getFullYear()}, Construido com
       {` `}
-      <a href="https://www.gatsbyjs.org">Gatsby</a> and{" "}
+      <a href="https://www.gatsbyjs.org">Gatsby</a> e o tema{" "}
       <a
         href="https://github.com/renyuanz/leonids"
         target="_blank"
         rel="noreferrer"
       >
-        Leonids theme
+        Leonids
       </a>
-      .
+      . Análise por Angelina Eiras, Diogo Macedo e Pedro Borges, Mestrado em BioInfórmatica na Universidade do Minho
     </footer>
   )
 }
