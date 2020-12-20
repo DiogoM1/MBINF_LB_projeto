@@ -174,7 +174,7 @@ def search_print_articles(search_term, search_keywords=["generic"], search_field
             output.write("{0}: {1}".format(key, search_result[key])+"\n")
 
         # abstract
-        # 
+        #
         output.write("\n""".format+"\n")
         output.write("\n")
     output.close()
