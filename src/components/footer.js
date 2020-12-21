@@ -13,7 +13,8 @@ const Footer = () => {
       >
         Leonids
       </a>
-      . Análise por Angelina Eiras, Diogo Macedo e Pedro Borges, Mestrado em BioInfórmatica na Universidade do Minho
+      . Código da análise em {` `}
+      <a href="https://github.com/DiogoM1/MBINF_LB_projeto">MBINF LB Projeto</a>
     </footer>
   )
 }
