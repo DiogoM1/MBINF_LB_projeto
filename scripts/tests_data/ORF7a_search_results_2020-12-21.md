@@ -1,0 +1,260 @@
+# Structural assessment of SARS-CoV2 accessory protein ORF7a predicts LFA-1 and Mac-1 binding potential.
+
+search_keywords: ['generic']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/33305306/
+
+## Abstract
+
+ORF7a is an accessory protein common to SARS-CoV1 and the recently discovered SARS-CoV2, which is causing the COVID19 pandemic. The ORF7a protein has a structural homology with ICAM-1 which binds to the T lymphocyte integrin receptor LFA-1. As COVID19 has a strong immune component as part of the disease, we sought to determine whether SARS-CoV2 would have a similar structural interaction with LFA-1. Using molecular docking simulations, we found that SARS-CoV2 ORF7a has the key structural determinants required to bind LFA-1 but also the related leukocyte integrin Mac-1, which is also known to be expressed by macrophages. Our study shows that SARS-CoV2 ORF7a protein has a conserved Ig immunoglobulin-like fold containing an integrin binding site that provides a mechanistic hypothesis for SARS-CoV2's interaction with the human immune system. This suggests that experimental investigation of ORF7a mediated effects on immune cells such as T lymphocytes and macrophages (leukocytes) could help understand the disease further and develop effective treatments.
+
+# Genomic surveillance of SARS-CoV-2 in Thailand reveals mixed imported populations, a local lineage expansion and a virus with truncated ORF7a.
+
+search_keywords: ['generic', 'sars-cov-2']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/33227343/
+
+## Abstract
+
+Coronavirus Disease 2019 (COVID-19) is a global public health threat. Genomic surveillance of SARS-CoV-2 was implemented in March of 2020 at a major diagnostic hub in Bangkok, Thailand. Several virus lineages supposedly originated in many countries were found, and a Thai-specific lineage, designated A/Thai-1, has expanded to be predominant in Thailand. A virus sample in the SARS-CoV-2 A/Thai-1 lineage contains a frame-shift deletion at ORF7a, encoding a putative host antagonizing factor of the virus.
+
+# SARS-CoV-2 Virion Stabilization by Zn Binding.
+
+search_keywords: ['generic', 'sars-cov-2']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/33195401/
+
+## Abstract
+
+Zinc plays a crucial role in the process of virion maturation inside the host cell. The accessory Cys-rich proteins expressed in SARS-CoV-2 by genes ORF7a and ORF8 are likely involved in zinc binding and in interactions with cellular antigens activated by extensive disulfide bonds. In this report we provide a proof of concept for the feasibility of a structural study of orf7a and orf8 proteins. A conceivable hypothesis is that lack of cellular zinc, or substitution thereof, might lead to a significant slowing down of viral maturation.
+
+# Genomic exploration light on multiple origin with potential parsimony-informative sites of the severe acute respiratory syndrome coronavirus 2 in Bangladesh.
+
+search_keywords: ['generic', 'sars-cov-2']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/33163695/
+
+## Abstract
+
+Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a new strain of beta coronavirus that has spread worldwide within a short period of time and has been responsible for the current COVID-19 pandemic. This novel virus shows high transmission and adaptability frequency into the host with rapid changes in genomic sequences. In this study, we analyzed the complete genome of 41 strains isolated in Bangladesh to understand the evolutionary route and genetic variations of this rapidly evolving virus. The phylogenetics, parsimony informative sites and mutation analyses were performed using MEGA X, Multiple sequence alignment program (MAFFT), and Virus Pathogen Resource. The phylogenetic analysis of the studied genomes along with the reference genome suggested that the viral strains found in Bangladesh might be coming from multiple countries such as France, Germany, India, the USA, and Brazil. After entering into the country, intra-cluster and inter-cluster began to circulate in the 8 individual divisions of Bangladesh. We also identified 26 parsimony-informative sites along with the 9 most important sites for virus evolution. Genome-wide annotations revealed 256 mutations, of which 10 were novel (NSP3, RdRp, Spike) in Bangladeshi strains where I120F(NSP2), P323L(RdRp), D614G (Spike), R203K, G204R(N) are the most prominent. Most importantly, numerous mutations were flourishing in the N protein gene (67) followed by S (45), RdRp (38), NSP2 (34), NSP3 (20), and ORF8 (6) gene. Moreover, nucleotide deletion analysis found nine deletions throughout the genomes including in ORF7a (8), ORF8 (1) with one insertion (G) at 265 positions in only one genome. The underlying mechanism of disease severity, molecular evolution, and epidemiology lie in genomic sequences that are not fully understood yet. Identification of the evolutionary history, parsimony-informative sites and others genetic variations of this deadly virus will facilitate the development of new strategies to control the local transmission and provide deep insight in the identification of potential therapeutic targets for controlling COVID-19.
+
+# Trends of mutation accumulation across global SARS-CoV-2 genomes: Implications for the evolution of the novel coronavirus.
+
+search_keywords: ['generic', 'sars-cov-2']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/33161087/
+
+## Abstract
+
+To understand SARS-CoV-2 microevolution, this study explored the genome-wide frequency, gene-wise distribution, and molecular nature of all point-mutations detected across its 71,703 RNA-genomes deposited in GISAID till 21 August 2020. Globally, nsp1/nsp2 and orf7a/orf3a were the most mutation-ridden non-structural and structural genes respectively. Phylogeny of 4618 spatiotemporally-representative genomes revealed that entities belonging to the early lineages are mostly spread over Asian countries, including India, whereas the recently-derived lineages are more globally distributed. Of the total 20,163 instances of polymorphism detected across global genomes, 12,594 and 7569 involved transitions and transversions, predominated by cytidine-to-uridine and guanosine-to-uridine conversions, respectively. Positive selection of nonsynonymous mutations (dN/dS >1) in most of the structural, but not the non-structural, genes indicated that SARS-CoV-2 has already harmonized its replication/transcription machineries with the host metabolism, while it is still redefining virulence/transmissibility strategies at the molecular level. Mechanistic bases and evolutionary/pathogenicity-related implications are discussed for the predominant mutation-types.
+
+# Functional Landscape of SARS-CoV-2 Cellular Restriction.
+
+search_keywords: ['generic', 'function', 'sars-cov-2']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/33024967/
+
+## Abstract
+
+A deficient interferon response to SARS-CoV-2 infection has been implicated as a determinant of severe COVID-19. To identify the molecular effectors that govern interferon control of SARS-CoV-2 infection, we conducted a large-scale gain-of-function analysis that evaluated the impact of human interferon stimulated genes (ISGs) on viral replication. A limited subset of ISGs were found to control viral infection, including endosomal factors that inhibited viral entry, nucleic acid binding proteins that suppressed viral RNA synthesis, and a highly enriched cluster of ER and Golgi-resident ISGs that inhibited viral translation and egress. These included the type II integral membrane protein BST2/tetherin, which was found to impede viral release, and is targeted for immune evasion by SARS-CoV-2 Orf7a protein. Overall, these data define the molecular basis of early innate immune control of viral infection, which will facilitate the understanding of host determinants that impact disease severity and offer potential therapeutic strategies for COVID-19.
+
+# Deciphering the SSR incidences across viral members of Coronaviridae family.
+
+search_keywords: ['generic', 'sars-cov-2']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/32971122/
+
+## Abstract
+
+Presence of Simple Sequence Repeats (SSRs), both in genic and intergenic regions, have been widely studied in eukaryotes, prokaryotes, and viruses. In the current study, we undertook a survey to analyze the frequency and distribution of microsatellites or SSRs in multiple genomes of Coronaviridae members. We successfully identified 919 SSRs with length ≥12 bp across 55 reference genomes majority of which (838 SSRs) were found abundant in genic regions. The in-silico analysis further identified the preferential abundance of hexameric SSRs than any other size-based motif class. Our analysis shows that the genome size and GC content of the genome had a weak influence on SSR frequency and density. However, we find a positive correlation of SSRs GC content with genomic GC content. We also report relatively low abundances of all theoretically possible 501 repeat motif classes in all the genomes of Coronaviridae. The majority of SSRs were AT-rich. Overall, we see an underrepresentation of SSRs across the genomes of Coronaviridae. Besides, our integrative study highlights the presence of SSRs in ORF1ab (nsp3, nsp4, nsp5A_3CLpro and nsp5B_3CLpro, nsp6, nsp10, nsp12, nsp13, & nsp15 domains), S, ORF3a, ORF7a, N & 3' UTR regions of SARS-CoV-2 and harbours multiple mutations (3'UTR and ORF1ab SSRs serving as major mutational hotspots). This indicates the genic SSRs are under selection pressure against mutations that might alter the reading frame and at the same time responsible for rapid protein evolution. Our preliminary results indicate the significance of the limited repertoire of SSRs in the genomes of Coronaviridae.
+
+# Potential impact on coagulopathy of gene variants of coagulation related proteins that interact with SARS-CoV-2.
+
+search_keywords: ['generic', 'sars-cov-2']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/32935103/
+
+## Abstract
+
+Thrombosis has been one of the complications of the Coronavirus disease of 2019 (COVID-19), often associated with poor prognosis. There is a well-recognized link between coagulation and inflammation, however, the extent of thrombotic events associated with COVID-19 warrants further investigation. Poly(A) Binding Protein Cytoplasmic 4 (PABPC4), Serine/Cysteine Proteinase Inhibitor Clade G Member 1 (SERPING1) and Vitamin K epOxide Reductase Complex subunit 1 (VKORC1), which are all proteins linked to coagulation, have been shown to interact with SARS proteins. We computationally examined the interaction of these with SARS-CoV-2 proteins and, in the case of VKORC1, we describe its binding to ORF7a in detail. We examined the occurrence of variants of each of these proteins across populations and interrogated their potential contribution to COVID-19 severity. Potential mechanisms by which some of these variants may contribute to disease are proposed. Some of these variants are prevalent in minority groups that are disproportionally affected by severe COVID-19. Therefore, we are proposing that further investigation around these variants may lead to better understanding of disease pathogenesis in minority groups and more informed therapeutic approaches.
+
+# A systematic review on COVID-19 pandemic with special emphasis on curative potentials of Nigeria based medicinal plants.
+
+search_keywords: ['generic', 'sars-cov-2']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/32929412/
+
+## Abstract
+
+Despite the frightening mortality rate associated with COVID-19, there is no known approved drug to effectively combat the pandemic. COVID-19 clinical manifestations include fever, fatigue, cough, shortness of breath, and other complications. At present, there is no known effective treatment or vaccine that can mitigate/inhibit SARS-CoV-2. Available clinical intervention for COVID-19 is only palliative and limited to support. Thus, there is an exigent need for effective and non-invasive treatment. This article evaluates the possible mechanism of actions of SARS-CoV-2 and present Nigeria based medicinal plants which have pharmacological and biological activities that can mitigate the hallmarks of the pathogenesis of COVID-19. SARS-CoV-2 mode of actions includes hyper-inflammation characterized by a severe and fatal hyper-cytokinaemia with multi-organ failure; immunosuppression; reduction of angiotensin-converting enzyme 2 (ACE2) to enhance pulmonary vascular permeability causing damage to the alveoli; and further activated by open reading frame (ORF)3a, ORF3b, and ORF7a via c-Jun N- terminal kinase (JNK) pathway which induces lung damage. These mechanisms of action of SARS-CoV-2 can be mitigated by a combination therapy of medicinal herbs based on their pharmacological activities. Since the clinical manifestations of COVID-19 are multifactorial with co-morbidities, we strongly recommend the use of combined therapy such that two or more herbs with specific therapeutic actions are administered to combat the mediators of the disease.
+
+# Structure of SARS-CoV-2 ORF8, a rapidly evolving coronavirus protein implicated in immune evasion.
+
+search_keywords: ['generic', 'sars-cov-2']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/32869027/
+
+## Abstract
+
+The molecular basis for the severity and rapid spread of the COVID-19 disease caused by SARS-CoV-2 is largely unknown. ORF8 is a rapidly evolving accessory protein that has been proposed to interfere with immune responses. The crystal structure of SARS-CoV-2 ORF8 was determined at 2.04 Å resolution by x-ray crystallography. The structure reveals a ~60 residue core similar to SARS-CoV ORF7a with the addition of two dimerization interfaces unique to SARS-CoV-2 ORF8. A covalent disulfide-linked dimer is formed through an N-terminal sequence specific to SARS-CoV-2, while a separate non-covalent interface is formed by another SARS-CoV-2-specific sequence, <sub>73</sub> YIDI <sub>76</sub> . Together the presence of these interfaces shows how SARS-CoV-2 ORF8 can form unique large-scale assemblies not possible for SARS-CoV, potentially mediating unique immune suppression and evasion activities.
+
+# Genome-wide analysis of SARS-CoV-2 virus strains circulating worldwide implicates heterogeneity.
+
+search_keywords: ['generic', 'sars-cov-2']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/32814791/
+
+## Abstract
+
+Severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2), a novel evolutionary divergent RNA virus, is responsible for the present devastating COVID-19 pandemic. To explore the genomic signatures, we comprehensively analyzed 2,492 complete and/or near-complete genome sequences of SARS-CoV-2 strains reported from across the globe to the GISAID database up to 30 March 2020. Genome-wide annotations revealed 1,516 nucleotide-level variations at different positions throughout the entire genome of SARS-CoV-2. Moreover, nucleotide (nt) deletion analysis found twelve deletion sites throughout the genome other than previously reported deletions at coding sequence of the ORF8 (open reading frame), spike, and ORF7a proteins, specifically in polyprotein ORF1ab (n = 9), ORF10 (n = 1), and 3´-UTR (n = 2). Evidence from the systematic gene-level mutational and protein profile analyses revealed a large number of amino acid (aa) substitutions (n = 744), demonstrating the viral proteins heterogeneous. Notably, residues of receptor-binding domain (RBD) showing crucial interactions with angiotensin-converting enzyme 2 (ACE2) and cross-reacting neutralizing antibody were found to be conserved among the analyzed virus strains, except for replacement of lysine with arginine at 378th position of the cryptic epitope of a Shanghai isolate, hCoV-19/Shanghai/SH0007/2020 (EPI_ISL_416320). Furthermore, our results of the preliminary epidemiological data on SARS-CoV-2 infections revealed that frequency of aa mutations were relatively higher in the SARS-CoV-2 genome sequences of Europe (43.07%) followed by Asia (38.09%), and North America (29.64%) while case fatality rates remained higher in the European temperate countries, such as Italy, Spain, Netherlands, France, England and Belgium. Thus, the present method of genome annotation employed at this early pandemic stage could be a promising tool for monitoring and tracking the continuously evolving pandemic situation, the associated genetic variants, and their implications for the development of effective control and prophylaxis strategies.
+
+# Transcriptome & viral growth analysis of SARS-CoV-2-infected Vero CCL-81 cells.
+
+search_keywords: ['generic', 'sars-cov-2']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/32773420/
+
+## Abstract
+
+The genome of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), belonging to the family Coronaviridae, encodes for structural, non-structural, and accessory proteins, which are required for replication of the virus. These proteins are encoded by different genes present on the SARS-CoV-2 genome. The expression pattern of these genes in the host cells needs to be assessed. This study was undertaken to understand the transcription pattern of the SARS-CoV-2 genes in the Vero CCL-81 cells during the course of infection.
+
+# SARS-CoV-2 Molecular Network Structure.
+
+search_keywords: ['generic', 'sars-cov-2']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/32754056/
+
+## Abstract
+
+Knowledge about the molecular basis of SARS-CoV-2 infection is incipient. However, recent experimental results about the virus interactome have shown that this single-positive stranded RNA virus produces a set of about 28 specific proteins grouped into 16 non-structural proteins (Nsp1 to Nsp16), four structural proteins (E, M, N, and S), and eight accessory proteins (orf3a, orf6, orf7a, orf7b, orf8, orf9b, orf9c, and orf10). In this brief communication, the network model of the interactome of these viral proteins with the host proteins is analyzed. The statistical analysis of this network shows that it has a modular scale-free topology in which the virus proteins orf8, M, and Nsp7 are the three nodes with the most connections (links). This result suggests the possibility that a simultaneous pharmacological attack on these hubs could assure the destruction of the network and the elimination of the virus.
+
+# RNAi suppressor: The hidden weapon of SARS-CoV.
+
+search_keywords: ['generic', 'sars-cov-2']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/32713862/
+
+## Abstract
+
+The two biological evidences to endorse the antiviral activity of RNA interference (RNAi) are biogenesis of viral-siRNA (v-siRNA) by the host and encoding of RNAi-suppressor protein by viral genome. It has been recently established that mammals and mammalian cell lines mount antiviral RNAi to defend themselves against the invading viruses. The large part of viral pathogenicity is also due to the RNAi suppressor proteins. In this context it is only natural to ask what kinds of RNAi suppressors are encoded by the Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2), the central character of the present pandemic. The following mini review addresses this question.
+
+# The antiviral and coronavirus-host protein pathways inhibiting properties of herbs and natural compounds - Additional weapons in the fight against the COVID-19 pandemic?
+
+search_keywords: ['generic', 'sars-cov-2']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/32691005/
+
+## Abstract
+
+As of March 11th, 2020, the World Health Organization declared the COVID-19 outbreak a pandemic. Articles published after the SARS-CoV-1 (2002) epidemic suggest that the use of an herbal-drug integrative medical approach could have contributed to a lower fatality rate and a more rapid response in controlling the outbreak.
+
+# Identification of multiple large deletions in ORF7a resulting in in-frame gene fusions in clinical SARS-CoV-2 isolates.
+
+search_keywords: ['generic', 'sars-cov-2']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/32623351/
+
+## Abstract
+
+None
+
+# Characterizations of SARS-CoV-2 mutational profile, spike protein stability and viral transmission.
+
+search_keywords: ['generic', 'sars-cov-2']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/32615316/
+
+## Abstract
+
+The recent pandemic of SARS-CoV-2 infection has affected more than 3.0 million people worldwide with more than 200 thousand reported deaths. The SARS-CoV-2 genome has the capability of gaining rapid mutations as the virus spreads. Whole-genome sequencing data offers a wide range of opportunities to study mutation dynamics. The advantage of an increasing amount of whole-genome sequence data of SARS-CoV-2 intrigued us to explore the mutation profile across the genome, to check the genome diversity, and to investigate the implications of those mutations in protein stability and viral transmission. We have identified frequently mutated residues by aligning ~660 SARS-CoV-2 genomes and validated in 10,000 datasets available in GISAID Nextstrain. We further evaluated the potential of these frequently mutated residues in protein structure stability of spike glycoprotein and their possible functional consequences in other proteins. Among the 11 genes, surface glycoprotein, nucleocapsid, ORF1ab, and ORF8 showed frequent mutations, while envelop, membrane, ORF6, ORF7a and ORF7b showed conservation in terms of amino acid substitutions. Combined analysis with the frequently mutated residues identified 20 viral variants, among which 12 specific combinations comprised more than 97% of the isolates considered for the analysis. Some of the mutations across different proteins showed co-occurrences, suggesting their structural and/or functional interaction among different SARS-COV-2 proteins, and their involvement in adaptability and viral transmission. Analysis of protein structure stability of surface glycoprotein mutants indicated the viability of specific variants and are more prone to be temporally and spatially distributed across the globe. A similar empirical analysis of other proteins indicated the existence of important functional implications of several variants. Identification of frequently mutated variants among COVID-19 patients might be useful for better clinical management, contact tracing, and containment of the disease.
+
+# Computational analysis of microRNA-mediated interactions in SARS-CoV-2 infection.
+
+search_keywords: ['generic', 'function', 'sars-cov-2']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/32547891/
+
+## Abstract
+
+MicroRNAs (miRNAs) are post-transcriptional regulators of gene expression found in more than 200 diverse organisms. Although it is still not fully established if RNA viruses could generate miRNAs, there are examples of miRNA like sequences from RNA viruses with regulatory functions. In the case of Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2), there are several mechanisms that would make miRNAs impact the virus, like interfering with viral replication, translation and even modulating the host expression. In this study, we performed a machine learning based miRNA prediction analysis for the SARS-CoV-2 genome to identify miRNA-like hairpins and searched for potential miRNA-based interactions between the viral miRNAs and human genes and human miRNAs and viral genes. Overall, 950 hairpin structured sequences were extracted from the virus genome and based on the prediction results, 29 of them could be precursor miRNAs. Targeting analysis showed that 30 viral mature miRNA-like sequences could target 1,367 different human genes. PANTHER gene function analysis results indicated that viral derived miRNA candidates could target various human genes involved in crucial cellular processes including transcription, metabolism, defense system and several signaling pathways such as Wnt and EGFR signalings. Protein class-based grouping of targeted human genes showed that host transcription might be one of the main targets of the virus since 96 genes involved in transcriptional processes were potential targets of predicted viral miRNAs. For instance, basal transcription machinery elements including several components of human mediator complex (MED1, MED9, MED12L, MED19), basal transcription factors such as TAF4, TAF5, TAF7L and site-specific transcription factors such as STAT1 were found to be targeted. In addition, many known human miRNAs appeared to be able to target viral genes involved in viral life cycle such as S, M, N, E proteins and ORF1ab, ORF3a, ORF8, ORF7a and ORF10. Considering the fact that miRNA-based therapies have been paid attention, based on the findings of this study, comprehending mode of actions of miRNAs and their possible roles during SARS-CoV-2 infections could create new opportunities for the development and improvement of new therapeutics.
+
+# An 81 base-pair deletion in SARS-CoV-2 ORF7a identified from sentinel surveillance in Arizona (Jan-Mar 2020).
+
+search_keywords: ['generic', 'sars-cov-2']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/32511591/
+
+## Abstract
+
+On January 26 2020, the first Coronavirus Disease 2019 (COVID-19) case was reported in Arizona of an individual with travel history (3rd case in the US). Here, we report on early SARS-CoV-2 sentinel surveillance in Tempe, Arizona. Genomic characterization identified an isolate encoding a 27 amino acid in-frame deletion in accessory protein ORF7a, the ortholog of SARS-CoV immune antagonist ORF7a/X4 .
+
+# Novel Immunoglobulin Domain Proteins Provide Insights into Evolution and Pathogenesis Mechanisms of SARS-Related Coronaviruses.
+
+search_keywords: ['generic', 'sars-cov-2']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/32511297/
+
+## Abstract
+
+A novel coronavirus (SARS-CoV-2) is the causative agent of an emergent severe respiratory disease (COVID-19) in humans that is threatening to result in a global health crisis. By using genomic, sequence, structural and evolutionary analysis, we show that Alpha- and Beta-CoVs possess several novel families of immunoglobulin (Ig) domain proteins, including ORF8 and ORF7a from SARS-related coronaviruses and two protein groups from certain Alpha-CoVs. Among them, ORF8 is distinguished in being rapidly evolving, possessing a unique insert and a hypervariable position among SARS-CoV-2 genomes in its predicted ligand-binding groove. We also uncover many Ig proteins from several metazoan viruses which are distinct in sequence and structure but share an architecture comparable to that of CoV Ig domain proteins. Hence, we propose that deployment of Ig domain proteins is a widely-used strategy by viruses, and SARS-CoV-2 ORF8 is a potential pathogenicity factor which evolves rapidly to counter the immune response and facilitate the transmission between hosts.
+
+# Severe Acute Respiratory Syndrome Coronavirus ORF7a Inhibits Bone Marrow Stromal Antigen 2 Virion Tethering through a Novel Mechanism of Glycosylation Interference.
+
+search_keywords: ['function']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/26378163/
+
+## Abstract
+
+Severe acute respiratory syndrome (SARS) emerged in November 2002 as a case of atypical pneumonia in China, and the causative agent of SARS was identified to be a novel coronavirus, severe acute respiratory syndrome coronavirus (SARS-CoV). Bone marrow stromal antigen 2 (BST-2; also known as CD317 or tetherin) was initially identified to be a pre-B-cell growth promoter, but it also inhibits the release of virions of the retrovirus human immunodeficiency virus type 1 (HIV-1) by tethering budding virions to the host cell membrane. Further work has shown that BST-2 restricts the release of many other viruses, including the human coronavirus 229E (hCoV-229E), and the genomes of many of these viruses encode BST-2 antagonists to overcome BST-2 restriction. Given the previous studies on BST-2, we aimed to determine if BST-2 has the ability to restrict SARS-CoV and if the SARS-CoV genome encodes any proteins that modulate BST-2's antiviral function. Through an in vitro screen, we identified four potential BST-2 modulators encoded by the SARS-CoV genome: the papain-like protease (PLPro), nonstructural protein 1 (nsp1), ORF6, and ORF7a. As the function of ORF7a in SARS-CoV replication was previously unknown, we focused our study on ORF7a. We found that BST-2 does restrict SARS-CoV, but the loss of ORF7a leads to a much greater restriction, confirming the role of ORF7a as an inhibitor of BST-2. We further characterized the mechanism of BST-2 inhibition by ORF7a and found that ORF7a localization changes when BST-2 is overexpressed and ORF7a binds directly to BST-2. Finally, we also show that SARS-CoV ORF7a blocks the restriction activity of BST-2 by blocking the glycosylation of BST-2.
+
+# Characterization of the open reading frame 7a from Bombyx mori nucleopolyhedrovirus.
+
+search_keywords: ['function']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/23054027/
+
+## Abstract
+
+The open reading frame 7a of the Bombyx mori nucleopolyhedrovirus (BmNPV orf7a, Bm7a) encodes a predicted polypeptide consisting of 53 amino acid residues. While this polypeptide's homologues were found in certain baculoviruses, its function has not yet been studied. A protein structural assay revealed that the polypeptide expressed from this gene contained a predicted signal peptide at its N-terminus. To investigate the expression of Bm7a, 3'rapid amplification of cDNA ends was used to detect its transcript. A series of recombinant viruses were also constructed to analyze the cellular localization of the Bm7a products. The results indicated that the Bm7a gene is co-transcribed with bv/odv-e26 and orf9. The function of BM7a was studied by using fused enhanced green fluorescence protein (eGFP) as a visual marker to trace the localization of the protein during infection. Fluorescence was observed in the cellular membrane of the infected cells by confocal microscopy. Western blot analysis using an eGFP-antibody also showed that the BM7a-eGFP fusion protein was present in the budded virions (BVs). These data implied that BM7a is a component of the BV. In this work, we identified the function of the Bm7a gene and suggested that it may play a role in BV packaging.
+
+# Solution structure of the X4 protein coded by the SARS related coronavirus reveals an immunoglobulin like fold and suggests a binding activity to integrin I domains.
+
+search_keywords: ['function']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/16328780/
+
+## Abstract
+
+The SARS related Coronavirus genome contains a variety of novel accessory genes. One of these, called ORF7a or ORF8, code for a protein, known as 7a, U122 or X4. We set out to determine the three-dimensional structure of the soluble ectodomain of this type-I transmembrane protein by nuclear magnetic resonance spectroscopy. The fold of the protein is the first member of a further variation of the immunoglobulin like beta-sandwich fold. Because X4 does not reveal significant sequence homologies to proteins in the data bases, we carried out a structure based similarity search for proteins with known function. High structural similarity to Dl domains of ICAM-1 and ICAM-2, and common features in amino acid sequence between X4 and ICAM-1, suggest X4 to possess binding activity for the alpha(L) integrin I domain of LFA-1. Further, based on this structure based prediction, potential functions of X4 in virus replication and pathogenesis are discussed.
+
+# The protein X4 of severe acute respiratory syndrome-associated coronavirus is expressed on both virus-infected cells and lung tissue of severe acute respiratory syndrome patients and inhibits growth of Balb/c 3T3 cell line.
+
+search_keywords: ['function']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/15740663/
+
+## Abstract
+
+The genome of the severe acute respiratory syndrome-associated coronavirus (SARS-CoV) includes sequences encoding the putative protein X4 (ORF8, ORF7a), consisting of 122 amino acids. The deduced sequence contains a probable cleaved signal peptide sequence and a C-terminal transmembrane helix, indicating that protein X4 is likely to be a type I membrane protein. This study was conducted to demonstrate whether the protein X4 was expressed and its essential function in the process of SARS-CoV infection.
+
+# Structure and intracellular targeting of the SARS-coronavirus Orf7a accessory protein.
+
+search_keywords: ['function']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/15642263/
+
+## Abstract
+
+The open reading frame (ORF) 7a of the SARS-associated coronavirus (SARS-CoV) encodes a unique type I transmembrane protein of unknown function. We have determined the 1.8 A resolution crystal structure of the N-terminal ectodomain of orf7a, revealing a compact seven-stranded beta sandwich unexpectedly similar in fold and topology to members of the Ig superfamily. We also demonstrate that, in SARS-CoV- infected cells, the orf7a protein is expressed and retained intracellularly. Confocal microscopy studies using orf7a and orf7a/CD4 chimeras implicate the short cytoplasmic tail and transmembrane domain in trafficking of the protein within the endoplasmic reticulum and Golgi network. Taken together, our findings provide a structural and cellular framework in which to explore the role of orf7a in SARS-CoV pathogenesis.
+
+# An 81-Nucleotide Deletion in SARS-CoV-2 ORF7a Identified from Sentinel Surveillance in Arizona (January to March 2020).
+
+search_keywords: ['sars-cov-2']
+
+web_address: https://pubmed.ncbi.nlm.nih.gov/32357959/
+
+## Abstract
+
+None
+
