@@ -5,8 +5,6 @@ description: "Breve sumário das diferentes proteinas a serem estudadas no decur
 categories: [Revisão Bibliográfica]
 ---
 
-# Proteinas em Estudo
-
 Breve sumário das diferentes proteinas a serem estudadas no decurso do projeto de Laboratórios de Bioinformática.
 
 ## ORF7a
