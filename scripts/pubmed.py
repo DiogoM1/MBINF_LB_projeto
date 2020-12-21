@@ -72,13 +72,12 @@ def fetch_article(db_id):
     article = record["PubmedArticle"][0]["MedlineCitation"]["Article"]
     document['title'] = article["ArticleTitle"]
     document['web_address'] = "https://pubmed.ncbi.nlm.nih.gov/{0}/".format(db_id)
-    #TODO: melhorar sistema de procura de DOIs, porque estes podem nem sempre estar na posicao [2]
-    #document['doi'] = record["PubmedArticle"][0]["PubmedData"]["ArticleIdList"][2]
+    # TODO: melhorar sistema de procura de DOIs, porque estes podem nem sempre estar na posicao [2]
+    # document['doi'] = record["PubmedArticle"][0]["PubmedData"]["ArticleIdList"][2]
     if "Abstract" in article:
         document['abstract'] = article["Abstract"]["AbstractText"][0]
     else:
         document['abstract'] = None
-    print(document)
     return document
 
 
@@ -105,13 +104,11 @@ def search_fetch_articles(search_term, search_keywords=["generic"], search_field
     """
     search_results = search_articles(search_term, search_keywords, search_fields, time_period)
     for article_id in search_results.keys():
-        print(article_id)
         article_fetched = fetch_article(article_id)
         search_results[article_id]["title"] = article_fetched["title"]
         search_results[article_id]["web_address"] = article_fetched["web_address"]
         # search_results[article_id]["doi"] = article_fetched["doi"]
         search_results[article_id]["abstract"] = article_fetched["abstract"]
-    print(search_results)
     return search_results
 
 
@@ -134,14 +131,14 @@ def search_print_articles(search_term, search_keywords=["generic"], search_field
     for search_result in search_results.keys():
         article = search_results[search_result]
         # title
-        output.write("# {0}".format(article["title"])+"\n")
+        output.write("# {0}".format(article["title"])+"\n"+"\n")
 
         # metadata
         for key in ["search_keywords", "web_address"]:
-            output.write("{0}: {1}".format(key, article[key])+"\n")
+            output.write("{0}: {1}".format(key, article[key])+"\n"+"\n")
 
         # abstract
-        output.write("\n"+"## Abstract"+"\n")
+        output.write("## Abstract"+"\n"+"\n")
         output.write(str(article["abstract"])+"\n"+"\n")
     output.close()
     return True
