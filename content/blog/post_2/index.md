@@ -5,8 +5,6 @@ description: "No âmbito do trabalho surgiu a necessidade de obter de forma sist
 categories: [Revisão Bibliográfica, Scripts]
 ---
 
-# 2 - Pesquisa automatizada no Pubmed
-
 No âmbito do trabalho surgiu a necessidade de obter de forma sistémica um resumo da literatura disponível sobre os diferentes genes/proteínas em estudo.
 
 Esta ferramenta foi então desenvolvida de forma a permitir fazer variações de cada pesquisa, por ex: funções de um gene, ou associações a uma patologia.
