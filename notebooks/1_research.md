@@ -1,5 +1,5 @@
 ---
-title: Proteinas em Estudo
+title: 1 - Proteinas em Estudo
 date: "2020-07-27T07:26:03.284Z"
 description: "Breve sumário das diferentes proteinas a serem estudadas no decurso do projeto de Laboratórios de Bioinformática."
 categories: [Revisão Bibliográfica], [Introdução]
