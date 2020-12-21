@@ -1,6 +1,4 @@
 FROM python
-# 3.7.9 fails the gplk
-# https://stackoverflow.com/questions/62554991/how-do-i-install-python-on-alpine-linux
 
 # LABEL about the custom image
 LABEL maintainer="diogodpmacedo@gmail.com"
@@ -14,3 +12,4 @@ RUN apt update && \
     pip install PyVCF && \
     pip install bcbio-gff && \
     pip install jupyter
+    # Neste momento o jupyter não está a funcionar, precisa de porta de saida e CMD para o correr assim que ligar, talvez criar um docker so para o "jupyter server"
