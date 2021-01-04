@@ -40,7 +40,7 @@ def nomesDosFicheiros(nome_gene, search_term):
 
 def escrever_genbank_nucleotide(id, nome_fich):
     '''
-    Cria o ficheiro correspondente a cada id das variações de cada gene
+    Pesquisa um nucleótido no genbank com base no seu ID e retorna o resultado na forma de um ficheiro
     :param id:
     :param nome_fich:
     :return: ficheiros com nome de acordo com cada id do gene procurado, que contêm toda a informação existente na base de dados nucleotide em relação a esse id.
