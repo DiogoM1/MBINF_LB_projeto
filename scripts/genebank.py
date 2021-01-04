@@ -1,27 +1,24 @@
-'''
-Análise da sequência e das features presentes no NCBI Deverá desenvolver scripts em BioPython que lhe permitam:
-• aceder ao NCBI e guardar os ficheiros correspondentes aos genes escolhidos, podendo explorar possíveis variantes;
-• verificar as anotações correspondentes aos genes de interesse;
-• verificar e analisar a informação complementar fornecida pela lista de features e seus qualifiers; pode usar os campos de referências externas para identificar identificadores de outras bases de dados que permitam solidificar o conhecimento em relação a cada gene.
-'''
-
-############################### NCBI
 import os
 from Bio import Entrez
-#from Bio import SeqIO
+from Bio import SeqIO
 
 Entrez.email = "pedroalex123@gmail.com"
 
 
-def get_lista_ids_do_gene(search_term):
+def get_lista_ids_do_gene(organism, genes):
     '''
     Procurar os IDs dos genes ORF7a, BST2 e ITGAL na base de dados nucleotide do NCBI.
-    :param search_term:
+    :param organism:
+    :param genes:
     :return: todos os IDs das variantes dos genes
     '''
-    handle = Entrez.esearch(db="nucleotide", term=str(search_term))
-    record = Entrez.read(handle)
-    return record["IdList"]
+    results = {}
+    for gene in genes:
+        search_term = "{0}[Orgn] AND {1}[Gene]".format(organism, gene)
+        handle = Entrez.esearch(db="nucleotide", term=str(search_term))
+        record = Entrez.read(handle)
+        results[gene] = record["IdList"]
+    return results
 
 
 def nomesDosFicheiros(nome_gene, search_term):
@@ -80,7 +77,8 @@ def main():
     genes = ['SARS Coronavirus[Orgn] AND ORF7a[Gene]',
              'Homo Sapiens[Orgn] AND BST2[Gene]',
              'Homo Sapiens[Orgn] AND ITGAL[Gene]']
-    dict_nomes={}; dict_ficheiros={}
+    dict_nomes = {}
+    dict_ficheiros = {}
     for i in range(len(nome_gene)):
         lista_ids = get_lista_ids_do_gene(genes[i])
         dict_nomes.update({nome_gene[i]:lista_ids})
@@ -94,8 +92,7 @@ def main():
     #    for id in lista_genes:
     #        print(nome, id)
     #        escrever_genbank_nucleotide(id, "{0}_{1}.gb".format(nome, id))
-
-main()
+    pass
 
 
 # TODO: query: dá-se lista e obtem-se resultados
