@@ -8,7 +8,7 @@ Análise da sequência e das features presentes no NCBI Deverá desenvolver scri
 ############################### NCBI
 import os
 from Bio import Entrez
-#from Bio import SeqIO
+# from Bio import SeqIO
 
 Entrez.email = "pedroalex123@gmail.com"
 
@@ -95,11 +95,21 @@ def main():
     #        print(nome, id)
     #        escrever_genbank_nucleotide(id, "{0}_{1}.gb".format(nome, id))
 
+        #nome_ficheiro.append("{0}_{1}.fasta".format(chave, valor))
+    print('ficheiros.fasta')
+    os.chdir('..') # muda a diretaria para uma pasta atrás
+    os.chdir('data/resultados_GeneBank')  # muda a diretoria para a pasta resultados_GeneBank
+    for nome in dict_nomes.keys():
+        lista_genes = dict_nomes.get(nome)
+        for id in lista_genes:
+            print(nome, id)
+            escrever_fasta_nucleotide(id, "{0}_{1}.fasta".format(nome, id))
+
+
 main()
 
 
 # TODO: query: dá-se lista e obtem-se resultados
-# TODO: filtro para genes demasiado grandes
 # TODO: Créditos ao Afonso
-# TODO: /data/resultados_GeneBank/ no .gitignore. ver se se quer tirar ou manter
+# TODO: método de filtragem para ficheiros fasta que sejam demasiado grandes
 
