@@ -1,5 +1,6 @@
 /docker/images_save/interpeter.tar
 /.idea/
+/data/resultados_GeneBank/
 /data/mutants/ERR4157959/
 /data/mutants/
 /data/mutants/Sars_cov_2.ASM985889v3.dna.toplevel.fa
