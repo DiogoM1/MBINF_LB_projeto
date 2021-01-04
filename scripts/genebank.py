@@ -100,4 +100,5 @@ main()
 
 # TODO: query: dá-se lista e obtem-se resultados
 # TODO: Créditos ao Afonso
+# TODO: /data/resultados_GeneBank/ no .gitignore. ver se se quer tirar ou manter
 
