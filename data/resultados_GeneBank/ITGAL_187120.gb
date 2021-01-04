@@ -1,0 +1,99 @@
+LOCUS       HUMLFACD                2277 bp    DNA     linear   PRI 07-JAN-1995
+DEFINITION  Human leukocyte function-associated antigen-1 (LFA-1 or CD11a)
+            promoter.
+ACCESSION   M87662
+VERSION     M87662.1
+KEYWORDS    CD11a promoter; LFA-1 promoter; leukocyte function-associated
+            antigen-1.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 2277)
+  AUTHORS   Cornwell,R.D., Gollahon,K.A. and Hickstein,D.D.
+  TITLE     Description of the leukocyte function-associated antigen 1 (LFA-1
+            or CD11a) promoter
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 90 (9), 4221-4225 (1993)
+   PUBMED   8097887
+FEATURES             Location/Qualifiers
+     source          1..2277
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /map="16p13.1-p11"
+                     /cell_type="leukocyte"
+     gene            202..2277
+                     /gene="ITGAL"
+     regulatory      202..211
+                     /regulatory_class="other"
+                     /gene="ITGAL"
+                     /note="transcriptional silencer; G00-119-757; putative"
+     protein_bind    400..407
+                     /gene="ITGAL"
+                     /note="transcrption factor; G00-119-757; putative"
+                     /bound_moiety="Oct-1 or Oct-2"
+     repeat_region   549..840
+                     /gene="ITGAL"
+                     /note="Alu repeat; G00-119-757; putative"
+     repeat_region   complement(896..1220)
+                     /gene="ITGAL"
+                     /note="Alu repeat; G00-119-757; putative"
+     repeat_region   complement(1338..1387)
+                     /gene="ITGAL"
+                     /note="Alu repeat; G00-119-757; putative"
+     protein_bind    1830..1835
+                     /gene="ITGAL"
+                     /note="transcription factor; G00-119-757; putative"
+                     /bound_moiety="PU.1"
+     regulatory      1880..1887
+                     /regulatory_class="GC_signal"
+                     /gene="ITGAL"
+                     /note="G00-119-757"
+     prim_transcript 1953..2277
+                     /gene="ITGAL"
+                     /note="G00-119-757; putative"
+     exon            1953..2106
+                     /gene="ITGAL"
+                     /note="G00-119-757"
+ORIGIN      
+        1 gagctcagaa attcaagacc agcctgggca aggtagagag acccccatgt ctacaaaaaa
+       61 taaaaaatga ttagtcaggt gtggtggccc gcacctgtag ttccagctac tcaggacgct
+      121 gaggtgggag aatgactcga gcccgtgagt tgaggctgca gtgagccgag atcacaccac
+      181 tccagcctag gcaagagtga gaccctctct caaaaaaaaa aaaaaaaaaa aaaaaaaaag
+      241 aaccatcaaa atgttttgca cagcagtcac gccattttac atttctgcca gcaatgtgca
+      301 ccaggcttcc agtttcttca catcttcact aactcttatt tcctttgctt taaactctaa
+      361 ccatcaaagt aggtgtaaag ggtatctcac tgtggtttga tttgcatttc tctaatgact
+      421 aatagtgtta agtatcattt catgtgcatg ttggccattt atatgtcatt ggagaaatgt
+      481 ctactcaaac cgtttgctca tttagaaact taggtaggtt ggtctgagtg cagtggtgtt
+      541 taaaactaat ttttttttga gacaaagtct cactctgtcg cccaggctgg aatgcaatgg
+      601 tgagatcttg gctcactaca acctccatct cctgggttca agcaattctt ctgcctcagc
+      661 ctctcaagta gctgggatta caggcatgcg ccaccacgcc tggctaattt ttgtattttt
+      721 ggtagagacg ggggtttctc catgttggcc aggctggtct cgaactcttg acctcaggtg
+      781 atccacctgc ctcggcctcc acagggctag gattagaggt gtgagccacc gcaccaggcc
+      841 gtttaaaact aatggagcac aaccagttac caatatcttt gttccttctc cactccctct
+      901 gcttcaactt gactagccta aaataaataa atttaaaaaa ctgggcacag tggctcacac
+      961 ctgtaatccc agcactttgg gaggccgagg caggaggatt acttgagcat aggagttcaa
+     1021 gatcagcctg ggcaactagt gaaaaaccat ctcaaaaaag aaaaattagc caggcatggt
+     1081 ggcatgcacc tgtggtttca gctacttaga gcagaggtgg aggatcgctt gattctggag
+     1141 ttcaaggttg cattgagctg tgatcgcgcc agtgcactct cgcttgggtg acagagtaag
+     1201 accttgtctc aaaaaattta aaacaaaaca aaaaaaactg gttatttgtc tttttattgg
+     1261 tgaattataa gagttttaaa aaatatattc tggaaacaaa tcccttatta gagatatgat
+     1321 ttgcaaatat tttctccaat tttttttttt tttaaagaca aagtttcact ttgtcgccca
+     1381 ggctggtctt gattcctggc ttcaagagat gctcttacct ccacctcctg aagcccaaag
+     1441 ggctggaatt acagccagtg agcctgcacc cagcctccaa ttctttagat tttacatttt
+     1501 agaaccaaaa tgggttaaat acactgttct gtaatctgct cttttcttta atagtagttc
+     1561 atgtacatct ttcaaggtcc agagaaagct ctcactttct ccccgtttta tttttccttc
+     1621 cctcattctt tttcactgct gcatagcatt ccattgtaat tttgccactg tttattagac
+     1681 cagtcctctg ctgagcttta cagagccctt agttggatgt tagtgagaac catgacagca
+     1741 gtgagactgt catctccctg acatgctgtc agcttttgga tgatgtgaaa atgcaagcag
+     1801 gcacaggaaa tgtctctaac ttgcttacac ttcctccctg aaccctgcgg tttcacaact
+     1861 cctgcaggca cacctccctc cccgcctgcc agtgtcacca gcctgttgcc tctgtgagaa
+     1921 agtaccactg taagaggcca aagggcatga tcattttcct ctttcaccct gtctaggttg
+     1981 ccagcaaatc ccacgggcct cctgacgctg cccctggggc cacaggtccc tcgagtgctg
+     2041 gaaggatgaa ggattcctgc atcactgtga tggccatggc gctgctgtct gggttctttt
+     2101 tcttcggtag gcaagggagg aggcagggga agggacatgt gtctgtgacc agagaaactg
+     2161 cagggcttgg tgcagctgga gtaaacaagg agctgccccc taaaagtggg attggcctta
+     2221 gggatatggg gccccaggga tcttggaagg agaaagggga gagcggggaa ataaaag
+//
+

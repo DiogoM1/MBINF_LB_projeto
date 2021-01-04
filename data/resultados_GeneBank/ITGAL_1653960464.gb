@@ -1,0 +1,549 @@
+LOCUS       NM_002209               5129 bp    mRNA    linear   PRI 12-DEC-2020
+DEFINITION  Homo sapiens integrin subunit alpha L (ITGAL), transcript variant
+            1, mRNA.
+ACCESSION   NM_002209
+VERSION     NM_002209.3
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 5129)
+  AUTHORS   Nakamura K, Ikeuchi T, Nara K, Rhodes CS, Zhang P, Chiba Y, Kazuno
+            S, Miura Y, Ago T, Arikawa-Hirasawa E, Mukouyama YS and Yamada Y.
+  TITLE     Perlecan regulates pericyte dynamics in the maintenance and repair
+            of the blood-brain barrier
+  JOURNAL   J Cell Biol 218 (10), 3506-3525 (2019)
+   PUBMED   31541017
+REFERENCE   2  (bases 1 to 5129)
+  AUTHORS   Nygren P, Balashova N, Brown AC, Kieba I, Dhingra A,
+            Boesze-Battaglia K and Lally ET.
+  TITLE     Aggregatibacter actinomycetemcomitans leukotoxin causes activation
+            of lymphocyte function-associated antigen 1
+  JOURNAL   Cell Microbiol 21 (3), e12967 (2019)
+   PUBMED   30329215
+  REMARK    GeneRIF: Aggregatibacter actinomycetemcomitans LtxA has a strong
+            affinity for the cytosolic domains of both the alphaL and beta2
+            subunits (Kd = 15 and 4.2 nM, respectively) of human LFA-1 and a
+            significantly lower affinity for the cytoplasmic domains of other
+            integrin alphaM , alphaX , and beta3 subunits (Kd = 400, 180, and
+            230 nM, respectively), used as controls.
+REFERENCE   3  (bases 1 to 5129)
+  AUTHORS   Zhang C, Wang X, Chen Y, Wu Z, Zhang C and Shi W.
+  TITLE     The down-regulation of hsa_circ_0012919, the sponge for
+            miR-125a-3p, contributes to DNA methylation of CD11a and CD70 in
+            CD4(+) T cells of systemic lupus erythematous
+  JOURNAL   Clin Sci (Lond) 132 (21), 2285-2298 (2018)
+   PUBMED   30237316
+  REMARK    GeneRIF: The down-regulation of hsa_circ_0012919, the sponge for
+            miR-125a-3p, contributes to DNA methylation of CD11a and CD70 in
+            CD4(+) T cells of systemic lupus erythematous
+            Publication Status: Online-Only
+REFERENCE   4  (bases 1 to 5129)
+  AUTHORS   Nordenfelt P, Moore TI, Mehta SB, Kalappurakkal JM, Swaminathan V,
+            Koga N, Lambert TJ, Baker D, Waters JC, Oldenbourg R, Tani T, Mayor
+            S, Waterman CM and Springer TA.
+  TITLE     Direction of actin flow dictates integrin LFA-1 orientation during
+            leukocyte migration
+  JOURNAL   Nat Commun 8 (1), 2047 (2017)
+   PUBMED   29229906
+  REMARK    GeneRIF: Data show that integrin alphaLbeta2 (LFA-1) is oriented
+            relative to actin retrograde flow.
+            Publication Status: Online-Only
+REFERENCE   5  (bases 1 to 5129)
+  AUTHORS   Swaim CD, Scott AF, Canadeo LA and Huibregtse JM.
+  TITLE     Extracellular ISG15 Signals Cytokine Secretion through the LFA-1
+            Integrin Receptor
+  JOURNAL   Mol Cell 68 (3), 581-590 (2017)
+   PUBMED   29100055
+  REMARK    GeneRIF: Extracellular ISG15 signals cytokine secretion through the
+            LFA-1 integrin receptor (CD11a/CD18) in natural killer cells.
+REFERENCE   6  (bases 1 to 5129)
+  AUTHORS   Fawcett J, Holness CL, Needham LA, Turley H, Gatter KC, Mason DY
+            and Simmons DL.
+  TITLE     Molecular cloning of ICAM-3, a third ligand for LFA-1,
+            constitutively expressed on resting leukocytes
+  JOURNAL   Nature 360 (6403), 481-484 (1992)
+   PUBMED   1448173
+REFERENCE   7  (bases 1 to 5129)
+  AUTHORS   Alvarez V, Pulido R, Campanero MR, Paraiso V, de Landazuri MO and
+            Sanchez-Madrid F.
+  TITLE     Differentially regulated cell surface expression of leukocyte
+            adhesion receptors on neutrophils
+  JOURNAL   Kidney Int 40 (5), 899-905 (1991)
+   PUBMED   1762294
+REFERENCE   8  (bases 1 to 5129)
+  AUTHORS   Maurer D, Holter W, Majdic O, Fischer GF and Knapp W.
+  TITLE     CD27 expression by a distinct subpopulation of human B lymphocytes
+  JOURNAL   Eur J Immunol 20 (12), 2679-2684 (1990)
+   PUBMED   1702722
+REFERENCE   9  (bases 1 to 5129)
+  AUTHORS   Dustin ML and Springer TA.
+  TITLE     T-cell receptor cross-linking transiently stimulates adhesiveness
+            through LFA-1
+  JOURNAL   Nature 341 (6243), 619-624 (1989)
+   PUBMED   2477710
+REFERENCE   10 (bases 1 to 5129)
+  AUTHORS   Larson RS, Corbi AL, Berman L and Springer T.
+  TITLE     Primary structure of the leukocyte function-associated molecule-1
+            alpha subunit: an integrin with an embedded domain defining a
+            protein superfamily
+  JOURNAL   J Cell Biol 108 (2), 703-712 (1989)
+   PUBMED   2537322
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AK314246.1, BC008777.2 and
+            CA430398.1.
+            On May 17, 2019 this sequence version replaced NM_002209.2.
+            
+            Summary: ITGAL encodes the integrin alpha L chain. Integrins are
+            heterodimeric integral membrane proteins composed of an alpha chain
+            and a beta chain. This I-domain containing alpha integrin combines
+            with the beta 2 chain (ITGB2) to form the integrin lymphocyte
+            function-associated antigen-1 (LFA-1), which is expressed on all
+            leukocytes. LFA-1 plays a central role in leukocyte intercellular
+            adhesion through interactions with its ligands, ICAMs 1-3
+            (intercellular adhesion molecules 1 through 3), and also functions
+            in lymphocyte costimulatory signaling. Two transcript variants
+            encoding different isoforms have been found for this gene.
+            [provided by RefSeq, Jul 2008].
+            
+            Transcript Variant: This variant (1) represents the longer
+            transcript and encodes the longer isoform (a).
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: Y00796.1, AK314246.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA1965299, SAMEA1966682
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match     :: ENST00000356798.11/ ENSP00000349252.5
+            RefSeq Select criteria :: based on conservation, longest protein
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-1283              AK314246.1         35-1317
+            1284-2331           BC008777.2         1048-2095
+            2332-3609           AK314246.1         2366-3643
+            3610-4900           BC008777.2         3371-4661
+            4901-5129           CA430398.1         18-246              c
+FEATURES             Location/Qualifiers
+     source          1..5129
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="16"
+                     /map="16p11.2"
+     gene            1..5129
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="integrin subunit alpha L"
+                     /db_xref="GeneID:3683"
+                     /db_xref="HGNC:HGNC:6148"
+                     /db_xref="MIM:153370"
+     exon            1..157
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    25..27
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="upstream in-frame stop codon"
+     CDS             97..3609
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="isoform a precursor is encoded by transcript
+                     variant 1; LFA-1A; antigen CD11A (p180), lymphocyte
+                     function-associated antigen 1, alpha polypeptide;
+                     integrin, alpha L (antigen CD11A (p180), lymphocyte
+                     function-associated antigen 1; alpha polypeptide); LFA-1
+                     alpha; integrin gene promoter; CD11 antigen-like family
+                     member A; leukocyte adhesion glycoprotein LFA-1 alpha
+                     chain; leukocyte function-associated molecule 1 alpha
+                     chain; integrin alpha-L"
+                     /codon_start=1
+                     /product="integrin alpha-L isoform a precursor"
+                     /protein_id="NP_002200.2"
+                     /db_xref="CCDS:CCDS32433.1"
+                     /db_xref="GeneID:3683"
+                     /db_xref="HGNC:HGNC:6148"
+                     /db_xref="MIM:153370"
+                     /translation="MKDSCITVMAMALLSGFFFFAPASSYNLDVRGARSFSPPRAGRH
+                     FGYRVLQVGNGVIVGAPGEGNSTGSLYQCQSGTGHCLPVTLRGSNYTSKYLGMTLATD
+                     PTDGSILACDPGLSRTCDQNTYLSGLCYLFRQNLQGPMLQGRPGFQECIKGNVDLVFL
+                     FDGSMSLQPDEFQKILDFMKDVMKKLSNTSYQFAAVQFSTSYKTEFDFSDYVKRKDPD
+                     ALLKHVKHMLLLTNTFGAINYVATEVFREELGARPDATKVLIIITDGEATDSGNIDAA
+                     KDIIRYIIGIGKHFQTKESQETLHKFASKPASEFVKILDTFEKLKDLFTELQKKIYVI
+                     EGTSKQDLTSFNMELSSSGISADLSRGHAVVGAVGAKDWAGGFLDLKADLQDDTFIGN
+                     EPLTPEVRAGYLGYTVTWLPSRQKTSLLASGAPRYQHMGRVLLFQEPQGGGHWSQVQT
+                     IHGTQIGSYFGGELCGVDVDQDGETELLLIGAPLFYGEQRGGRVFIYQRRQLGFEEVS
+                     ELQGDPGYPLGRFGEAITALTDINGDGLVDVAVGAPLEEQGAVYIFNGRHGGLSPQPS
+                     QRIEGTQVLSGIQWFGRSIHGVKDLEGDGLADVAVGAESQMIVLSSRPVVDMVTLMSF
+                     SPAEIPVHEVECSYSTSNKMKEGVNITICFQIKSLIPQFQGRLVANLTYTLQLDGHRT
+                     RRRGLFPGGRHELRRNIAVTTSMSCTDFSFHFPVCVQDLISPINVSLNFSLWEEEGTP
+                     RDQRAQGKDIPPILRPSLHSETWEIPFEKNCGEDKKCEANLRVSFSPARSRALRLTAF
+                     ASLSVELSLSNLEEDAYWVQLDLHFPPGLSFRKVEMLKPHSQIPVSCEELPEESRLLS
+                     RALSCNVSSPIFKAGHSVALQMMFNTLVNSSWGDSVELHANVTCNNEDSDLLEDNSAT
+                     TIIPILYPINILIQDQEDSTLYVSFTPKGPKIHQVKHMYQVRIQPSIHDHNIPTLEAV
+                     VGVPQPPSEGPITHQWSVQMEPPVPCHYEDLERLPDAAEPCLPGALFRCPVVFRQEIL
+                     VQVIGTLELVGEIEASSMFSLCSSLSISFNSSKHFHLYGSNASLAQVVMKVDVVYEKQ
+                     MLYLYVLSGIGGLLLLLLIFIVLYKVGFFKRNLKEKMEAGRGVPNGIPAEDSEQLASG
+                     QEAGDPGCLKPLHEKDSESGGGKD"
+     sig_peptide     97..171
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+     mat_peptide     172..3606
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /product="integrin alpha-L isoform a"
+     misc_feature    187..342
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="propagated from UniProtKB/Swiss-Prot (P20701.3);
+                     Region: FG-GAP 1.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU00803"
+     misc_feature    289..291
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P20701.3); glycosylation site"
+     misc_feature    343..519
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="propagated from UniProtKB/Swiss-Prot (P20701.3);
+                     Region: FG-GAP 2.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU00803"
+     misc_feature    361..363
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P20701.3); glycosylation site"
+     misc_feature    604..1143
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="Region: I-domain (insertion domain)"
+     misc_feature    658..660
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000269|PubMed:19349973; propagated from
+                     UniProtKB/Swiss-Prot (P20701.3); glycosylation site"
+     misc_feature    1264..1431
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="propagated from UniProtKB/Swiss-Prot (P20701.3);
+                     Region: FG-GAP 4.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU00803"
+     misc_feature    1432..1614
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="propagated from UniProtKB/Swiss-Prot (P20701.3);
+                     Region: FG-GAP 5.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU00803"
+     misc_feature    1615..1785
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="propagated from UniProtKB/Swiss-Prot (P20701.3);
+                     Region: FG-GAP 6.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU00803"
+     misc_feature    1795..1977
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="propagated from UniProtKB/Swiss-Prot (P20701.3);
+                     Region: FG-GAP 7.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU00803"
+     misc_feature    2041..2043
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P20701.3); glycosylation site"
+     misc_feature    2104..2106
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P20701.3); glycosylation site"
+     misc_feature    2272..2274
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P20701.3); glycosylation site"
+     misc_feature    2284..2286
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P20701.3); glycosylation site"
+     misc_feature    2680..2682
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P20701.3); glycosylation site"
+     misc_feature    2749..2751
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P20701.3); glycosylation site"
+     misc_feature    2785..2787
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P20701.3); glycosylation site"
+     misc_feature    3274..3276
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P20701.3); glycosylation site"
+     misc_feature    3307..3309
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P20701.3); glycosylation site"
+     misc_feature    3361..3432
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="transmembrane region"
+     misc_feature    3439..3453
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="propagated from UniProtKB/Swiss-Prot (P20701.3);
+                     Region: GFFKR motif"
+     misc_feature    3589..3591
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000269|PubMed:16301335; propagated from
+                     UniProtKB/Swiss-Prot (P20701.3); phosphorylation site"
+     exon            158..260
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            261..355
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            356..423
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            424..541
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            542..672
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            673..818
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            819..951
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            952..1102
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1103..1176
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1177..1309
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1310..1461
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1462..1599
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1600..1797
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1798..1928
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1929..2089
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2090..2241
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2242..2331
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2332..2388
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2389..2462
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2463..2604
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2605..2715
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2716..2795
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2796..2882
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2883..2958
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2959..3072
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3073..3129
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3130..3228
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3229..3324
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3325..3435
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3436..5129
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      5108..5113
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="hexamer: AATAAA"
+     polyA_site      5129
+                     /gene="ITGAL"
+                     /gene_synonym="CD11A; LFA-1; LFA1A"
+                     /note="major polyA site"
+ORIGIN      
+        1 atcattttcc tctttcaccc tgtctaggtt gccagcaaat cccacgggcc tcctgacgct
+       61 gcccctgggg ccacaggtcc ctcgagtgct ggaaggatga aggattcctg catcactgtg
+      121 atggccatgg cgctgctgtc tgggttcttt ttcttcgcgc cggcctcgag ctacaacctg
+      181 gacgtgcggg gcgcgcggag cttctcccca ccgcgcgccg ggaggcactt tggataccgc
+      241 gtcctgcagg tcggaaacgg ggtcatcgtg ggagctccag gggaggggaa cagcacagga
+      301 agcctctatc agtgccagtc gggcacagga cactgcctgc cagtcaccct gagaggttcc
+      361 aactatacct ccaagtactt gggaatgacc ttggcaacag accccacaga tggaagcatt
+      421 ttggcctgtg accctgggct gtctcgaacg tgtgaccaga acacctatct gagtggcctg
+      481 tgttacctct tccgccagaa tctgcagggt cccatgctgc aggggcgccc tggttttcag
+      541 gaatgtatca agggcaacgt agacctggta tttctgtttg atggttcgat gagcttgcag
+      601 ccagatgaat ttcagaaaat tctggacttc atgaaggatg tgatgaagaa actcagcaac
+      661 acttcgtacc agtttgctgc tgttcagttt tccacaagct acaaaacaga atttgatttc
+      721 tcagattatg ttaaacggaa ggaccctgat gctctgctga agcatgtaaa gcacatgttg
+      781 ctgttgacca atacctttgg tgccatcaat tatgtcgcga cagaggtgtt ccgggaggag
+      841 ctgggggccc ggccagatgc caccaaagtg cttatcatca tcacggatgg ggaggccact
+      901 gacagtggca acatcgatgc ggccaaagac atcatccgct acatcatcgg gattggaaag
+      961 cattttcaga ccaaggagag tcaggagacc ctccacaaat ttgcatcaaa acccgcgagc
+     1021 gagtttgtga aaattctgga cacatttgag aagctgaaag atctattcac tgagctgcag
+     1081 aagaagatct atgtcattga gggcacaagc aaacaggacc tgacttcctt caacatggag
+     1141 ctgtcctcca gcggcatcag tgctgacctc agcaggggcc atgcagtcgt gggggcagta
+     1201 ggagccaagg actgggctgg gggctttctt gacctgaagg cagacctgca ggatgacaca
+     1261 tttattggga atgaaccatt gacaccagaa gtgagagcag gctatttggg ttacaccgtg
+     1321 acctggctgc cctcccggca aaagacttcg ttgctggcct cgggagcccc tcgataccag
+     1381 cacatgggcc gagtgctgct gttccaagag ccacagggcg gaggacactg gagccaggtc
+     1441 cagacaatcc atgggaccca gattggctct tatttcggtg gggagctgtg tggcgtcgac
+     1501 gtggaccaag atggggagac agagctgctg ctgattggtg ccccactgtt ctatggggag
+     1561 cagagaggag gccgggtgtt tatctaccag agaagacagt tggggtttga agaagtctca
+     1621 gagctgcagg gggaccccgg ctacccactc gggcggtttg gagaagccat cactgctctg
+     1681 acagacatca acggcgatgg gctggtagac gtggctgtgg gggcccctct ggaggagcag
+     1741 ggggctgtgt acatcttcaa tgggaggcac ggggggctta gtccccagcc aagtcagcgg
+     1801 atagaaggga cccaagtgct ctcaggaatt cagtggtttg gacgctccat ccatggggtg
+     1861 aaggaccttg aaggggatgg cttggcagat gtggctgtgg gggctgagag ccagatgatc
+     1921 gtgctgagct cccggcccgt ggtggatatg gtcaccctga tgtccttctc tccagctgag
+     1981 atcccagtgc atgaagtgga gtgctcctat tcaaccagta acaagatgaa agaaggagtt
+     2041 aatatcacaa tctgtttcca gatcaagtct ctcatccccc agttccaagg ccgcctggtt
+     2101 gccaatctca cttacactct gcagctggat ggccaccgga ccagaagacg ggggttgttc
+     2161 ccaggaggga gacatgaact cagaaggaat atagctgtca ccaccagcat gtcatgcact
+     2221 gacttctcat ttcatttccc ggtatgtgtt caagacctca tctcccccat caatgtttcc
+     2281 ctgaatttct ctctttggga ggaggaaggg acaccgaggg accaaagggc gcagggcaag
+     2341 gacataccgc ccatcctgag accctccctg cactcggaaa cctgggagat cccttttgag
+     2401 aagaactgtg gggaggacaa gaagtgtgag gcaaacttga gagtgtcctt ctctcctgca
+     2461 agatccagag ccctgcgtct aactgctttt gccagcctct ctgtggagct gagcctgagt
+     2521 aacttggaag aagatgctta ctgggtccag ctggacctgc acttcccccc gggactctcc
+     2581 ttccgcaagg tggagatgct gaagccccat agccagatac ctgtgagctg cgaggagctt
+     2641 cctgaagagt ccaggcttct gtccagggca ttatcttgca atgtgagctc tcccatcttc
+     2701 aaagcaggcc actcggttgc tctgcagatg atgtttaata cactggtaaa cagctcctgg
+     2761 ggggactcgg ttgaattgca cgccaatgtg acctgtaaca atgaggactc agacctcctg
+     2821 gaggacaact cagccactac catcatcccc atcctgtacc ccatcaacat cctcatccag
+     2881 gaccaagaag actccacact ctatgtcagt ttcaccccca aaggccccaa gatccaccaa
+     2941 gtcaagcaca tgtaccaggt gaggatccag ccttccatcc acgaccacaa catacccacc
+     3001 ctggaggctg tggttggggt gccacagcct cccagcgagg ggcccatcac acaccagtgg
+     3061 agcgtgcaga tggagcctcc cgtgccctgc cactatgagg atctggagag gctcccggat
+     3121 gcagctgagc cttgtctccc cggagccctg ttccgctgcc ctgttgtctt caggcaggag
+     3181 atcctcgtcc aagtgatcgg gactctggag ctggtgggag agatcgaggc ctcttccatg
+     3241 ttcagcctct gcagctccct ctccatctcc ttcaacagca gcaagcattt ccacctctat
+     3301 ggcagcaacg cctccctggc ccaggttgtc atgaaggttg acgtggtgta tgagaagcag
+     3361 atgctctacc tctacgtgct gagcggcatc ggggggctgc tgctgctgct gctcattttc
+     3421 atagtgctgt acaaggttgg tttcttcaaa cggaacctga aggagaagat ggaggctggc
+     3481 agaggtgtcc cgaatggaat ccctgcagaa gactctgagc agctggcatc tgggcaagag
+     3541 gctggggatc ccggctgcct gaagcccctc catgagaagg actctgagag tggtggtggc
+     3601 aaggactgag tccaggcctg tgaggtgcag agtgcccaga actggactca ggatgcccag
+     3661 ggccactctg cctctgcctg cattctgccg tgtgccctcg ggcgagtcac tgcctctccc
+     3721 tggccctcag tttccctatc tcgaacatgg aactcattcc tgcctgtctc ctttgcaggc
+     3781 tcatagggaa gacctgctga gggaccagcc aagagggctg caaaagtgag ggcttgtcat
+     3841 taccagacgg ttcaccagcc tctcttggtt tccttccttg gaagagaatg tctgatctaa
+     3901 atgtggagaa actgtagtct caggacctag ggatgttctg gccctcaccc ctgccctggg
+     3961 atgtccacag atgcctccac cccccagaac ctgtccttgc acactcccct gcactggagt
+     4021 ccagtctctt ctgctggcag aaagcaaatg tgacctgtgt cactacgtga ctgtggcaca
+     4081 cgccttgttc ttggccaaag accaaattcc ttggcatgcc ttccagcacc ctgcaaaatg
+     4141 agaccctcgt ggccttcccc agcctcttct agagccgtga tgcctccctg ttgaagctct
+     4201 ggtgacacca gcctttctcc caggccaggc tccttcctgt cttcctgcat tcacccagac
+     4261 agctccctct gcctgaacct tccatctcgc cacccctcct tccttgacca gcagatccca
+     4321 gctcacgtca cacttggttg ggtcctcaca tctttcacac ttccaccagc ctgcactact
+     4381 ccctcaaagc acacgtcatg tttcttcatc cggcagcctg gatgtttttt ccctgtttaa
+     4441 tgattgacgt acttagcagc tatctctcag tgaactgtga gggtaaaggc tatacttgtc
+     4501 ttgttcacct tgggatgatg cctcatgata tgtcagggcg tgggacatct agtaggtgct
+     4561 tgacataatt tcactgaatt aatgacagag ccagtgggaa gatacagaaa aagaggggct
+     4621 gggctgggcg cggtggttca cgcctgtaat cccagcactt tgggaggcca aggagggtgg
+     4681 atcacctgag gtcaggagtt agaggccagc ctggcgaaac cccatctcta ctaaaaatac
+     4741 aaaatccagg cgtggtggca cacacctgta gtcccagcta ctcaggaggt tgaggtagga
+     4801 gaattgcttg aacctgggag gtggaggttg cagtgagcca agattgcgcc attgcactcc
+     4861 agcctgggca acacagcgag actccgtctc aaggaaaaaa taaaaataaa aagcgggcac
+     4921 gggcccgtga catccccacc cttggaggct gtcttctcag gctctgccct gccctagctc
+     4981 cacaccctct cccaggaccc atcacgcctg tgcagtggcc cccacagaaa gactgagctc
+     5041 aaggtgggaa ccacgtctgc taacttggag ccccagtgcc aagcacagtg cctgcatgta
+     5101 tttatccaat aaatgtgaaa ttctgtcca
+//
+
