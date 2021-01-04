@@ -1,0 +1,109 @@
+LOCUS       MF178111                3220 bp    DNA     linear   PRI 05-MAY-2018
+DEFINITION  Homo sapiens isolate NARI_LTNP04 bone marrow stromal antigen 2
+            (BST2) gene, complete cds.
+ACCESSION   MF178111
+VERSION     MF178111.1
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3220)
+  AUTHORS   Jagtap,D.D., Gupte,D.S., Patil,A.A., Nair,M., Pandey,S.,
+            Singh,H.O., Selvaa Kumar,C., Thakar,M.R. and Paranjape,R.S.
+  TITLE     Molecular characterization of tetherin/BST-2 gene in Indian HIV
+            infected long term non progressors
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 3220)
+  AUTHORS   Jagtap,D.D., Gupte,D.S., Patil,A.A., Nair,M., Pandey,S.,
+            Singh,H.O., Selvaa Kumar,C., Thakar,M.R. and Paranjape,R.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-MAY-2017) HIV PCR Lab, National AIDS Research
+            Institute, 73, G-Block, MIDC, Bhosari, Pune, Maharashtra 411 026,
+            India
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SeqScape v. 2.6
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3220
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /isolate="NARI_LTNP04"
+                     /db_xref="taxon:9606"
+     gene            <657..>2540
+                     /gene="BST2"
+                     /gene_synonym="CD317"
+     mRNA            join(<657..941,1795..1861,2043..2103,2411..>2540)
+                     /gene="BST2"
+                     /gene_synonym="CD317"
+                     /product="bone marrow stromal antigen 2"
+     CDS             join(657..941,1795..1861,2043..2103,2411..2540)
+                     /gene="BST2"
+                     /gene_synonym="CD317"
+                     /note="tetherin"
+                     /codon_start=1
+                     /product="bone marrow stromal antigen 2"
+                     /protein_id="AWF73545.1"
+                     /translation="MASTSYDYCRVPMEDGDKRCKLLLGIGILVLLIIVILGVPLIIF
+                     TIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASL
+                     DAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDS
+                     SSAAAPQLLIVLLGLSALLQ"
+ORIGIN      
+        1 cgacattgtt tgttggctgg gtcggtctcc cagttttcag ctggctccag tctcacctgt
+       61 tgctcacaca ccctccatgt ctcccatagt cccctcggtg gggacagagg cactggatga
+      121 agccctgctc gtcaccacag agacacctga acacaaaaac cagtccctgg ggtcagaccc
+      181 aggccccgcc cccagaccca ggccctgccc tcactccacc acgcaactgt gcaacctcag
+      241 tttccccagg tggagaccgg accaacaatg atggcctctg cctcttcagg tcatagtaca
+      301 gatgaataca ggctggcacg gcctaggcac tcagtaacac acagcagagg cacagggact
+      361 taagatggag tgtcccaggc agccacagtt ggctggcacc cagctgggaa gggcccaagg
+      421 gcttttaaag cagggtgaaa aaaaaagccc acctcctttc tgggaaactg aaactgaaaa
+      481 cctaattaat cctctgcctg taggtgcctc atgcaagagc tgctggtcag agcacttcct
+      541 ggaacttgct attggtcagg acgtttccta tgctaataaa ggggtggccc gtagaagatt
+      601 ccagcaccct cccctaactc caggccagac tcctttcagc taaaggggag atctggatgg
+      661 catctacttc gtatgactat tgcagagtgc ccatggaaga cggggataag cgctgtaagc
+      721 ttctgctggg gataggaatt ctggtgctcc tgatcatcgt gattctgggg gtgcccttga
+      781 ttatcttcac catcaaggcc aacagcgagg cctgccggga cggccttcgg gcagtgatgg
+      841 agtgtcgcaa tgtcacccat ctcctgcaac aagagctgac cgaggcccag aagggctttc
+      901 aggatgtgga ggcccaggcc gccacctgca accacactgt ggtaagctcc tcaactcctt
+      961 tggatggcct agtactaggc ggtgggaggg acaagaatct ctccccagaa atctgaccca
+     1021 gggtgggtct ccagggagat gcaggggagg ccctgaaact gctcctgggc ccccacatca
+     1081 agggacctag gttcccctac cagggtttgt gggcccctaa cccagtccag ggcactggtg
+     1141 taggggcagg gtgttaaaac tctccagatc ccccaaatcg gggacctcag tatccccctg
+     1201 ggacttaggt gaatttataa attctttcca gggcactggt gtcgggggcc ttgaaactcc
+     1261 tcgtgggcac cagtcctggg ggagtagaaa tccctattca gggttgaagg gggacctcac
+     1321 cagaccctga aaaagggggc ttttgaaatt ttcacttcat ccctaagaaa ctgaaatatt
+     1381 cacctgggtc ctgatatggg ggatcttgaa actctcgctg ggcatgtcac ttgggcgggg
+     1441 aaatcccact gcattctgga tttggtaggg ccctctaact tttcttgggc cattgctcag
+     1501 gcaatctgga aatgtccact aaactttggt tatcgatagc ctccaagttt ccacgtgggg
+     1561 tggcctcaaa actcccattt tgaggaccca catgcttatg ggtggccctg ggagagtgtg
+     1621 tggttgtggc tgttctttaa ggttggagac catggtgcag agagggttgg aagaaaacct
+     1681 gaaaggggtt tgcatttaag cccctctgtc cccaggacct agggaggagg cccaggtccc
+     1741 aggggcagca gccaaactcc ccaggccaaa accccagatt ctaactcttc ttagatggcc
+     1801 ctaatggctt ccctggatgc agagaaggcc caaggacaaa agaaagtgga ggagcttgag
+     1861 ggtgagaaag ggagaaggga gagggccggg gaggggtgag tcaggtatgg aagagggggt
+     1921 gggggcaggg agaccagggc tggaggttgg ggtaaggggg aggttctgtc ccagagtgga
+     1981 gcagggcccc agcatggcca catgctgacc cgccccctgt ttctgtcctc ccaccctacc
+     2041 aggagagatc actacattaa accataagct tcaggacgcg tctgcagagg tggagcgact
+     2101 gaggtcagag atagccttcc cccgctaccc tccacctgcc acattcctct cacccccaca
+     2161 tccctagccc aagacccagg atctcctttg ctcccaaaat ccccattgcc ccaagggata
+     2221 aagtttgagt cccacaaaag gataacttag cccctagggt cacagagcca tgggtggccg
+     2281 ctgtccattc cctccccggt gacttggatt ggggcggtgc ggggggaact cccgggggcg
+     2341 gtgggcttac agggagggcg gcaggagcca ggacgagcag atgcctgatt tgcccccatc
+     2401 tgtaccgcag aagagaaaac caggtcttaa gcgtgagaat cgcggacaag aagtactacc
+     2461 ccagctccca ggactccagc tccgctgcgg cgccccagct gctgattgtg ctgctgggcc
+     2521 tcagcgctct gctgcagtga gatcccagga agctggtcag tgaggagggg gcggccccgg
+     2581 gagggagaag aaagctgggg aaggggggcg gggaagcaga ggctccgaag tctagagaga
+     2641 gaggctgcag gggaagggac tgggcgcaga ggtgaggggc cttggggaag gagggagaat
+     2701 ccagtgagaa ggatgccctg gatcgggggc gggctgatag ctgtatgggg cggggctatc
+     2761 aatgggggcg ggtctatcga tggaggggag gggcttatgg atgggtgggg cgggtctagc
+     2821 gatgggggcg gggcttgggg ccgggcttgg agcggggcca gtgcctgctg cctccagtct
+     2881 gccctgagtc cctcttctgg tcctttaggc acatcttgga aggtccgtcc tgctcggctt
+     2941 ttcgcttgaa cattcccttg atctcatcag ttctgagcgg gtcatggggc aacacggtta
+     3001 gcggggagag cacggggtag ccggagaagg gcctctggag caggtctgga ggggccatgg
+     3061 ggcagtcctg ggtgtgggga cacagtcggg ttgacccagg gctgtctccc tccagagcct
+     3121 ccctccggac aatgagtccc ccctcttgtc tcccaccctg agattgggca tggggtgcgg
+     3181 tgtggggggc atgtgctgcc tgttgttatg ggtttttttt
+//
+

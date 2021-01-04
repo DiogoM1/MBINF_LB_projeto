@@ -1,0 +1,141 @@
+LOCUS       NC_000016           90338345 bp    DNA     linear   CON 22-NOV-2020
+DEFINITION  Homo sapiens chromosome 16, GRCh38.p13 Primary Assembly.
+ACCESSION   NC_000016
+VERSION     NC_000016.10
+DBLINK      BioProject: PRJNA168
+            Assembly: GCF_000001405.39
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 90338345)
+  AUTHORS   Martin,J., Han,C., Gordon,L.A., Terry,A., Prabhakar,S., She,X.,
+            Xie,G., Hellsten,U., Chan,Y.M., Altherr,M., Couronne,O., Aerts,A.,
+            Bajorek,E., Black,S., Blumer,H., Branscomb,E., Brown,N.C.,
+            Bruno,W.J., Buckingham,J.M., Callen,D.F., Campbell,C.S.,
+            Campbell,M.L., Campbell,E.W., Caoile,C., Challacombe,J.F.,
+            Chasteen,L.A., Chertkov,O., Chi,H.C., Christensen,M., Clark,L.M.,
+            Cohn,J.D., Denys,M., Detter,J.C., Dickson,M.,
+            Dimitrijevic-Bussod,M., Escobar,J., Fawcett,J.J., Flowers,D.,
+            Fotopulos,D., Glavina,T., Gomez,M., Gonzales,E., Goodstein,D.,
+            Goodwin,L.A., Grady,D.L., Grigoriev,I., Groza,M., Hammon,N.,
+            Hawkins,T., Haydu,L., Hildebrand,C.E., Huang,W., Israni,S.,
+            Jett,J., Jewett,P.B., Kadner,K., Kimball,H., Kobayashi,A.,
+            Krawczyk,M.C., Leyba,T., Longmire,J.L., Lopez,F., Lou,Y., Lowry,S.,
+            Ludeman,T., Manohar,C.F., Mark,G.A., McMurray,K.L., Meincke,L.J.,
+            Morgan,J., Moyzis,R.K., Mundt,M.O., Munk,A.C., Nandkeshwar,R.D.,
+            Pitluck,S., Pollard,M., Predki,P., Parson-Quintana,B., Ramirez,L.,
+            Rash,S., Retterer,J., Ricke,D.O., Robinson,D.L., Rodriguez,A.,
+            Salamov,A., Saunders,E.H., Scott,D., Shough,T., Stallings,R.L.,
+            Stalvey,M., Sutherland,R.D., Tapia,R., Tesmer,J.G., Thayer,N.,
+            Thompson,L.S., Tice,H., Torney,D.C., Tran-Gyamfi,M., Tsai,M.,
+            Ulanovsky,L.E., Ustaszewska,A., Vo,N., White,P.S., Williams,A.L.,
+            Wills,P.L., Wu,J.R., Wu,K., Yang,J., Dejong,P., Bruce,D.,
+            Doggett,N.A., Deaven,L., Schmutz,J., Grimwood,J., Richardson,P.,
+            Rokhsar,D.S., Eichler,E.E., Gilna,P., Lucas,S.M., Myers,R.M.,
+            Rubin,E.M. and Pennacchio,L.A.
+  TITLE     The sequence and analysis of duplication-rich human chromosome 16
+  JOURNAL   Nature 432 (7020), 988-994 (2004)
+   PUBMED   15616553
+REFERENCE   2  (bases 1 to 90338345)
+  CONSRTM   International Human Genome Sequencing Consortium
+  TITLE     Finishing the euchromatic sequence of the human genome
+  JOURNAL   Nature 431 (7011), 931-945 (2004)
+   PUBMED   15496913
+REFERENCE   3  (bases 1 to 90338345)
+  AUTHORS   Lander,E.S., Linton,L.M., Birren,B., Nusbaum,C., Zody,M.C.,
+            Baldwin,J., Devon,K., Dewar,K., Doyle,M., FitzHugh,W., Funke,R.,
+            Gage,D., Harris,K., Heaford,A., Howland,J., Kann,L., Lehoczky,J.,
+            LeVine,R., McEwan,P., McKernan,K., Meldrim,J., Mesirov,J.P.,
+            Miranda,C., Morris,W., Naylor,J., Raymond,C., Rosetti,M.,
+            Santos,R., Sheridan,A., Sougnez,C., Stange-Thomann,N.,
+            Stojanovic,N., Subramanian,A., Wyman,D., Rogers,J., Sulston,J.,
+            Ainscough,R., Beck,S., Bentley,D., Burton,J., Clee,C., Carter,N.,
+            Coulson,A., Deadman,R., Deloukas,P., Dunham,A., Dunham,I.,
+            Durbin,R., French,L., Grafham,D., Gregory,S., Hubbard,T.,
+            Humphray,S., Hunt,A., Jones,M., Lloyd,C., McMurray,A., Matthews,L.,
+            Mercer,S., Milne,S., Mullikin,J.C., Mungall,A., Plumb,R., Ross,M.,
+            Shownkeen,R., Sims,S., Waterston,R.H., Wilson,R.K., Hillier,L.W.,
+            McPherson,J.D., Marra,M.A., Mardis,E.R., Fulton,L.A.,
+            Chinwalla,A.T., Pepin,K.H., Gish,W.R., Chissoe,S.L., Wendl,M.C.,
+            Delehaunty,K.D., Miner,T.L., Delehaunty,A., Kramer,J.B., Cook,L.L.,
+            Fulton,R.S., Johnson,D.L., Minx,P.J., Clifton,S.W., Hawkins,T.,
+            Branscomb,E., Predki,P., Richardson,P., Wenning,S., Slezak,T.,
+            Doggett,N., Cheng,J.F., Olsen,A., Lucas,S., Elkin,C.,
+            Uberbacher,E., Frazier,M., Gibbs,R.A., Muzny,D.M., Scherer,S.E.,
+            Bouck,J.B., Sodergren,E.J., Worley,K.C., Rives,C.M., Gorrell,J.H.,
+            Metzker,M.L., Naylor,S.L., Kucherlapati,R.S., Nelson,D.L.,
+            Weinstock,G.M., Sakaki,Y., Fujiyama,A., Hattori,M., Yada,T.,
+            Toyoda,A., Itoh,T., Kawagoe,C., Watanabe,H., Totoki,Y., Taylor,T.,
+            Weissenbach,J., Heilig,R., Saurin,W., Artiguenave,F., Brottier,P.,
+            Bruls,T., Pelletier,E., Robert,C., Wincker,P., Smith,D.R.,
+            Doucette-Stamm,L., Rubenfield,M., Weinstock,K., Lee,H.M.,
+            Dubois,J., Rosenthal,A., Platzer,M., Nyakatura,G., Taudien,S.,
+            Rump,A., Yang,H., Yu,J., Wang,J., Huang,G., Gu,J., Hood,L.,
+            Rowen,L., Madan,A., Qin,S., Davis,R.W., Federspiel,N.A.,
+            Abola,A.P., Proctor,M.J., Myers,R.M., Schmutz,J., Dickson,M.,
+            Grimwood,J., Cox,D.R., Olson,M.V., Kaul,R., Raymond,C., Shimizu,N.,
+            Kawasaki,K., Minoshima,S., Evans,G.A., Athanasiou,M., Schultz,R.,
+            Roe,B.A., Chen,F., Pan,H., Ramser,J., Lehrach,H., Reinhardt,R.,
+            McCombie,W.R., de la Bastide,M., Dedhia,N., Blocker,H.,
+            Hornischer,K., Nordsiek,G., Agarwala,R., Aravind,L., Bailey,J.A.,
+            Bateman,A., Batzoglou,S., Birney,E., Bork,P., Brown,D.G.,
+            Burge,C.B., Cerutti,L., Chen,H.C., Church,D., Clamp,M.,
+            Copley,R.R., Doerks,T., Eddy,S.R., Eichler,E.E., Furey,T.S.,
+            Galagan,J., Gilbert,J.G., Harmon,C., Hayashizaki,Y., Haussler,D.,
+            Hermjakob,H., Hokamp,K., Jang,W., Johnson,L.S., Jones,T.A.,
+            Kasif,S., Kaspryzk,A., Kennedy,S., Kent,W.J., Kitts,P.,
+            Koonin,E.V., Korf,I., Kulp,D., Lancet,D., Lowe,T.M., McLysaght,A.,
+            Mikkelsen,T., Moran,J.V., Mulder,N., Pollara,V.J., Ponting,C.P.,
+            Schuler,G., Schultz,J., Slater,G., Smit,A.F., Stupka,E.,
+            Szustakowski,J., Thierry-Mieg,D., Thierry-Mieg,J., Wagner,L.,
+            Wallis,J., Wheeler,R., Williams,A., Wolf,Y.I., Wolfe,K.H.,
+            Yang,S.P., Yeh,R.F., Collins,F., Guyer,M.S., Peterson,J.,
+            Felsenfeld,A., Wetterstrand,K.A., Patrinos,A., Morgan,M.J., de
+            Jong,P., Catanese,J.J., Osoegawa,K., Shizuya,H., Choi,S. and
+            Chen,Y.J.
+  CONSRTM   International Human Genome Sequencing Consortium
+  TITLE     Initial sequencing and analysis of the human genome
+  JOURNAL   Nature 409 (6822), 860-921 (2001)
+   PUBMED   11237011
+  REMARK    Erratum:[Nature 2001 Aug 2;412(6846):565]
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            CM000678.2.
+            On Feb 3, 2014 this sequence version replaced NC_000016.9.
+            Assembly Name: GRCh38.p13 Primary Assembly
+            The DNA sequence is composed of genomic sequence, primarily
+            finished clones that were sequenced as part of the Human Genome
+            Project. PCR products and WGS shotgun sequence have been added
+            where necessary to fill gaps or correct errors. All such additions
+            are manually curated by GRC staff. For more information see:
+            https://genomereference.org.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Updated annotation
+            Annotation Name             :: Homo sapiens Updated Annotation
+                                           Release 109.20201120
+            Annotation Version          :: 109.20201120
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.5
+            Annotation Method           :: Best-placed RefSeq; propagated
+                                           RefSeq model
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..90338345
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="16"
+CONTIG      join(gap(10000),NT_010393.17:1..18426486,gap(50000),
+            NT_187260.1:1..15802843,gap(50000),NT_187261.1:1..182181,
+            gap(50000),NT_024773.12:1..1689648,gap(50000),NT_187262.1:1..23302,
+            gap(100),NT_187263.1:1..3006,gap(100),NT_187264.1:1..1928003,
+            gap(100),NT_187265.1:1..14913,gap(8000000),gap(100000),
+            NT_010498.16:1..43847663,gap(100000),gap(10000))
+//
+

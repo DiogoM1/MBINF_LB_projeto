@@ -1,0 +1,97 @@
+LOCUS       HUMITGAL                 760 bp    DNA     linear   PRI 26-JUL-2016
+DEFINITION  Human integrin (ITGAL) gene exon 1, 5' end.
+ACCESSION   M95609
+VERSION     M95609.1
+KEYWORDS    adhesion molecule; integrin; lymphocyte function-associated antigen
+            1; transmembrane protein.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 760)
+  AUTHORS   Shelley,C.S., Farokhzad,O.C. and Arnaout,M.A.
+  TITLE     Identification of cell-specific and developmentally regulated
+            nuclear factors that direct myeloid and lymphoid expression of the
+            CD11a gene
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 90 (11), 5364-5368 (1993)
+   PUBMED   8099450
+FEATURES             Location/Qualifiers
+     source          1..760
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /cell_line="HSF7"
+                     /cell_type="myeloid, lymphoid"
+                     /tissue_lib="ATCC #57758"
+     gene            1..760
+                     /gene="ITGAL"
+     5'UTR           1..525
+                     /gene="ITGAL"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     repeat_region   1..84
+                     /gene="ITGAL"
+                     /rpt_family="Alu"
+     protein_bind    386..409
+                     /gene="ITGAL"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /bound_moiety="GS-1, GS-2, GS-3, GS-4"
+     repeat_region   409..417
+                     /gene="ITGAL"
+                     /note="repeat with NF-1 binding site homology"
+     regulatory      418..423
+                     /regulatory_class="enhancer"
+                     /gene="ITGAL"
+     protein_bind    437..456
+                     /gene="ITGAL"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /bound_moiety="MS-1, MS-2"
+     regulatory      469..473
+                     /regulatory_class="CAAT_signal"
+                     /gene="ITGAL"
+     repeat_region   477..485
+                     /gene="ITGAL"
+                     /note="repeat with NF-1 binding site homology"
+     protein_bind    486..495
+                     /gene="ITGAL"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /bound_moiety="MS-2"
+     repeat_region   complement(500..504)
+                     /note="NF-1 half site"
+     mRNA            526..760
+                     /gene="ITGAL"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="major transcript"
+     exon            526..719
+                     /gene="ITGAL"
+                     /number=1
+     CDS             659..>719
+                     /gene="ITGAL"
+                     /codon_start=1
+                     /product="lymphocyte function-associated antigen 1"
+                     /protein_id="AAA16474.2"
+                     /translation="MKDSCITVMAMALLSGFFFF"
+     intron          720..>760
+                     /gene="ITGAL"
+                     /number=1
+ORIGIN      
+        1 cctggcttca agagatgctc ttacctccac ctcctgaagc cccaaagggc tggaattaca
+       61 gccagtgagc cactgcaccc agcctccaat tctttagatt ttacatttta gaaccaaaat
+      121 gggttaaata cactgttctg taatctgctc ttttctttaa tagtagttca tgtacatctt
+      181 tcaaggtcca gagaaagctc tcactttctc cccgttttat ttttccttcc ctcattcttt
+      241 ttcactgctg catagcattc cattgtaatt ttgccactgt ttattagacc agtcctctgc
+      301 tgagctttac agagccctta gttgggatgt tagtgagaaa ccatgacagc agtggagact
+      361 gtcatctccc tgacatgctg tcagcttttg gatgatgtga aaatgcaagc aggcacagga
+      421 aatgtctcta acttgcttac acttcctccc tgaacccctg cggtttcaca actcctgcag
+      481 gcacacctcc ctccccgcct gccagtgtca ccagcctgtt gcctctgtga gaaagtacca
+      541 ctgtaagagg ccaaagggca tgatcatttt cctctttcac cctgtctagg ttgccagcaa
+      601 atcccacggg cctcctgacg ctgcccctgg ggccacaggt ccctcgagtg ctggaaggat
+      661 gaaggattcc tgcatcactg tgatggccat ggcgctgctg tctgggttct ttttcttcgg
+      721 taggcaaggg aggaggcagg ggaagggaca tgtgtctgtg
+//
+

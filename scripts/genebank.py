@@ -50,9 +50,24 @@ def escrever_genbank_nucleotide(id, nome_fich):
     '''
     handle = Entrez.efetch(db="nucleotide",
                            id=id,
-                           rettype="gb", retmode="text")
-    with open(os.path.join(r'C:\Users\angie\PycharmProjects\MBINF_LB_projeto\data\resultados_GeneBank', nome_fich),
-              'w') as file:
+                           rettype="gb", retmode="text")  # vai buscar à BD nucleotide os genes pretendidos
+    ficheiroAescrever = os.path.join(os.getcwd(), nome_fich)  # junta a diretoria e o nome do ficheiro
+    with open(ficheiroAescrever, 'w') as file:
+        file.write(handle.read())
+
+
+def escrever_fasta_nucleotide(id, nome_fich):
+    '''
+    Cria o ficheiro correspondente a cada id das variações de cada gene
+    :param id:
+    :param nome_fich:
+    :return: ficheiros com nome de acordo com cada id do gene procurado, que contêm toda a informação existente na base de dados nucleotide em relação a esse id.
+    '''
+    handle = Entrez.efetch(db="nucleotide",
+                           id=id,
+                           rettype="fasta", retmode="text")
+    ficheiroAescrever = os.path.join(os.getcwd(), nome_fich)
+    with open(ficheiroAescrever, 'w') as file:
         file.write(handle.read())
 
 
@@ -70,16 +85,18 @@ def main():
         lista_ids = get_lista_ids_do_gene(genes[i])
         dict_nomes.update({nome_gene[i]:lista_ids})
 
-        #nome_ficheiro.append("{0}_{1}.gb".format(chave, valor))
-    for nome in dict_nomes.keys():
-        lista_genes = dict_nomes.get(nome)
-        for id in lista_genes:
-            escrever_genbank_nucleotide(id, "{0}_{1}.gb".format(nome, id))
+    #    #nome_ficheiro.append("{0}_{1}.gb".format(chave, valor))
+    #print('ficheiros.gb')
+    #os.chdir('..')
+    #os.chdir('data/resultados_GeneBank')
+    #for nome in dict_nomes.keys():
+    #    lista_genes = dict_nomes.get(nome)
+    #    for id in lista_genes:
+    #        print(nome, id)
+    #        escrever_genbank_nucleotide(id, "{0}_{1}.gb".format(nome, id))
 
 main()
 
-
-# record = SeqIO.read('ORF7a.gb', "genbank") -> falta colocar o path do ficheiro
 
 # TODO: query: dá-se lista e obtem-se resultados
 # TODO: Créditos ao Afonso
