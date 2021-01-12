@@ -21,7 +21,7 @@ class MyTestCase(unittest.TestCase):
         # TODO: Better Test output
         # TODO: Filter only articles and reviews not letters
         # self.assertTrue(search_print_articles("ORF7a"))
-        self.assertTrue(search_print_articles("ORF7a", ["generic", "function", "sars-cov-2"], file="scripts/tests_data/ORF7a2.md"))
+        self.assertTrue(search_print_articles("ORF7a", ["generic", "function", "sars-cov-2"], file="scripts_python/tests_data/ORF7a2.md"))
 
 if __name__ == '__main__':
     unittest.main()
