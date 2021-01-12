@@ -32,7 +32,7 @@ Internamente cada pesquisa devolve uma lista dos 20 primeiros resultados, sendo 
 
 
 ```python
-from scripts.pubmed import search_articles
+from scripts_python.pubmed import search_articles
 
 result = search_articles("ORF7a", search_keywords)
 
@@ -76,7 +76,7 @@ Este devolve um dicionário com o título, endereço web do artigo e abstract.
 
 
 ```python
-from scripts.pubmed import fetch_article
+from scripts_python.pubmed import fetch_article
 
 result = fetch_article(33305306)
 
@@ -97,7 +97,7 @@ Esta percorre a estrutura de dados devolvida pela *search_articles()* e adiciona
 
 
 ```python
-from scripts.pubmed import search_fetch_articles
+from scripts_python.pubmed import search_fetch_articles
 
 result = search_fetch_articles("ORF7a", search_keywords)
 
@@ -123,9 +123,9 @@ Este método corre o *search_fetch_articles()* e faz output de um ficheiros de *
 
 
 ```python
-from scripts.pubmed import search_print_articles
+from scripts_python.pubmed import search_print_articles
 
-result = search_print_articles("ORF7a", search_keywords, file="../scripts/tests_data/{0}_search_results.md".format("ORF7a"))
+result = search_print_articles("ORF7a", search_keywords, file="../scripts_python/tests_data/{0}_search_results.md".format("ORF7a"))
 ```
 
     ../scripts/tests_data/ORF7a_search_results_2020-12-21.md

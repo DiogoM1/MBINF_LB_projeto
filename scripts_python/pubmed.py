@@ -1,7 +1,7 @@
 from Bio import Entrez
 from datetime import date
 
-from scripts.general import time_stamping
+from scripts_python.general import time_stamping
 
 Entrez.email = "pedroalex123@gmail.com"
 
