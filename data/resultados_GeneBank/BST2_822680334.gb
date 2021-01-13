@@ -1,0 +1,56 @@
+LOCUS       KP316187                 659 bp    DNA     linear   PRI 26-MAY-2015
+DEFINITION  Homo sapiens clone NARI_LTNP54 BST2 gene, promoter region.
+ACCESSION   KP316187
+VERSION     KP316187.1
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 659)
+  AUTHORS   Jagtap,D.D., Gupte,D.S., Thakar,M.R., Singh,H.O., Pandey,S., C,S.K.
+            and Paranjape,R.S.
+  TITLE     Molecular characterization of tetherin/BST-2 gene promoter in
+            Indian HIV infected long term non progressors
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 659)
+  AUTHORS   Jagtap,D.D., Gupte,D.S., Thakar,M.R., Singh,H.O., Pandey,S., C,S.K.
+            and Paranjape,R.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-DEC-2014) HIV PCR Lab, National AIDS Research
+            Institute (ICMR), 73, G-Block, MIDC, Bhosari, Pune, Maharashtra
+            411026, India
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SeqScape v. 2.6
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..659
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="19"
+                     /clone="NARI_LTNP54"
+                     /sex="female"
+                     /country="India"
+     gene            <1..>659
+                     /gene="BST2"
+                     /note="tetherin"
+     regulatory      <1..>659
+                     /regulatory_class="promoter"
+                     /gene="BST2"
+ORIGIN      
+        1 ccgacattgt ttgttggctg ggtcggtctc ccagttttca gctggctcca gtctcacctg
+       61 ttgctcacac accctccatg tctcccatag tcccctcggt ggggacagag gcactggatg
+      121 aagccctgct cgtcaccaca gagacacctg aacacaaaaa ccagtccctg gggtcagacc
+      181 caggccccgc ccccagaccc aggccctgcc ctcactccac cacgcaactg tgcaacctca
+      241 gtttccccag gtggagaccg gaccaacagt gatggcctct gcctcttcag gtcatagtac
+      301 agatgaatac aggctggcac ggcctaggca ctcagtaaca cacagcagag gcacagggac
+      361 ttaagatgga gtgtcccagg cagccacagt tggctggcac ccagctggga agagcccaag
+      421 ggcttttaaa gcagggtgaa aaaaaaagcc cacctccttt ctgggaaact gaaactgaaa
+      481 acctaattaa tcctctgcct gtaggtgcct catgcaagag ctgctggtca gagcacttcc
+      541 tggaacttgc tattggtcag gacgtttcct atgctaataa aggggtggcc cgtagaagat
+      601 tccagcaccc tcccctaact ccaggccaga ctcctttcag ctaaagggga gatctggat
+//
+
