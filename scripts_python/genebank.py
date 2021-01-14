@@ -15,10 +15,11 @@ class gbSearch:
     • verificar as anotações correspondentes aos genes de interesse;
     • verificar e analisar a informação complementar fornecida pela lista de features e seus qualifiers; pode usar os campos de referências externas para identificar identificadores de outras bases de dados que permitam solidificar o conhecimento em relação a cada gene.
     '''
-    def __init__(self, organism, genes, base_dir=os.getcwd()):
+    def __init__(self, organism, genes, base_dir=os.getcwd(), database='nucleotide'):
         self.organism = organism
         self.genes = genes
         self.base_dir = base_dir
+        self.database = database
 
     def get_ids(self, gene):
         '''
@@ -47,8 +48,8 @@ class gbSearch:
         :param gene_id:
         :return: ficheiros com nome de acordo com cada id do gene procurado, que contêm toda a informação existente na base de dados nucleotide em relação a esse id.
         '''
-        if file_type in ["gb", "fasta"]:
-            handle = Entrez.efetch(db="nucleotide",
+        if file_type in ["gb", "fasta"] and self.database in ["nucleotide", "gene"]:
+            handle = Entrez.efetch(db=self.database,
                                    id=gene_id,
                                    rettype=file_type,
                                    retmode="text")  # vai buscar à BD nucleotide os genes pretendidos
