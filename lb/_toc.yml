@@ -1,0 +1,33 @@
+# Table of content
+# Learn more at https://jupyterbook.org/customize/toc.html
+#
+- file: intro
+
+- part: Mêtodos
+  chapters:
+  - file: met_doc
+  - file: met_pubmed_scraper
+  - file: met_genebank_search
+
+- part: Análise
+  chapters:
+  - file: ORF7a
+    sections:
+      - file: ORF7a_genbank
+      - file: ORF7a_homolgue
+      - file: ORF7a_protein
+      - file: ORF7a_mutant_id
+  - file: BST2
+    sections:
+      - file: BST2_genbank
+      - file: BST2_homolgue
+      - file: BST2_protein
+  - file: ITGAL
+    sections:
+      - file: ITGAL_genbank
+      - file: ITGAL_homolgue
+      - file: ITGAL_protein
+
+- part: Outros
+  chapters:
+  - file: credits
