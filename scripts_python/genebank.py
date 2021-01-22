@@ -23,7 +23,7 @@ class gbSearch:
 
     def get_ids(self, gene):
         '''
-        Procurar os IDs dos genes ORF7a, BST2 e ITGAL na base de dados nucleotide do NCBI.
+        Procurar os IDs dos genes 21_ORF7a, 22_BST2 e 23_ITGAL na base de dados nucleotide do NCBI.
         :param gene:
         :return: todos os IDs das variantes dos genes
         '''
@@ -34,7 +34,7 @@ class gbSearch:
 
     def get_genes_ids(self):
         '''
-        Procurar os IDs dos genes ORF7a, BST2 e ITGAL na base de dados nucleotide do NCBI.
+        Procurar os IDs dos genes 21_ORF7a, 22_BST2 e 23_ITGAL na base de dados nucleotide do NCBI.
         :return: todos os IDs das variantes dos genes
         '''
         results = {}
@@ -65,7 +65,7 @@ class gbSearch:
 
     def get_files(self, file_type="gb"):
         '''
-        Interligação das funções anteriores (get_lista_ids_do_gene(search_term), nomesDosFicheiros(nome_gene, search_term), escrever_genbank_nucleotide(id, nome_fich)) com o objetivo de produzir ficheiros com informação correspondente a cada variação de cada gene (ORF7a, BST2, ITGAL).
+        Interligação das funções anteriores (get_lista_ids_do_gene(search_term), nomesDosFicheiros(nome_gene, search_term), escrever_genbank_nucleotide(id, nome_fich)) com o objetivo de produzir ficheiros com informação correspondente a cada variação de cada gene (21_ORF7a, 22_BST2, 23_ITGAL).
         :return: ficheiros depositados na pasta data/GeneBank com o nome do gene e o ID de cada variente do gene
         '''
         ids = self.get_genes_ids()

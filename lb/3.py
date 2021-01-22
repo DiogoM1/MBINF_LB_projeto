@@ -5,14 +5,14 @@ Análise da sequência e das features presentes no NCBI Deverá desenvolver scri
 • verificar e analisar a informação complementar fornecida pela lista de features e seus qualifiers; pode usar os campos de referências externas para identificar identificadores de outras bases de dados que permitam solidificar o conhecimento em relação a cada gene.
 '''
 
-# Procurar os IDs dos genes ORF7a, BST2 e ITGAL na base de dados nucleotide do NCBI.
+# Procurar os IDs dos genes 21_ORF7a, 22_BST2 e 23_ITGAL na base de dados nucleotide do NCBI.
 
 
 from scripts.genebank import get_lista_ids_do_gene, escrever_genbank_nucleotide, escrever_genbank_nucleotide, nomesDosFicheiros
 from scripts.blast import homolg_id
 
-sarscov2_gene = ['ORF7a']
-human_genes = ['BST2', 'ITGAL']
+sarscov2_gene = ['21_ORF7a']
+human_genes = ['22_BST2', '23_ITGAL']
 
 print("Sarscov 2")
 print(get_lista_ids_do_gene("SARS Coronavirus", sarscov2_gene))
