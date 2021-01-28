@@ -1,0 +1,1254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<!-- Document definition -->
+<!-- http://zlab.bu.edu/~phaverty/SupplementalData/CisML/cisml.dtd -->
+<!DOCTYPE cis-element-search[
+<!ELEMENT cis-element-search (program-name, parameters, (pattern | multi-pattern-scan)*)>
+<!ELEMENT program-name (#PCDATA)>
+<!ELEMENT parameters (
+  pattern-file, 
+  sequence-file, 
+  background-seq-file?,
+  pattern-pvalue-cutoff?,
+  sequence-pvalue-cutoff?,
+  site-pvalue-cutoff?,
+  sequence-filtering,
+  ANY*
+ )>
+<!ELEMENT command-line (#PCDATA)>
+<!ELEMENT pattern-file (#PCDATA)>
+<!ELEMENT sequence-file (#PCDATA)>
+<!ELEMENT background-seq-file (#PCDATA)>
+<!ELEMENT pattern-pvalue-cutoff (#PCDATA)>
+<!ELEMENT sequence-pvalue-cutoff (#PCDATA)>
+<!ELEMENT site-pvalue-cutoff (#PCDATA)>
+<!ELEMENT sequence-filtering EMPTY>
+<!ELEMENT multi-pattern-scan (pattern+, ANY*)>
+<!ELEMENT pattern (scanned-sequence+, ANY*)>
+<!ELEMENT scanned-sequence (matched-element*, ANY*)>
+<!ELEMENT matched-element (sequence)>
+<!ELEMENT sequence (#PCDATA)>
+<!ATTLIST cis-element-search
+xmlns:xsi CDATA #IMPLIED
+xmlns:mem CDATA #IMPLIED
+xsi:schemaLocation CDATA #IMPLIED
+>
+<!ATTLIST sequence-filtering
+on-off CDATA #REQUIRED
+type CDATA #IMPLIED
+>
+<!ATTLIST multi-pattern-scan
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+>
+<!ATTLIST pattern
+accession CDATA #REQUIRED
+name CDATA #REQUIRED
+pvalue CDATA #IMPLIED
+score CDATA #IMPLIED
+db CDATA #IMPLIED
+lsid CDATA #IMPLIED
+>
+<!ATTLIST scanned-sequence
+accession CDATA #REQUIRED
+name CDATA #REQUIRED
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+length CDATA #IMPLIED
+db CDATA #IMPLIED
+lsid CDATA #IMPLIED
+>
+<!ATTLIST matched-element
+start CDATA #REQUIRED
+stop CDATA #REQUIRED
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+clusterid CDATA #IMPLIED
+>
+
+]>
+<cis-element-search
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://zlab.bu.edu/schema/cisml cisml.xsd"
+  xmlns="http://zlab.bu.edu/schema/cisml"
+  xmlns:mem="http://noble.gs.washington.edu/meme"
+>
+<program-name>fimo</program-name>
+<parameters>
+<command-line>fimo --bfile --motif-- -oc /opt/project/data/motif/ORF7a/fimo /opt/project/data/motif/ORF7a/meme/meme.txt /opt/project/data/homologue/ORF7a/MN908947.3_ORF7a.fasta</command-line>
+<pattern-file>/opt/project/data/motif/ORF7a/meme/meme.txt</pattern-file>
+<sequence-file>/opt/project/data/homologue/ORF7a/MN908947.3_ORF7a.fasta</sequence-file>
+<site-pvalue-cutoff>0.0001</site-pvalue-cutoff>
+<sequence-filtering on-off="off"/>
+</parameters>
+<pattern accession="PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS" name="MEME-1">
+<scanned-sequence accession="ref|YP_009724395.1|" name="ref|YP_009724395.1|">
+<matched-element start="34" stop="83" score="190.463" pvalue="1.08e-59">
+<sequence>PCSSGTYEGNSPFHPLADNKFALTCFSTQFAFACPDGVKHVYQLRARSVS</sequence>
+<mem:qvalue>7.84e-58</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|QHR63305.1|" name="gb|QHR63305.1|">
+<matched-element start="34" stop="83" score="190.463" pvalue="1.08e-59">
+<sequence>PCSSGTYEGNSPFHPLADNKFALTCFSTQFAFACPDGVKHVYQLRARSVS</sequence>
+<mem:qvalue>7.84e-58</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|QIG55950.1|" name="gb|QIG55950.1|">
+<matched-element start="34" stop="83" score="183.627" pvalue="3.37e-58">
+<sequence>PCSSGTYEGNSPFHPLADNKFALTCFSTQFAFACPDGVKHIYQLRARAVS</sequence>
+<mem:qvalue>2.2e-56</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|QIA48619.1|" name="gb|QIA48619.1|">
+<matched-element start="34" stop="83" score="186.373" pvalue="9.85e-59">
+<sequence>PCSSGTYEGNSPFHPLADNKFALACSSQQFAFACPDGTKHTFQLRARSVS</sequence>
+<mem:qvalue>6.58e-57</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|QIQ54053.1|" name="gb|QIQ54053.1|">
+<matched-element start="34" stop="83" score="187.597" pvalue="5.38e-59">
+<sequence>PCSSGTYEGNSPFHPLADNKFALACTSQQFAFACPDGTKHTFQLRARSVS</sequence>
+<mem:qvalue>3.69e-57</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AVP78047.1|" name="gb|AVP78047.1|">
+<matched-element start="34" stop="83" score="192.433" pvalue="3.25e-60">
+<sequence>PCSSGTYEGNSPFHPLADNKFALTCFSTQFAFACPDGVRHTFQLRARSVS</sequence>
+<mem:qvalue>2.5e-58</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AVP78036.1|" name="gb|AVP78036.1|">
+<matched-element start="34" stop="83" score="189.09" pvalue="2.4e-59">
+<sequence>PCSSGTYEGNSPFHPLADNKFALACFSTQFAFACPDGVRHTFQLRARSVS</sequence>
+<mem:qvalue>1.7e-57</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="sp|Q3I5J0.1|" name="sp|Q3I5J0.1|">
+<matched-element start="34" stop="83" score="206.806" pvalue="6.33e-64">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.07e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62335.1|" name="gb|AIA62335.1|">
+<matched-element start="34" stop="83" score="202.373" pvalue="1.69e-62">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCTSTRFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.53e-60</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="sp|Q3LZX7.1|" name="sp|Q3LZX7.1|">
+<matched-element start="34" stop="83" score="205.582" pvalue="1.47e-63">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.5e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ARO76387.1|" name="gb|ARO76387.1|">
+<matched-element start="34" stop="83" score="203.164" pvalue="9.86e-63">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTKHTYQLRARSVS</sequence>
+<mem:qvalue>9.62e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ATO98225.1|" name="gb|ATO98225.1|">
+<matched-element start="34" stop="83" score="202.373" pvalue="1.69e-62">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCTSTRFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.53e-60</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ACU31037.1|" name="gb|ACU31037.1|">
+<matched-element start="34" stop="83" score="206.806" pvalue="6.33e-64">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.07e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AGZ48838.1|" name="gb|AGZ48838.1|">
+<matched-element start="34" stop="83" score="200.478" pvalue="5.2e-62">
+<sequence>PCLSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>4.25e-60</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AAZ41334.1|" name="gb|AAZ41334.1|">
+<matched-element start="34" stop="83" score="205.582" pvalue="1.47e-63">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.5e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AKZ19081.1|" name="gb|AKZ19081.1|">
+<matched-element start="34" stop="83" score="206.806" pvalue="6.33e-64">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.07e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ATO98237.1|" name="gb|ATO98237.1|">
+<matched-element start="34" stop="83" score="206.806" pvalue="6.33e-64">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.07e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62325.1|" name="gb|AIA62325.1|">
+<matched-element start="34" stop="83" score="200.358" pvalue="5.74e-62">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCSSTYFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>4.55e-60</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ATO98187.1|" name="gb|ATO98187.1|">
+<matched-element start="34" stop="83" score="206.806" pvalue="6.33e-64">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.07e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62315.1|" name="gb|AIA62315.1|">
+<matched-element start="34" stop="83" score="205.687" pvalue="1.07e-63">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.29e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ADE34760.1|" name="gb|ADE34760.1|">
+<matched-element start="34" stop="83" score="205.582" pvalue="1.47e-63">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.5e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ABD75319.1|" name="gb|ABD75319.1|">
+<matched-element start="34" stop="83" score="205.687" pvalue="1.07e-63">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.29e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="sp|Q0Q470.1|" name="sp|Q0Q470.1|">
+<matched-element start="34" stop="83" score="205.687" pvalue="1.07e-63">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.29e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ACZ72114.1|" name="gb|ACZ72114.1|">
+<matched-element start="34" stop="83" score="206.806" pvalue="6.33e-64">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.07e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="ref|YP_009825057.1|" name="ref|YP_009825057.1|">
+<matched-element start="34" stop="83" score="206.806" pvalue="6.33e-64">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.07e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AAT52336.1|" name="gb|AAT52336.1|">
+<matched-element start="34" stop="83" score="206.806" pvalue="6.33e-64">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.07e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62295.1|" name="gb|AIA62295.1|">
+<matched-element start="34" stop="83" score="206.806" pvalue="6.33e-64">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.07e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ANA96033.1|" name="gb|ANA96033.1|">
+<matched-element start="34" stop="83" score="205.687" pvalue="1.07e-63">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.29e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AHX37563.1|" name="gb|AHX37563.1|">
+<matched-element start="34" stop="83" score="206.806" pvalue="6.33e-64">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.07e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ABI96964.1|" name="gb|ABI96964.1|">
+<matched-element start="34" stop="83" score="201.493" pvalue="2.92e-62">
+<sequence>PCPSATYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>2.47e-60</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ACZ72157.1|" name="gb|ACZ72157.1|">
+<matched-element start="34" stop="83" score="206.806" pvalue="6.33e-64">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.07e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AFR58734.1|" name="gb|AFR58734.1|">
+<matched-element start="34" stop="83" score="206.806" pvalue="6.33e-64">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.07e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AFR58706.1|" name="gb|AFR58706.1|">
+<matched-element start="34" stop="83" score="206.806" pvalue="6.33e-64">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.07e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AFR58678.1|" name="gb|AFR58678.1|">
+</scanned-sequence>
+<scanned-sequence accession="gb|ASO66814.1|" name="gb|ASO66814.1|">
+<matched-element start="34" stop="83" score="205.687" pvalue="1.07e-63">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.29e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ADE34817.1|" name="gb|ADE34817.1|">
+<matched-element start="34" stop="83" score="205.582" pvalue="1.47e-63">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.5e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62283.1|" name="gb|AIA62283.1|">
+<matched-element start="34" stop="83" score="205.687" pvalue="1.07e-63">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.29e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AAP82970.1|" name="gb|AAP82970.1|">
+<matched-element start="3" stop="52" score="201.493" pvalue="2.92e-62">
+<sequence>PCPSATYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>2.47e-60</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="pdb|1XAK|A" name="pdb|1XAK|A">
+<matched-element start="21" stop="70" score="206.806" pvalue="6.33e-64">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.07e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="pdb|1YO4|A" name="pdb|1YO4|A">
+<matched-element start="19" stop="68" score="206.806" pvalue="6.33e-64">
+<sequence>PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</sequence>
+<mem:qvalue>1.07e-61</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="MKIILFLTLIALATCELYHYQECVRGTTV" name="MEME-2">
+<scanned-sequence accession="ref|YP_009724395.1|" name="ref|YP_009724395.1|">
+<matched-element start="1" stop="29" score="107.29" pvalue="7.94e-34">
+<sequence>MKIILFLALITLATCELYHYQECVRGTTV</sequence>
+<mem:qvalue>1.01e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|QHR63305.1|" name="gb|QHR63305.1|">
+<matched-element start="1" stop="29" score="105.113" pvalue="2.84e-33">
+<sequence>MKIILFLVLVTLATCELYHYQECVRGTTV</sequence>
+<mem:qvalue>3.24e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|QIG55950.1|" name="gb|QIG55950.1|">
+<matched-element start="1" stop="29" score="107.29" pvalue="7.94e-34">
+<sequence>MKIILFLALITLATCELYHYQECVRGTTV</sequence>
+<mem:qvalue>1.01e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|QIA48619.1|" name="gb|QIA48619.1|">
+<matched-element start="1" stop="29" score="97.4032" pvalue="1.04e-31">
+<sequence>MKIILLLALVTFATCERYHYQECVRGTTV</sequence>
+<mem:qvalue>1.02e-29</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|QIQ54053.1|" name="gb|QIQ54053.1|">
+<matched-element start="1" stop="29" score="97.4032" pvalue="1.04e-31">
+<sequence>MKIILLLALVTFATCERYHYQECVRGTTV</sequence>
+<mem:qvalue>1.02e-29</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AVP78047.1|" name="gb|AVP78047.1|">
+<matched-element start="1" stop="29" score="89.4032" pvalue="5.5e-30">
+<sequence>MKIIFFLVLITLVTGELYHYQECIKGTTV</sequence>
+<mem:qvalue>5.08e-28</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AVP78036.1|" name="gb|AVP78036.1|">
+<matched-element start="1" stop="29" score="89.4032" pvalue="5.5e-30">
+<sequence>MKIIFFLVLITLVTGELYHYQECIKGTTV</sequence>
+<mem:qvalue>5.08e-28</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="sp|Q3I5J0.1|" name="sp|Q3I5J0.1|">
+<matched-element start="1" stop="29" score="111.694" pvalue="1.27e-35">
+<sequence>MKIILFLTLIALASCELYHYQECVRGTTV</sequence>
+<mem:qvalue>5.43e-33</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62335.1|" name="gb|AIA62335.1|">
+<matched-element start="1" stop="29" score="111.694" pvalue="1.27e-35">
+<sequence>MKIILFLTLIALASCELYHYQECVRGTTV</sequence>
+<mem:qvalue>5.43e-33</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="sp|Q3LZX7.1|" name="sp|Q3LZX7.1|">
+<matched-element start="1" stop="29" score="111.129" pvalue="3.6e-35">
+<sequence>MKIILFLTLIALATCELYHYQECVRGTTV</sequence>
+<mem:qvalue>1.03e-32</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ARO76387.1|" name="gb|ARO76387.1|">
+<matched-element start="1" stop="29" score="112.129" pvalue="5.41e-36">
+<sequence>MKIILFLTLIVLASCELYHYQECVRGTTV</sequence>
+<mem:qvalue>5.43e-33</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ATO98225.1|" name="gb|ATO98225.1|">
+<matched-element start="1" stop="29" score="111.694" pvalue="1.27e-35">
+<sequence>MKIILFLTLIALASCELYHYQECVRGTTV</sequence>
+<mem:qvalue>5.43e-33</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ACU31037.1|" name="gb|ACU31037.1|">
+<matched-element start="1" stop="29" score="111.694" pvalue="1.27e-35">
+<sequence>MKIILFLTLIALASCELYHYQECVRGTTV</sequence>
+<mem:qvalue>5.43e-33</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AGZ48838.1|" name="gb|AGZ48838.1|">
+<matched-element start="1" stop="29" score="111.694" pvalue="1.27e-35">
+<sequence>MKIILFLTLIALASCELYHYQECVRGTTV</sequence>
+<mem:qvalue>5.43e-33</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AAZ41334.1|" name="gb|AAZ41334.1|">
+<matched-element start="1" stop="29" score="105.581" pvalue="2.14e-33">
+<sequence>MKIILFLTLIALATCELYHYRECVRGTTV</sequence>
+<mem:qvalue>2.61e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AKZ19081.1|" name="gb|AKZ19081.1|">
+<matched-element start="1" stop="29" score="111.565" pvalue="2.12e-35">
+<sequence>MKIILFLTLIVLATCELYHYQECVRGTTV</sequence>
+<mem:qvalue>7.25e-33</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ATO98237.1|" name="gb|ATO98237.1|">
+<matched-element start="1" stop="29" score="111.694" pvalue="1.27e-35">
+<sequence>MKIILFLTLIALASCELYHYQECVRGTTV</sequence>
+<mem:qvalue>5.43e-33</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62325.1|" name="gb|AIA62325.1|">
+<matched-element start="1" stop="29" score="105.258" pvalue="2.65e-33">
+<sequence>MKIILFLTLVALATCELYHYQECIRGTTV</sequence>
+<mem:qvalue>3.12e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ATO98187.1|" name="gb|ATO98187.1|">
+<matched-element start="1" stop="29" score="111.694" pvalue="1.27e-35">
+<sequence>MKIILFLTLIALASCELYHYQECVRGTTV</sequence>
+<mem:qvalue>5.43e-33</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62315.1|" name="gb|AIA62315.1|">
+<matched-element start="1" stop="29" score="107.403" pvalue="7.18e-34">
+<sequence>MKIILFLTLIALASSELYHYQECVRGTTV</sequence>
+<mem:qvalue>1.01e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ADE34760.1|" name="gb|ADE34760.1|">
+<matched-element start="1" stop="29" score="107.323" pvalue="7.66e-34">
+<sequence>MKIILFLTLVALTTCELYHYQECVRGTTV</sequence>
+<mem:qvalue>1.01e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ABD75319.1|" name="gb|ABD75319.1|">
+<matched-element start="1" stop="29" score="111.129" pvalue="3.6e-35">
+<sequence>MKIILFLTLIALATCELYHYQECVRGTTV</sequence>
+<mem:qvalue>1.03e-32</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="sp|Q0Q470.1|" name="sp|Q0Q470.1|">
+<matched-element start="1" stop="29" score="107.403" pvalue="7.18e-34">
+<sequence>MKIILFLTLIALASSELYHYQECVRGTTV</sequence>
+<mem:qvalue>1.01e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ACZ72114.1|" name="gb|ACZ72114.1|">
+<matched-element start="1" stop="29" score="109.79" pvalue="9.6e-35">
+<sequence>MKIILFLTLIVFTSCELYHYQECVRGTTV</sequence>
+<mem:qvalue>1.73e-32</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="ref|YP_009825057.1|" name="ref|YP_009825057.1|">
+<matched-element start="1" stop="29" score="109.79" pvalue="9.6e-35">
+<sequence>MKIILFLTLIVFTSCELYHYQECVRGTTV</sequence>
+<mem:qvalue>1.73e-32</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AAT52336.1|" name="gb|AAT52336.1|">
+<matched-element start="1" stop="29" score="109.79" pvalue="9.6e-35">
+<sequence>MKIILFLTLIVFTSCELYHYQECVRGTTV</sequence>
+<mem:qvalue>1.73e-32</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62295.1|" name="gb|AIA62295.1|">
+<matched-element start="1" stop="29" score="107.839" pvalue="5.21e-34">
+<sequence>MKIIPFLTLIVLATCELYHYQECVRGTTV</sequence>
+<mem:qvalue>8.48e-32</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ANA96033.1|" name="gb|ANA96033.1|">
+<matched-element start="1" stop="29" score="111.565" pvalue="2.12e-35">
+<sequence>MKIILFLTLIVLATCELYHYQECVRGTTV</sequence>
+<mem:qvalue>7.25e-33</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AHX37563.1|" name="gb|AHX37563.1|">
+<matched-element start="1" stop="29" score="107.758" pvalue="5.48e-34">
+<sequence>MKIILFLTLVVLTTCELYHYQECVRGTTV</sequence>
+<mem:qvalue>8.51e-32</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ABI96964.1|" name="gb|ABI96964.1|">
+<matched-element start="1" stop="29" score="109.79" pvalue="9.6e-35">
+<sequence>MKIILFLTLIVFTSCELYHYQECVRGTTV</sequence>
+<mem:qvalue>1.73e-32</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ACZ72157.1|" name="gb|ACZ72157.1|">
+<matched-element start="1" stop="29" score="104.742" pvalue="3.44e-33">
+<sequence>MKISLFLTLIVFTSCELYHYQECVRGTTV</sequence>
+<mem:qvalue>3.62e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AFR58734.1|" name="gb|AFR58734.1|">
+<matched-element start="1" stop="29" score="109.79" pvalue="9.6e-35">
+<sequence>MKIILFLTLIVFTSCELYHYQECVRGTTV</sequence>
+<mem:qvalue>1.73e-32</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AFR58706.1|" name="gb|AFR58706.1|">
+<matched-element start="1" stop="29" score="109.79" pvalue="9.6e-35">
+<sequence>MKIILFLTLIVFTSCELYHYQECVRGTTV</sequence>
+<mem:qvalue>1.73e-32</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AFR58678.1|" name="gb|AFR58678.1|">
+<matched-element start="1" stop="29" score="109.79" pvalue="9.6e-35">
+<sequence>MKIILFLTLIVFTSCELYHYQECVRGTTV</sequence>
+<mem:qvalue>1.73e-32</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ASO66814.1|" name="gb|ASO66814.1|">
+<matched-element start="1" stop="29" score="104.903" pvalue="3.18e-33">
+<sequence>MKIILFSILIVLATCELYHYQECVRGTTV</sequence>
+<mem:qvalue>3.51e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ADE34817.1|" name="gb|ADE34817.1|">
+<matched-element start="1" stop="29" score="108.5" pvalue="3.08e-34">
+<sequence>MKIILFLILIALATCELYHYQECVRGTTV</sequence>
+<mem:qvalue>5.26e-32</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62283.1|" name="gb|AIA62283.1|">
+<matched-element start="1" stop="29" score="104.726" pvalue="3.49e-33">
+<sequence>MKIILLLILIVLATCELYHYQECVRGTTV</sequence>
+<mem:qvalue>3.62e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AAP82970.1|" name="gb|AAP82970.1|">
+</scanned-sequence>
+<scanned-sequence accession="pdb|1XAK|A" name="pdb|1XAK|A">
+</scanned-sequence>
+<scanned-sequence accession="pdb|1YO4|A" name="pdb|1YO4|A">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="HQELYSPLFLIVAALVFIILCFTIKRKTE" name="MEME-3">
+<scanned-sequence accession="ref|YP_009724395.1|" name="ref|YP_009724395.1|">
+<matched-element start="93" stop="121" score="96.6944" pvalue="2.83e-31">
+<sequence>VQELYSPIFLIVAAIVFITLCFTLKRKTE</sequence>
+<mem:qvalue>2.96e-29</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|QHR63305.1|" name="gb|QHR63305.1|">
+<matched-element start="93" stop="121" score="92.9722" pvalue="2.11e-30">
+<sequence>VQELYSPIFLIIAAIVFITLCFTLKRKTE</sequence>
+<mem:qvalue>2.02e-28</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|QIG55950.1|" name="gb|QIG55950.1|">
+<matched-element start="93" stop="121" score="94.8611" pvalue="7.56e-31">
+<sequence>VQELYSPIFLIVAAIVFITLCFTLKRKIE</sequence>
+<mem:qvalue>7.46e-29</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|QIA48619.1|" name="gb|QIA48619.1|">
+<matched-element start="93" stop="121" score="96.7917" pvalue="2.76e-31">
+<sequence>VQELYSPLFLIIAALVFITLCFTLKRKTE</sequence>
+<mem:qvalue>2.96e-29</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|QIQ54053.1|" name="gb|QIQ54053.1|">
+<matched-element start="93" stop="121" score="96.7917" pvalue="2.76e-31">
+<sequence>VQELYSPLFLIIAALVFITLCFTLKRKTE</sequence>
+<mem:qvalue>2.96e-29</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AVP78047.1|" name="gb|AVP78047.1|">
+<matched-element start="93" stop="121" score="96.7917" pvalue="2.76e-31">
+<sequence>VQELYSPVFLIVAAIVFIILCFTFKRKIE</sequence>
+<mem:qvalue>2.96e-29</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AVP78036.1|" name="gb|AVP78036.1|">
+<matched-element start="93" stop="121" score="96.7917" pvalue="2.76e-31">
+<sequence>VQELYSPVFLIVAAIVFIILCFTFKRKIE</sequence>
+<mem:qvalue>2.96e-29</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="sp|Q3I5J0.1|" name="sp|Q3I5J0.1|">
+<matched-element start="94" stop="122" score="105.639" pvalue="2.36e-33">
+<sequence>HQELYSPLFLIVAALVFITLCFTIKRKTE</sequence>
+<mem:qvalue>3.13e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62335.1|" name="gb|AIA62335.1|">
+<matched-element start="94" stop="122" score="107.194" pvalue="5.36e-34">
+<sequence>HQELYSPLFLIVAAIVFIILCFTIKRKTE</sequence>
+<mem:qvalue>1.32e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="sp|Q3LZX7.1|" name="sp|Q3LZX7.1|">
+<matched-element start="94" stop="122" score="107.681" pvalue="4.67e-34">
+<sequence>YQELYSPLFLIVAALVFIILCFTIKRKTE</sequence>
+<mem:qvalue>1.24e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ARO76387.1|" name="gb|ARO76387.1|">
+<matched-element start="94" stop="122" score="105.903" pvalue="1.79e-33">
+<sequence>QQELYSPLFLIVAALVFLILCFTIKRKTE</sequence>
+<mem:qvalue>2.64e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ATO98225.1|" name="gb|ATO98225.1|">
+<matched-element start="94" stop="122" score="108.583" pvalue="1.39e-34">
+<sequence>HQELYSPLFLIVAALVFIILCFTIKRKTE</sequence>
+<mem:qvalue>5.99e-32</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ACU31037.1|" name="gb|ACU31037.1|">
+<matched-element start="94" stop="122" score="108.583" pvalue="1.39e-34">
+<sequence>HQELYSPLFLIVAALVFIILCFTIKRKTE</sequence>
+<mem:qvalue>5.99e-32</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AGZ48838.1|" name="gb|AGZ48838.1|">
+<matched-element start="94" stop="122" score="108.583" pvalue="1.39e-34">
+<sequence>HQELYSPLFLIVAALVFIILCFTIKRKTE</sequence>
+<mem:qvalue>5.99e-32</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AAZ41334.1|" name="gb|AAZ41334.1|">
+<matched-element start="94" stop="122" score="107.681" pvalue="4.67e-34">
+<sequence>YQELYSPLFLIVAALVFIILCFTIKRKTE</sequence>
+<mem:qvalue>1.24e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AKZ19081.1|" name="gb|AKZ19081.1|">
+<matched-element start="94" stop="122" score="105.903" pvalue="1.79e-33">
+<sequence>QQELYSPLFLIVAALVFLILCFTIKRKTE</sequence>
+<mem:qvalue>2.64e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ATO98237.1|" name="gb|ATO98237.1|">
+<matched-element start="94" stop="122" score="108.583" pvalue="1.39e-34">
+<sequence>HQELYSPLFLIVAALVFIILCFTIKRKTE</sequence>
+<mem:qvalue>5.99e-32</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62325.1|" name="gb|AIA62325.1|">
+<matched-element start="94" stop="122" score="108.583" pvalue="1.39e-34">
+<sequence>HQELYSPLFLIVAALVFIILCFTIKRKTE</sequence>
+<mem:qvalue>5.99e-32</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ATO98187.1|" name="gb|ATO98187.1|">
+<matched-element start="94" stop="122" score="103.819" pvalue="8.64e-33">
+<sequence>HQELYSPLFLIVAVLVFIILCFTIKRKTE</sequence>
+<mem:qvalue>1.1e-30</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62315.1|" name="gb|AIA62315.1|">
+<matched-element start="94" stop="122" score="108.583" pvalue="1.39e-34">
+<sequence>HQELYSPLFLIVAALVFIILCFTIKRKTE</sequence>
+<mem:qvalue>5.99e-32</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ADE34760.1|" name="gb|ADE34760.1|">
+<matched-element start="94" stop="122" score="108.583" pvalue="1.39e-34">
+<sequence>HQELYSPLFLIVAALVFIILCFTIKRKTE</sequence>
+<mem:qvalue>5.99e-32</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ABD75319.1|" name="gb|ABD75319.1|">
+<matched-element start="94" stop="122" score="107.681" pvalue="4.67e-34">
+<sequence>YQELYSPLFLIVAALVFIILCFTIKRKTE</sequence>
+<mem:qvalue>1.24e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="sp|Q0Q470.1|" name="sp|Q0Q470.1|">
+<matched-element start="94" stop="122" score="108.583" pvalue="1.39e-34">
+<sequence>HQELYSPLFLIVAALVFIILCFTIKRKTE</sequence>
+<mem:qvalue>5.99e-32</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ACZ72114.1|" name="gb|ACZ72114.1|">
+<matched-element start="94" stop="122" score="105.903" pvalue="1.79e-33">
+<sequence>QQELYSPLFLIVAALVFLILCFTIKRKTE</sequence>
+<mem:qvalue>2.64e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="ref|YP_009825057.1|" name="ref|YP_009825057.1|">
+<matched-element start="94" stop="122" score="105.903" pvalue="1.79e-33">
+<sequence>QQELYSPLFLIVAALVFLILCFTIKRKTE</sequence>
+<mem:qvalue>2.64e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AAT52336.1|" name="gb|AAT52336.1|">
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62295.1|" name="gb|AIA62295.1|">
+<matched-element start="94" stop="122" score="107.681" pvalue="4.67e-34">
+<sequence>YQELYSPLFLIVAALVFIILCFTIKRKTE</sequence>
+<mem:qvalue>1.24e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ANA96033.1|" name="gb|ANA96033.1|">
+<matched-element start="94" stop="122" score="105.847" pvalue="1.91e-33">
+<sequence>YQELYSPLFLIVAALVFIILCFTIKRKIE</sequence>
+<mem:qvalue>2.64e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AHX37563.1|" name="gb|AHX37563.1|">
+<matched-element start="94" stop="122" score="95.4028" pvalue="5.81e-31">
+<sequence>HQELYSPLFLIVAALVFTILCFTIKRNSE</sequence>
+<mem:qvalue>5.9e-29</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ABI96964.1|" name="gb|ABI96964.1|">
+<matched-element start="94" stop="122" score="105.903" pvalue="1.79e-33">
+<sequence>QQELYSPLFLIVAALVFLILCFTIKRKTE</sequence>
+<mem:qvalue>2.64e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ACZ72157.1|" name="gb|ACZ72157.1|">
+<matched-element start="94" stop="122" score="105.903" pvalue="1.79e-33">
+<sequence>QQELYSPLFLIVAALVFLILCFTIKRKTE</sequence>
+<mem:qvalue>2.64e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AFR58734.1|" name="gb|AFR58734.1|">
+</scanned-sequence>
+<scanned-sequence accession="gb|AFR58706.1|" name="gb|AFR58706.1|">
+<matched-element start="94" stop="122" score="105.903" pvalue="1.79e-33">
+<sequence>QQELYSPLFLIVAALVFLILCFTIKRKTE</sequence>
+<mem:qvalue>2.64e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AFR58678.1|" name="gb|AFR58678.1|">
+<matched-element start="94" stop="122" score="105.903" pvalue="1.79e-33">
+<sequence>QQELYSPLFLIVAALVFLILCFTIKRKTE</sequence>
+<mem:qvalue>2.64e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ASO66814.1|" name="gb|ASO66814.1|">
+<matched-element start="94" stop="122" score="100.903" pvalue="4.34e-32">
+<sequence>YQELYSPLFLIVIALVFIILCFTIKRKIE</sequence>
+<mem:qvalue>5.35e-30</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ADE34817.1|" name="gb|ADE34817.1|">
+<matched-element start="94" stop="122" score="107.681" pvalue="4.67e-34">
+<sequence>YQELYSPLFLIVAALVFIILCFTIKRKTE</sequence>
+<mem:qvalue>1.24e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62283.1|" name="gb|AIA62283.1|">
+<matched-element start="94" stop="122" score="105.847" pvalue="1.91e-33">
+<sequence>YQELYSPLFLIVAALVFIILCFTIKRKIE</sequence>
+<mem:qvalue>2.64e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AAP82970.1|" name="gb|AAP82970.1|">
+<matched-element start="63" stop="91" score="105.903" pvalue="1.79e-33">
+<sequence>QQELYSPLFLIVAALVFLILCFTIKRKTE</sequence>
+<mem:qvalue>2.64e-31</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="pdb|1XAK|A" name="pdb|1XAK|A">
+</scanned-sequence>
+<scanned-sequence accession="pdb|1YO4|A" name="pdb|1YO4|A">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="PKLFIRQE" name="MEME-4">
+<scanned-sequence accession="ref|YP_009724395.1|" name="ref|YP_009724395.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|QHR63305.1|" name="gb|QHR63305.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|QIG55950.1|" name="gb|QIG55950.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|QIA48619.1|" name="gb|QIA48619.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|QIQ54053.1|" name="gb|QIQ54053.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AVP78047.1|" name="gb|AVP78047.1|">
+<matched-element start="84" stop="91" score="29.2083" pvalue="4.62e-10">
+<sequence>PKLFTRQE</sequence>
+<mem:qvalue>5.34e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AVP78036.1|" name="gb|AVP78036.1|">
+<matched-element start="84" stop="91" score="29.2083" pvalue="4.62e-10">
+<sequence>PKLFTRQE</sequence>
+<mem:qvalue>5.34e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="sp|Q3I5J0.1|" name="sp|Q3I5J0.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62335.1|" name="gb|AIA62335.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="sp|Q3LZX7.1|" name="sp|Q3LZX7.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ARO76387.1|" name="gb|ARO76387.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ATO98225.1|" name="gb|ATO98225.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ACU31037.1|" name="gb|ACU31037.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AGZ48838.1|" name="gb|AGZ48838.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AAZ41334.1|" name="gb|AAZ41334.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AKZ19081.1|" name="gb|AKZ19081.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ATO98237.1|" name="gb|ATO98237.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62325.1|" name="gb|AIA62325.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ATO98187.1|" name="gb|ATO98187.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62315.1|" name="gb|AIA62315.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ADE34760.1|" name="gb|ADE34760.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ABD75319.1|" name="gb|ABD75319.1|">
+<matched-element start="84" stop="91" score="29.2083" pvalue="4.62e-10">
+<sequence>PKLFTRQE</sequence>
+<mem:qvalue>5.34e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="sp|Q0Q470.1|" name="sp|Q0Q470.1|">
+<matched-element start="84" stop="91" score="29.2083" pvalue="4.62e-10">
+<sequence>PKLFTRQE</sequence>
+<mem:qvalue>5.34e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ACZ72114.1|" name="gb|ACZ72114.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="ref|YP_009825057.1|" name="ref|YP_009825057.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AAT52336.1|" name="gb|AAT52336.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62295.1|" name="gb|AIA62295.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ANA96033.1|" name="gb|ANA96033.1|">
+<matched-element start="84" stop="91" score="29.2083" pvalue="4.62e-10">
+<sequence>PKLFTRQE</sequence>
+<mem:qvalue>5.34e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AHX37563.1|" name="gb|AHX37563.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ABI96964.1|" name="gb|ABI96964.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ACZ72157.1|" name="gb|ACZ72157.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AFR58734.1|" name="gb|AFR58734.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AFR58706.1|" name="gb|AFR58706.1|">
+</scanned-sequence>
+<scanned-sequence accession="gb|AFR58678.1|" name="gb|AFR58678.1|">
+</scanned-sequence>
+<scanned-sequence accession="gb|ASO66814.1|" name="gb|ASO66814.1|">
+<matched-element start="84" stop="91" score="29.2083" pvalue="4.62e-10">
+<sequence>PKLFTRQE</sequence>
+<mem:qvalue>5.34e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ADE34817.1|" name="gb|ADE34817.1|">
+<matched-element start="84" stop="91" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62283.1|" name="gb|AIA62283.1|">
+<matched-element start="84" stop="91" score="29.2083" pvalue="4.62e-10">
+<sequence>PKLFTRQE</sequence>
+<mem:qvalue>5.34e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AAP82970.1|" name="gb|AAP82970.1|">
+<matched-element start="53" stop="60" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="pdb|1XAK|A" name="pdb|1XAK|A">
+<matched-element start="71" stop="78" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="pdb|1YO4|A" name="pdb|1YO4|A">
+<matched-element start="69" stop="76" score="31.9167" pvalue="1.89e-10">
+<sequence>PKLFIRQE</sequence>
+<mem:qvalue>2.67e-08</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="YHYQECVRGTTV" name="MEME-5">
+<scanned-sequence accession="ref|YP_009724395.1|" name="ref|YP_009724395.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|QHR63305.1|" name="gb|QHR63305.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|QIG55950.1|" name="gb|QIG55950.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|QIA48619.1|" name="gb|QIA48619.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|QIQ54053.1|" name="gb|QIQ54053.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AVP78047.1|" name="gb|AVP78047.1|">
+<matched-element start="18" stop="29" score="33.5446" pvalue="2.23e-12">
+<sequence>YHYQECIKGTTV</sequence>
+<mem:qvalue>2.37e-10</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AVP78036.1|" name="gb|AVP78036.1|">
+<matched-element start="18" stop="29" score="33.5446" pvalue="2.23e-12">
+<sequence>YHYQECIKGTTV</sequence>
+<mem:qvalue>2.37e-10</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="sp|Q3I5J0.1|" name="sp|Q3I5J0.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62335.1|" name="gb|AIA62335.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="sp|Q3LZX7.1|" name="sp|Q3LZX7.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ARO76387.1|" name="gb|ARO76387.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ATO98225.1|" name="gb|ATO98225.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ACU31037.1|" name="gb|ACU31037.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AGZ48838.1|" name="gb|AGZ48838.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AAZ41334.1|" name="gb|AAZ41334.1|">
+<matched-element start="18" stop="29" score="41.6634" pvalue="5.49e-14">
+<sequence>YHYRECVRGTTV</sequence>
+<mem:qvalue>6.15e-12</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AKZ19081.1|" name="gb|AKZ19081.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ATO98237.1|" name="gb|ATO98237.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62325.1|" name="gb|AIA62325.1|">
+<matched-element start="18" stop="29" score="42.2178" pvalue="2.13e-14">
+<sequence>YHYQECIRGTTV</sequence>
+<mem:qvalue>2.45e-12</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ATO98187.1|" name="gb|ATO98187.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62315.1|" name="gb|AIA62315.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ADE34760.1|" name="gb|ADE34760.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ABD75319.1|" name="gb|ABD75319.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="sp|Q0Q470.1|" name="sp|Q0Q470.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ACZ72114.1|" name="gb|ACZ72114.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="ref|YP_009825057.1|" name="ref|YP_009825057.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AAT52336.1|" name="gb|AAT52336.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62295.1|" name="gb|AIA62295.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ANA96033.1|" name="gb|ANA96033.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AHX37563.1|" name="gb|AHX37563.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ABI96964.1|" name="gb|ABI96964.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ACZ72157.1|" name="gb|ACZ72157.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AFR58734.1|" name="gb|AFR58734.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AFR58706.1|" name="gb|AFR58706.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AFR58678.1|" name="gb|AFR58678.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ASO66814.1|" name="gb|ASO66814.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|ADE34817.1|" name="gb|ADE34817.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AIA62283.1|" name="gb|AIA62283.1|">
+<matched-element start="18" stop="29" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="gb|AAP82970.1|" name="gb|AAP82970.1|">
+</scanned-sequence>
+<scanned-sequence accession="pdb|1XAK|A" name="pdb|1XAK|A">
+<matched-element start="5" stop="16" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="pdb|1YO4|A" name="pdb|1YO4|A">
+<matched-element start="3" stop="14" score="50.7228" pvalue="3.07e-16">
+<sequence>YHYQECVRGTTV</sequence>
+<mem:qvalue>3.63e-14</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+</cis-element-search>
