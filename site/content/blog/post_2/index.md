@@ -16,7 +16,7 @@ Definimos os termos a pesquisar como os 3 diferentes genes escolhidos pelo grupo
 
 ```python
 search_keywords = ["generic", "function", "sars-cov-2"]
-genes = ["ORF7a", "BST2", "ITGAL"]
+genes = ["21_ORF7a", "22_BST2", "23_ITGAL"]
 ```
 
 ## Modulo *'pubmed.py'*
@@ -34,7 +34,7 @@ Internamente cada pesquisa devolve uma lista dos 20 primeiros resultados, sendo 
 ```python
 from scripts_python.pubmed import search_articles
 
-result = search_articles("ORF7a", search_keywords)
+result = search_articles("21_ORF7a", search_keywords)
 
 for PMID in result.keys():
     print(PMID, ": ", result[PMID])
@@ -99,7 +99,7 @@ Esta percorre a estrutura de dados devolvida pela *search_articles()* e adiciona
 ```python
 from scripts_python.pubmed import search_fetch_articles
 
-result = search_fetch_articles("ORF7a", search_keywords)
+result = search_fetch_articles("21_ORF7a", search_keywords)
 
 # Primeiro Artigo
 for key in result['33305306'].keys():
@@ -125,7 +125,7 @@ Este método corre o *search_fetch_articles()* e faz output de um ficheiros de *
 ```python
 from scripts_python.pubmed import search_print_articles
 
-result = search_print_articles("ORF7a", search_keywords, file="../scripts_python/tests_data/{0}_search_results.md".format("ORF7a"))
+result = search_print_articles("21_ORF7a", search_keywords, file="../scripts_python/tests_data/{0}_search_results.md".format("21_ORF7a"))
 ```
 
     ../scripts/tests_data/ORF7a_search_results_2020-12-21.md

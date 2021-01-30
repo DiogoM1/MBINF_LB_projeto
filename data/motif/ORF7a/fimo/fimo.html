@@ -1,0 +1,2283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:cis="http://zlab.bu.edu/schema/cisml" xmlns:fimo="http://noble.gs.washington.edu/schema/cisml" xmlns:mem="http://noble.gs.washington.edu/meme">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>FIMO Results</title>
+<style type="text/css">
+td.left {text-align: left;}
+td.right {text-align: right; padding-right: 1cm;}
+</style>
+</head>
+<body color="#000000">
+<a name="top_buttons"></a>
+<hr>
+<table summary="buttons" align="left" cellspacing="0">
+<tr>
+<td bgcolor="#00FFFF"><a href="#database_and_motifs"><b>Database and Motifs</b></a></td>
+<td bgcolor="#DDFFDD"><a href="#sec_i"><b>High-scoring Motif Occurences</b></a></td>
+<td bgcolor="#DDDDFF"><a href="#debugging_information"><b>Debugging Information</b></a></td>
+<td bgcolor="#FFDD00"><a href="fimo.tsv""><b>Results in TSV Format</b></a></td>
+<td bgcolor="#FFDDFF"><a href="fimo.gff""><b>Results in GFF3 Format</b></a></td>
+</tr>
+</table>
+<br/>
+<br/>
+<hr/>
+<center><big><b>FIMO - Motif search tool</b></big></center>
+<hr>
+<p>
+FIMO version 5.3.0, (Release date: Wed Nov 25 19:19:29 2020 -0800)
+</p>
+<p>
+For further information on how to interpret these results please access <a href="http://meme-suite.org/doc/fimo-output-format.html">http://meme-suite.org/doc/fimo-output-format.html</a>.<br>
+To get a copy of the FIMO software please access <a href="http://meme-suite.org">http://meme-suite.org</a>
+
+</p>
+<p>If you use FIMO in your research, please cite the following paper:<br>
+Charles E. Grant, Timothy L. Bailey, and William Stafford Noble,
+"FIMO: Scanning for occurrences of a given motif",
+<i>Bioinformatics</i>, <b>27</b>(7):1017-1018, 2011.
+<a href="http://bioinformatics.oxfordjournals.org/content/27/7/1017">[full text]</a></p>
+<hr>
+<center><big><b><a name="database_and_motifs">DATABASE AND MOTIFS</a></b></big></center>
+<hr>
+<div style="padding-left: 0.75in; line-height: 1em; font-family: monospace;">
+<p>
+  DATABASE /opt/project/data/homologue/ORF7a/MN908947.3_ORF7a.fasta
+  <br />
+  Database contains 40 sequences, 4764 residues
+</p>
+<p>
+  MOTIFS /opt/project/data/motif/ORF7a/meme/meme.txt (Protein)
+  <table>
+    <thead>
+      <tr>
+        <th style="border-bottom: 1px dashed;">MOTIF</th>
+        <th style="border-bottom: 1px dashed; padding-left: 1em;">WIDTH</th>
+        <th style="border-bottom: 1px dashed; padding-left: 1em;text-align:left;" >
+         BEST POSSIBLE MATCH
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:right;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+        <td style="text-align:right;padding-left: 1em;">50</td>
+        <td style="text-align:left;padding-left: 1em;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+        <td style="text-align:right;padding-left: 1em;">29</td>
+        <td style="text-align:left;padding-left: 1em;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+        <td style="text-align:right;padding-left: 1em;">29</td>
+        <td style="text-align:left;padding-left: 1em;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">PKLFIRQE</td>
+        <td style="text-align:right;padding-left: 1em;">8</td>
+        <td style="text-align:left;padding-left: 1em;">PKLFIRQE</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">YHYQECVRGTTV</td>
+        <td style="text-align:right;padding-left: 1em;">12</td>
+        <td style="text-align:left;padding-left: 1em;">YHYQECVRGTTV</td>
+       </tr>
+    </tbody>
+  </table>
+</p>
+<p>
+Random model letter frequencies (--motif--):
+<br/>
+
+A 0.075 C 0.048 D 0.017 E 0.066 F 0.078 G 0.033 H 0.034 I 0.063 K 0.050 
+L 0.127 M 0.008 N 0.017 P 0.050 Q 0.038 R 0.049 S 0.058 T 0.091 V 0.055 
+W 0.000 Y 0.042 </p>
+</div>
+<hr>
+<center><big><b><a name="sec_i">SECTION I: HIGH-SCORING MOTIF OCCURENCES</a></b></big></center>
+<hr>
+<ul>
+<li>
+There were 189 motif occurences with a p-value less than 0.0001.
+
+The full set of motif occurences can be seen in the
+TSV (tab-delimited values) output file
+<a href="fimo.tsv">fimo.tsv</a>, 
+the GFF3 file 
+<a href="fimo.gff">fimo.gff</a> 
+which may be suitable for uploading to the 
+<a href="http://genome.ucsc.edu/cgi-bin/hgTables">UCSC Genome Table Browser</a>
+(assuming the FASTA input sequences included genomic coordinates in UCSC or Galaxy format),
+or the XML file 
+<a href="fimo.xml">fimo.xml</a>.
+</li>
+<li>
+The <i>p</i>-value of a motif occurrence is defined as the
+probability of a random sequence of the same length as the motif
+matching that position of the sequence with as good or better a score.
+</li>
+<li>
+The score for the match of a position in a sequence to a motif
+is computed by summing the appropriate entries from each column of
+the position-dependent scoring matrix that represents the motif.
+</li>
+<li>
+The q-value of a motif occurrence is defined as the
+false discovery rate if the occurrence is accepted as significant.
+</li>
+<li>The table is sorted by increasing <i>p</i>-value.</li>
+</ul>
+<table border="1">
+<thead>
+<tr>
+<th>Motif ID</th>
+<th>Alt ID</th>
+<th>Sequence Name</th>
+<th>Strand</th>
+<th>Start</th>
+<th>End</th>
+<th>p-value</th>
+<th>q-value</th>
+<th>Matched Sequence</th>
+</tr>
+</thead>
+<tbody>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">pdb|1YO4|A</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">19</td>
+      <td style="text-align:left;">68</td>
+      <td style="text-align:left;">6.33e-64</td>
+      <td style="text-align:left;">1.07e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">pdb|1XAK|A</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">21</td>
+      <td style="text-align:left;">70</td>
+      <td style="text-align:left;">6.33e-64</td>
+      <td style="text-align:left;">1.07e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|ATO98237.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">6.33e-64</td>
+      <td style="text-align:left;">1.07e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|AAT52336.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">6.33e-64</td>
+      <td style="text-align:left;">1.07e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|ACZ72157.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">6.33e-64</td>
+      <td style="text-align:left;">1.07e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|AFR58706.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">6.33e-64</td>
+      <td style="text-align:left;">1.07e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|ACZ72114.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">6.33e-64</td>
+      <td style="text-align:left;">1.07e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|AKZ19081.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">6.33e-64</td>
+      <td style="text-align:left;">1.07e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">ref|YP_009825057.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">6.33e-64</td>
+      <td style="text-align:left;">1.07e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|AHX37563.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">6.33e-64</td>
+      <td style="text-align:left;">1.07e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">sp|Q3I5J0.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">6.33e-64</td>
+      <td style="text-align:left;">1.07e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|ACU31037.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">6.33e-64</td>
+      <td style="text-align:left;">1.07e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|AIA62295.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">6.33e-64</td>
+      <td style="text-align:left;">1.07e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|AFR58734.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">6.33e-64</td>
+      <td style="text-align:left;">1.07e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|ATO98187.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">6.33e-64</td>
+      <td style="text-align:left;">1.07e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|ANA96033.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">1.07e-63</td>
+      <td style="text-align:left;">1.29e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">sp|Q0Q470.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">1.07e-63</td>
+      <td style="text-align:left;">1.29e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|ABD75319.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">1.07e-63</td>
+      <td style="text-align:left;">1.29e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|AIA62315.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">1.07e-63</td>
+      <td style="text-align:left;">1.29e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|AIA62283.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">1.07e-63</td>
+      <td style="text-align:left;">1.29e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|ASO66814.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">1.07e-63</td>
+      <td style="text-align:left;">1.29e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|AAZ41334.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">1.47e-63</td>
+      <td style="text-align:left;">1.5e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|ADE34760.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">1.47e-63</td>
+      <td style="text-align:left;">1.5e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">sp|Q3LZX7.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">1.47e-63</td>
+      <td style="text-align:left;">1.5e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|ADE34817.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">1.47e-63</td>
+      <td style="text-align:left;">1.5e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|ARO76387.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">9.86e-63</td>
+      <td style="text-align:left;">9.62e-61</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTKHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|ATO98225.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">1.69e-62</td>
+      <td style="text-align:left;">1.53e-60</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCTSTRFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|AIA62335.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">1.69e-62</td>
+      <td style="text-align:left;">1.53e-60</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCTSTRFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|AAP82970.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">3</td>
+      <td style="text-align:left;">52</td>
+      <td style="text-align:left;">2.92e-62</td>
+      <td style="text-align:left;">2.47e-60</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSATYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|ABI96964.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">2.92e-62</td>
+      <td style="text-align:left;">2.47e-60</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSATYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|AGZ48838.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">5.2e-62</td>
+      <td style="text-align:left;">4.25e-60</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCLSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|AIA62325.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">5.74e-62</td>
+      <td style="text-align:left;">4.55e-60</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCPSGTYEGNSPFHPLADNKFALTCSSTYFAFACADGTRHTYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|AVP78047.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">3.25e-60</td>
+      <td style="text-align:left;">2.5e-58</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCSSGTYEGNSPFHPLADNKFALTCFSTQFAFACPDGVRHTFQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">ref|YP_009724395.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">1.08e-59</td>
+      <td style="text-align:left;">7.84e-58</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCSSGTYEGNSPFHPLADNKFALTCFSTQFAFACPDGVKHVYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|QHR63305.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">1.08e-59</td>
+      <td style="text-align:left;">7.84e-58</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCSSGTYEGNSPFHPLADNKFALTCFSTQFAFACPDGVKHVYQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|AVP78036.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">2.4e-59</td>
+      <td style="text-align:left;">1.7e-57</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCSSGTYEGNSPFHPLADNKFALACFSTQFAFACPDGVRHTFQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|QIQ54053.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">5.38e-59</td>
+      <td style="text-align:left;">3.69e-57</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCSSGTYEGNSPFHPLADNKFALACTSQQFAFACPDGTKHTFQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|QIA48619.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">9.85e-59</td>
+      <td style="text-align:left;">6.58e-57</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCSSGTYEGNSPFHPLADNKFALACSSQQFAFACPDGTKHTFQLRARSVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">gb|QIG55950.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34</td>
+      <td style="text-align:left;">83</td>
+      <td style="text-align:left;">3.37e-58</td>
+      <td style="text-align:left;">2.2e-56</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PCSSGTYEGNSPFHPLADNKFALTCFSTQFAFACPDGVKHIYQLRARAVS</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|ARO76387.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">5.41e-36</td>
+      <td style="text-align:left;">5.43e-33</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIVLASCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|ATO98225.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">1.27e-35</td>
+      <td style="text-align:left;">5.43e-33</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIALASCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|ACU31037.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">1.27e-35</td>
+      <td style="text-align:left;">5.43e-33</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIALASCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">sp|Q3I5J0.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">1.27e-35</td>
+      <td style="text-align:left;">5.43e-33</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIALASCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|ATO98237.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">1.27e-35</td>
+      <td style="text-align:left;">5.43e-33</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIALASCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|AGZ48838.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">1.27e-35</td>
+      <td style="text-align:left;">5.43e-33</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIALASCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|AIA62335.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">1.27e-35</td>
+      <td style="text-align:left;">5.43e-33</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIALASCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|ATO98187.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">1.27e-35</td>
+      <td style="text-align:left;">5.43e-33</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIALASCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|ANA96033.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">2.12e-35</td>
+      <td style="text-align:left;">7.25e-33</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIVLATCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|AKZ19081.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">2.12e-35</td>
+      <td style="text-align:left;">7.25e-33</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIVLATCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|ABD75319.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.6e-35</td>
+      <td style="text-align:left;">1.03e-32</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">sp|Q3LZX7.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.6e-35</td>
+      <td style="text-align:left;">1.03e-32</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|AAT52336.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">9.6e-35</td>
+      <td style="text-align:left;">1.73e-32</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIVFTSCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|ACZ72114.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">9.6e-35</td>
+      <td style="text-align:left;">1.73e-32</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIVFTSCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">ref|YP_009825057.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">9.6e-35</td>
+      <td style="text-align:left;">1.73e-32</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIVFTSCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|AFR58678.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">9.6e-35</td>
+      <td style="text-align:left;">1.73e-32</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIVFTSCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|AFR58734.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">9.6e-35</td>
+      <td style="text-align:left;">1.73e-32</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIVFTSCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|AFR58706.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">9.6e-35</td>
+      <td style="text-align:left;">1.73e-32</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIVFTSCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|ABI96964.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">9.6e-35</td>
+      <td style="text-align:left;">1.73e-32</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIVFTSCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|ADE34760.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">1.39e-34</td>
+      <td style="text-align:left;">5.99e-32</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">sp|Q0Q470.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">1.39e-34</td>
+      <td style="text-align:left;">5.99e-32</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|ACU31037.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">1.39e-34</td>
+      <td style="text-align:left;">5.99e-32</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|AIA62325.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">1.39e-34</td>
+      <td style="text-align:left;">5.99e-32</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|AIA62315.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">1.39e-34</td>
+      <td style="text-align:left;">5.99e-32</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|ATO98237.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">1.39e-34</td>
+      <td style="text-align:left;">5.99e-32</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|AGZ48838.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">1.39e-34</td>
+      <td style="text-align:left;">5.99e-32</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|ATO98225.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">1.39e-34</td>
+      <td style="text-align:left;">5.99e-32</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|ADE34817.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.08e-34</td>
+      <td style="text-align:left;">5.26e-32</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLILIALATCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|ADE34817.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">4.67e-34</td>
+      <td style="text-align:left;">1.24e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|AAZ41334.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">4.67e-34</td>
+      <td style="text-align:left;">1.24e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|ABD75319.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">4.67e-34</td>
+      <td style="text-align:left;">1.24e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">sp|Q3LZX7.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">4.67e-34</td>
+      <td style="text-align:left;">1.24e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|AIA62295.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">4.67e-34</td>
+      <td style="text-align:left;">1.24e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|AIA62295.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">5.21e-34</td>
+      <td style="text-align:left;">8.48e-32</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIIPFLTLIVLATCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|AIA62335.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">5.36e-34</td>
+      <td style="text-align:left;">1.32e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">HQELYSPLFLIVAAIVFIILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|AHX37563.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">5.48e-34</td>
+      <td style="text-align:left;">8.51e-32</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLVVLTTCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">sp|Q0Q470.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">7.18e-34</td>
+      <td style="text-align:left;">1.01e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIALASSELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|AIA62315.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">7.18e-34</td>
+      <td style="text-align:left;">1.01e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIALASSELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|ADE34760.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">7.66e-34</td>
+      <td style="text-align:left;">1.01e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLVALTTCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|QIG55950.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">7.94e-34</td>
+      <td style="text-align:left;">1.01e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLALITLATCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">ref|YP_009724395.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">7.94e-34</td>
+      <td style="text-align:left;">1.01e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLALITLATCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|AAP82970.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">63</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.79e-33</td>
+      <td style="text-align:left;">2.64e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">QQELYSPLFLIVAALVFLILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|ACZ72157.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">1.79e-33</td>
+      <td style="text-align:left;">2.64e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">QQELYSPLFLIVAALVFLILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|ABI96964.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">1.79e-33</td>
+      <td style="text-align:left;">2.64e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">QQELYSPLFLIVAALVFLILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|AFR58706.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">1.79e-33</td>
+      <td style="text-align:left;">2.64e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">QQELYSPLFLIVAALVFLILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">ref|YP_009825057.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">1.79e-33</td>
+      <td style="text-align:left;">2.64e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">QQELYSPLFLIVAALVFLILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|ACZ72114.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">1.79e-33</td>
+      <td style="text-align:left;">2.64e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">QQELYSPLFLIVAALVFLILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|ARO76387.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">1.79e-33</td>
+      <td style="text-align:left;">2.64e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">QQELYSPLFLIVAALVFLILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|AKZ19081.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">1.79e-33</td>
+      <td style="text-align:left;">2.64e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">QQELYSPLFLIVAALVFLILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|AFR58678.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">1.79e-33</td>
+      <td style="text-align:left;">2.64e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">QQELYSPLFLIVAALVFLILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|ANA96033.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">1.91e-33</td>
+      <td style="text-align:left;">2.64e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YQELYSPLFLIVAALVFIILCFTIKRKIE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|AIA62283.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">1.91e-33</td>
+      <td style="text-align:left;">2.64e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YQELYSPLFLIVAALVFIILCFTIKRKIE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|AAZ41334.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">2.14e-33</td>
+      <td style="text-align:left;">2.61e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLIALATCELYHYRECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">sp|Q3I5J0.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">2.36e-33</td>
+      <td style="text-align:left;">3.13e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">HQELYSPLFLIVAALVFITLCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|AIA62325.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">2.65e-33</td>
+      <td style="text-align:left;">3.12e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLTLVALATCELYHYQECIRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|QHR63305.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">2.84e-33</td>
+      <td style="text-align:left;">3.24e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFLVLVTLATCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|ASO66814.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.18e-33</td>
+      <td style="text-align:left;">3.51e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILFSILIVLATCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|ACZ72157.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.44e-33</td>
+      <td style="text-align:left;">3.62e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKISLFLTLIVFTSCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|AIA62283.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.49e-33</td>
+      <td style="text-align:left;">3.62e-31</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILLLILIVLATCELYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|ATO98187.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">8.64e-33</td>
+      <td style="text-align:left;">1.1e-30</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">HQELYSPLFLIVAVLVFIILCFTIKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|ASO66814.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">4.34e-32</td>
+      <td style="text-align:left;">5.35e-30</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YQELYSPLFLIVIALVFIILCFTIKRKIE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|QIA48619.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">1.04e-31</td>
+      <td style="text-align:left;">1.02e-29</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILLLALVTFATCERYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|QIQ54053.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">1.04e-31</td>
+      <td style="text-align:left;">1.02e-29</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIILLLALVTFATCERYHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|AVP78036.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">93</td>
+      <td style="text-align:left;">121</td>
+      <td style="text-align:left;">2.76e-31</td>
+      <td style="text-align:left;">2.96e-29</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">VQELYSPVFLIVAAIVFIILCFTFKRKIE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|AVP78047.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">93</td>
+      <td style="text-align:left;">121</td>
+      <td style="text-align:left;">2.76e-31</td>
+      <td style="text-align:left;">2.96e-29</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">VQELYSPVFLIVAAIVFIILCFTFKRKIE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|QIQ54053.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">93</td>
+      <td style="text-align:left;">121</td>
+      <td style="text-align:left;">2.76e-31</td>
+      <td style="text-align:left;">2.96e-29</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">VQELYSPLFLIIAALVFITLCFTLKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|QIA48619.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">93</td>
+      <td style="text-align:left;">121</td>
+      <td style="text-align:left;">2.76e-31</td>
+      <td style="text-align:left;">2.96e-29</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">VQELYSPLFLIIAALVFITLCFTLKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">ref|YP_009724395.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">93</td>
+      <td style="text-align:left;">121</td>
+      <td style="text-align:left;">2.83e-31</td>
+      <td style="text-align:left;">2.96e-29</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">VQELYSPIFLIVAAIVFITLCFTLKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|AHX37563.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">5.81e-31</td>
+      <td style="text-align:left;">5.9e-29</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">HQELYSPLFLIVAALVFTILCFTIKRNSE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|QIG55950.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">93</td>
+      <td style="text-align:left;">121</td>
+      <td style="text-align:left;">7.56e-31</td>
+      <td style="text-align:left;">7.46e-29</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">VQELYSPIFLIVAAIVFITLCFTLKRKIE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">HQELYSPLFLIVAALVFIILCFTIKRKTE</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">gb|QHR63305.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">93</td>
+      <td style="text-align:left;">121</td>
+      <td style="text-align:left;">2.11e-30</td>
+      <td style="text-align:left;">2.02e-28</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">VQELYSPIFLIIAAIVFITLCFTLKRKTE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|AVP78036.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">5.5e-30</td>
+      <td style="text-align:left;">5.08e-28</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIIFFLVLITLVTGELYHYQECIKGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">MKIILFLTLIALATCELYHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-2</td>
+      <td style="text-align:left;">gb|AVP78047.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">5.5e-30</td>
+      <td style="text-align:left;">5.08e-28</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">MKIIFFLVLITLVTGELYHYQECIKGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">pdb|1YO4|A</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">3</td>
+      <td style="text-align:left;">14</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">pdb|1XAK|A</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">5</td>
+      <td style="text-align:left;">16</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|QIG55950.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|QIQ54053.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|ATO98225.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|AGZ48838.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|QIA48619.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|ATO98237.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">sp|Q3LZX7.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|ARO76387.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|ACZ72114.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|ACU31037.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|ANA96033.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">ref|YP_009724395.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|AKZ19081.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">sp|Q3I5J0.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|AIA62335.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|ATO98187.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|AIA62315.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|ADE34760.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|ABD75319.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">sp|Q0Q470.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|QHR63305.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">ref|YP_009825057.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|AAT52336.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|AIA62295.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|AIA62283.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|AHX37563.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|ABI96964.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|ACZ72157.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|AFR58734.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|AFR58706.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|AFR58678.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|ASO66814.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|ADE34817.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">3.07e-16</td>
+      <td style="text-align:left;">3.63e-14</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|AIA62325.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">2.13e-14</td>
+      <td style="text-align:left;">2.45e-12</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECIRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|AAZ41334.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">5.49e-14</td>
+      <td style="text-align:left;">6.15e-12</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYRECVRGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|AVP78036.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">2.23e-12</td>
+      <td style="text-align:left;">2.37e-10</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECIKGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">YHYQECVRGTTV</td>
+      <td style="text-align:left;">MEME-5</td>
+      <td style="text-align:left;">gb|AVP78047.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">2.23e-12</td>
+      <td style="text-align:left;">2.37e-10</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">YHYQECIKGTTV</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|AAP82970.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">53</td>
+      <td style="text-align:left;">60</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">pdb|1YO4|A</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">69</td>
+      <td style="text-align:left;">76</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">pdb|1XAK|A</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">71</td>
+      <td style="text-align:left;">78</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|QIG55950.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|ATO98225.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|ADE34817.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">sp|Q3LZX7.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|AIA62335.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|AIA62315.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|QHR63305.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|ACZ72114.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|ACU31037.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">ref|YP_009724395.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|AAZ41334.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|QIA48619.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|AKZ19081.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|AIA62325.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|ATO98187.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|AFR58734.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|ADE34760.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|ARO76387.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|QIQ54053.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">sp|Q3I5J0.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">ref|YP_009825057.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|AAT52336.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|AIA62295.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|AGZ48838.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|AHX37563.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|ABI96964.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|ACZ72157.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|ATO98237.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.89e-10</td>
+      <td style="text-align:left;">2.67e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFIRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|ANA96033.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">4.62e-10</td>
+      <td style="text-align:left;">5.34e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFTRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|AVP78036.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">4.62e-10</td>
+      <td style="text-align:left;">5.34e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFTRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">sp|Q0Q470.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">4.62e-10</td>
+      <td style="text-align:left;">5.34e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFTRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|AIA62283.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">4.62e-10</td>
+      <td style="text-align:left;">5.34e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFTRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|ASO66814.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">4.62e-10</td>
+      <td style="text-align:left;">5.34e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFTRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|ABD75319.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">4.62e-10</td>
+      <td style="text-align:left;">5.34e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFTRQE</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">PKLFIRQE</td>
+      <td style="text-align:left;">MEME-4</td>
+      <td style="text-align:left;">gb|AVP78047.1|</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">84</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">4.62e-10</td>
+      <td style="text-align:left;">5.34e-08</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">PKLFTRQE</td>
+   </tr>
+</tbody>
+</table>
+
+<hr>
+<center><big><b><a name="debugging_information">DEBUGGING INFORMATION</a></b></big></center>
+<hr>
+<p>
+Command line:
+</p>
+<pre>
+fimo --bfile --motif-- -oc /opt/project/data/motif/ORF7a/fimo /opt/project/data/motif/ORF7a/meme/meme.txt /opt/project/data/homologue/ORF7a/MN908947.3_ORF7a.fasta
+</pre>
+<p>
+Settings:
+</p>
+<pre>
+<table>
+  <tr>
+    <td style="padding-right: 2em">output_directory = /opt/project/data/motif/ORF7a/fimo</td>
+    <td style="padding-left: 5em; padding-right: 2em">MEME file name = /opt/project/data/motif/ORF7a/meme/meme.txt</td>
+    <td style="padding-left: 5em; padding-right: 2em">sequence file name = /opt/project/data/homologue/ORF7a/MN908947.3_ORF7a.fasta</td>
+  </tr>  <tr>
+    <td style="padding-right: 2em">background file name = --motif--</td>
+    <td style="padding-left: 5em; padding-right: 2em">alphabet = Protein</td>
+    <td style="padding-left: 5em; padding-right: 2em">max stored scores = 100000</td>
+  </tr>  <tr>
+    <td style="padding-right: 2em">allow clobber = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">compute q-values = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">parse genomic coord. = false</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">text only = false</td>
+    <td style="padding-left: 5em; padding-right: 2em">scan both strands = false</td>
+    <td style="padding-left: 5em; padding-right: 2em">max strand = false</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">threshold type = p-value</td>
+    <td style="padding-left: 5em; padding-right: 2em">output theshold = 0.0001</td>
+    <td style="padding-left: 5em; padding-right: 2em">pseudocount = 0.1</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">alpha = 1</td>
+    <td style="padding-left: 5em; padding-right: 2em">verbosity = 2</td>
+    <td style="padding-left: 5em; padding-right: 2em"></td>
+  </tr>
+
+</table>
+</pre>
+<p>
+This information can be useful in the event you wish to report a
+problem with the FIMO software.
+</p>
+<hr>
+<span style="background-color: #DDDDFF"><a href="#top_buttons"><b>Go to top</b></a></span>
+</body>
+</html>

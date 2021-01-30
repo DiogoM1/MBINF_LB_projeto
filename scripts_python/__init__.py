@@ -42,4 +42,5 @@ __license__ = ""
 from .pubmed import *
 from .general import *
 from .genebank import *
+from .blast import *
 from .vcf_gff import *
