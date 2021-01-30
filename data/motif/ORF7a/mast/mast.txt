@@ -1,0 +1,830 @@
+********************************************************************************
+MAST - Motif Alignment and Search Tool
+********************************************************************************
+	MAST version 5.3.0 (Release date: Wed Nov 25 19:19:29 2020 -0800)
+
+	For further information on how to interpret these results please access http://meme-suite.org.
+	To get a copy of the MAST software please access http://meme-suite.org.
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+	If you use this program in your research, please cite:
+
+	Timothy L. Bailey and Michael Gribskov,
+	"Combining evidence using p-values: application to sequence homology
+	searches", Bioinformatics, 14(48-54), 1998.
+********************************************************************************
+
+
+********************************************************************************
+DATABASE AND MOTIFS
+********************************************************************************
+	DATABASE MN908947.3_ORF7a.fasta (peptide)
+	Last updated on Thu Jan 21 21:26:18 2021
+	Database contains 40 sequences, 4764 residues
+
+	MOTIFS meme.txt (peptide)
+	MOTIF ID                                                 ALT ID WIDTH BEST POSSIBLE MATCH
+	----- -------------------------------------------------- ------ ----- -------------------
+	    1 PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS MEME-1    50 PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS
+	    2 MKIILFLTLIALATCELYHYQECVRGTTV                      MEME-2    29 MKIILFLTLIVLASCELYHYQECVRGTTV
+	    3 HQELYSPLFLIVAALVFIILCFTIKRKTE                      MEME-3    29 HQELYSPLFLIVAALVFIILCWTIKRKTE
+	    4 PKLFIRQE                                           MEME-4     8 PKLFIRQE
+
+	PAIRWISE MOTIF CORRELATIONS:
+	MOTIF     1     2     3     4
+	----- ----- ----- ----- -----
+	   2   0.34
+	   3   0.29  0.30
+	   4   0.36  0.46  0.35
+	Correlations above 0.60 may cause some combined p-values and
+	E-values to be underestimates.
+	Removed motif 5 because they have correlation > 0.60
+	with the remaining motifs.
+
+	Random model letter frequencies (from --motif--):
+	A 0.075 C 0.048 D 0.017 E 0.066 F 0.078 G 0.033 H 0.034 I 0.063 K 0.050 
+	L 0.127 M 0.008 N 0.017 P 0.050 Q 0.038 R 0.049 S 0.058 T 0.091 V 0.055 
+	W 0.000 Y 0.042 
+********************************************************************************
+
+
+********************************************************************************
+SECTION I: HIGH-SCORING SEQUENCES
+********************************************************************************
+	- Each of the following 40 sequences has E-value less than 10.
+	- The E-value of a sequence is the expected number of sequences
+	  in a random database of the same size that would match the motifs as
+	  well as the sequence does and is equal to the combined p-value of the
+	  sequence times the number of sequences in the database.
+	- The combined p-value of a sequence measures the strength of the
+	  match of the sequence to all the motifs and is calculated by
+	    o finding the score of the single best match of each motif
+	      to the sequence (best matches may overlap),
+	    o calculating the sequence p-value of each score,
+	    o forming the product of the p-values,
+	    o taking the p-value of the product.
+	- The sequence p-value of a score is defined as the
+	  probability of a random sequence of the same length containing
+	  some match with as good or better a score.
+	- The score for the match of a position in a sequence to a motif
+	  is computed by by summing the appropriate entry from each column of
+	  the position-dependent scoring matrix that represents the motif.
+	- Sequences shorter than one or more of the motifs are skipped.
+	- The table is sorted by increasing E-value.
+********************************************************************************
+
+SEQUENCE NAME                      DESCRIPTION                   E-VALUE  LENGTH
+-------------                      -----------                   -------- ------
+gb|ACU31037.1|                                                   5.1e-126    122
+gb|ATO98237.1|                                                   5.1e-126    122
+sp|Q3LZX7.1|                                                     6.7e-125    122
+gb|AKZ19081.1|                                                   6.7e-125    122
+sp|Q3I5J0.1|                                                     8.1e-125    122
+gb|ATO98225.1|                                                   1.4e-124    122
+gb|ABD75319.1|                                                   1.6e-124    122
+gb|ATO98187.1|                                                     3e-124    122
+gb|ARO76387.1|                                                   3.4e-124    122
+gb|ADE34760.1|                                                   3.9e-124    122
+gb|AGZ48838.1|                                                   3.9e-124    122
+gb|ACZ72114.1|                                                   4.2e-124    122
+ref|YP_009825057.1|                                              4.2e-124    122
+gb|AIA62295.1|                                                   4.3e-124    122
+gb|ANA96033.1|                                                   4.8e-124    122
+gb|ADE34817.1|                                                   5.1e-124    122
+gb|AIA62335.1|                                                   5.3e-124    122
+gb|AIA62315.1|                                                   6.2e-124    122
+sp|Q0Q470.1|                                                     1.5e-123    122
+gb|AAZ41334.1|                                                   4.3e-123    122
+gb|AFR58706.1|                                                   8.9e-123    122
+gb|ACZ72157.1|                                                   1.3e-122    122
+gb|AAT52336.1|                                                   1.3e-122    122
+gb|ABI96964.1|                                                   2.1e-122    122
+gb|AFR58734.1|                                                   4.2e-122    122
+gb|AIA62325.1|                                                   4.3e-122    122
+gb|AIA62283.1|                                                     9e-122    122
+gb|AFR58678.1|                                                   4.6e-121    122
+gb|AHX37563.1|                                                   1.9e-120    122
+gb|ASO66814.1|                                                   2.4e-120    122
+ref|YP_009724395.1|                                              1.1e-115    121
+gb|QHR63305.1|                                                   2.8e-114    121
+gb|QIG55950.1|                                                   1.5e-113    121
+gb|QIQ54053.1|                                                   2.3e-112    121
+gb|QIA48619.1|                                                   5.3e-112    121
+gb|AVP78047.1|                                                   7.8e-111    121
+gb|AVP78036.1|                                                   4.9e-110    121
+gb|AAP82970.1|                                                    9.6e-92     91
+pdb|1XAK|A                                                        2.6e-63     82
+pdb|1YO4|A                                                        2.9e-63     84
+
+********************************************************************************
+
+
+
+********************************************************************************
+SECTION II: MOTIF DIAGRAMS
+********************************************************************************
+	- The ordering and spacing of all non-overlapping motif occurrences
+	  are shown for each high-scoring sequence listed in Section I.
+	- A motif occurrence is defined as a position in the sequence whose
+	  match to the motif has POSITION p-value less than 0.0001.
+	- The POSITION p-value of a match is the probability of
+	  a single random subsequence of the length of the motif
+	  scoring at least as well as the observed match.
+	- For each sequence, all motif occurrences are shown unless there
+	  are overlaps.  In that case, a motif occurrence is shown only if its
+	  p-value is less than the product of the p-values of the other
+	  (lower-numbered) motif occurrences that it overlaps.
+	- The table also shows the E-value of each sequence.
+	- Spacers and motif occurences are indicated by
+	   o -d-    `d' residues separate the end of the preceding motif 
+		    occurrence and the start of the following motif occurrence
+	   o [n]  occurrence of motif `n' with p-value less than 0.0001.
+********************************************************************************
+
+SEQUENCE NAME                      E-VALUE   MOTIF DIAGRAM
+-------------                      --------  -------------
+pdb|1XAK|A                          2.6e-63  20-[1]-[4]-4
+pdb|1YO4|A                          2.9e-63  18-[1]-[4]-8
+
+********************************************************************************
+
+
+
+********************************************************************************
+SECTION III: ANNOTATED SEQUENCES
+********************************************************************************
+	- The positions and p-values of the non-overlapping motif occurrences
+	  are shown above the actual sequence for each of the high-scoring
+	  sequences from Section I.
+	- A motif occurrence is defined as a position in the sequence whose
+	  match to the motif has POSITION p-value less than 0.0001 as 
+	  defined in Section II.
+	- For each sequence, the first line specifies the name of the sequence.
+	- The second (and possibly more) lines give a description of the 
+	  sequence.
+	- Following the description line(s) is a line giving the length, 
+	  combined p-value, and E-value of the sequence as defined in Section I.
+	- The next line reproduces the motif diagram from Section II.
+	- The entire sequence is printed on the following lines.
+	- Motif occurrences are indicated directly above their positions in the
+	  sequence on lines showing
+	   o the motif number of the occurrence,
+	   o the position p-value of the occurrence,
+	   o the best possible match to the motif, and
+	   o columns whose match to the motif has a positive score (indicated 
+	     by a plus sign).
+********************************************************************************
+
+
+gb|ACU31037.1|
+  LENGTH = 122  COMBINED P-VALUE = 1.28e-127  E-VALUE = 5.1e-126
+
+     [2]                              [1]
+     2.1e-35                          6.3e-64
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   1.4e-34
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+gb|ATO98237.1|
+  LENGTH = 122  COMBINED P-VALUE = 1.28e-127  E-VALUE = 5.1e-126
+
+     [2]                              [1]
+     2.1e-35                          6.3e-64
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALASCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   1.4e-34
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+sp|Q3LZX7.1|
+  LENGTH = 122  COMBINED P-VALUE = 1.68e-126  E-VALUE = 6.7e-125
+
+     [2]                              [1]
+     3.6e-35                          1.5e-63
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALATCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   4.7e-34
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVYQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+gb|AKZ19081.1|
+  LENGTH = 122  COMBINED P-VALUE = 1.68e-126  E-VALUE = 6.7e-125
+
+     [2]                              [1]
+     2.1e-35                          6.3e-64
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIVLATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   1.9e-33
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRKTE
+
+
+sp|Q3I5J0.1|
+  LENGTH = 122  COMBINED P-VALUE = 2.03e-126  E-VALUE = 8.1e-125
+
+     [2]                              [1]
+     2.1e-35                          6.3e-64
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   2.3e-33
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFITLCFTIKRKTE
+
+
+gb|ATO98225.1|
+  LENGTH = 122  COMBINED P-VALUE = 3.45e-126  E-VALUE = 1.4e-124
+
+     [2]                              [1]
+     2.1e-35                          1.8e-62
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++ +++++++++++++
+1    MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTRFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   1.4e-34
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+gb|ABD75319.1|
+  LENGTH = 122  COMBINED P-VALUE = 4.07e-126  E-VALUE = 1.6e-124
+
+     [2]                              [1]
+     3.6e-35                          1.5e-63
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTY
+
+             [4]       [3]
+             4.6e-10   4.7e-34
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFTRQEKVYQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+gb|ATO98187.1|
+  LENGTH = 122  COMBINED P-VALUE = 7.44e-126  E-VALUE =   3e-124
+
+     [2]                              [1]
+     2.1e-35                          6.3e-64
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   8.4e-33
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++ +++++++++++++++
+76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAVLVFIILCFTIKRKTE
+
+
+gb|ARO76387.1|
+  LENGTH = 122  COMBINED P-VALUE = 8.38e-126  E-VALUE = 3.4e-124
+
+     [2]                              [1]
+     5.4e-36                          1.3e-62
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIVLASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTKHTY
+
+             [4]       [3]
+             1.9e-10   1.9e-33
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRKTE
+
+
+gb|ADE34760.1|
+  LENGTH = 122  COMBINED P-VALUE = 9.82e-126  E-VALUE = 3.9e-124
+
+     [2]                              [1]
+     7.3e-34                          1.5e-63
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLVALTTCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   1.4e-34
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEDVHQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+gb|AGZ48838.1|
+  LENGTH = 122  COMBINED P-VALUE = 9.83e-126  E-VALUE = 3.9e-124
+
+     [2]                              [1]
+     2.1e-35                          5.1e-62
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++ +++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCLSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   1.4e-34
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+gb|ACZ72114.1|
+  LENGTH = 122  COMBINED P-VALUE = 1.06e-125  E-VALUE = 4.2e-124
+
+     [2]                              [1]
+     1.4e-34                          6.3e-64
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   1.9e-33
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRKTE
+
+
+ref|YP_009825057.1|
+  LENGTH = 122  COMBINED P-VALUE = 1.06e-125  E-VALUE = 4.2e-124
+
+     [2]                              [1]
+     1.4e-34                          6.3e-64
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   1.9e-33
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRKTE
+
+
+gb|AIA62295.1|
+  LENGTH = 122  COMBINED P-VALUE = 1.08e-125  E-VALUE = 4.3e-124
+
+     [2]                              [1]
+     5.6e-34                          6.3e-64
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     ++++ ++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIIPFLTLIVLATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   4.7e-34
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEKVYQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+gb|ANA96033.1|
+  LENGTH = 122  COMBINED P-VALUE = 1.20e-125  E-VALUE = 4.8e-124
+
+     [2]                              [1]
+     2.1e-35                          1.5e-63
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIVLATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTY
+
+             [4]       [3]
+             4.6e-10   2.4e-33
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFTRQEKVYQELYSPLFLIVAALVFIILCFTIKRKIE
+
+
+gb|ADE34817.1|
+  LENGTH = 122  COMBINED P-VALUE = 1.26e-125  E-VALUE = 5.1e-124
+
+     [2]                              [1]
+     2.8e-34                          1.5e-63
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLILIALATCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   4.7e-34
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVYQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+gb|AIA62335.1|
+  LENGTH = 122  COMBINED P-VALUE = 1.32e-125  E-VALUE = 5.3e-124
+
+     [2]                              [1]
+     2.1e-35                          1.8e-62
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++ +++++++++++++
+1    MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTRFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   5.4e-34
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAAIVFIILCFTIKRKTE
+
+
+gb|AIA62315.1|
+  LENGTH = 122  COMBINED P-VALUE = 1.54e-125  E-VALUE = 6.2e-124
+
+     [2]                              [1]
+     1.1e-33                          1.5e-63
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     ++++++++++++++ ++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALASSELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   1.4e-34
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+sp|Q0Q470.1|
+  LENGTH = 122  COMBINED P-VALUE = 3.73e-125  E-VALUE = 1.5e-123
+
+     [2]                              [1]
+     1.1e-33                          1.5e-63
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     ++++++++++++++ ++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALASSELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTY
+
+             [4]       [3]
+             4.6e-10   1.4e-34
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFTRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+gb|AAZ41334.1|
+  LENGTH = 122  COMBINED P-VALUE = 1.07e-124  E-VALUE = 4.3e-123
+
+     [2]                              [1]
+     2.4e-33                          1.5e-63
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     ++++++++++++++++++++ ++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALATCELYHYRECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   4.7e-34
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVYQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+gb|AFR58706.1|
+  LENGTH = 122  COMBINED P-VALUE = 2.23e-124  E-VALUE = 8.9e-123
+
+     [2]                              [1]
+     1.4e-34                          6.3e-64
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+
+             [4]       [3]
+             4.1e-09   1.9e-33
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++ +++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSXKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRKTE
+
+
+gb|ACZ72157.1|
+  LENGTH = 122  COMBINED P-VALUE = 3.14e-124  E-VALUE = 1.3e-122
+
+     [2]                              [1]
+     4.2e-33                          6.3e-64
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++ +++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKISLFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   1.9e-33
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRKTE
+
+
+gb|AAT52336.1|
+  LENGTH = 122  COMBINED P-VALUE = 3.15e-124  E-VALUE = 1.3e-122
+
+     [2]                              [1]
+     1.4e-34                          6.3e-64
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   5.8e-32
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++   ++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVXQELYSPLFLIVAALVFLILCFTIKRKTE
+
+
+gb|ABI96964.1|
+  LENGTH = 122  COMBINED P-VALUE = 5.35e-124  E-VALUE = 2.1e-122
+
+     [2]                              [1]
+     1.4e-34                          3.3e-62
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++ +++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSATYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   1.9e-33
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRKTE
+
+
+gb|AFR58734.1|
+  LENGTH = 122  COMBINED P-VALUE = 1.05e-123  E-VALUE = 4.2e-122
+
+     [2]                              [1]
+     1.4e-34                          6.3e-64
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   2.0e-31
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++ +++++++
+76   QLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCXTIKRKTE
+
+
+gb|AIA62325.1|
+  LENGTH = 122  COMBINED P-VALUE = 1.07e-123  E-VALUE = 4.3e-122
+
+     [2]                              [1]
+     2.4e-33                          5.1e-62
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++ +++++++++++++
+1    MKIILFLTLVALATCELYHYQECIRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSSTYFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   1.4e-34
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEDVHQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+gb|AIA62283.1|
+  LENGTH = 122  COMBINED P-VALUE = 2.25e-123  E-VALUE =   9e-122
+
+     [2]                              [1]
+     4.2e-33                          1.5e-63
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++ +++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILLLILIVLATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTY
+
+             [4]       [3]
+             4.6e-10   2.4e-33
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFTRQEKVYQELYSPLFLIVAALVFIILCFTIKRKIE
+
+
+gb|AFR58678.1|
+  LENGTH = 122  COMBINED P-VALUE = 1.14e-122  E-VALUE = 4.6e-121
+
+     [2]                              [1]
+     1.4e-34                          2.0e-61
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++ +++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSXTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+
+             [4]       [3]
+             7.1e-10   1.9e-33
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++ +++  +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFXRQEEVQQELYSPLFLIVAALVFLILCFTIKRKTE
+
+
+gb|AHX37563.1|
+  LENGTH = 122  COMBINED P-VALUE = 4.64e-122  E-VALUE = 1.9e-120
+
+     [2]                              [1]
+     5.0e-34                          6.3e-64
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLVVLTTCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+
+             [4]       [3]
+             1.9e-10   2.4e-30
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  +++++++++++++++++ ++++++++  +
+76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFTILCFTIKRNSE
+
+
+gb|ASO66814.1|
+  LENGTH = 122  COMBINED P-VALUE = 5.94e-122  E-VALUE = 2.4e-120
+
+     [2]                              [1]
+     3.0e-33                          1.5e-63
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     ++++++ ++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFSILIVLATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTY
+
+             [4]       [3]
+             4.6e-10   9.1e-32
+     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++  ++++++++++++ ++++++++++++++++
+76   QLRARSVSPKLFTRQEKVYQELYSPLFLIVIALVFIILCFTIKRKIE
+
+
+ref|YP_009724395.1|
+  LENGTH = 121  COMBINED P-VALUE = 2.84e-117  E-VALUE = 1.1e-115
+
+     [2]                              [1]
+     7.3e-34                          7.6e-59
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLALITLATCELYHYQECVRGTTVLLKEPCSSGTYEGNSPFHPLADNKFALTCFSTQFAFACPDGVKHVY
+
+             [4]      [3]
+             1.9e-10  1.0e-30
+     QLRARSVSPKLFIRQE HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++ +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVQELYSPIFLIVAAIVFITLCFTLKRKTE
+
+
+gb|QHR63305.1|
+  LENGTH = 121  COMBINED P-VALUE = 7.12e-116  E-VALUE = 2.8e-114
+
+     [2]                              [1]
+     2.4e-33                          7.6e-59
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLVLVTLATCELYHYQECVRGTTVLLKEPCSSGTYEGNSPFHPLADNKFALTCFSTQFAFACPDGVKHVY
+
+             [4]      [3]
+             1.9e-10  7.8e-30
+     QLRARSVSPKLFIRQE HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++ +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVQELYSPIFLIIAAIVFITLCFTLKRKTE
+
+
+gb|QIG55950.1|
+  LENGTH = 121  COMBINED P-VALUE = 3.84e-115  E-VALUE = 1.5e-113
+
+     [2]                              [1]
+     7.3e-34                          2.9e-57
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++ +
+1    MKIILFLALITLATCELYHYQECVRGTTVLLKEPCSSGTYEGNSPFHPLADNKFALTCFSTQFAFACPDGVKHIY
+
+             [4]      [3]
+             1.9e-10  3.7e-30
+     QLRARSVSPKLFIRQE HQELYSPLFLIVAALVFIILCWTIKRKTE
+     +++++ ++++++++++ +++++++++++++++++++++++++++++
+76   QLRARAVSPKLFIRQEEVQELYSPIFLIVAAIVFITLCFTLKRKIE
+
+
+gb|QIQ54053.1|
+  LENGTH = 121  COMBINED P-VALUE = 5.87e-114  E-VALUE = 2.3e-112
+
+     [2]                              [1]
+     5.3e-31                          3.1e-58
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++ +++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILLLALVTFATCERYHYQECVRGTTVLIKEPCSSGTYEGNSPFHPLADNKFALACTSQQFAFACPDGTKHTF
+
+             [4]      [3]
+             1.9e-10  7.6e-31
+     QLRARSVSPKLFIRQE HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++ +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVQELYSPLFLIIAALVFITLCFTLKRKTE
+
+
+gb|QIA48619.1|
+  LENGTH = 121  COMBINED P-VALUE = 1.33e-113  E-VALUE = 5.3e-112
+
+     [2]                              [1]
+     5.3e-31                          7.0e-58
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++ +++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIILLLALVTFATCERYHYQECVRGTTVLIKEPCSSGTYEGNSPFHPLADNKFALACSSQQFAFACPDGTKHTF
+
+             [4]      [3]
+             1.9e-10  7.6e-31
+     QLRARSVSPKLFIRQE HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++ +++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVQELYSPLFLIIAALVFITLCFTLKRKTE
+
+
+gb|AVP78047.1|
+  LENGTH = 121  COMBINED P-VALUE = 1.94e-112  E-VALUE = 7.8e-111
+
+     [2]                              [1]
+     7.1e-29                          2.2e-59
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     ++++ +++++++++++++++++++ ++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIIFFLVLITLVTGELYHYQECIKGTTVLLKEPCSSGTYEGNSPFHPLADNKFALTCFSTQFAFACPDGVRHTF
+
+             [4]      [3]
+             4.6e-10  1.1e-30
+     QLRARSVSPKLFIRQE HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++ +++++++ +++++++++++++++ +++++
+76   QLRARSVSPKLFTRQEEVQELYSPVFLIVAAIVFIILCFTFKRKIE
+
+
+gb|AVP78036.1|
+  LENGTH = 121  COMBINED P-VALUE = 1.24e-111  E-VALUE = 4.9e-110
+
+     [2]                              [1]
+     7.1e-29                          1.5e-58
+     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     ++++ +++++++++++++++++++ ++++    ++++++++++++++++++++++++++++++++++++++++++
+1    MKIIFFLVLITLVTGELYHYQECIKGTTVLLKEPCSSGTYEGNSPFHPLADNKFALACFSTQFAFACPDGVRHTF
+
+             [4]      [3]
+             4.6e-10  1.1e-30
+     QLRARSVSPKLFIRQE HQELYSPLFLIVAALVFIILCWTIKRKTE
+     ++++++++++++++++ +++++++ +++++++++++++++ +++++
+76   QLRARSVSPKLFTRQEEVQELYSPVFLIVAAIVFIILCFTFKRKIE
+
+
+gb|AAP82970.1|
+  LENGTH = 91  COMBINED P-VALUE = 2.39e-93  E-VALUE =  9.6e-92
+
+       [1]                                               [4]       [3]
+       3.3e-62                                           1.9e-10   1.9e-33
+       PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVSPKLFIRQE  HQELYSPLFLIVA
+       ++++ +++++++++++++++++++++++++++++++++++++++++++++++++++++  +++++++++++++
+1    KEPCPSATYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVSPKLFIRQEEVQQELYSPLFLIVA
+
+     
+     
+     ALVFIILCWTIKRKTE
+     ++++++++++++++++
+76   ALVFLILCFTIKRKTE
+
+
+pdb|1XAK|A
+  LENGTH = 82  COMBINED P-VALUE = 6.38e-65  E-VALUE =  2.6e-63
+  DIAGRAM: 20-[1]-[4]-4
+
+                         [1]                                               [4]
+                         6.3e-64                                           1.9e-
+                         PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVSPKLFI
+                         +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    SCELYHYQECVRGTTVILKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVSPKLFI
+
+     
+     10
+     RQE
+     +++
+76   RQEEVQQ
+
+
+pdb|1YO4|A
+  LENGTH = 84  COMBINED P-VALUE = 7.25e-65  E-VALUE =  2.9e-63
+  DIAGRAM: 18-[1]-[4]-8
+
+                       [1]                                               [4]
+                       6.3e-64                                           1.9e-10
+                       PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVSPKLFIRQ
+                       +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    ELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVSPKLFIRQ
+
+     
+     
+     E
+     +
+76   EEVQQELYS
+
+********************************************************************************
+
+
+CPU: 880a13490bda
+Time 0.052 secs.
+
+mast -bfile --motif-- -remcorr -oc /opt/project/data/motif/ORF7a/mast /opt/project/data/motif/ORF7a/meme/meme.txt /opt/project/data/homologue/ORF7a/MN908947.3_ORF7a.fasta
