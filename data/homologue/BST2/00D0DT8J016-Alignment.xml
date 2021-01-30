@@ -1,0 +1,2841 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.11.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_22325</BlastOutput_query-ID>
+  <BlastOutput_query-def>sp|Q10589|BST2_HUMAN Bone marrow stromal antigen 2 OS=Homo sapiens OX=9606 GN=BST2 PE=1 SV=1</BlastOutput_query-def>
+  <BlastOutput_query-len>180</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.05</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_22325</Iteration_query-ID>
+  <Iteration_query-def>sp|Q10589|BST2_HUMAN Bone marrow stromal antigen 2 OS=Homo sapiens OX=9606 GN=BST2 PE=1 SV=1</Iteration_query-def>
+  <Iteration_query-len>180</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|NP_004326.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 precursor [Homo sapiens] &gt;sp|Q10589.1| RecName: Full=Bone marrow stromal antigen 2; Short=BST-2; AltName: Full=HM1.24 antigen; AltName: Full=Tetherin; AltName: CD_antigen=CD317; Flags: Precursor [Homo sapiens] &gt;gb|AIC48373.1| BST2, partial [synthetic construct] &gt;emb|SJX34382.1| unnamed protein product, partial [Human ORFeome Gateway entry vector] &gt;gb|AAH33873.1| Bone marrow stromal cell antigen 2 [Homo sapiens] &gt;gb|AWF73545.1| bone marrow stromal antigen 2 [Homo sapiens] &gt;gb|EAW84602.1| bone marrow stromal cell antigen 2, isoform CRA_a [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_004326</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.925</Hsp_bit-score>
+      <Hsp_score>938</Hsp_score>
+      <Hsp_evalue>1.01137e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMEDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAPQLLIVLLGLSALLQ</Hsp_qseq>
+      <Hsp_hseq>MASTSYDYCRVPMEDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAPQLLIVLLGLSALLQ</Hsp_hseq>
+      <Hsp_midline>MASTSYDYCRVPMEDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAPQLLIVLLGLSALLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>dbj|BAD96844.1|</Hit_id>
+  <Hit_def>bone marrow stromal cell antigen 2 variant, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>BAD96844</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.999</Hsp_bit-score>
+      <Hsp_score>933</Hsp_score>
+      <Hsp_evalue>5.91878e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMEDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAPQLLIVLLGLSALLQ</Hsp_qseq>
+      <Hsp_hseq>MASTSYDYCRVPMEDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRREDQVLSVRIADKKYYPSSQDSSSAAAPQLLIVLLGLSALLQ</Hsp_hseq>
+      <Hsp_midline>MASTSYDYCRVPMEDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRE+QVLSVRIADKKYYPSSQDSSSAAAPQLLIVLLGLSALLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|NP_001266147.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Pan paniscus] &gt;ref|XP_008969207.2| bone marrow stromal antigen 2 isoform X1 [Pan paniscus] &gt;gb|ADI58595.1| bone marrow stromal cell antigen 2 [Pan paniscus]</Hit_def>
+  <Hit_accession>NP_001266147</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.443</Hsp_bit-score>
+      <Hsp_score>903</Hsp_score>
+      <Hsp_evalue>2.625e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMED-----GDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAPQLLIVLLGLSALLQ</Hsp_qseq>
+      <Hsp_hseq>MASTLYDYCRVPMDDIWKKDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEEEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAPQLLIVLLGLSALLQ</Hsp_hseq>
+      <Hsp_midline>MAST YDYCRVPM+D     GDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELE EITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAPQLLIVLLGLSALLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_018869871.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 isoform X1 [Gorilla gorilla gorilla] &gt;gb|ACX46128.1| tetherin [Gorilla gorilla]</Hit_def>
+  <Hit_accession>XP_018869871</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.058</Hsp_bit-score>
+      <Hsp_score>902</Hsp_score>
+      <Hsp_evalue>3.93948e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPME-----DGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAPQLLIVLLGLSALLQ</Hsp_qseq>
+      <Hsp_hseq>MASTLYDYCRVPMDAILKKDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADTKYYPSSQDSSSAAAPQLLFVLLGLSALLQ</Hsp_hseq>
+      <Hsp_midline>MAST YDYCRVPM+     DGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIAD KYYPSSQDSSSAAAPQLL VLLGLSALLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|NP_001266560.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Gorilla gorilla] &gt;gb|ADI58594.1| bone marrow stromal cell antigen 2 [Gorilla gorilla]</Hit_def>
+  <Hit_accession>NP_001266560</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.362</Hsp_bit-score>
+      <Hsp_score>895</Hsp_score>
+      <Hsp_evalue>4.75446e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPME-----DGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAPQLLIVLLGLSALLQ</Hsp_qseq>
+      <Hsp_hseq>MASTLYDYCRVPMDAILKKDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADTKYYPSSQDSSSAAAPQLLFVLLGLSALPQ</Hsp_hseq>
+      <Hsp_midline>MAST YDYCRVPM+     DGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIAD KYYPSSQDSSSAAAPQLL VLLGLSAL Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|NP_001177409.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Pan troglodytes] &gt;ref|XP_009433231.1| bone marrow stromal antigen 2 isoform X1 [Pan troglodytes] &gt;gb|ADI58593.1| bone marrow stromal cell antigen 2 [Pan troglodytes] &gt;gb|PNI50631.1| BST2 isoform 1 [Pan troglodytes]</Hit_def>
+  <Hit_accession>NP_001177409</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.206</Hsp_bit-score>
+      <Hsp_score>892</Hsp_score>
+      <Hsp_evalue>1.50459e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMED-----GDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAPQLLIVLLGLSALLQ</Hsp_qseq>
+      <Hsp_hseq>MASTLYDYCRVPMDDIWKKDGDKRCKLLLGIGILMLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEEEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYSSSQDSSSAAAPQLLIVLLGLSALLQ</Hsp_hseq>
+      <Hsp_midline>MAST YDYCRVPM+D     GDKRCKLLLGIGIL+LLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELE EITTLNHKLQDASAEVERLRRENQVLSVRIADKKYY SSQDSSSAAAPQLLIVLLGLSALLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|ADI58596.1|</Hit_id>
+  <Hit_def>bone marrow stromal cell antigen 2 [Pongo pygmaeus]</Hit_def>
+  <Hit_accession>ADI58596</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>2.23023e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAPQLLIVLLGLSALL</Hsp_qseq>
+      <Hsp_hseq>MASTLYDYCRVPMGDICKKDGDKRCKLLLGIGILVLLITVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDTEAQVTTCNQTVMALMASLDAEKAQGQKKVEELEGEITILNHKLQDASAEVERLRRENQVLSVRIADKKYSASSQDSSSAAAPQLLILLLGPSALL</Hsp_hseq>
+      <Hsp_midline>MAST YDYCRVPM     +DGDKRCKLLLGIGILVLLI VILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQD EAQ  TCN TVMALMASLDAEKAQGQKKVEELEGEIT LNHKLQDASAEVERLRRENQVLSVRIADKKY  SSQDSSSAAAPQLLI+LLG SALL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|NP_001295602.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Nomascus leucogenys] &gt;gb|ADI58597.1| bone marrow stromal cell antigen 2 [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>NP_001295602</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.182</Hsp_bit-score>
+      <Hsp_score>718</Hsp_score>
+      <Hsp_evalue>4.75784e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMED-----GDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAPQL</Hsp_qseq>
+      <Hsp_hseq>MAPTLYDYCRGPMDDIWKKDGDKRCKLLLGIGILVLLIIVSLGVPLIIFTIKANSEACQDGLRAVMECRNVTHLLQQELTEAQKGFQDAEAQAATCNQTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYSASSQDSSPAAAPQI</Hsp_hseq>
+      <Hsp_midline>MA T YDYCR PM+D     GDKRCKLLLGIGILVLLIIV LGVPLIIFTIKANSEAC+DGLRAVMECRNVTHLLQQELTEAQKGFQD EAQAATCN TVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKY  SSQDSS AAAPQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>dbj|BAG64608.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>BAG64608</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>2.17365e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMEDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSS</Hsp_qseq>
+      <Hsp_hseq>MASTSYDYCRVPMEDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKADSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLGRENQVLSVRIADKKYYPSSHFPST</Hsp_hseq>
+      <Hsp_midline>MASTSYDYCRVPMEDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKA+SEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERL RENQVLSVRIADKKYYPSS   S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|NP_001166058.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Pongo abelii] &gt;ref|XP_024092169.1| bone marrow stromal antigen 2 isoform X1 [Pongo abelii] &gt;gb|ACU52729.1| tetherin [Pongo abelii] &gt;gb|PNJ28583.1| BST2 isoform 1 [Pongo abelii]</Hit_def>
+  <Hit_accession>NP_001166058</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.544</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>2.88075e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAPQ</Hsp_qseq>
+      <Hsp_hseq>MASTLYDYCRVPMGDICKKDGDKRCKLLLGIGILVLLITVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDTEAQVTTCNQTVMALMASLDAEKAQGQKKVEELEGEITILNHKLQDASAEVERLRRENQVLSVRIADKKYSASSQDSSSAAAPQ</Hsp_hseq>
+      <Hsp_midline>MAST YDYCRVPM     +DGDKRCKLLLGIGILVLLI VILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQD EAQ  TCN TVMALMASLDAEKAQGQKKVEELEGEIT LNHKLQDASAEVERLRRENQVLSVRIADKKY  SSQDSSSAAAPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|ADI58598.1|</Hit_id>
+  <Hit_def>bone marrow stromal cell antigen 2 [Hylobates agilis]</Hit_def>
+  <Hit_accession>ADI58598</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.544</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>2.88398e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPME-----DGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAPQL</Hsp_qseq>
+      <Hsp_hseq>MAPTLYDYCRVPMDGIWKKDGDKRCKLLLGIGILVLLIIVSLGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDAEAQAATCNQTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYSASSQDSSSAAAPQI</Hsp_hseq>
+      <Hsp_midline>MA T YDYCRVPM+     DGDKRCKLLLGIGILVLLIIV LGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQD EAQAATCN TVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKY  SSQDSSSAAAPQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_030675274.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 isoform X1 [Nomascus leucogenys] &gt;ref|XP_032025980.1| bone marrow stromal antigen 2 [Hylobates moloch]</Hit_def>
+  <Hit_accession>XP_030675274</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.544</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>3.51274e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMED-----GDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAPQL</Hsp_qseq>
+      <Hsp_hseq>MAPTLYDYCRVPMDDIWKKDGDKRCKLLLGIGILVLLIIVSLGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDAEAQAATCNQTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYSASSQDSSSAAAPQI</Hsp_hseq>
+      <Hsp_midline>MA T YDYCRVPM+D     GDKRCKLLLGIGILVLLIIV LGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQD EAQAATCN TVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKY  SSQDSSSAAAPQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_010359750.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Rhinopithecus roxellana] &gt;ref|XP_017735004.1| PREDICTED: bone marrow stromal antigen 2 [Rhinopithecus bieti]</Hit_def>
+  <Hit_accession>XP_010359750</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.84</Hsp_bit-score>
+      <Hsp_score>660</Hsp_score>
+      <Hsp_evalue>2.85955e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMDDIWKEDGDKRCKLV--VGILGLLVIVILGVLLIFFIIKANSEACQDGLRAVMECRNVTYLLQEELTEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLSVRIADTD-SASSQNSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL+  +GIL LL+IVILGV LI F IKANSEAC+DGLRAVMECRNVT+LLQ+ELTEAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VLSVRIAD     SSQ+SS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|ADI58599.1|</Hit_id>
+  <Hit_def>bone marrow stromal cell antigen 2 [Erythrocebus patas]</Hit_def>
+  <Hit_accession>ADI58599</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>8.44149e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMDDICKEDGDKCCKL--AVGILGLLVIVLMGVPLIFFIIKASSEACQDGLRAAMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENQVLNVRIADTN-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDK CKL   +GIL LL+IV++GVPLI F IKA+SEAC+DGLRA MECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRRENQVL+VRIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|ADI58604.1|</Hit_id>
+  <Hit_def>bone marrow stromal cell antigen 2 [Pygathrix nemaeus]</Hit_def>
+  <Hit_accession>ADI58604</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>8.72351e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMDDIWKEDGDKRCKLV--VGILGLLVIVILGVLLIFFIIKANSEACQDGLRAVMECRNVTYLLQEELTEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLSGRVADTD-SASSQNSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL+  +GIL LL+IVILGV LI F IKANSEAC+DGLRAVMECRNVT+LLQ+ELTEAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VLS R+AD     SSQ+SS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_023085479.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Piliocolobus tephrosceles]</Hit_def>
+  <Hit_accession>XP_023085479</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.292</Hsp_bit-score>
+      <Hsp_score>643</Hsp_score>
+      <Hsp_evalue>9.81849e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAA</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMSMGDIWEEDGDKRCKLV--VGILGFLVIVLLGVPLIFFIIKANSEACQDGLRAVMECRNVTYLLQEELTEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLSVRIPDTD-SASSQDSSCEA</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++ M     EDGDKRCKL+  +GIL  L+IV+LGVPLI F IKANSEAC+DGLRAVMECRNVT+LLQ+ELTEAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VLSVRI D     SSQDSS  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_033055920.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Trachypithecus francoisi] &gt;gb|ADI58605.1| bone marrow stromal cell antigen 2 [Trachypithecus francoisi]</Hit_def>
+  <Hit_accession>XP_033055920</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>1.4725e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAA</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMDDNLKEDGDKCCKLV--VGILGLLVIVILGVLLTFFIIKANSEACQDGLRAVMECRNVTYLLQEELTEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLSVRIADTD-SASSQDSSCAA</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDK CKL+  +GIL LL+IVILGV L  F IKANSEAC+DGLRAVMECRNVT+LLQ+ELTEAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VLSVRIAD     SSQDSS AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|ADI58601.1|</Hit_id>
+  <Hit_def>bone marrow stromal cell antigen 2 [Miopithecus talapoin]</Hit_def>
+  <Hit_accession>ADI58601</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>1.67934e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILCDYCKMLMDDIWKEDGDKHCKLV--VGILGVLVIVLLGVPLIFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENQVLNVRIADTN-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA    DYC++ M     EDGDK CKL+  +GIL +L+IV+LGVPLI F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRRENQVL+VRIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>dbj|BAT21109.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Allochrocebus solatus]</Hit_def>
+  <Hit_accession>BAT21109</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.514</Hsp_bit-score>
+      <Hsp_score>628</Hsp_score>
+      <Hsp_evalue>2.58929e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMBDXXKEDGDKXCKLV--VGILGLLVIVLXGVXLIFFIIKANSXACQDGLRAXMECHNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVVALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENQVLNVRIADTN-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDK CKL+  +GIL LL+IV+ GV LI F IKANS AC+DGLRA MEC NVT+LLQQEL EAQ+GF+D EAQA TCN TV+ALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRRENQVL+VRIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|ACX46127.1|</Hit_id>
+  <Hit_def>tetherin [Cercopithecus cephus]</Hit_def>
+  <Hit_accession>ACX46127</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.743</Hsp_bit-score>
+      <Hsp_score>626</Hsp_score>
+      <Hsp_evalue>4.14368e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKIPMGDSCKEDGDKRCKLV--VGILGFLVIV-LGVLLIFFIIKANSEACQDGLRAAMECHNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMTLMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENQVLNVRIADTN-SASPQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL+  +GIL  L+IV LGV LI F IKANSEAC+DGLRA MEC NVT+LLQQEL EAQ+GF+D EAQA TCN TVM LMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRRENQVL+VRIAD     S QDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>dbj|BAT21107.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Cercopithecus albogularis]</Hit_def>
+  <Hit_accession>BAT21107</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.588</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>1.22531e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKIPMGDIPKEDGDKRCKLV--VGILGFLVIV-LGVLLIFFIIKANSEACQDGLRAAMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVVXLMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENQVLNVRIANTN-SASPQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL+  +GIL  L+IV LGV LI F IKANSEAC+DGLRA MECRNVT+LLQQEL EAQ+GF+D EAQA TCN TV+ LMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRRENQVL+VRIA+     S QDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>dbj|BAT21108.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Cercopithecus albogularis]</Hit_def>
+  <Hit_accession>BAT21108</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.588</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>1.2388e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKIPMGDIPKEDGDKRCKLV--VGILGFLVIV-LGVLLIFFIIKANSEACQDGLRAAMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVVTLMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENQVLNVRIANTN-SASPQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL+  +GIL  L+IV LGV LI F IKANSEAC+DGLRA MECRNVT+LLQQEL EAQ+GF+D EAQA TCN TV+ LMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRRENQVL+VRIA+     S QDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|3MQB|A</Hit_id>
+  <Hit_def>Crystal Structure of Ectodomain of BST-2/Tetherin/CD317 (C2) [Homo sapiens] &gt;pdb|3MQB|B Crystal Structure of Ectodomain of BST-2/Tetherin/CD317 (C2) [Homo sapiens] &gt;pdb|3MQB|E Crystal Structure of Ectodomain of BST-2/Tetherin/CD317 (C2) [Homo sapiens] &gt;pdb|3MQB|F Crystal Structure of Ectodomain of BST-2/Tetherin/CD317 (C2) [Homo sapiens]</Hit_def>
+  <Hit_accession>3MQB_A</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.498</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>2.23027e-77</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSS</Hsp_qseq>
+      <Hsp_hseq>KANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSS</Hsp_hseq>
+      <Hsp_midline>KANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>emb|CCG14707.1|</Hit_id>
+  <Hit_def>bone marrow stromal cell antigen 2 [Cercopithecus neglectus]</Hit_def>
+  <Hit_accession>CCG14707</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.958</Hsp_bit-score>
+      <Hsp_score>598</Hsp_score>
+      <Hsp_evalue>8.34152e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMGDSWKEDGDKRCKL--AVGILGLLVIVLLGVPLIFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQSVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENQVLNVRIADTNSA-SPQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL   +GIL LL+IV+LGVPLI F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN +VMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRRENQVL+VRIAD     S QDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|XP_007993912.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Chlorocebus sabaeus]</Hit_def>
+  <Hit_accession>XP_007993912</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.187</Hsp_bit-score>
+      <Hsp_score>596</Hsp_score>
+      <Hsp_evalue>1.49014e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMDDTCKEDGDKCCKL--AVGILGLLVIVLLGVPLIFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENQVLNVRIADTN-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDK CKL   +GIL LL+IV+LGVPLI F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRRENQVL+VRIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>dbj|BAT21100.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Cercopithecus campbelli]</Hit_def>
+  <Hit_accession>BAT21100</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.876</Hsp_bit-score>
+      <Hsp_score>590</Hsp_score>
+      <Hsp_evalue>1.34525e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKIPMGDIPKEDRDKRCKL--AVGILGLLVIVLLGVPLIFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVVALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENQVLNVRIADTNSA-SPQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     ED DKRCKL   +GIL LL+IV+LGVPLI F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TV+ALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRRENQVL+VRIAD     S QDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|ACX46125.1|</Hit_id>
+  <Hit_def>tetherin [Cercopithecus nictitans]</Hit_def>
+  <Hit_accession>ACX46125</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.876</Hsp_bit-score>
+      <Hsp_score>590</Hsp_score>
+      <Hsp_evalue>1.43657e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKIPMGDIPKEDGDKRCKL--AVGILGLLVIVLLGVPLIFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFREAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRGNQVLNVRIADTNSA-SPQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL   +GIL LL+IV+LGVPLI F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF++ EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRR NQVL+VRIAD     S QDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|3MQC|A</Hit_id>
+  <Hit_def>Crystal Structure of Ectodomain of BST-2/Tetherin/CD317 (P21) [Homo sapiens] &gt;pdb|3MQC|B Crystal Structure of Ectodomain of BST-2/Tetherin/CD317 (P21) [Homo sapiens] &gt;pdb|3MQC|C Crystal Structure of Ectodomain of BST-2/Tetherin/CD317 (P21) [Homo sapiens] &gt;pdb|3MQC|D Crystal Structure of Ectodomain of BST-2/Tetherin/CD317 (P21) [Homo sapiens]</Hit_def>
+  <Hit_accession>3MQC_A</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.794</Hsp_bit-score>
+      <Hsp_score>582</Hsp_score>
+      <Hsp_evalue>3.41343e-74</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSS</Hsp_qseq>
+      <Hsp_hseq>KANSEACRDGLRAVXECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVXALXASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSS</Hsp_hseq>
+      <Hsp_midline>KANSEACRDGLRAV ECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTV AL ASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|NP_001292892.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Cercocebus atys] &gt;gb|ACP41247.1| tetherin variant Sm2 [Cercocebus atys]</Hit_def>
+  <Hit_accession>NP_001292892</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.72</Hsp_bit-score>
+      <Hsp_score>587</Hsp_score>
+      <Hsp_evalue>3.6425e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCRMPMGDIWKEDGDKRCKLVVGI--LGLLVIVLLGVPLIFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVVALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYCR+PM     EDGDKRCKL++GI  L LL+IV+LGVPLI F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TV+ALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_011845429.1|</Hit_id>
+  <Hit_def>PREDICTED: bone marrow stromal antigen 2 [Mandrillus leucophaeus]</Hit_def>
+  <Hit_accession>XP_011845429</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.335</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>4.84166e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMGDTGKEDGDKRCKLVVGILGLLVIVLLG--VPLIFFSIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMVLMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL++GI  L++++++   VPLI F+IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVM LMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|ACX46126.1|</Hit_id>
+  <Hit_def>tetherin [Cercopithecus mona]</Hit_def>
+  <Hit_accession>ACX46126</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.95</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>7.66736e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKIPMGDIPKEDRDKCCKL--AVGILGLLVIVLLGVPLIFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENQVLNVRIADTNSA-SPQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     ED DK CKL   +GIL LL+IV+LGVPLI F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRRENQVL+VRIAD     S QDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|AXR71172.1|</Hit_id>
+  <Hit_def>BST2.11 [Macaca mulatta]</Hit_def>
+  <Hit_accession>AXR71172</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.565</Hsp_bit-score>
+      <Hsp_score>584</Hsp_score>
+      <Hsp_evalue>9.43981e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMDDIWKEDGDKRCKLVVGILGLLVIVLLG--VPLIFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASPQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL++GI  L++++++   VPLI F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     S QDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|AXR71168.1|</Hit_id>
+  <Hit_def>BST2.6 [Macaca mulatta]</Hit_def>
+  <Hit_accession>AXR71168</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.565</Hsp_bit-score>
+      <Hsp_score>584</Hsp_score>
+      <Hsp_evalue>1.18792e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMDDIWKEDGDKRCKLVVGILGLLVIVLLG--VPLIFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAHGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL++GI  L++++++   VPLI F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKA G+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|ACP50609.1|</Hit_id>
+  <Hit_def>tetherin [Chlorocebus aethiops]</Hit_def>
+  <Hit_accession>ACP50609</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.409</Hsp_bit-score>
+      <Hsp_score>581</Hsp_score>
+      <Hsp_evalue>2.88277e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMDDICKEDRDKCCKL--AVGILGLLVIVLLGVPLIFFIIKANSEACQDGLRAVMECHNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENQVLNVRIADTN-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     ED DK CKL   +GIL LL+IV+LGVPLI F IKANSEAC+DGLRAVMEC NVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRRENQVL+VRIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>dbj|BAP00768.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Cercocebus torquatus] &gt;dbj|BAP00769.1| bone marrow stromal antigen 2 [Cercocebus torquatus]</Hit_def>
+  <Hit_accession>BAP00768</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.409</Hsp_bit-score>
+      <Hsp_score>581</Hsp_score>
+      <Hsp_evalue>2.88277e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCRMPMGDIWKEDGDKRCKLVVGI--LGLLVIVLLGVPLIFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEEQAVTCNQTVVALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYCR+PM     EDGDKRCKL++GI  L LL+IV+LGVPLI F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D E QA TCN TV+ALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|ACP41246.1|</Hit_id>
+  <Hit_def>tetherin variant Sm1 [Cercocebus atys]</Hit_def>
+  <Hit_accession>ACP41246</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.409</Hsp_bit-score>
+      <Hsp_score>581</Hsp_score>
+      <Hsp_evalue>2.88277e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCRMPMGDIWKEDGDKRCKLVVGI--LGLLVVVLLGVPLIFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEEQAVTCNQTVVALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYCR+PM     EDGDKRCKL++GI  L LL++V+LGVPLI F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D E QA TCN TV+ALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_011949720.1|</Hit_id>
+  <Hit_def>PREDICTED: bone marrow stromal antigen 2 [Cercocebus atys]</Hit_def>
+  <Hit_accession>XP_011949720</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.409</Hsp_bit-score>
+      <Hsp_score>581</Hsp_score>
+      <Hsp_evalue>2.88277e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCRMPMGDIWKEDGDKRCKLVVGI--LGLLVVVLLGVPLIFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEEQAVTCNQTVVALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYCR+PM     EDGDKRCKL++GI  L LL++V+LGVPLI F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D E QA TCN TV+ALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_003915187.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Papio anubis]</Hit_def>
+  <Hit_accession>XP_003915187</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.024</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>4.00321e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMSMDDIWKEDGDKRCKLVVGILGLLVIVLLG--VPLIFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++ M     EDGDKRCKL++GI  L++++++   VPLI F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_025224383.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Theropithecus gelada] &gt;ref|XP_025224384.1| bone marrow stromal antigen 2 [Theropithecus gelada]</Hit_def>
+  <Hit_accession>XP_025224383</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.024</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>4.00321e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMSMDDIWKEDGDKRCKLVVGILGLLVIVLLG--VPLIFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++ M     EDGDKRCKL++GI  L++++++   VPLI F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|AXR71167.1|</Hit_id>
+  <Hit_def>BST2.5 [Macaca mulatta]</Hit_def>
+  <Hit_accession>AXR71167</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.639</Hsp_bit-score>
+      <Hsp_score>579</Hsp_score>
+      <Hsp_evalue>6.27031e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMDDIWKEDGDKRCKLVVGILGLLVIVLLG--VPLIFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAHGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASPQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL++GI  L++++++   VPLI F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKA G+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     S QDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|ADI58600.1|</Hit_id>
+  <Hit_def>bone marrow stromal cell antigen 2 [Chlorocebus aethiops]</Hit_def>
+  <Hit_accession>ADI58600</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.098</Hsp_bit-score>
+      <Hsp_score>575</Hsp_score>
+      <Hsp_evalue>2.38317e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMDDICKEDRDKCCKL--AVGILGLLVIVLLGVPLIFFIIKANSEACQDGLRAVMECHNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMDLMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENQVLNVRIADTN-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     ED DK CKL   +GIL LL+IV+LGVPLI F IKANSEAC+DGLRAVMEC NVT+LLQQEL EAQ+GF+D EAQA TCN TVM LMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRRENQVL+VRIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>pdb|3MQ7|A</Hit_id>
+  <Hit_def>Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 [Homo sapiens] &gt;pdb|3MQ7|B Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 [Homo sapiens] &gt;pdb|3MQ7|C Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 [Homo sapiens] &gt;pdb|3MQ7|D Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 [Homo sapiens] &gt;pdb|3MQ7|E Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 [Homo sapiens] &gt;pdb|3MQ7|F Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 [Homo sapiens] &gt;pdb|3MQ7|G Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 [Homo sapiens] &gt;pdb|3MQ7|H Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 [Homo sapiens] &gt;pdb|3MQ7|I Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 [Homo sapiens] &gt;pdb|3MQ7|J Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 [Homo sapiens] &gt;pdb|3MQ7|K Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 [Homo sapiens] &gt;pdb|3MQ7|L Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 [Homo sapiens]</Hit_def>
+  <Hit_accession>3MQ7_A</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.246</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>1.17521e-71</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSS</Hsp_qseq>
+      <Hsp_hseq>KANSEAARDGLRAVXEARNVTHLLQQELTEAQKGFQDVEAQAATANHTVXALXASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSS</Hsp_hseq>
+      <Hsp_midline>KANSEA RDGLRAV E RNVTHLLQQELTEAQKGFQDVEAQAAT NHTV AL ASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_005588438.1|</Hit_id>
+  <Hit_def>PREDICTED: bone marrow stromal antigen 2 [Macaca fascicularis]</Hit_def>
+  <Hit_accession>XP_005588438</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.787</Hsp_bit-score>
+      <Hsp_score>569</Hsp_score>
+      <Hsp_evalue>1.86488e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMDDIWKEDGDKRCKLVIGILGLLVIVLLGVLL--IFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASSQDSSCAAKP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_011753866.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 isoform X1 [Macaca nemestrina] &gt;gb|ADB55599.1| tetherin variant 1 [Macaca nemestrina] &gt;gb|AXR71176.1| BST2.15 [Macaca mulatta] &gt;gb|EHH59346.1| hypothetical protein EGM_09431 [Macaca fascicularis]</Hit_def>
+  <Hit_accession>XP_011753866</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.402</Hsp_bit-score>
+      <Hsp_score>568</Hsp_score>
+      <Hsp_evalue>2.50591e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMDDIWKEDGDKRCKLVVGILGLLVIVLLGVLL--IFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|AXR71173.1|</Hit_id>
+  <Hit_def>BST2.12 [Macaca mulatta]</Hit_def>
+  <Hit_accession>AXR71173</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.402</Hsp_bit-score>
+      <Hsp_score>568</Hsp_score>
+      <Hsp_evalue>2.50591e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMDDIWKEDGDKRCKLVIGILGLLVIVLLGVLL--IFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|AEF16014.1|</Hit_id>
+  <Hit_def>BST2 [Macaca mulatta]</Hit_def>
+  <Hit_accession>AEF16014</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.402</Hsp_bit-score>
+      <Hsp_score>568</Hsp_score>
+      <Hsp_evalue>2.70541e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMGDIWKEDGDKRCKLVIGILGLLVIVLLGVLL--IFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|ADI58603.1|</Hit_id>
+  <Hit_def>bone marrow stromal cell antigen 2 [Colobus guereza kikuyuensis]</Hit_def>
+  <Hit_accession>ADI58603</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.402</Hsp_bit-score>
+      <Hsp_score>568</Hsp_score>
+      <Hsp_evalue>2.98541e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPISYDYCKMSMDDICKEDGGKRCKLVVGILGLLVIVLLGVLLIF--FIIKANSEACQDGLRAVMECRNVTYLLQEELTEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLSVRIADTD-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA  SYDYC++ M     EDG KRCKL++GI  L++++++ + +    F IKANSEAC+DGLRAVMECRNVT+LLQ+ELTEAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VLSVRIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|ADI58602.1|</Hit_id>
+  <Hit_def>bone marrow stromal cell antigen 2 [Macaca mulatta]</Hit_def>
+  <Hit_accession>ADI58602</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.631</Hsp_bit-score>
+      <Hsp_score>566</Hsp_score>
+      <Hsp_evalue>5.33179e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYRKMPMDDIWKEDGDKRCKLVVGILGLLVIVLLG--VPLIFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAHGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASPQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDY ++PM     EDGDKRCKL++GI  L++++++   VPLI F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKA G+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     S QDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|NP_001292860.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Macaca nemestrina] &gt;gb|ADB55600.1| tetherin variant 2 [Macaca nemestrina]</Hit_def>
+  <Hit_accession>NP_001292860</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.246</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>8.2596e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKRPMDDIWKEDGDKRCKLVVGILGLLVIVLLGVLL--IFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC+ PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>dbj|BAT21102.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Cercopithecus erythrotis] &gt;dbj|BAT21103.1| bone marrow stromal antigen 2 [Cercopithecus erythrotis] &gt;dbj|BAT21106.1| bone marrow stromal antigen 2 [Cercopithecus sclateri]</Hit_def>
+  <Hit_accession>BAT21102</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.861</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>1.08583e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMYDSCKEDGDKRCKLVVGILGLLVIVLLGVLL--IFFIIKANSEACQDGLRAAMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVVALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENQVLNVRIADTN-SASPQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC+DGLRA MECRNVT+LLQQEL EAQ+GF+D EAQA TCN TV+ALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRRENQVL+VRIAD     S QDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>gb|AXR71171.1|</Hit_id>
+  <Hit_def>BST2.10 [Macaca mulatta]</Hit_def>
+  <Hit_accession>AXR71171</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>1.49131e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMDDIWKEDGDKRCKLVVGILGLLVIVLLGVLL--IFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASPQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     S QDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>gb|AXR71174.1|</Hit_id>
+  <Hit_def>BST2.13 [Macaca mulatta]</Hit_def>
+  <Hit_accession>AXR71174</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>1.49131e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMGDIWKEDGDKRCKLVVGILGLLVIVLLGVLL--IFFIIKANSEACQNGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC++GLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>gb|ACP50610.1|</Hit_id>
+  <Hit_def>tetherin variant 2 [Macaca mulatta] &gt;gb|ADW41720.1| bone marrow stromal antigen 2 [Macaca mulatta]</Hit_def>
+  <Hit_accession>ACP50610</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>1.49131e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMDDIWKEDGDKRCKLVIGILGLLVIVLLGVLL--IFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASPQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     S QDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>gb|AXR71169.1|</Hit_id>
+  <Hit_def>BST2.7 [Macaca mulatta]</Hit_def>
+  <Hit_accession>AXR71169</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>1.55803e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMGDIWKEDGDKRCKLVIGILGLLVIVLLGVLL--IFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAHGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKA G+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>gb|ACP50611.1|</Hit_id>
+  <Hit_def>tetherin variant 1 [Macaca mulatta] &gt;gb|AXR71170.1| BST2.9 [Macaca mulatta]</Hit_def>
+  <Hit_accession>ACP50611</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>1.61002e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMGDIWKEDGDKRCKLVIGILGLLVIVLLGVLL--IFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASPQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     S QDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>gb|AXR71166.1|</Hit_id>
+  <Hit_def>BST2.4 [Macaca mulatta]</Hit_def>
+  <Hit_accession>AXR71166</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>1.9605e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAPQLLI</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYRKMPMDDIWKEDGDKRCKLVVGILGLLVIVLLGVLL--IFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASPQDSSCAAEPPLLI</Hsp_hseq>
+      <Hsp_midline>MA   YDY ++PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     S QDSS AA P LLI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>gb|AXR71175.1|</Hit_id>
+  <Hit_def>BST2.14 [Macaca mulatta]</Hit_def>
+  <Hit_accession>AXR71175</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.09</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>2.21125e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMGDIWKEDGDKRCKLVIGILGLLVIVLLGVLL--IFFIIKANSEACQDGLRAVMECHNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC+DGLRAVMEC NVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>dbj|BAT21101.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Cercopithecus ascanius]</Hit_def>
+  <Hit_accession>BAT21101</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.705</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>3.61767e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMYDSWKEDGDKRCKLVVGILGXLVIVLGVL---LIFFIIKANSEACQDGLRAAMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVVTLMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENQVLNVRIADTN-SASPQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL++GI   +++++ +L   LI F IKANSEAC+DGLRA MECRNVT+LLQQEL EAQ+GF+D EAQA TCN TV+ LMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRRENQVL+VRIAD     S QDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|XP_014978726.2|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 isoform X1 [Macaca mulatta]</Hit_def>
+  <Hit_accession>XP_014978726</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.55</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>8.58721e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMGDIWKEDGDKRCKLVIGILGLLVIVLLGVLL--IFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAHGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASPQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKA G+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     S QDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>gb|ACX46508.1|</Hit_id>
+  <Hit_def>bone marrow stromal cell antigen 2 [Cercopithecus cephus]</Hit_def>
+  <Hit_accession>ACX46508</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.55</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>8.87375e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYFKMPMYDSCKEDGDKRCKLVVGILGLLVIVLLGVLL--IFFIIKANSEACQDGLRAAMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENQVLNVRIADTN-SASPQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDY ++PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC+DGLRA MECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRRENQVL+VRIAD     S QDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>dbj|BAT21105.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Cercopithecus sclateri]</Hit_def>
+  <Hit_accession>BAT21105</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.55</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>9.16984e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAA-AP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMYDSCKEDGDKRCKLVVGILGLLVIVLLGVLL--IFFIIKANSEACQDGLRAAMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVVALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENQVLNVRIADTN-SASPQDSSCAAEAP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC+DGLRA MECRNVT+LLQQEL EAQ+GF+D EAQA TCN TV+ALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRRENQVL+VRIAD     S QDSS AA AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|XP_011781142.1|</Hit_id>
+  <Hit_def>PREDICTED: bone marrow stromal antigen 2 [Colobus angolensis palliatus]</Hit_def>
+  <Hit_accession>XP_011781142</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.55</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>1.11658e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPISYDYCKMSMDDICKEDGGKRCKLVVGILGLLVIVLLGVLLIF--FIIKANSEACQDGLRAVMECHNVTYLLQEELTKAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLSVRIADTD-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA  SYDYC++ M     EDG KRCKL++GI  L++++++ + +    F IKANSEAC+DGLRAVMEC NVT+LLQ+ELT+AQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VLSVRIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>gb|EHH29791.1|</Hit_id>
+  <Hit_def>hypothetical protein EGK_10301 [Macaca mulatta]</Hit_def>
+  <Hit_accession>EHH29791</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.164</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>1.56742e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYRKMPMDDIWKEDGDKRCKLVIGILGLLVIVLLGVLL--IFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDY ++PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>gb|AXR71165.1|</Hit_id>
+  <Hit_def>BST2.3 [Macaca mulatta]</Hit_def>
+  <Hit_accession>AXR71165</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.164</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>1.56742e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYRKMPMDDIWKEDGDKRCKLVVGILGLLVIVLLGVLL--IFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDY ++PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|NP_001155138.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Macaca mulatta] &gt;gb|ACR39315.1| bone marrow stromal antigen 2 [Macaca mulatta]</Hit_def>
+  <Hit_accession>NP_001155138</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.779</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>2.2737e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYRKMPMGDIWKEDGDKRCKLVIGILGLLVIVLLGVLL--IFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDY ++PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>dbj|BAT21104.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Cercopithecus cephus]</Hit_def>
+  <Hit_accession>BAT21104</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>4.89013e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMYDSCKEDGDKRCKLVVGILGXLVIVLLGVLL--IFFIIKANSEACQDGLRAAMECXNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVVTLMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENQVLNVRIADTN-SASPQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL++GI   ++++++ + +  I F IKANSEAC+DGLRA MEC NVT+LLQQEL EAQ+GF+D EAQA TCN TV+ LMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRRENQVL+VRIAD     S QDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>gb|ACO56365.2|</Hit_id>
+  <Hit_def>tetherin, partial [Chlorocebus tantalus]</Hit_def>
+  <Hit_accession>ACO56365</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>5.63743e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYRKMPMDDICKEDRDKCCKL--AVGILGLLVIVLLGVPLIFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMDLMASLDAEKAQGRKKVEELEGEITTLNHKLQD-SAEVERLRRENQVLNVRIADTN-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDY ++PM     ED DK CKL   +GIL LL+IV+LGVPLI F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVM LMASLDAEKAQG+KKVEELEGEITTLNHKLQD SAEVERLRRENQVL+VRIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gb|ACV96781.1|</Hit_id>
+  <Hit_def>tetherin [Macaca mulatta] &gt;gb|AXR71164.1| BST2.1 [Macaca mulatta]</Hit_def>
+  <Hit_accession>ACV96781</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.238</Hsp_bit-score>
+      <Hsp_score>552</Hsp_score>
+      <Hsp_evalue>8.82836e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYRKMPMDDIWKEDGDKRCKLVVGILGLLVIVLLGVLL--IFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTD-SASPQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDY ++PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC+DGLRAVMECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVMALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRREN VL+ RIAD     S QDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>pdb|3NWH|A</Hit_id>
+  <Hit_def>Crystal structure of BST2/Tetherin [Homo sapiens] &gt;pdb|3NWH|B Crystal structure of BST2/Tetherin [Homo sapiens] &gt;pdb|3NWH|C Crystal structure of BST2/Tetherin [Homo sapiens] &gt;pdb|3NWH|D Crystal structure of BST2/Tetherin [Homo sapiens]</Hit_def>
+  <Hit_accession>3NWH_A</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.608</Hsp_bit-score>
+      <Hsp_score>527</Hsp_score>
+      <Hsp_evalue>4.96944e-66</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>FTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKK</Hsp_qseq>
+      <Hsp_hseq>FT-KANSEACRDGLRAVXECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVXALXASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKK</Hsp_hseq>
+      <Hsp_midline>FT KANSEACRDGLRAV ECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTV AL ASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>pdb|2XG7|A</Hit_id>
+  <Hit_def>Crystal Structure of BST2-Tetherin Ectodomain expressed in HEK293T cells [Homo sapiens] &gt;pdb|2XG7|C Crystal Structure of BST2-Tetherin Ectodomain expressed in HEK293T cells [Homo sapiens]</Hit_def>
+  <Hit_accession>2XG7_A</Hit_accession>
+  <Hit_len>103</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.682</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>2.5898e-65</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>EACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADK</Hsp_qseq>
+      <Hsp_hseq>EACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADK</Hsp_hseq>
+      <Hsp_midline>EACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>emb|CCG14706.1|</Hit_id>
+  <Hit_def>bone marrow stromal cell antigen 2 [Cercopithecus denti]</Hit_def>
+  <Hit_accession>CCG14706</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.994</Hsp_bit-score>
+      <Hsp_score>528</Hsp_score>
+      <Hsp_evalue>3.25943e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPM-----EDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMYDSCKEDGDKRCKLVVGILGLLVIVLLGVLL--IFFIIKANSEACQDGLRAAMECRNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVMVLMASLDAEKAQGRKKVEELEEEITTLNHKLQDASAEVERLRRENQVLNVRIADTN-SASPQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM     EDGDKRCKL++GI  L++++++ + +  I F IKANSEAC+DGLRA MECRNVT+LLQQEL EAQ+GF+D EAQA TCN TVM LMASLDAEKAQG+KKVEELE EITTLNHKLQDASAEVERLRRENQVL+VRIAD     S QDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>dbj|BAT21099.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Allochrocebus lhoesti]</Hit_def>
+  <Hit_accession>BAT21099</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.986</Hsp_bit-score>
+      <Hsp_score>515</Hsp_score>
+      <Hsp_evalue>3.32413e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMEDGDKR-----CKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPILYDYCKMPMDDXXKEDGDKXCKLXVGILGLLVIVLLGVXL--IFFIIKANSXACQDGLRAXMECHNVTYLLQQELAEAQRGFRDAEAQAVTCNQTVVALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENQVLNVRIADTN-SASSQDSSCAAEP</Hsp_hseq>
+      <Hsp_midline>MA   YDYC++PM+D  K      CKL +GI  L++++++ + +  I F IKANS AC+DGLRA MEC NVT+LLQQEL EAQ+GF+D EAQA TCN TV+ALMASLDAEKAQG+KKVEELEGEITTLNHKLQDASAEVERLRRENQVL+VRIAD     SSQDSS AA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|XP_021524888.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Aotus nancymaae]</Hit_def>
+  <Hit_accession>XP_021524888</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.601</Hsp_bit-score>
+      <Hsp_score>514</Hsp_score>
+      <Hsp_evalue>5.41105e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMEDGDK-----RCKLLLGIGILVLLIIVIL--GVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQ---GQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSS-QDSSS</Hsp_qseq>
+      <Hsp_hseq>MAPTLFHYPLVPMDDFLKHERKERCKLLVGAGVVAILVIVALALGVLLIIYVKRANSEACQEGHRAVMECRNVTHFLQEELTRAQDGFRDAEAQVATYNETVMTLMASLDKEKAHSLDAEKKVEELEGEITTLNQKLQDASMEVERLRRKNQDLSARIADQKDSASSLKDTSS</Hsp_hseq>
+      <Hsp_midline>MA T + Y  VPM+D  K     RCKLL+G G++ +L+IV L  GV LII+  +ANSEAC++G RAVMECRNVTH LQ+ELT AQ GF+D EAQ AT N TVM LMASLD EKA     +KKVEELEGEITTLN KLQDAS EVERLRR+NQ LS RIAD+K   SS +D+SS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>gb|ACN12809.1|</Hit_id>
+  <Hit_def>tetherin [Aotus griseimembra]</Hit_def>
+  <Hit_accession>ACN12809</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>1.13762e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMEDGDK-----RCKLLLGIGILVLLIIVIL--GVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQ---GQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSS-QDSSS</Hsp_qseq>
+      <Hsp_hseq>MAPTLFHYPLVPMDDFLKHERKERCKLLVGAGVVALLVIVALALGVLLIIYVKRANSEACQEGHRAVMECRNVTHLLQEELTRAQDGFRDAEAQVATYNETVMTLMASLDKEKAHSLDAEKKVEELEGEIITLNQKLQDASMEVERLRRKNQDLSARIADQKDTASSLKDTSS</Hsp_hseq>
+      <Hsp_midline>MA T + Y  VPM+D  K     RCKLL+G G++ LL+IV L  GV LII+  +ANSEAC++G RAVMECRNVTHLLQ+ELT AQ GF+D EAQ AT N TVM LMASLD EKA     +KKVEELEGEI TLN KLQDAS EVERLRR+NQ LS RIAD+K   SS +D+SS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>gb|ACN12813.1|</Hit_id>
+  <Hit_def>tetherin [Aotus vociferans]</Hit_def>
+  <Hit_accession>ACN12813</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>1.18845e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMEDGDK-----RCKLLLGIGILVLLIIVIL--GVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQ---GQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSS-QDSSS</Hsp_qseq>
+      <Hsp_hseq>MAPTLFHYPLVPMDDFLKHERKERCKLLVGAGVVALLVIVALALGVLLIIYVKRANSEACQEGHRAVMECRNVTHLLQEELTRAQDGFRDAEAQVATYNETVMTLMASLDKEKAHSLDAEKKVEELEGEIITLNQKLQDASMEVERLRRKNQDLSARIADQKDSASSLKDTSS</Hsp_hseq>
+      <Hsp_midline>MA T + Y  VPM+D  K     RCKLL+G G++ LL+IV L  GV LII+  +ANSEAC++G RAVMECRNVTHLLQ+ELT AQ GF+D EAQ AT N TVM LMASLD EKA     +KKVEELEGEI TLN KLQDAS EVERLRR+NQ LS RIAD+K   SS +D+SS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>ref|XP_024206821.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 isoform X2 [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_024206821</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>1.90046e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMED-----GDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTV</Hsp_qseq>
+      <Hsp_hseq>MASTLYDYCRVPMDDIWKKDGDKRCKLLLGIGILMLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTV</Hsp_hseq>
+      <Hsp_midline>MAST YDYCRVPM+D     GDKRCKLLLGIGIL+LLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>gb|ACN12810.1|</Hit_id>
+  <Hit_def>tetherin [Aotus nancymaae]</Hit_def>
+  <Hit_accession>ACN12810</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.119</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>1.51076e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMED-----GDKRCKLLLGIGILVLLIIVIL--GVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQ---GQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSS-QDSSSAAAPQLLIVLLGLSALL</Hsp_qseq>
+      <Hsp_hseq>MAPTLFHYPLVPMDDFLKHERKERCKLLVGAGVVVILVIVALVLGVLLIIYVKRANSEACQEGHRAVMECRNVTHFLQEELTRAQDGFRDAEAQVATYNETVMTLMASLDKEKAHSLDAEKKVEELEGEITTLNQKLQDASMEVERLRRKNQDLSARIADQKDSASSLKDTSSAAAPLLPILLLGHGARL</Hsp_hseq>
+      <Hsp_midline>MA T + Y  VPM+D       +RCKLL+G G++V+L+IV L  GV LII+  +ANSEAC++G RAVMECRNVTH LQ+ELT AQ GF+D EAQ AT N TVM LMASLD EKA     +KKVEELEGEITTLN KLQDAS EVERLRR+NQ LS RIAD+K   SS +D+SSAAAP L I+LLG  A L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>ref|XP_035139505.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Callithrix jacchus]</Hit_def>
+  <Hit_accession>XP_035139505</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.726</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>1.54607e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMED-----GDKRCKL--LLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQ---GQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSS-QDSSS</Hsp_qseq>
+      <Hsp_hseq>MAPTLFHYSLVPMDDFLKHESKERCKLPVGTGVVVLLVIVAVALGVLLIVYVKKANSEACQEGHRAVMECRNVTHLLEQELTRAQDGFRDAEAQIATYNQTVMTLMASLDKEKAHSLDAEKKVEELEGEITTLNQKLQDASMEVERLRRKNQDLSARIADQKNSASSLKDTSS</Hsp_hseq>
+      <Hsp_midline>MA T + Y  VPM+D       +RCKL    G+ +L++++ V LGV LI++  KANSEAC++G RAVMECRNVTHLL+QELT AQ GF+D EAQ AT N TVM LMASLD EKA     +KKVEELEGEITTLN KLQDAS EVERLRR+NQ LS RIAD+K   SS +D+SS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>gb|ADI58609.1|</Hit_id>
+  <Hit_def>bone marrow stromal cell antigen 2 [Alouatta sara]</Hit_def>
+  <Hit_accession>ADI58609</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>1.1023e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMED-----GDKRCKLLLGIGILVLLIIVIL--GVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQ---GQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSS-QDSSS</Hsp_qseq>
+      <Hsp_hseq>MAPTLFHYIPVPMDDFLKHERKERCKLLVGTGVVVVLVILAVALGVFLIIYVKKANSEACQEGHRAVTECRNVTHLLEQELTRAQDGFRDAEAQVATCNQTVMTLMASLDKEKAHSLDAEKKVEELEGEITTLNQKLQDASMEVERLRRKNQDLNARIADQKDSASSPKDTSS</Hsp_hseq>
+      <Hsp_midline>MA T + Y  VPM+D       +RCKLL+G G++V+L+I+ +  GV LII+  KANSEAC++G RAV ECRNVTHLL+QELT AQ GF+D EAQ ATCN TVM LMASLD EKA     +KKVEELEGEITTLN KLQDAS EVERLRR+NQ L+ RIAD+K   SS +D+SS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gb|ADI58610.1|</Hit_id>
+  <Hit_def>bone marrow stromal cell antigen 2 [Lagothrix lagotricha]</Hit_def>
+  <Hit_accession>ADI58610</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.259</Hsp_bit-score>
+      <Hsp_score>456</Hsp_score>
+      <Hsp_evalue>3.86576e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMED-----GDKRCKLLLGIGILVLLIIVIL--GVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQ---GQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSS-QDSSS</Hsp_qseq>
+      <Hsp_hseq>MAPTLFHYTPVPMDDFLKHERKERCKLLVGTGVVVLLVIVALALGVLLIVYVKRANSEACQEGHRAVMECRNVTHLLEQELTRAQDGFRDAEAQVATYNQTVMTLMASLDKEKANSLDAEKKVEELEGEITTLNQKLQDASMEVERLRRKNQDLSARIADQKNSASSLKDTSS</Hsp_hseq>
+      <Hsp_midline>MA T + Y  VPM+D       +RCKLL+G G++VLL+IV L  GV LI++  +ANSEAC++G RAVMECRNVTHLL+QELT AQ GF+D EAQ AT N TVM LMASLD EKA     +KKVEELEGEITTLN KLQDAS EVERLRR+NQ LS RIAD+K   SS +D+SS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>ref|XP_032123827.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Sapajus apella]</Hit_def>
+  <Hit_accession>XP_032123827</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.333</Hsp_bit-score>
+      <Hsp_score>451</Hsp_score>
+      <Hsp_evalue>2.03573e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMEDGDK-----RCKLLLGIGILVLLIIV-ILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQ---GQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAP</Hsp_qseq>
+      <Hsp_hseq>MAPPLFHYPLVPMDDFLKHERRERCKLLVGIVVVLLVIAVVTLGVLLIIYVTRANSEDCQAGHRAVMECRNVTHFLEQQLTRAQDGFRDAEAQVATYNQTVMTLMVSLDKEKAHSLDAEKKVEELEGEITTLNQKLQDASMEVERLRRKNQDLSARIAEQDSASSLKDTSSAAAP</Hsp_hseq>
+      <Hsp_midline>MA   + Y  VPM+D  K     RCKLL+GI +++L+I V  LGV LII+  +ANSE C+ G RAVMECRNVTH L+Q+LT AQ GF+D EAQ AT N TVM LM SLD EKA     +KKVEELEGEITTLN KLQDAS EVERLRR+NQ LS RIA++    S +D+SSAAAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>gb|ADI58607.1|</Hit_id>
+  <Hit_def>bone marrow stromal cell antigen 2 [Callithrix pygmaea]</Hit_def>
+  <Hit_accession>ADI58607</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.333</Hsp_bit-score>
+      <Hsp_score>451</Hsp_score>
+      <Hsp_evalue>2.12006e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMED-----GDKRCKLLLGIGILVLLIIVIL--GVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQ---GQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSS-QDSSS</Hsp_qseq>
+      <Hsp_hseq>MAPTLFHYSLVPMDDFLKHESKERCKLLVGTGVVVLLVIVAVALGVLLIFYVKRANSEACQEGHRAVMECRNVTHLLEQELTRAQDGFRDAEAQIATYNQTVLTLMASLDKEKAHSLDAEKKVEELEGEITTLNQKLQDASMEVERLRRKNQDLSARIADQKNSASSLKDTSS</Hsp_hseq>
+      <Hsp_midline>MA T + Y  VPM+D       +RCKLL+G G++VLL+IV +  GV LI +  +ANSEAC++G RAVMECRNVTHLL+QELT AQ GF+D EAQ AT N TV+ LMASLD EKA     +KKVEELEGEITTLN KLQDAS EVERLRR+NQ LS RIAD+K   SS +D+SS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>gb|ACN12811.1|</Hit_id>
+  <Hit_def>tetherin [Aotus nancymaae]</Hit_def>
+  <Hit_accession>ACN12811</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>4.16931e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMED-----GDKRCKLLLG--IGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQ---GQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSS-QDSSSAAAPQLLIVLLGLSALL</Hsp_qseq>
+      <Hsp_hseq>MAPTLFHYPLVPMDDFLKHERKERCKLLVGAGVVALLVIVVLALGVLLIIYVKRANSEACQEGHRAVMECRNVTHFLQEELTRAQDGFRDAEAQVATYNETVMTLMASLDKEKAHSLDAEKKVEELEGEITTLNQKLQDASMEVERLRRKNQDLSARIADQKDSASSLKDTSSAAAPLLPILLLGHGARL</Hsp_hseq>
+      <Hsp_midline>MA T + Y  VPM+D       +RCKLL+G  +  L++++++ LGV LII+  +ANSEAC++G RAVMECRNVTH LQ+ELT AQ GF+D EAQ AT N TVM LMASLD EKA     +KKVEELEGEITTLN KLQDAS EVERLRR+NQ LS RIAD+K   SS +D+SSAAAP L I+LLG  A L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>gb|ADI58608.1|</Hit_id>
+  <Hit_def>bone marrow stromal cell antigen 2 [Pithecia pithecia pithecia]</Hit_def>
+  <Hit_accession>ADI58608</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>4.74392e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMEDGDK-----RCKLLLGIGILVLLIIVILGVPL--IIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQ---GQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSS</Hsp_qseq>
+      <Hsp_hseq>MAPTLFHYPLVPMDDFPKHERKERCKLLVGTGAVVLLVVVAVALGALLIVYVKRANSEACQEGHRAVMECRNVTHLLEQELTRAQDGFRHAEAQVATCNQTVMTLMASLDKEKAHSLDAEKKVEELEGEITTLNQKLQDASMEVERLRGKNQDLSARIADQKDSTSS</Hsp_hseq>
+      <Hsp_midline>MA T + Y  VPM+D  K     RCKLL+G G +VLL++V + +    I++  +ANSEAC++G RAVMECRNVTHLL+QELT AQ GF+  EAQ ATCN TVM LMASLD EKA     +KKVEELEGEITTLN KLQDAS EVERLR +NQ LS RIAD+K   SS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>gb|ADI58606.1|</Hit_id>
+  <Hit_def>bone marrow stromal cell antigen 2 [Saguinus labiatus]</Hit_def>
+  <Hit_accession>ADI58606</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>6.2422e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMED-----GDKRCKLLLGIGILVLLIIVIL--GVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQ---GQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSS-QDSSS</Hsp_qseq>
+      <Hsp_hseq>MSPTLFHYPLVPMDDFLKHERKERCKLLVGTGVVVLLVIVAVALGVLLIIYVQRANSEACQEGHRAVMECQNVTHLLEQELTRAQDGFRDAEAQVATYNQTVMTLMASLDKEKAHSLDAEKKVEELEGEITTLNQKLQDASTEVERLRRKNQDLSARIADQKASASSLKDTSS</Hsp_hseq>
+      <Hsp_midline>M+ T + Y  VPM+D       +RCKLL+G G++VLL+IV +  GV LII+  +ANSEAC++G RAVMEC+NVTHLL+QELT AQ GF+D EAQ AT N TVM LMASLD EKA     +KKVEELEGEITTLN KLQDAS EVERLRR+NQ LS RIAD+K   SS +D+SS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>ref|XP_008064238.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2, partial [Carlito syrichta]</Hit_def>
+  <Hit_accession>XP_008064238</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.474</Hsp_bit-score>
+      <Hsp_score>428</Hsp_score>
+      <Hsp_evalue>1.57862e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMEDGDKRCK-----LLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERL</Hsp_qseq>
+      <Hsp_hseq>MAPTLCQYRPVAMDEGWKGLRPGGPRLLPWVGVTLLLTTVALGVPLIIFIVKASSKGCQDGLLAVMECRNETHLLERQLTRAQEGFQEAEAQAATCNHTVATLMSSLEAEKAQGQKRVEELQGEITAANLKLQTASQEVEQL</Hsp_hseq>
+      <Hsp_midline>MA T   Y  V M++G K  +     LL  +G+ +LL  V LGVPLIIF +KA+S+ C+DGL AVMECRN THLL+++LT AQ+GFQ+ EAQAATCNHTV  LM+SL+AEKAQGQK+VEEL+GEIT  N KLQ AS EVE+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|XP_017356735.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 [Cebus imitator]</Hit_def>
+  <Hit_accession>XP_017356735</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.933</Hsp_bit-score>
+      <Hsp_score>424</Hsp_score>
+      <Hsp_evalue>2.74307e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMEDGDK-----RCKLLLGIGILVLLIIVIL-GVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQ---GQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSS</Hsp_qseq>
+      <Hsp_hseq>MAPPLFHYPLVPMDDFLKHERRERCKLLVGIVVVLLVIAVVALGVLLIIYVTRANSEDCQAGHRAVMECRNVTHFLEQQLTRAQDGFRDAEAQVVTYNQTVMTLMASLDKEKAHSLDAEKKVEELEGEITTLNQKLQDASMEVERLRRKNQDLSARIAEQDSASSLKDTSS</Hsp_hseq>
+      <Hsp_midline>MA   + Y  VPM+D  K     RCKLL+GI +++L+I V+  GV LII+  +ANSE C+ G RAVMECRNVTH L+Q+LT AQ GF+D EAQ  T N TVM LMASLD EKA     +KKVEELEGEITTLN KLQDAS EVERLRR+NQ LS RIA++    S +D+SS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>pdb|3MQ9|A</Hit_id>
+  <Hit_def>Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 Fused to MBP [Escherichia coli K-12] &gt;pdb|3MQ9|B Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 Fused to MBP [Escherichia coli K-12] &gt;pdb|3MQ9|C Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 Fused to MBP [Escherichia coli K-12] &gt;pdb|3MQ9|D Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 Fused to MBP [Escherichia coli K-12] &gt;pdb|3MQ9|E Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 Fused to MBP [Escherichia coli K-12] &gt;pdb|3MQ9|F Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 Fused to MBP [Escherichia coli K-12] &gt;pdb|3MQ9|G Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 Fused to MBP [Escherichia coli K-12] &gt;pdb|3MQ9|H Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 Fused to MBP [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>3MQ9_A</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.703</Hsp_bit-score>
+      <Hsp_score>426</Hsp_score>
+      <Hsp_evalue>1.60813e-46</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>384</Hsp_hit-from>
+      <Hsp_hit-to>471</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>ACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRR</Hsp_qseq>
+      <Hsp_hseq>AARDGLRAVXEARNVTHLLQQELTEAQKGFQDVEAQAATANHTVXALXASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRR</Hsp_hseq>
+      <Hsp_midline>A RDGLRAV E RNVTHLLQQELTEAQKGFQDVEAQAAT NHTV AL ASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>gb|KAF5913710.1|</Hit_id>
+  <Hit_def>hypothetical protein HPG69_017486 [Diceros bicornis minor]</Hit_def>
+  <Hit_accession>KAF5913710</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>4.84664e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMED-------GDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVE---ELEGEITTLNHKLQDASAEVERLRREN</Hsp_qseq>
+      <Hsp_hseq>VAPTVYDYCPVPMDEHLRXXXXGDHQLLRRLGITLLLVVAGGVL-VAMIIFAVRANTEACRDGLQAVQECRNVTHVLDHQLSRAQEVLRGAEAQAATCNQTVVTLRASLEMEKAHSREQLARALQLEEEMSALRQQLQNALAEAERLRKWN</Hsp_hseq>
+      <Hsp_midline>+A T YDYC VPM++       GD +    LGI +L+++   +L V +IIF ++AN+EACRDGL+AV ECRNVTH+L  +L+ AQ+  +  EAQAATCN TV+ L ASL+ EKA  ++++    +LE E++ L  +LQ+A AE ERLR+ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>pdb|2X7A|A</Hit_id>
+  <Hit_def>Structural basis of HIV-1 tethering to membranes by the Bst2-tetherin ectodomain [Homo sapiens] &gt;pdb|2X7A|B Structural basis of HIV-1 tethering to membranes by the Bst2-tetherin ectodomain [Homo sapiens] &gt;pdb|2X7A|C Structural basis of HIV-1 tethering to membranes by the Bst2-tetherin ectodomain [Homo sapiens] &gt;pdb|2X7A|D Structural basis of HIV-1 tethering to membranes by the Bst2-tetherin ectodomain [Homo sapiens] &gt;pdb|2X7A|E Structural basis of HIV-1 tethering to membranes by the Bst2-tetherin ectodomain [Homo sapiens] &gt;pdb|2X7A|F Structural basis of HIV-1 tethering to membranes by the Bst2-tetherin ectodomain [Homo sapiens] &gt;pdb|2X7A|G Structural basis of HIV-1 tethering to membranes by the Bst2-tetherin ectodomain [Homo sapiens] &gt;pdb|2X7A|H Structural basis of HIV-1 tethering to membranes by the Bst2-tetherin ectodomain [Homo sapiens] &gt;pdb|2X7A|I Structural basis of HIV-1 tethering to membranes by the Bst2-tetherin ectodomain [Homo sapiens] &gt;pdb|2X7A|J Structural basis of HIV-1 tethering to membranes by the Bst2-tetherin ectodomain [Homo sapiens] &gt;pdb|2X7A|K Structural basis of HIV-1 tethering to membranes by the Bst2-tetherin ectodomain [Homo sapiens]</Hit_def>
+  <Hit_accession>2X7A_A</Hit_accession>
+  <Hit_len>61</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>1.61567e-31</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>QAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVR</Hsp_qseq>
+      <Hsp_hseq>QAATCNHTVXALXASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVR</Hsp_hseq>
+      <Hsp_midline>QAATCNHTV AL ASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>gb|KAF6309506.1|</Hit_id>
+  <Hit_def>hypothetical protein mPipKuh1_001580 [Pipistrellus kuhlii]</Hit_def>
+  <Hit_accession>KAF6309506</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>6.72281e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMEDGDKR---CKLLLGIGILVLLIIVILGVPLIIF---TIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKK---VEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKY</Hsp_qseq>
+      <Hsp_hseq>MAPTSCHYSRLPMDENPKKLGDCKLPVWVGIVGILLGLLVVVLSVVVGILAAKANSPACKDGLRAEQECRNITHFLEQELTQAQDALRGTEAQAATCNQTVETLKISLEEEKAGGRKQQELVQKLQEEIKTLNQELQEKSCELEKQSSELQDKCMEL-QKKY</Hsp_hseq>
+      <Hsp_midline>MA TS  Y R+PM++  K+   CKL + +GI+ +L+ +++ V  ++      KANS AC+DGLRA  ECRN+TH L+QELT+AQ   +  EAQAATCN TV  L  SL+ EKA G+K+   V++L+ EI TLN +LQ+ S E+E+   E Q   + +  KKY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|XP_005873983.1|</Hit_id>
+  <Hit_def>PREDICTED: bone marrow stromal antigen 2 [Myotis brandtii] &gt;gb|EPQ12479.1| Bone marrow stromal antigen 2 [Myotis brandtii]</Hit_def>
+  <Hit_accession>XP_005873983</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.301</Hsp_bit-score>
+      <Hsp_score>264</Hsp_score>
+      <Hsp_evalue>4.56772e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMED-----GDKRCKL-LLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASL--DAEKAQGQKKVEELEGEITTLNHKLQDAS-------AEVERLRRENQVL</Hsp_qseq>
+      <Hsp_hseq>MAPTSYCYSRLPTGEFQENLGDRKLPVRVGILLGLLVIVVVGLSVAVGVLAAKANSPACKDGLPAEQECRNITHLLEQELTQAQEVLWGTEAQAATCNQTVETLKISLKEKAGRHKQQELVQKLQEEIKTLNQSLQNKSADLQDVYAELEHLRKENEAL</Hsp_hseq>
+      <Hsp_midline>MA TSY Y R+P  +     GD++  + +  +  L+++++V L V + +   KANS AC+DGL A  ECRN+THLL+QELT+AQ+     EAQAATCN TV  L  SL   A + + Q+ V++L+ EI TLN  LQ+ S       AE+E LR+EN+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>ref|XP_036158546.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 isoform X1 [Myotis myotis] &gt;gb|KAF6273578.1| hypothetical protein mMyoMyo1_010853 [Myotis myotis]</Hit_def>
+  <Hit_accession>XP_036158546</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>1.98009e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMEDGDKRC---KLLLGIGILVLLIIVIL---GVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKK---VEELEGEITTLNHKLQDASAEVER</Hsp_qseq>
+      <Hsp_hseq>MAPTSHRYSQLPTDENPKTLEDRKLPVRVWILLGLLVLLVVGLSVAIGVLAAKANSPACKDGLQAEQECRNITHLLEQELTQAQEVLRGTEAQAATCNQTVETLKISLKEEKAAGHKQQELVQKLQEEIKRLNQSLRDKSADLQK</Hsp_hseq>
+      <Hsp_midline>MA TS+ Y ++P ++  K     KL + + IL+ L+++++    V + +   KANS AC+DGL+A  ECRN+THLL+QELT+AQ+  +  EAQAATCN TV  L  SL  EKA G K+   V++L+ EI  LN  L+D SA++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|XP_023603103.1|</Hit_id>
+  <Hit_def>bone marrow stromal antigen 2 isoform X6 [Myotis lucifugus]</Hit_def>
+  <Hit_accession>XP_023603103</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>3.26497e-24</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>KANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKK---VEELEGEITTLNHKLQDASAEVE</Hsp_qseq>
+      <Hsp_hseq>KANSPACKDGLRAEQECRNITHLLEQELTQAQEVLRGTEAQAATCNQTVETLKISLKEEKAAGHKQQELVQKLQEEIKTLNQSLRDKSAELE</Hsp_hseq>
+      <Hsp_midline>KANS AC+DGLRA  ECRN+THLL+QELT+AQ+  +  EAQAATCN TV  L  SL  EKA G K+   V++L+ EI TLN  L+D SAE+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|XP_005873946.1|</Hit_id>
+  <Hit_def>PREDICTED: bone marrow stromal antigen 2 [Myotis brandtii]</Hit_def>
+  <Hit_accession>XP_005873946</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>2.0253e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMED-----GDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQD-------ASAEVERLRRENQVL</Hsp_qseq>
+      <Hsp_hseq>MAPTSCCYSQLPTDEFQENLGDR--KLPVWVGILLGLLVVGLSVAVGVLAAKFNSPACKDGLPAEQECRNITHLLEQELTQAQEVLRGTEAQAATCNQTVETLKISLEKQQELFLQKLQE---EIKTLNQLLQNKSSEFQKKSAELEQLRKENEAL</Hsp_hseq>
+      <Hsp_midline>MA TS  Y ++P ++     GD+  KL + +GIL+ L++V L V + +   K NS AC+DGL A  ECRN+THLL+QELT+AQ+  +  EAQAATCN TV  L  SL+ ++    +K++E   EI TLN  LQ+        SAE+E+LR+EN+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|XP_019819441.1|</Hit_id>
+  <Hit_def>PREDICTED: bone marrow stromal antigen 2-like [Bos indicus]</Hit_def>
+  <Hit_accession>XP_019819441</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>1.59248e-21</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>LIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSSSAAAPQLLIVLLGLSALL</Hsp_qseq>
+      <Hsp_hseq>MIYFTVIANSKACVDGLQAQKECQEVNQHVQRQLTQAQEFSHKKEAEAATCNHTMVTLRESLKKEQAQ----VAEFQGKXKILNQNLKDALAEVERLRRQSETCXKNNA----------SSCSSFLFVVIAVLVLNALL</Hsp_hseq>
+      <Hsp_midline>+I FT+ ANS+AC DGL+A  EC+ V   +Q++LT+AQ+     EA+AATCNHT++ L  SL  E+AQ    V E +G+   LN  L+DA AEVERLRR+++      A          SS ++   ++I +L L+ALL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>ref|XP_014393835.1|</Hit_id>
+  <Hit_def>PREDICTED: M protein, serotype 24-like isoform X1 [Myotis brandtii] &gt;ref|XP_014393839.1| PREDICTED: M protein, serotype 24-like isoform X1 [Myotis brandtii] &gt;ref|XP_014393843.1| PREDICTED: M protein, serotype 24-like isoform X1 [Myotis brandtii]</Hit_def>
+  <Hit_accession>XP_014393835</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>1.49833e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMEDGDKRC---KLLLGIGILVLLIIVILGVPLIIFTI---KANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKA---QGQKKVEELEGEITTLNHKLQDASAEVER</Hsp_qseq>
+      <Hsp_hseq>MAPTSHRYSRLPTDENPNKLEDHKLPVWRRILQGLLLVAVVGLFVAVVVLAVKMNSPACKDGLPAEQECRNITHLLEQELTQAQEVLRGTEAQAATCNQTVETLKISLKEEKAGRLKQQELVQKLQEEIKTLNQSLRDKFSDLQK</Hsp_hseq>
+      <Hsp_midline>MA TS+ Y R+P ++   +    KL +   IL  L++V +    +   +   K NS AC+DGL A  ECRN+THLL+QELT+AQ+  +  EAQAATCN TV  L  SL  EKA   + Q+ V++L+ EI TLN  L+D  +++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|XP_005856766.1|</Hit_id>
+  <Hit_def>PREDICTED: M protein, serotype 24-like isoform X2 [Myotis brandtii]</Hit_def>
+  <Hit_accession>XP_005856766</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>1.56006e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMEDGDKRC---KLLLGIGILVLLIIVILGVPLIIFTI---KANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKA---QGQKKVEELEGEITTLNHKLQDASAEVER</Hsp_qseq>
+      <Hsp_hseq>MAPTSHRYSRLPTDENPNKLEDHKLPVWRRILQGLLLVAVVGLFVAVVVLAVKMNSPACKDGLPAEQECRNITHLLEQELTQAQEVLRGTEAQAATCNQTVETLKISLKEEKAGRLKQQELVQKLQEEIKTLNQSLRDKFSDLQK</Hsp_hseq>
+      <Hsp_midline>MA TS+ Y R+P ++   +    KL +   IL  L++V +    +   +   K NS AC+DGL A  ECRN+THLL+QELT+AQ+  +  EAQAATCN TV  L  SL  EKA   + Q+ V++L+ EI TLN  L+D  +++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>gb|EPQ12480.1|</Hit_id>
+  <Hit_def>Bone marrow stromal antigen 2 [Myotis brandtii]</Hit_def>
+  <Hit_accession>EPQ12480</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>3.57056e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMED-----GDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVM-----ALMASLDAEKAQGQKK-VEELEGEITTL</Hsp_qseq>
+      <Hsp_hseq>MAPTSCCYSQLPTDEFQENLGDR--KLPVWVGILLGLLVVGLSVAVGVLAAKFNSPACKDGLPAEQECRNITHLLEQELTQAQEVLRGTEAQAATCNQTVRPNARNSCMAGVEVPSPQPAPSLIRDLSGDVLVL</Hsp_hseq>
+      <Hsp_midline>MA TS  Y ++P ++     GD+  KL + +GIL+ L++V L V + +   K NS AC+DGL A  ECRN+THLL+QELT+AQ+  +  EAQAATCN TV      + MA ++    Q     + +L G++  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|XP_005881714.1|</Hit_id>
+  <Hit_def>PREDICTED: bone marrow stromal antigen 2 [Myotis brandtii] &gt;gb|EPQ17284.1| Bone marrow stromal antigen 2 [Myotis brandtii]</Hit_def>
+  <Hit_accession>XP_005881714</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>1.35364e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MASTSYDYCRVPMEDGDKRC---KLLLGIGILVLLIIVIL---GVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTV</Hsp_qseq>
+      <Hsp_hseq>MAPTSHRYSPLPRDENPKTLEDRKLPVRVWILLGLLVLLVVGLSVATGVLAAKFNRPACKDGLPAEQECRNITHLLEQELTQAQEVLRGTEAQAATCNQTV</Hsp_hseq>
+      <Hsp_midline>MA TS+ Y  +P ++  K     KL + + IL+ L+++++    V   +   K N  AC+DGL A  ECRN+THLL+QELT+AQ+  +  EAQAATCN TV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>341025614</Statistics_db-num>
+      <Statistics_db-len>123347875600</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
