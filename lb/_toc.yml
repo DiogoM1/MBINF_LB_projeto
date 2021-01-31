@@ -16,6 +16,8 @@
       - file: 21_ORF7a/ORF7a_genbank
       - file: 21_ORF7a/ORF7a_homolgue
       - file: 21_ORF7a/ORF7a_protein
+      - file: 21_ORF7a/ORF7a_multi_align
+      - file: 21_ORF7a/ORF7a_motif
       - file: 21_ORF7a/ORF7a_mutant_id
   - file: 22_BST2/BTS2
     sections:

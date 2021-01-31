@@ -1,0 +1,427 @@
+********************************************************************************
+MAST - Motif Alignment and Search Tool
+********************************************************************************
+	MAST version 5.3.0 (Release date: Wed Nov 25 19:19:29 2020 -0800)
+
+	For further information on how to interpret these results please access http://meme-suite.org.
+	To get a copy of the MAST software please access http://meme-suite.org.
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+	If you use this program in your research, please cite:
+
+	Timothy L. Bailey and Michael Gribskov,
+	"Combining evidence using p-values: application to sequence homology
+	searches", Bioinformatics, 14(48-54), 1998.
+********************************************************************************
+
+
+********************************************************************************
+DATABASE AND MOTIFS
+********************************************************************************
+	DATABASE NM_004335_BST2.fasta (peptide)
+	Last updated on Sun Jan 31 17:23:39 2021
+	Database contains 15 sequences, 2482 residues
+
+	MOTIFS meme.txt (peptide)
+	MOTIF ID                                                 ALT ID WIDTH BEST POSSIBLE MATCH
+	----- -------------------------------------------------- ------ ----- -------------------
+	    1 AEQECRNVTHLLZRQLTQAQEGLRDTEAQAATCN                 MEME-1    34 AVMECRNVTHHLQHQLTQAQEGFHDMEAQAATCN
+	    2 CDVLDKLVWVSAMCDRFVNAISHCSTEZFAKYEGALYELEPVERALNAWI MEME-2    50 CDVLDKLVWVTAMCDRFVNFISHCSTEQFAKYEGALYELEPVERALNGWI
+	    3 GIIRYVGFTHFAAGEWVGVELEDDTGKNDGSVQGERYFDCEM         MEME-3    42 GIIRYIGFPHFAPGDWVGVELEDDTGKNDGSVQGERYFDCDM
+	    4 DMEYTLSRFRELVTNLQSDLEDMRASHALTETESEZLNSRSRAMMDLNMK MEME-4    50 DMEYTLSRFRELVTNLQSDLEDMRASHAVTETESEQLNSRSRAMMDLNMK
+	    5 IEDLKTKLRLMEKKRMEDRDKLKALEKIQAERDKFEGIIQKLQTKYQPQQ MEME-5    50 IEDLKTKLRVMEKKRMEDRDKIKGLDKIQAERDKFEGIIQKLQTKYQPQQ
+
+	PAIRWISE MOTIF CORRELATIONS:
+	MOTIF     1     2     3     4
+	----- ----- ----- ----- -----
+	   2   0.20
+	   3   0.10  0.16
+	   4   0.15  0.16  0.09
+	   5   0.17  0.10  0.08  0.17
+	No overly similar pairs (correlation > 0.60) found.
+
+	Random model letter frequencies (from --motif--):
+	A 0.104 C 0.007 D 0.053 E 0.109 F 0.020 G 0.045 H 0.018 I 0.036 K 0.060 
+	L 0.104 M 0.021 N 0.033 P 0.041 Q 0.065 R 0.071 S 0.085 T 0.056 V 0.052 
+	W 0.006 Y 0.012 
+********************************************************************************
+
+
+********************************************************************************
+SECTION I: HIGH-SCORING SEQUENCES
+********************************************************************************
+	- Each of the following 15 sequences has E-value less than 10.
+	- The E-value of a sequence is the expected number of sequences
+	  in a random database of the same size that would match the motifs as
+	  well as the sequence does and is equal to the combined p-value of the
+	  sequence times the number of sequences in the database.
+	- The combined p-value of a sequence measures the strength of the
+	  match of the sequence to all the motifs and is calculated by
+	    o finding the score of the single best match of each motif
+	      to the sequence (best matches may overlap),
+	    o calculating the sequence p-value of each score,
+	    o forming the product of the p-values,
+	    o taking the p-value of the product.
+	- The sequence p-value of a score is defined as the
+	  probability of a random sequence of the same length containing
+	  some match with as good or better a score.
+	- The score for the match of a position in a sequence to a motif
+	  is computed by by summing the appropriate entry from each column of
+	  the position-dependent scoring matrix that represents the motif.
+	- Sequences shorter than one or more of the motifs are skipped.
+	- The table is sorted by increasing E-value.
+********************************************************************************
+
+SEQUENCE NAME                      DESCRIPTION                   E-VALUE  LENGTH
+-------------                      -----------                   -------- ------
+pdb|3MQB|A                         Crystal Structure of Ectod...  2.3e-29    115
+dbj|BAG64608.1|                    unnamed protein product [H...  2.6e-29    162
+gb|ADI58598.1|                     bone marrow stromal cell a...    3e-29    173
+ref|XP_030675274.1|                bone marrow stromal antige...    3e-29    173
+ref|NP_001295602.1|                bone marrow stromal antige...  3.1e-29    173
+ref|NP_004326.1|                   bone marrow stromal antige...  8.8e-29    180
+dbj|BAD96844.1|                    bone marrow stromal cell a...  8.8e-29    180
+ref|XP_018869871.1|                bone marrow stromal antige...    1e-28    185
+ref|NP_001266560.1|                bone marrow stromal antige...    1e-28    185
+ref|NP_001177409.1|                bone marrow stromal antige...  1.1e-28    185
+ref|NP_001266147.1|                bone marrow stromal antige...  1.2e-28    185
+ref|NP_001166058.1|                bone marrow stromal antige...  4.4e-27    172
+gb|ADI58596.1|                     bone marrow stromal cell a...  6.5e-27    184
+pdb|3MQC|A                         Crystal Structure of Ectod...  2.2e-26    115
+pdb|3MQ7|A                         Crystal Structure of Ectod...  7.4e-18    115
+
+********************************************************************************
+
+
+
+********************************************************************************
+SECTION II: MOTIF DIAGRAMS
+********************************************************************************
+	- The ordering and spacing of all non-overlapping motif occurrences
+	  are shown for each high-scoring sequence listed in Section I.
+	- A motif occurrence is defined as a position in the sequence whose
+	  match to the motif has POSITION p-value less than 0.0001.
+	- The POSITION p-value of a match is the probability of
+	  a single random subsequence of the length of the motif
+	  scoring at least as well as the observed match.
+	- For each sequence, all motif occurrences are shown unless there
+	  are overlaps.  In that case, a motif occurrence is shown only if its
+	  p-value is less than the product of the p-values of the other
+	  (lower-numbered) motif occurrences that it overlaps.
+	- The table also shows the E-value of each sequence.
+	- Spacers and motif occurences are indicated by
+	   o -d-    `d' residues separate the end of the preceding motif 
+		    occurrence and the start of the following motif occurrence
+	   o [n]  occurrence of motif `n' with p-value less than 0.0001.
+********************************************************************************
+
+SEQUENCE NAME                      E-VALUE   MOTIF DIAGRAM
+-------------                      --------  -------------
+pdb|3MQB|A                          2.3e-29  12-[1]-69
+dbj|BAG64608.1|                     2.6e-29  58-[1]-70
+gb|ADI58598.1|                        3e-29  63-[1]-76
+ref|XP_030675274.1|                   3e-29  63-[1]-76
+ref|NP_001295602.1|                 3.1e-29  63-[1]-76
+ref|NP_004326.1|                    8.8e-29  58-[1]-88
+dbj|BAD96844.1|                     8.8e-29  58-[1]-88
+ref|XP_018869871.1|                   1e-28  63-[1]-88
+ref|NP_001266560.1|                   1e-28  63-[1]-88
+ref|NP_001177409.1|                 1.1e-28  63-[1]-88
+ref|NP_001266147.1|                 1.2e-28  63-[1]-88
+ref|NP_001166058.1|                 4.4e-27  63-[1]-75
+gb|ADI58596.1|                      6.5e-27  63-[1]-87
+pdb|3MQC|A                          2.2e-26  12-[1]-69
+pdb|3MQ7|A                          7.4e-18  12-[1]-69
+
+********************************************************************************
+
+
+
+********************************************************************************
+SECTION III: ANNOTATED SEQUENCES
+********************************************************************************
+	- The positions and p-values of the non-overlapping motif occurrences
+	  are shown above the actual sequence for each of the high-scoring
+	  sequences from Section I.
+	- A motif occurrence is defined as a position in the sequence whose
+	  match to the motif has POSITION p-value less than 0.0001 as 
+	  defined in Section II.
+	- For each sequence, the first line specifies the name of the sequence.
+	- The second (and possibly more) lines give a description of the 
+	  sequence.
+	- Following the description line(s) is a line giving the length, 
+	  combined p-value, and E-value of the sequence as defined in Section I.
+	- The next line reproduces the motif diagram from Section II.
+	- The entire sequence is printed on the following lines.
+	- Motif occurrences are indicated directly above their positions in the
+	  sequence on lines showing
+	   o the motif number of the occurrence,
+	   o the position p-value of the occurrence,
+	   o the best possible match to the motif, and
+	   o columns whose match to the motif has a positive score (indicated 
+	     by a plus sign).
+********************************************************************************
+
+
+pdb|3MQB|A
+  Crystal Structure of Ectodomain of BST-2/Tetherin/CD317 (C2) [Homo sapiens] 
+  LENGTH = 115  COMBINED P-VALUE = 1.54e-30  E-VALUE =  2.3e-29
+  DIAGRAM: 12-[1]-69
+
+                 [1]
+                 1.2e-33
+                 AVMECRNVTHHLQHQLTQAQEGFHDMEAQAATCN
+                 ++++++++++++++++++++ ++++ ++++++++
+1    KANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEIT
+
+
+dbj|BAG64608.1|
+  unnamed protein product [Homo sapiens]
+  LENGTH = 162  COMBINED P-VALUE = 1.76e-30  E-VALUE =  2.6e-29
+  DIAGRAM: 58-[1]-70
+
+                                                               [1]
+                                                               1.2e-33
+                                                               AVMECRNVTHHLQHQLT
+                                                               +++++++++++++++++
+1    MASTSYDYCRVPMEDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKADSEACRDGLRAVMECRNVTHLLQQELT
+
+     
+     
+     QAQEGFHDMEAQAATCN
+     +++ ++++ ++++++++
+76   EAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLGRENQVLSVRIAD
+
+
+gb|ADI58598.1|
+  bone marrow stromal cell antigen 2 [Hylobates agilis]
+  LENGTH = 173  COMBINED P-VALUE = 2.03e-30  E-VALUE =    3e-29
+  DIAGRAM: 63-[1]-76
+
+                                                                    [1]
+                                                                    2.1e-34
+                                                                    AVMECRNVTHHL
+                                                                    ++++++++++++
+1    MAPTLYDYCRVPMDGIWKKDGDKRCKLLLGIGILVLLIIVSLGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
+
+     
+     
+     QHQLTQAQEGFHDMEAQAATCN
+     ++++++++ +++++++++++++
+76   QQELTEAQKGFQDAEAQAATCNQTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLS
+
+
+ref|XP_030675274.1|
+  bone marrow stromal antigen 2 isoform X1 [Nomascus leucogenys] 
+  LENGTH = 173  COMBINED P-VALUE = 2.03e-30  E-VALUE =    3e-29
+  DIAGRAM: 63-[1]-76
+
+                                                                    [1]
+                                                                    2.1e-34
+                                                                    AVMECRNVTHHL
+                                                                    ++++++++++++
+1    MAPTLYDYCRVPMDDIWKKDGDKRCKLLLGIGILVLLIIVSLGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
+
+     
+     
+     QHQLTQAQEGFHDMEAQAATCN
+     ++++++++ +++++++++++++
+76   QQELTEAQKGFQDAEAQAATCNQTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLS
+
+
+ref|NP_001295602.1|
+  bone marrow stromal antigen 2 [Nomascus leucogenys] 
+  LENGTH = 173  COMBINED P-VALUE = 2.09e-30  E-VALUE =  3.1e-29
+  DIAGRAM: 63-[1]-76
+
+                                                                    [1]
+                                                                    2.1e-34
+                                                                    AVMECRNVTHHL
+                                                                    ++++++++++++
+1    MAPTLYDYCRGPMDDIWKKDGDKRCKLLLGIGILVLLIIVSLGVPLIIFTIKANSEACQDGLRAVMECRNVTHLL
+
+     
+     
+     QHQLTQAQEGFHDMEAQAATCN
+     ++++++++ +++++++++++++
+76   QQELTEAQKGFQDAEAQAATCNQTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLS
+
+
+ref|NP_004326.1|
+  bone marrow stromal antigen 2 precursor [Homo sapiens] 
+  LENGTH = 180  COMBINED P-VALUE = 5.89e-30  E-VALUE =  8.8e-29
+  DIAGRAM: 58-[1]-88
+
+                                                               [1]
+                                                               1.2e-33
+                                                               AVMECRNVTHHLQHQLT
+                                                               +++++++++++++++++
+1    MASTSYDYCRVPMEDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELT
+
+     
+     
+     QAQEGFHDMEAQAATCN
+     +++ ++++ ++++++++
+76   EAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIAD
+
+
+dbj|BAD96844.1|
+  bone marrow stromal cell antigen 2 variant, partial [Homo sapiens]
+  LENGTH = 180  COMBINED P-VALUE = 5.89e-30  E-VALUE =  8.8e-29
+  DIAGRAM: 58-[1]-88
+
+                                                               [1]
+                                                               1.2e-33
+                                                               AVMECRNVTHHLQHQLT
+                                                               +++++++++++++++++
+1    MASTSYDYCRVPMEDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELT
+
+     
+     
+     QAQEGFHDMEAQAATCN
+     +++ ++++ ++++++++
+76   EAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRREDQVLSVRIAD
+
+
+ref|XP_018869871.1|
+  bone marrow stromal antigen 2 isoform X1 [Gorilla gorilla gorilla] 
+  LENGTH = 185  COMBINED P-VALUE = 6.94e-30  E-VALUE =    1e-28
+  DIAGRAM: 63-[1]-88
+
+                                                                    [1]
+                                                                    1.2e-33
+                                                                    AVMECRNVTHHL
+                                                                    ++++++++++++
+1    MASTLYDYCRVPMDAILKKDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
+
+     
+     
+     QHQLTQAQEGFHDMEAQAATCN
+     ++++++++ ++++ ++++++++
+76   QQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLS
+
+
+ref|NP_001266560.1|
+  bone marrow stromal antigen 2 [Gorilla gorilla] 
+  LENGTH = 185  COMBINED P-VALUE = 6.94e-30  E-VALUE =    1e-28
+  DIAGRAM: 63-[1]-88
+
+                                                                    [1]
+                                                                    1.2e-33
+                                                                    AVMECRNVTHHL
+                                                                    ++++++++++++
+1    MASTLYDYCRVPMDAILKKDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
+
+     
+     
+     QHQLTQAQEGFHDMEAQAATCN
+     ++++++++ ++++ ++++++++
+76   QQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLS
+
+
+ref|NP_001177409.1|
+  bone marrow stromal antigen 2 [Pan troglodytes] 
+  LENGTH = 185  COMBINED P-VALUE = 7.48e-30  E-VALUE =  1.1e-28
+  DIAGRAM: 63-[1]-88
+
+                                                                    [1]
+                                                                    1.2e-33
+                                                                    AVMECRNVTHHL
+                                                                    ++++++++++++
+1    MASTLYDYCRVPMDDIWKKDGDKRCKLLLGIGILMLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
+
+     
+     
+     QHQLTQAQEGFHDMEAQAATCN
+     ++++++++ ++++ ++++++++
+76   QQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEEEITTLNHKLQDASAEVERLRRENQVLS
+
+
+ref|NP_001266147.1|
+  bone marrow stromal antigen 2 [Pan paniscus] 
+  LENGTH = 185  COMBINED P-VALUE = 7.80e-30  E-VALUE =  1.2e-28
+  DIAGRAM: 63-[1]-88
+
+                                                                    [1]
+                                                                    1.2e-33
+                                                                    AVMECRNVTHHL
+                                                                    ++++++++++++
+1    MASTLYDYCRVPMDDIWKKDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
+
+     
+     
+     QHQLTQAQEGFHDMEAQAATCN
+     ++++++++ ++++ ++++++++
+76   QQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEEEITTLNHKLQDASAEVERLRRENQVLS
+
+
+ref|NP_001166058.1|
+  bone marrow stromal antigen 2 [Pongo abelii] 
+  LENGTH = 172  COMBINED P-VALUE = 2.91e-28  E-VALUE =  4.4e-27
+  DIAGRAM: 63-[1]-75
+
+                                                                    [1]
+                                                                    1.9e-32
+                                                                    AVMECRNVTHHL
+                                                                    ++++++++++++
+1    MASTLYDYCRVPMGDICKKDGDKRCKLLLGIGILVLLITVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
+
+     
+     
+     QHQLTQAQEGFHDMEAQAATCN
+     ++++++++ ++++++++ ++++
+76   QQELTEAQKGFQDTEAQVTTCNQTVMALMASLDAEKAQGQKKVEELEGEITILNHKLQDASAEVERLRRENQVLS
+
+
+gb|ADI58596.1|
+  bone marrow stromal cell antigen 2 [Pongo pygmaeus]
+  LENGTH = 184  COMBINED P-VALUE = 4.36e-28  E-VALUE =  6.5e-27
+  DIAGRAM: 63-[1]-87
+
+                                                                    [1]
+                                                                    1.9e-32
+                                                                    AVMECRNVTHHL
+                                                                    ++++++++++++
+1    MASTLYDYCRVPMGDICKKDGDKRCKLLLGIGILVLLITVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
+
+     
+     
+     QHQLTQAQEGFHDMEAQAATCN
+     ++++++++ ++++++++ ++++
+76   QQELTEAQKGFQDTEAQVTTCNQTVMALMASLDAEKAQGQKKVEELEGEITILNHKLQDASAEVERLRRENQVLS
+
+
+pdb|3MQC|A
+  Crystal Structure of Ectodomain of BST-2/Tetherin/CD317 (P21) [Homo sapiens] 
+  LENGTH = 115  COMBINED P-VALUE = 1.45e-27  E-VALUE =  2.2e-26
+  DIAGRAM: 12-[1]-69
+
+                 [1]
+                 2.0e-31
+                 AVMECRNVTHHLQHQLTQAQEGFHDMEAQAATCN
+                 ++ +++++++++++++++++ ++++ ++++++++
+1    KANSEACRDGLRAVXECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVXALXASLDAEKAQGQKKVEELEGEIT
+
+
+pdb|3MQ7|A
+  Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 [Homo sapiens] 
+  LENGTH = 115  COMBINED P-VALUE = 4.96e-19  E-VALUE =  7.4e-18
+  DIAGRAM: 12-[1]-69
+
+                 [1]
+                 3.2e-23
+                 AVMECRNVTHHLQHQLTQAQEGFHDMEAQAATCN
+                 ++ + +++++++++++++++ ++++ ++++++ +
+1    KANSEAARDGLRAVXEARNVTHLLQQELTEAQKGFQDVEAQAATANHTVXALXASLDAEKAQGQKKVEELEGEIT
+
+********************************************************************************
+
+
+CPU: b7de53890ff9
+Time 0.088 secs.
+
+mast -bfile --motif-- -remcorr -oc /opt/project/data/motif/BST2/mast /opt/project/data/motif/BST2/meme/meme.txt /opt/project/data/homologue/BST2/NM_004335_BST2.fasta
