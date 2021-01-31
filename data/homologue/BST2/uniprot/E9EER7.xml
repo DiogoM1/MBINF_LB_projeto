@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-04-05" modified="2020-08-12" version="24">
+<accession>E9EER7</accession>
+<name>E9EER7_METAQ</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Myosin class II heavy chain</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">MAC_08365</name>
+</gene>
+<organism evidence="4">
+<name type="scientific">Metarhizium acridum (strain CQMa 102)</name>
+<dbReference type="NCBI Taxonomy" id="655827"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Sordariomycetes</taxon>
+<taxon>Hypocreomycetidae</taxon>
+<taxon>Hypocreales</taxon>
+<taxon>Clavicipitaceae</taxon>
+<taxon>Metarhizium</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="journal article" date="2011" name="PLoS Genet." volume="7" first="E1001264" last="E1001264">
+<title>Genome sequencing and comparative transcriptomics of the model entomopathogenic fungi Metarhizium anisopliae and M. acridum.</title>
+<authorList>
+<person name="Gao Q."/>
+<person name="Jin K."/>
+<person name="Ying S.H."/>
+<person name="Zhang Y."/>
+<person name="Xiao G."/>
+<person name="Shang Y."/>
+<person name="Duan Z."/>
+<person name="Hu X."/>
+<person name="Xie X.Q."/>
+<person name="Zhou G."/>
+<person name="Peng G."/>
+<person name="Luo Z."/>
+<person name="Huang W."/>
+<person name="Wang B."/>
+<person name="Fang W."/>
+<person name="Wang S."/>
+<person name="Zhong Y."/>
+<person name="Ma L.J."/>
+<person name="St Leger R.J."/>
+<person name="Zhao G.P."/>
+<person name="Pei Y."/>
+<person name="Feng M.G."/>
+<person name="Xia Y."/>
+<person name="Wang C."/>
+</authorList>
+<dbReference type="PubMed" id="21253567"/>
+<dbReference type="DOI" id="10.1371/journal.pgen.1001264"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3 4">CQMa 102</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="GL698572">
+<property type="protein sequence ID" value="EFY85585.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_007814705.1">
+<property type="nucleotide sequence ID" value="XM_007816514.1"/>
+</dbReference>
+<dbReference type="EnsemblFungi" id="EFY85585">
+<property type="protein sequence ID" value="EFY85585"/>
+<property type="gene ID" value="MAC_08365"/>
+</dbReference>
+<dbReference type="GeneID" id="19252676"/>
+<dbReference type="KEGG" id="maw:MAC_08365"/>
+<dbReference type="eggNOG" id="ENOG502QRRG">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_001004_0_0_1"/>
+<dbReference type="InParanoid" id="E9EER7"/>
+<dbReference type="OrthoDB" id="25115at2759"/>
+<dbReference type="Proteomes" id="UP000002499">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="1"/>
+<end position="95"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="150"/>
+<end position="223"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="356"/>
+<end position="384"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="419"/>
+<end position="459"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="511"/>
+<end position="539"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="583"/>
+<end position="612"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="713"/>
+<end position="734"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="752"/>
+<end position="781"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="911"/>
+<end position="1075"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="1087"/>
+<end position="1186"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="1353"/>
+<end position="1395"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="1449"/>
+<end position="1472"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="2129"/>
+<end position="2258"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1472"/>
+<end position="1527"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1535"/>
+<end position="1583"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1665"/>
+<end position="1699"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1732"/>
+<end position="1766"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1770"/>
+<end position="1804"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1806"/>
+<end position="1909"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1914"/>
+<end position="1948"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1987"/>
+<end position="2007"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="2054"/>
+<end position="2074"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="2">
+<location>
+<begin position="53"/>
+<end position="74"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="2">
+<location>
+<begin position="160"/>
+<end position="174"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="2">
+<location>
+<begin position="194"/>
+<end position="209"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="2">
+<location>
+<begin position="929"/>
+<end position="958"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="2">
+<location>
+<begin position="976"/>
+<end position="997"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="2">
+<location>
+<begin position="1003"/>
+<end position="1048"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="2">
+<location>
+<begin position="1148"/>
+<end position="1162"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="2">
+<location>
+<begin position="1355"/>
+<end position="1372"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="2">
+<location>
+<begin position="1451"/>
+<end position="1467"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="2">
+<location>
+<begin position="2129"/>
+<end position="2192"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="2">
+<location>
+<begin position="2193"/>
+<end position="2208"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EFY85585.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000002499"/>
+</source>
+</evidence>
+<sequence length="2258" mass="249756" checksum="37D4AA0066381A83" modified="2011-04-05" version="1">MCLEDSPALSTASTADGEEEDIESSPALPPLPAPKLPSRVAQLLRTPPPEFGEENNSFGTASWGSPYPRTDHNLRRQSFSSEPSDDSPIHHLNIETSFLRPQPGENLHEQQPQTTISAAAAVLANRARRQHRGLTEDWIRTHTTGVVNAEPRHWFSDGSDSEHSSLSGSQLAWFDDSDPRTPRATQAPKSESRKSSSSHLRRRSSVETLKPKELPQIAAGGVDSSMSDVELQQTLHEVDLAQDVASPIEPRTDVPTVDVSEKTMASNLQNMNGELETPITPIKSKEKPLPKEPMMTPRIKKKVPWKGKNIMVLVPRDDQRGQAGGAPMPLRPEEVEKMFSSWRELGYSVDGFDLLVEGYQPPGTDDSQSRQDWPTDNDMARERSERSYRVLLPDLNAWKNYVDELQEAKLRALGVSFAEEEPPEPSISPPTTNPSRQASVQYPSLPFSPPVPTSSASSNHGLPSYPFPAQFLPASASPGLPSGASPVSFAPGKFNSRQSISLPAGNSPFQLAQSQGWSNPAGILQGSNRTDSPLASLTGILSPRSPYGLEGLQQTASPGFNLHQRHQSLQYFPQQMGSIASPRLQDVREDEEEEDFSKSPSKTPGPTMHNGDNLQAEIEDAEYHLEEQLRNQLEHEDYNPQSVVTKPFAPVHSRNQSSQGLTVAERFANEPGKPMELHHPRPHSRGHSLTQTFFQEQVDEHGLGKLGSLKELPETHKDEDEAQEIETNPSNLGTPVQDFDFAAAFGQHQKTFSTVSNPWQDHESGASSTRRSSHGSKPSLSKLNVQAPEFKFNPASTFTSGGMYNFSGGFQPATFQAGVSSNAIPQSLEPTKPVPQFGASKMHASAPSFSPGQGVFSFSTSGPKFRPDAPSFTPFQPLAITPAGGRGHTARQDSIFGNITIPTEDIVRPAKKSKAIPIIRPSSRSSAQSPRAEEDDKFRDGPDGRLADESRVKRAKSAAPDGDMLPAFAERPDEEEEDIQPGHADEVKDDRSVAEEGSVDGELTQPGDTSLSSIVTSDQVDTKATTAAPSVTSPAEETIKSLSHPNFNPELATRELPPSGLFENKTKDSEDREFLSANAVPFIPVASPAAQLASSDSSDKKEDSAPEEPAEEEATAESTPQPPRAKLTPKPRGLAASRFAKPQSPNLVEQPDVLQSIETEPVTLSMPEPVTVPNAFQSRPLVDISEDREPTFEEIDAVMQQMETDPSMGVNKLLESSNWQSHPTNAQKCGPTEVLRPSIDEFSREGTSLTPRQFNLIPDATPMLSTELEDPFVDPPISPRSPEFANDPDDPEIASEPASDWEGAFTGDEHDKLENRAQFFDGRVNEVVGTLLASRLEPLEKTLASIQEALALQHRRNQSTRREIRSMSAEMQESDADDEDEEPAQRSISPRRDRRMEHIRLAVTEAFAAQQRIQPIIPVVEREAPVNDDPAILKALEEMKEHLTASLKTASVPDEEKEAEARGRELLTPGPDEQAQNKINELQAMMMDLAERLSNEQRKTEKEIAERRAAEDAGAELNRKLQAAETRVEVEIINRSVFDQRVADLEERLRHQEDKTEEEVKNRRAAEDRLSEVQRLLRISSEEEGRLRDLLDEKDARIKGLEQSGGKSAMRMTLLEAAQTNSTKSQTEMTNKLNVLDADLKAHPHHWRSEAERADESARRTAGELAHTLNENKHLQKSLNTLTAQLEENERLRESWRSKFLSLQEDMGKAAREVAEENARHIKRDQAMCARQEVLQARLQAEAKTRERLEIEMERLQENERSGMRAVNECKRLEGLLGELRTENHKLQQAASRYQREFEEARESGASEVKRTRMSLQTEIDAANNQVNVIREELEEQNSKLRTELDNVKLEADTAKAQNEMLLEEVQSTKAAELEAAERKYQNEIEDMQARYERRVNNTTEDASRTEQQLLERLSLSSSKIEHLQDRIMHLEDKLEIAKEAAAAAAQAAKTAGAESGAAAVVSQPQQSSKSLELPEKISPQALRESIMVLQEQLQAREQRIEELEQSLSKSDPDAAAKISKRDDEISWLRELLAVRHSDLQDIISALSGDHYDRDTVKDAAIRLRANLQMEEQERERALNGGSAISLPNIAQSIQAATPRVAQTIGPIAAAWGNWRKSSQPSFRTISGVLSSPVSGSNSTPSKSRSGPASQSSLLSGLLTPPASGLRQAPTSDNRPQPTAFSSTGRRYTSQGSSSMDRDRRESSSSRRSEKMPAAPNTPPRHQERVEQPRTPPMVRQSGYDSDAQPGDFDDHDFFEED</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

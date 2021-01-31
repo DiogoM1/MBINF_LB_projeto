@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2018-03-28" modified="2020-06-17" version="13">
+<accession>A0A2K5NPL7</accession>
+<name>A0A2K5NPL7_CERAT</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">BST2</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Cercocebus atys</name>
+<name type="common">Sooty mangabey</name>
+<name type="synonym">Cercocebus torquatus atys</name>
+<dbReference type="NCBI Taxonomy" id="9531"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Cercopithecidae</taxon>
+<taxon>Cercopithecinae</taxon>
+<taxon>Cercocebus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2015-03" db="EMBL/GenBank/DDBJ databases">
+<title>Sooty reference genome and diversity panel.</title>
+<authorList>
+<person name="Liu Y."/>
+<person name="Hughes D.S."/>
+<person name="Murali S."/>
+<person name="Raveendran M."/>
+<person name="Korchina V."/>
+<person name="Wang M."/>
+<person name="Jhangiani S."/>
+<person name="Bandaranaike D."/>
+<person name="Bellair M."/>
+<person name="Blankenburg K."/>
+<person name="Chao H."/>
+<person name="Dahdouli M."/>
+<person name="Dinh H."/>
+<person name="Doddapaneni H."/>
+<person name="English A."/>
+<person name="Firestine M."/>
+<person name="Gross S."/>
+<person name="Hernandez B."/>
+<person name="Javaid M."/>
+<person name="Jayaseelan J."/>
+<person name="Jones J."/>
+<person name="Joshi V."/>
+<person name="Khan Z."/>
+<person name="Kovar C."/>
+<person name="Lee S."/>
+<person name="Newsham I."/>
+<person name="Nguyen L."/>
+<person name="Okwuonu G."/>
+<person name="Ongeri F."/>
+<person name="Osuji N."/>
+<person name="Pu L.-L."/>
+<person name="Puazo M."/>
+<person name="Qu C."/>
+<person name="Quiroz J."/>
+<person name="Raj R."/>
+<person name="Reid J.G."/>
+<person name="Santibanez J."/>
+<person name="Scheel M."/>
+<person name="Sexton D."/>
+<person name="Shah N."/>
+<person name="Skinner E."/>
+<person name="Vee V."/>
+<person name="Wu Y."/>
+<person name="Han Y."/>
+<person name="Muzny D.M."/>
+<person name="Richards S."/>
+<person name="Worley K.C."/>
+<person name="Rogers J."/>
+<person name="Gibbs R.A."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<reference key="2" evidence="3">
+<citation type="submission" date="2018-02" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<dbReference type="RefSeq" id="XP_011949720.1">
+<property type="nucleotide sequence ID" value="XM_012094330.1"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSCATT00000063729">
+<property type="protein sequence ID" value="ENSCATP00000039417"/>
+<property type="gene ID" value="ENSCATG00000042329"/>
+</dbReference>
+<dbReference type="GeneID" id="105601668"/>
+<dbReference type="CTD" id="684"/>
+<dbReference type="GeneTree" id="ENSGT00390000013782"/>
+<dbReference type="OMA" id="KNNASSC"/>
+<dbReference type="OrthoDB" id="1579815at2759"/>
+<dbReference type="Proteomes" id="UP000233060">
+<property type="component" value="Whole Genome Shotgun Assembly"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009986">
+<property type="term" value="C:cell surface"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005794">
+<property type="term" value="C:Golgi apparatus"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005771">
+<property type="term" value="C:multivesicular body"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008191">
+<property type="term" value="F:metalloendopeptidase inhibitor activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042803">
+<property type="term" value="F:protein homodimerization activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051607">
+<property type="term" value="P:defense response to virus"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045087">
+<property type="term" value="P:innate immune response"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030308">
+<property type="term" value="P:negative regulation of cell growth"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030336">
+<property type="term" value="P:negative regulation of cell migration"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:1901253">
+<property type="term" value="P:negative regulation of intracellular transport of viral material"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002737">
+<property type="term" value="P:negative regulation of plasmacytoid dendritic cell cytokine production"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045071">
+<property type="term" value="P:negative regulation of viral genome replication"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024886">
+<property type="entry name" value="BST2"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR15190">
+<property type="entry name" value="PTHR15190"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF16716">
+<property type="entry name" value="BST2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-0472" evidence="2">Membrane</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<keyword id="KW-0812" evidence="2">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="2">Transmembrane helix</keyword>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="27"/>
+<end position="49"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="102"/>
+<end position="157"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSCATP00000039417"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000233060"/>
+</source>
+</evidence>
+<sequence length="182" mass="20040" checksum="EDE0573F625F9FC4" modified="2018-03-28" version="1">MAPILYDYCRMPMGDIWKEDGDKRCKLVVGILGLLVVVLLGVPLIFFIIKANSEACQDGLRAVMECRNVTYLLQQELAEAQRGFRDAEEQAVTCNQTVVALMASLDAEKAQGRKKVEELEGEITTLNHKLQDASAEVERLRRENHVLNARIADTDSASSQDSSCAAEPPLLILLLGLSALLL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

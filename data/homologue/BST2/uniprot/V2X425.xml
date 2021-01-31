@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-01-22" modified="2020-12-02" version="26">
+<accession>V2X425</accession>
+<name>V2X425_MONRO</name>
+<protein>
+<submittedName>
+<fullName evidence="7">Ef hand domain-containing protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="7">Moror_2026</name>
+</gene>
+<organism evidence="7 8">
+<name type="scientific">Moniliophthora roreri (strain MCA 2997)</name>
+<name type="common">Cocoa frosty pod rot fungus</name>
+<name type="synonym">Crinipellis roreri</name>
+<dbReference type="NCBI Taxonomy" id="1381753"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Basidiomycota</taxon>
+<taxon>Agaricomycotina</taxon>
+<taxon>Agaricomycetes</taxon>
+<taxon>Agaricomycetidae</taxon>
+<taxon>Agaricales</taxon>
+<taxon>Marasmiaceae</taxon>
+<taxon>Moniliophthora</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="7 8">
+<citation type="journal article" date="2014" name="BMC Genomics" volume="15" first="164" last="164">
+<title>Genome and secretome analysis of the hemibiotrophic fungal pathogen, Moniliophthora roreri, which causes frosty pod rot disease of cacao: mechanisms of the biotrophic and necrotrophic phases.</title>
+<authorList>
+<person name="Meinhardt L.W."/>
+<person name="Costa G.G.L."/>
+<person name="Thomazella D.P.T."/>
+<person name="Teixeira P.J.P.L."/>
+<person name="Carazzolle M.F."/>
+<person name="Schuster S.C."/>
+<person name="Carlson J.E."/>
+<person name="Guiltinan M.J."/>
+<person name="Mieczkowski P."/>
+<person name="Farmer A."/>
+<person name="Ramaraj T."/>
+<person name="Crozier J."/>
+<person name="Davis R.E."/>
+<person name="Shao J."/>
+<person name="Melnick R.L."/>
+<person name="Pereira G.A.G."/>
+<person name="Bailey B.A."/>
+</authorList>
+<dbReference type="PubMed" id="24571091"/>
+<dbReference type="DOI" id="10.1186/1471-2164-15-164"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="7 8">MCA 2997</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="1">Lacks conserved residue(s) required for the propagation of feature annotation.</text>
+</comment>
+<comment type="caution">
+<text evidence="7">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="AWSO01000768">
+<property type="protein sequence ID" value="ESK87536.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_007853163.1">
+<property type="nucleotide sequence ID" value="XM_007854972.1"/>
+</dbReference>
+<dbReference type="EnsemblFungi" id="ESK87536">
+<property type="protein sequence ID" value="ESK87536"/>
+<property type="gene ID" value="Moror_2026"/>
+</dbReference>
+<dbReference type="KEGG" id="mrr:Moror_2026"/>
+<dbReference type="HOGENOM" id="CLU_006395_0_0_1"/>
+<dbReference type="OrthoDB" id="597979at2759"/>
+<dbReference type="Proteomes" id="UP000017559">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005509">
+<property type="term" value="F:calcium ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="CDD" id="cd00052">
+<property type="entry name" value="EH"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011992">
+<property type="entry name" value="EF-hand-dom_pair"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002048">
+<property type="entry name" value="EF_hand_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000261">
+<property type="entry name" value="EH_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR015940">
+<property type="entry name" value="UBA"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR009060">
+<property type="entry name" value="UBA-like_sf"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12763">
+<property type="entry name" value="EF-hand_4"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00627">
+<property type="entry name" value="UBA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00027">
+<property type="entry name" value="EH"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="SMART" id="SM00165">
+<property type="entry name" value="UBA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF46934">
+<property type="entry name" value="SSF46934"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF47473">
+<property type="entry name" value="SSF47473"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50222">
+<property type="entry name" value="EF_HAND_2"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50031">
+<property type="entry name" value="EH"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50030">
+<property type="entry name" value="UBA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="2">Coiled coil</keyword>
+<keyword id="KW-1185" evidence="8">Reference proteome</keyword>
+<feature type="domain" description="EH" evidence="5">
+<location>
+<begin position="11"/>
+<end position="97"/>
+</location>
+</feature>
+<feature type="domain" description="EF-hand" evidence="6">
+<location>
+<begin position="44"/>
+<end position="79"/>
+</location>
+</feature>
+<feature type="domain" description="EH" evidence="5">
+<location>
+<begin position="135"/>
+<end position="225"/>
+</location>
+</feature>
+<feature type="domain" description="EF-hand" evidence="6">
+<location>
+<begin position="167"/>
+<end position="202"/>
+</location>
+</feature>
+<feature type="domain" description="EH" evidence="5">
+<location>
+<begin position="314"/>
+<end position="403"/>
+</location>
+</feature>
+<feature type="domain" description="EF-hand" evidence="6">
+<location>
+<begin position="347"/>
+<end position="382"/>
+</location>
+</feature>
+<feature type="domain" description="UBA" evidence="4">
+<location>
+<begin position="1276"/>
+<end position="1318"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="3">
+<location>
+<begin position="269"/>
+<end position="288"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="3">
+<location>
+<begin position="385"/>
+<end position="515"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="3">
+<location>
+<begin position="656"/>
+<end position="684"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="3">
+<location>
+<begin position="700"/>
+<end position="1282"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="563"/>
+<end position="597"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Pro-rich" evidence="3">
+<location>
+<begin position="413"/>
+<end position="427"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="3">
+<location>
+<begin position="450"/>
+<end position="465"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="3">
+<location>
+<begin position="484"/>
+<end position="505"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="3">
+<location>
+<begin position="701"/>
+<end position="723"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="3">
+<location>
+<begin position="740"/>
+<end position="774"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="3">
+<location>
+<begin position="794"/>
+<end position="810"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="3">
+<location>
+<begin position="817"/>
+<end position="836"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="3">
+<location>
+<begin position="860"/>
+<end position="888"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="3">
+<location>
+<begin position="1000"/>
+<end position="1018"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="3">
+<location>
+<begin position="1029"/>
+<end position="1054"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="3">
+<location>
+<begin position="1088"/>
+<end position="1131"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Pro-rich" evidence="3">
+<location>
+<begin position="1188"/>
+<end position="1209"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="3">
+<location>
+<begin position="1220"/>
+<end position="1235"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00448"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50030"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50031"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50222"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ESK87536.1"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000017559"/>
+</source>
+</evidence>
+<sequence length="1319" mass="138974" checksum="6EAF41130E42E894" modified="2014-01-22" version="1">MSSSFSPTQGELTLAGQIFAQTDSQKLGILKGDEAVRIFGGAKLAPTVLGEIWNIADADNNGWLSRKGIAIALRLMGWAQKGEKISKDLVNKPGPLPVIEGLAPTAQHTGLAPQLTGMSIPKSPPPGLPPISQADKTKFHNMFMKAGPVNGLLSADQARDLFLKSKLPNDTLLQIWNLADTQDRGALDVVDFALGMYFIQGTMSGTISTLPDSLPQRLYQQAAAGLTTSGSFSPGPTQSTFPQTRAPIQPQYTGQTPVMQPQYTGQTSVLQPQNTGMSTQKRPAPTLPARPNPSQIGSGAFGVQASQWDVTAAEKTNADRYFDTLDTAKAGYIEGDVAVPFMLESKLPDDVLAHIWDLSDLSNNGRLSRDGFAVAMHLIQKKLAGGDLPETLPPSLIPPSMRTNGATPFASGTHRPAPPPPMSQQPAPEPTQDLFSFDDTPPASATSPPPSGPFSIAMQSTGPQPRSVSSPPPPPASRDPFGSGRDLLSDDDEPVSSRELHDRSAEIGNIQNQLNSTNRSMETAKSERVNLEQTLADQASQLSSLQTQLSLAKAAYETETKSLAHLKDRHANQMAEIQKTRQELITAESDLSALRVEKAEIEGAFLRDKEEARELHKKMIETSQQTETLKAETEKAKKDAKQQKGLLAIAKKQLASKEAERAKAEKELEEASAEVTSINKGREEAETELERLAAYSGIAPASPTADTSVISSPGRTISPDSLMFAASQPLPATPDLNSPAVGVASPSKSNNPFERLAMTGSPSPRSQSPFLPFTNAAVPTPPVADVNAADAAEKTAEPSKDHEDDDPFGFSKEANGLASASEPTPTTTSTASDTGTPKAEPIAIPKAVASAMPGAFGSPTESELFTTPPSTAVPQFEASPQRQTTIDAAASKFPEIDGTVSPGDKKVPEVSGETDLGSSLRELEVDESDSDSSDDEDEVPLAELAKTKTAEAQSQPEKKETTSFDDIFGVSSDEPATAADKPKNELPTDAFGMPVSKNVGQEALSESQPTSISHVASPTEAGVSAFDEAMGNMSSTAPSTAPSSSAQPQFSFDSAFDDNFDFGAAGGTSFPPAPKTNGHAPATNGDDGFDSLFSSQPPTSVVTNSAADSTPKPQAPTLPNNTSTNPSAGPSFDDVFSGFGSAPSLNLDAPASPKAATQEAATADSPARKPFPSASIDSPTTSPRPSVTRTTTPPPRAKSPPPRVGSPKPPRPSTASGSSRDGQEKEKKEPPPRHSKLSIRLPFGKKKKQQHEPPPPPPSQMLTPPQEEPDRQGSPAGDDDVEAVKQLTAMGFSRSQAVAALERYGYDVPRALNSLLGQG</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

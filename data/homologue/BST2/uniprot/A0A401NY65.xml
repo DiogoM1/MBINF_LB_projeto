@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2019-05-08" modified="2019-12-11" version="4">
+<accession>A0A401NY65</accession>
+<name>A0A401NY65_SCYTO</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">scyTo_0000471</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Scyliorhinus torazame</name>
+<name type="common">Cloudy catshark</name>
+<dbReference type="NCBI Taxonomy" id="75743"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Chondrichthyes</taxon>
+<taxon>Elasmobranchii</taxon>
+<taxon>Galeomorphii</taxon>
+<taxon>Galeoidea</taxon>
+<taxon>Carcharhiniformes</taxon>
+<taxon>Scyliorhinidae</taxon>
+<taxon>Scyliorhinus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="journal article" date="2018" name="Nat. Ecol. Evol." volume="2" first="1761" last="1771">
+<title>Shark genomes provide insights into elasmobranch evolution and the origin of vertebrates.</title>
+<authorList>
+<person name="Hara Y."/>
+<person name="Yamaguchi K."/>
+<person name="Onimaru K."/>
+<person name="Kadota M."/>
+<person name="Koyanagi M."/>
+<person name="Keeley S.D."/>
+<person name="Tatsumi K."/>
+<person name="Tanaka K."/>
+<person name="Motone F."/>
+<person name="Kageyama Y."/>
+<person name="Nozu R."/>
+<person name="Adachi N."/>
+<person name="Nishimura O."/>
+<person name="Nakagawa R."/>
+<person name="Tanegashima C."/>
+<person name="Kiyatake I."/>
+<person name="Matsumoto R."/>
+<person name="Murakumo K."/>
+<person name="Nishida K."/>
+<person name="Terakita A."/>
+<person name="Kuratani S."/>
+<person name="Sato K."/>
+<person name="Hyodo S."/>
+<person name="Kuraku S."/>
+</authorList>
+<dbReference type="PubMed" id="30297745"/>
+<dbReference type="DOI" id=".1038/s41559-018-0673-5"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<comment type="caution">
+<text evidence="2">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="BFAA01000092">
+<property type="protein sequence ID" value="GCB65819.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000288216">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR037391">
+<property type="entry name" value="PMF1-bd"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR18881">
+<property type="entry name" value="PTHR18881"/>
+<property type="match status" value="4"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="8"/>
+<end position="42"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="68"/>
+<end position="158"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="187"/>
+<end position="207"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="215"/>
+<end position="256"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="289"/>
+<end position="316"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="324"/>
+<end position="393"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="401"/>
+<end position="421"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="433"/>
+<end position="502"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="510"/>
+<end position="558"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="580"/>
+<end position="607"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="671"/>
+<end position="691"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="720"/>
+<end position="758"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="762"/>
+<end position="782"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="801"/>
+<end position="863"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="885"/>
+<end position="940"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="955"/>
+<end position="1024"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1032"/>
+<end position="1059"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1081"/>
+<end position="1150"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1169"/>
+<end position="1231"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="GCB65819.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000288216"/>
+</source>
+</evidence>
+<sequence length="1253" mass="147044" checksum="50E7909E0F303FA3" modified="2019-05-08" version="1">MAGTREYNGNLETEMMRLEQTIKQLEEERVRLQEHCHELVEENGQLQARLEVENLAVQNKQNAMSMELHRKEDLIHKLKEEKAGLQDKANVIEGEIFQYEMQIEHLNRQLKSAESERVTSDKAIHSLERQLQEYRTRHHEATAEVDQCQDTIRQLNIKFSSLHIAQESAEKISEHKQETICQLEIETQALQSEVLELQTKRMKLEEELNTTDFKAASLRANLQNKSEEVQKLTEQLEQSQEATHRMTGELNEMKANVNIELFRKEDYLEKMTKELDAVTEESIQRAVQLSNSTVEKQKLEADLTLLREKYKAAQLEVNSRGQVILKLKADLKTAEENLRVAREELKLQKAEVVNLKTKINSLQVELQNLRDACKEHDKKMSQQEQAILNLQHEQKISNQQNLSQEKSMDQLQKELEVFKQAHESDIDHFSHETARLRKELESSTKELQEKLTKLQQYKSTVDRLNSDLQHAHQQHQEVVQEVSQCEDIIRKQEMEMTQLRQQQFDSENQIAATNQNCKSLEAMLDLYKQKYQTCINKITELENTMQSLEADLQDAHRQLCKRDETIRKLRNDMLTAQHQYENKCRQMENCEDSIDQLTKQLHVAQEGLSANREHVTQCEEIICSLREQAAVHHNEATGWEESFVQLQTDFASYKATHSHSDTDYDLQAAHLEQIKKDLAQVNLQSSEFAQEIKTYQGMVHKMNTQLTTVTEQKNNGMKDIARLEKVIQSLQLDVASELQKHQMESAKLGQQIIQLENDLHNSRKLYNQREQAIQKRDDLLRKSETDLLQARDRIKGKVTEIEKQEAVVKGLEMDLQRLEKEKQQKENENISLKAEMEQLKQDLQNSKINCREFAQELAHHEEKLLLTGSSLQTTQNQLSDRITEIVRHEQANRKLQSELKTLKEQTINNNEEMDDYRVQIEKLKAENAQNKQSHESAVTEGLKYQQSICKMEMEVSNSREQIKMLQEQIRQKESESKRLREELKIEQMRQEELQKQSQKLKDRVGELEREIDKLNAKFKANTQLTTRQDDKFTKLQLELNTVQEQARKTNRELKSADQLICELRRELTACHGTQKENLEQLGEKSREIASLKNDIARNQQRNMQLAEESSAYEERMRRLHDELKKMQTLNRRAEEELETLRNSLHGARSDSSRLHRESELVVANVNQWVKDQKQANEKLGNKIKEQTKQILQLTAEKDHLQEMNERLQHENKKLKVEVDEKRITNERLKALHNHAAEHPIVMRQLRSPFQDEE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

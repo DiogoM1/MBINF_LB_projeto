@@ -1,0 +1,628 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-11-11" modified="2020-10-07" version="20">
+<accession>A0A0L0DRW1</accession>
+<name>A0A0L0DRW1_THETB</name>
+<protein>
+<submittedName>
+<fullName evidence="5">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="5">AMSG_12333</name>
+</gene>
+<organism evidence="5 6">
+<name type="scientific">Thecamonas trahens ATCC 50062</name>
+<dbReference type="NCBI Taxonomy" id="461836"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Apusozoa</taxon>
+<taxon>Apusomonadidae</taxon>
+<taxon>Thecamonas</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="5 6">
+<citation type="submission" date="2010-05" db="EMBL/GenBank/DDBJ databases">
+<title>The Genome Sequence of Thecamonas trahens ATCC 50062.</title>
+<authorList>
+<consortium name="The Broad Institute Genome Sequencing Platform"/>
+<person name="Russ C."/>
+<person name="Cuomo C."/>
+<person name="Shea T."/>
+<person name="Young S.K."/>
+<person name="Zeng Q."/>
+<person name="Koehrsen M."/>
+<person name="Haas B."/>
+<person name="Borodovsky M."/>
+<person name="Guigo R."/>
+<person name="Alvarado L."/>
+<person name="Berlin A."/>
+<person name="Bochicchio J."/>
+<person name="Borenstein D."/>
+<person name="Chapman S."/>
+<person name="Chen Z."/>
+<person name="Freedman E."/>
+<person name="Gellesch M."/>
+<person name="Goldberg J."/>
+<person name="Griggs A."/>
+<person name="Gujja S."/>
+<person name="Heilman E."/>
+<person name="Heiman D."/>
+<person name="Hepburn T."/>
+<person name="Howarth C."/>
+<person name="Jen D."/>
+<person name="Larson L."/>
+<person name="Mehta T."/>
+<person name="Park D."/>
+<person name="Pearson M."/>
+<person name="Roberts A."/>
+<person name="Saif S."/>
+<person name="Shenoy N."/>
+<person name="Sisk P."/>
+<person name="Stolte C."/>
+<person name="Sykes S."/>
+<person name="Thomson T."/>
+<person name="Walk T."/>
+<person name="White J."/>
+<person name="Yandava C."/>
+<person name="Burger G."/>
+<person name="Gray M.W."/>
+<person name="Holland P.W.H."/>
+<person name="King N."/>
+<person name="Lang F.B.F."/>
+<person name="Roger A.J."/>
+<person name="Ruiz-Trillo I."/>
+<person name="Lander E."/>
+<person name="Nusbaum C."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5 6">ATCC 50062</strain>
+</source>
+</reference>
+<comment type="similarity">
+<text evidence="1">Belongs to the bacterial ribosomal protein bL21 family.</text>
+</comment>
+<dbReference type="EMBL" id="GL349493">
+<property type="protein sequence ID" value="KNC54982.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_013753456.1">
+<property type="nucleotide sequence ID" value="XM_013898002.1"/>
+</dbReference>
+<dbReference type="STRING" id="529818.AMSG_12333T0"/>
+<dbReference type="EnsemblProtists" id="KNC54982">
+<property type="protein sequence ID" value="KNC54982"/>
+<property type="gene ID" value="AMSG_12333"/>
+</dbReference>
+<dbReference type="GeneID" id="25570247"/>
+<dbReference type="eggNOG" id="KOG0994">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG1686">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="OrthoDB" id="1586807at2759"/>
+<dbReference type="Proteomes" id="UP000054408">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005840">
+<property type="term" value="C:ribosome"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003723">
+<property type="term" value="F:RNA binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003735">
+<property type="term" value="F:structural constituent of ribosome"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006412">
+<property type="term" value="P:translation"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="HAMAP" id="MF_01363">
+<property type="entry name" value="Ribosomal_L21"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036164">
+<property type="entry name" value="L21-like_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR028909">
+<property type="entry name" value="L21p-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001787">
+<property type="entry name" value="Ribosomal_L21"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00829">
+<property type="entry name" value="Ribosomal_L21p"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF141091">
+<property type="entry name" value="SSF141091"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR00061">
+<property type="entry name" value="L21"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0175" evidence="3">Coiled coil</keyword>
+<keyword id="KW-1185" evidence="6">Reference proteome</keyword>
+<keyword id="KW-0687" evidence="2">Ribonucleoprotein</keyword>
+<keyword id="KW-0689" evidence="2">Ribosomal protein</keyword>
+<feature type="region of interest" description="Disordered" evidence="4">
+<location>
+<begin position="631"/>
+<end position="654"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="4">
+<location>
+<begin position="2155"/>
+<end position="2174"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="216"/>
+<end position="264"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="328"/>
+<end position="369"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="378"/>
+<end position="405"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="433"/>
+<end position="467"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="565"/>
+<end position="585"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="609"/>
+<end position="629"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="655"/>
+<end position="682"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="690"/>
+<end position="714"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="751"/>
+<end position="792"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="814"/>
+<end position="876"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="895"/>
+<end position="940"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1019"/>
+<end position="1053"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1180"/>
+<end position="1207"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1243"/>
+<end position="1284"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1295"/>
+<end position="1315"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1382"/>
+<end position="1498"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1502"/>
+<end position="1529"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1552"/>
+<end position="1593"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1609"/>
+<end position="1643"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1659"/>
+<end position="1679"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1700"/>
+<end position="1720"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1746"/>
+<end position="1766"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="2267"/>
+<end position="2287"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="2295"/>
+<end position="2322"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="2337"/>
+<end position="2357"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="2415"/>
+<end position="2435"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="2451"/>
+<end position="2534"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="2620"/>
+<end position="2668"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="2763"/>
+<end position="2783"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="2917"/>
+<end position="2944"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="2981"/>
+<end position="3036"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="3056"/>
+<end position="3083"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="3109"/>
+<end position="3129"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="3165"/>
+<end position="3220"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="3257"/>
+<end position="3291"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="3390"/>
+<end position="3424"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="3452"/>
+<end position="3472"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="3476"/>
+<end position="3524"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="3539"/>
+<end position="3559"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="3585"/>
+<end position="3605"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="3646"/>
+<end position="3666"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="3699"/>
+<end position="3726"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="3744"/>
+<end position="3771"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="3797"/>
+<end position="3831"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="3875"/>
+<end position="3895"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="3928"/>
+<end position="3955"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="3967"/>
+<end position="4015"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="4020"/>
+<end position="4054"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="4059"/>
+<end position="4107"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="4112"/>
+<end position="4160"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="4165"/>
+<end position="4213"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="4246"/>
+<end position="4273"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="4281"/>
+<end position="4301"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="4316"/>
+<end position="4350"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="4361"/>
+<end position="4381"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="4394"/>
+<end position="4414"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="4433"/>
+<end position="4499"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="4514"/>
+<end position="4534"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="4584"/>
+<end position="4618"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="4657"/>
+<end position="4691"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="4737"/>
+<end position="4778"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="4786"/>
+<end position="4820"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="4839"/>
+<end position="4866"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="4913"/>
+<end position="4957"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="4965"/>
+<end position="4999"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="5050"/>
+<end position="5084"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="5128"/>
+<end position="5162"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="5333"/>
+<end position="5353"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="5366"/>
+<end position="5393"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="5515"/>
+<end position="5535"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00008563"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00022980"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KNC54982.1"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000054408"/>
+</source>
+</evidence>
+<sequence length="5655" mass="604496" checksum="30AB232ECF8AD1C6" modified="2015-11-11" version="1">MDAVLQKLEVRDQEVVQKALWRAGQYGERIKAACRNAVEGAVKSMASFVETYDEDIKRLTARNYASLNKTLAGIPHPDEATRTKLAFAQLRIDDESNIRTDMTANIAALGAALRSAASQLDNLPLPPPLPSRAREPDDRVRHMQARVEALVSERDVALAAHRSTVAELELERSRYDVLDNLYHSSLREAQAAVADLAAVVKPAATPAAPPPVPAEQPELEAQLDEFQAANAAAQLECLRLAQELDEARVRAQAAEAELAELSHFAHDASMLRDEAAALNDSLVIEREETNALASSLKIAFDVESESNQALRENLKTQVGITRTIKRKLAAAQTELAAVSQAKADALDRVHSLEAELAAMRDAAEHADSAKDAAVDAVRSDMATQLAELLEQLDEVQAENDALRTSIDALRPSALAADELPLLNDEITTLRAALDAATRDRDAVRADMNRMLAERDAARAELASVRASSHAQALVGSGHTAQALAERIVLYDELKAQYDASRKQWADHVRMLEEALESQKTSGAVAGLRRSLARDSELIQAALDRDTSQASILVAPSADPALKHQLTAMEAENQDLRSQLDQAILLNERLTSLSMLSSPRTPQGANPMALRELEDRLDEATQLNALLQARLDRGSPASQRSPLAPIENAPPADRSTNRLHTVIEELKNQANEAEALNAALSADAVAAHTAHQEVKAELETALADLASMRLRARENEASVLALQARVTELDTSLADITFNASREQAAGNAEVLAALATERDELAAERDAVRRELQAAESAAALADAHAQQLEARAKLRDDHMRSLQARLADDANMTEDLRSLADEAEALNAALTTEAELARREVDEARAERDEARAEAEKLRRTVTAHEARAKKLSSRVADLDESLSSHREALISERDTALAALAEAQLRVTAAEAEAEALLAQLRGQADEAEALNAALAAECTAARSSLAAAEADRDAALVELDVVRRAAADRAHRAAELDTRIDELDSSLSAVARAAREGSALPHTSGHHNGNALAEERATLVAERDAARAEADAARVEVESATARVAELEAQASLRDARTQELEAQALVALETSRARISELEALTLETNEFNAALSAEVSEARHAEAEAIYERDQALAQLEALHVTARARAEQAAKLDERLELLDTSINTQLMTGAELEAVIAERDGVATERDAAHVALRSARAEVNAAQARAAELDARAQAMESAHMASSARADEMQALADEAAALNAALAAEHNAAVTARAELEHEQAELTARVAALSSERSDLHARLEKAASEREALVAQLSGSQSPVQALKAAEAQIEKLEKQLIAPEQALADAHVLLAEQAQRLCTRDEELATAHMRVGELESLLAGANTRVTELQSALESSTRPERHNLDDNSLVVEMENTLTGAHARIAELLAERDGLTAALARHEARARELESKVANLDSSLHEVAENAEDKARSELADLKAERDAAVAELESVRAQLEREHALGEEKVRSATVEVETLRAELDEASTLNGALAVENARLATLEAERDSLAQENQALCERVGKLAALRDDSAADARSHKSEALEASAVAIARLEERLAAEQQSREVVERERASLIEAMAQTREAMATAMTSMEREREAHVQAHAAELREALAQMDALESANVSLSNEAERARLDASAIHERSDRESETRVEFLEAEVVRLLGEVASARSDAAAAAADTTPAADPTLDGATVEELQARLAHHQASAEQYQARVLSVLRGAEALVDGPINSIADVLRAMSALELERDMARDSLASLREHAASSDAELARTKAQAAVLGDKLEVALAENATLQHLVTRLQSALAEETARWSEAASRERFARASADSSWISRLDDMGEQLDASLAANSTLSHEEHMLRGQVDDLQAVVRGAHGSLDAHLETLQQMRALACEFVAPAEPGDVSQDIADQAREVEAGMAELEAALLEARHFSLSSSSVATLSDASLVSHESHIGVAASDDRATQLEVELAERNRLIADVVAEVRGTLGLRQVEVARVVRAAVELIDARAPDAGIRAEVVELRGMLEAESMRFETARARAVDAVFAGKEAELEETLAEVSAQLSARDAELAATVSSMRAQAARVTEAANVARALVDAGMPDEGLRTEVLRLSEALEVAQAEAIDALLVQDDADSSADSAISCSGSAVSDIAPPLPLEGLASDTPESDGARRDADRELDALCIELAAARGAEASARARLEAVCGMLRMHLDSLAAIAVAGGELVEAGAAGELLRDEVVRLADALEAARAQAVNEVFANGQDGDEARDELNAELALSRKREEVLENRLEAMGLELAESTAKVAALEASVDELVVEADELKRRETEAADAAGTMAHELDEAEASVAILQNELSVSRKREEVLETRLEETCLQLATLSDDTVVMRDSVVDTLRARLAVLAEAAAAADGLIVAGGEPVDALRDEVVRLADALEAARAQAVNEVFANGQDGDEARDELDAELALSRKREEVLENRLEAMGLELAESTAKVAALEANVDELVVKVDELEKQKAEMAKRLAALQDELGEAREHKRLLEARLTKSGVEQAALGKDLVGTLRARLTVVAEAANAAGDLVAAGIVDELLRGEVDRLTVALEAARAQAVNEVFAGEKPSDETDPELEAELLLLREREAELENKLEVADRELAESTAEVARLEAEIGEAKAREAAVTADLAATNAELVEARSALGSVVVVDDTTVSARLDDFNVSSDDDGDDNNELEPGESMLDVSELRETLGDACEDAEDRLVQIRRIMRVAGELVESWAMPNERLRNEIAELREELAVRAQREHLSLDEFNLSDEEPGFDVSDSSSVSSLECSIADTPVVRRAAVALAHASPQSPTVALPAAGSASELDVLRVQHARLSDLLAALMATEGSEAGAAAVAQMEELAAENARLRHDRGLLSDAEAGFRARDAGSEAELAKAAAKIRMLEDTLKEAKTEADAERTLMTRRGIAMAEKFESAQKLLRQYLESEQAGEASTTRLVEQLTEDKLALEGQLEDAKAKSRQAIGLERKLAEAQMELQVNARKYEARLVALEAKHLRVKSMLETVLEREDGTANNVLVANVESLLDEIAELRGQNDALSRSILNTPSGPPDAILMPMRSAMSSEASREHLRERYEVVSEEKARLEGEVTRLGEALSAHEAALCALAEEHKAAQAARGDVDTETMRLQEANSRLRDQLGRLNADLAEAHGAVDEAQAKANEALRQAAAAEADLAAEREAGELREERLAARLNALMEKFYVVQSALASYADDEESGAEKLSAQLVRLSSEKSQLEEELAAAEAQAQQGILLEQRLQEREREVEARDGRYEAKISALENRLSQLMSLVAQALEGEDAAGSIVERVGFLAEENEALRHENEQLLGVVRLQDMSGRTSSDHEALDRLAMDEQLSRARARIAIAESAKVEAEVRAEQARARALALEEAATGRFEDSGLADELERLQVMWRESEASKTELEVEVAKMEARIRASAADTAALSRVRTRLEVAEGELVESRQRRKNAEVRAAELEVMLERANDHITRLERAVGSGDDAAEADAASVSVLEAMLEAKEGALADAEAAHKQVVDALESALADQGRVLSRSNAARAELQVHVGELEARLAELSGAPKVVLTPEDSVEVRQEDVDVGKMTALKASLLEKEAIIKSLRAEAERQASTAAERIAFLENVGAAAEPCAVADNKEPDAIVVELEALLATKVEEVDAAVAKNGELEAKIKNLESRVEEQSMTVGEVESVLRDELTLEASLAEKTSAITTLEAEVKKMEAAVAAHEVMLEDERSASASKIEELETVVTGLEASLAERTSSIATLEAEAERMEAAVAAHEATLEDERSTSASKIEELETVVSGLEASLAEKTSSISALEATLEDERSISASKIEELETVVTGLEASLAEKTNSIGTLEASLEDERSASASKIEELETVVTGLEASLAERTSSIATLEAEAERMEAAVAAHEATPEDERSTSASKIEELETVVTGLEASLAEKTNSIATLEAKAERMEAAVAAHEASLEDERSASASKIEELETVVTGLEASLAEKTNSISALEASLEDERSASTSKIEELETVVTGLEASLAEKTNSIATLEAEAERMEAAVAAHEATLEDERSASASKIEELETVVSGLEASLAEKTNSIAILEAEAERMEAAVAAHEASLKDERSASASRIEELETVVSGLEASLAEKTNSIATLEAEAERMEAAVAAHEASLKDERSASASKIEELETVASGLEATLVMKTTSIETMSRTIQQVEHERDDTVAQAERLEAELRRAIAARDARDADLLALEDELTTVRNSLRDARSQAAAAQTACDDAVFEAESLTSRLEAEQARLAKTQDELAATTERADEADRILERSAAAMAEVDDLRTSNTALLAEIAQLSAEAEDRVAAAVACQTEHLEAERDSLASANAALQSQTESLRLDHEASLQVSSSTILELEDAKTELEAKLDAARGERDAALALQDELKEAQAGIEADLRKLAEEQATKVDELQTQLALAEETVMVHAAVLTARDRDLADARAQLEAAHADLEQMAVLGKELSAKAAAAQRAEAAAVQRAERAKAAAQDAQLQAEAITSSRSSLLADLHAAQASLEDSRTEVAKLRVEVQRFDAELATVRAQNASLTSELDAEMIHGAKLQEQVNAMHGLRTQSLNAEATAEDLRRTLEAETLAREAAQDDAVALRDRLAAATRELTQSRASCADAIRDRDALQARLDAALTLQSTVEARCTRLATEADAVPQLRKELRMLQRSVDAAQAENRELERAVEAQRERVQAERASAASAVSERTAALAEAERMRIELQTAEAALAAAQAAAADARAAADEVTVALVVRDGDHASAVTAVETQIAAARAEAQAALEAADAAEGRAAQSAARVAAVQAELAAKDSGLAELRASLTAARNELSATRVALSGAQAEAERDAAAAAASASQLEQTKVQLDEQMQLLEAADERAARAERAQGVARAEAESARAKAVSAASDAARLRDELDTARQAAAEARVEFELADAAREEAVTSADALVSRVQVLGTQLKEARVQLQAAYDEAAVAKSAAAEREQDLRNESQSEIRRLEAALERAQAAAVQAADTAAAQTQSDMQSQCSEADVDAVRERMKDQYESLLSQVKGAHKAAAARSAQRIADLEARLEDVERAADEARMAARAAQERGSGAPHSLRLSAAELEEIRQALAAALADTELSAEICVHVEALESSLVPLQRLLEQAGAGRETGELDADLVVASAAEGRGPSPAFVVEIDAEGDEPAALVRMLAAQMEAEAAFLAGESSRLAKAGMGVSDELVSTLHSLLAENAQLRAAVAAKTRALEDAAEVGGRAAETRIAQLLEERSALAVKLAEAQSAVQASDRATQGAVRKALVAQAEQAERERARALAKVDDAAMAHIARNAEAMALVQALAAGSQPGGLSRAARLVADEVAPAVDSREADAARKWSQAEARYSAHVGQLETELARLQAKLTGTAAPDVADLLSQLHLEQQARVHAQAEATAQQAAGARLKTDMLREISRLRVKLQQVQVRFLELENESQAETLALRERGGAGVYAVFAAGGKQYKVQVDDVVAMDALKGTSLGDAVAFDSVLAIGSPAETLVGTPYLPNTKVVAQVIEVTRSAKATVFKKKRRKGYTRTATHRAPITVLRIDSIVAL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

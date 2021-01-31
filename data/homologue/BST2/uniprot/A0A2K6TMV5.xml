@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2018-03-28" modified="2020-12-02" version="11">
+<accession>A0A2K6TMV5</accession>
+<name>A0A2K6TMV5_SAIBB</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Bone marrow stromal cell antigen 2</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">BST2</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Saimiri boliviensis boliviensis</name>
+<name type="common">Bolivian squirrel monkey</name>
+<dbReference type="NCBI Taxonomy" id="39432"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Platyrrhini</taxon>
+<taxon>Cebidae</taxon>
+<taxon>Saimiriinae</taxon>
+<taxon>Saimiri</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2011-10" db="EMBL/GenBank/DDBJ databases">
+<title>The Draft Genome of Saimiri boliviensis.</title>
+<authorList>
+<person name="Di Palma F."/>
+<person name="Alfoldi J."/>
+<person name="Johnson J."/>
+<person name="Berlin A."/>
+<person name="Gnerre S."/>
+<person name="Jaffe D."/>
+<person name="MacCallum I."/>
+<person name="Young S."/>
+<person name="Walker B.J."/>
+<person name="Lindblad-Toh K."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="2" evidence="3">
+<citation type="submission" date="2018-02" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<dbReference type="RefSeq" id="XP_003942316.1">
+<property type="nucleotide sequence ID" value="XM_003942267.2"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSSBOT00000037819">
+<property type="protein sequence ID" value="ENSSBOP00000020985"/>
+<property type="gene ID" value="ENSSBOG00000027062"/>
+</dbReference>
+<dbReference type="GeneID" id="101032282"/>
+<dbReference type="KEGG" id="sbq:101032282"/>
+<dbReference type="CTD" id="684"/>
+<dbReference type="GeneTree" id="ENSGT00390000013782"/>
+<dbReference type="OMA" id="KNNASSC"/>
+<dbReference type="OrthoDB" id="1579815at2759"/>
+<dbReference type="Proteomes" id="UP000233220">
+<property type="component" value="Whole Genome Shotgun Assembly"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009986">
+<property type="term" value="C:cell surface"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005794">
+<property type="term" value="C:Golgi apparatus"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005771">
+<property type="term" value="C:multivesicular body"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008191">
+<property type="term" value="F:metalloendopeptidase inhibitor activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042803">
+<property type="term" value="F:protein homodimerization activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051607">
+<property type="term" value="P:defense response to virus"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045087">
+<property type="term" value="P:innate immune response"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030308">
+<property type="term" value="P:negative regulation of cell growth"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030336">
+<property type="term" value="P:negative regulation of cell migration"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:1901253">
+<property type="term" value="P:negative regulation of intracellular transport of viral material"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002737">
+<property type="term" value="P:negative regulation of plasmacytoid dendritic cell cytokine production"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045071">
+<property type="term" value="P:negative regulation of viral genome replication"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024886">
+<property type="entry name" value="BST2"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR15190">
+<property type="entry name" value="PTHR15190"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF16716">
+<property type="entry name" value="BST2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-0472" evidence="2">Membrane</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<keyword id="KW-0812" evidence="2">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="2">Transmembrane helix</keyword>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="27"/>
+<end position="52"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="109"/>
+<end position="164"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSSBOP00000020985"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000233220"/>
+</source>
+</evidence>
+<sequence length="191" mass="21337" checksum="3CEF5EA5929530D7" modified="2018-03-28" version="1">MAPTLFHYPLVPIDDFLKHERKERYKLLVGIGVVVLLVIVVMALGTLLIIYVKRANSEDCQEGHRAVMECRNATHLLEQKLTLAQDGFRDAEAQVATYNQTVMTLMASLDKEKAHSLDVEKKVEELEGEITTLNQKLQDASMEVERLRRKNQDLSAKIADQKDSASSLKDTSSAAKLLLLIPLLGLGARLL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

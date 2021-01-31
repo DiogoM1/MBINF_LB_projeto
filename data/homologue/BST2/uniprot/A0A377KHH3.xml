@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2018-11-07" modified="2020-08-12" version="10">
+<accession>A0A377KHH3</accession>
+<name>A0A377KHH3_9ENTE</name>
+<protein>
+<submittedName>
+<fullName evidence="6">NlpC/P60 family lipoprotein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="6">NCTC8129_00818</name>
+</gene>
+<organism evidence="6 7">
+<name type="scientific">Enterococcus durans</name>
+<dbReference type="NCBI Taxonomy" id="53345"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacilli</taxon>
+<taxon>Lactobacillales</taxon>
+<taxon>Enterococcaceae</taxon>
+<taxon>Enterococcus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="6 7">
+<citation type="submission" date="2018-06" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<consortium name="Pathogen Informatics"/>
+<person name="Doyle S."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="6 7">NCTC8129</strain>
+</source>
+</reference>
+<comment type="similarity">
+<text evidence="1">Belongs to the peptidase C40 family.</text>
+</comment>
+<dbReference type="EMBL" id="UGIF01000002">
+<property type="protein sequence ID" value="STP28650.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000254070">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000064">
+<property type="entry name" value="NLP_P60_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR038765">
+<property type="entry name" value="Papain-like_cys_pep_sf"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00877">
+<property type="entry name" value="NLPC_P60"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF54001">
+<property type="entry name" value="SSF54001"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0175" evidence="2">Coiled coil</keyword>
+<keyword id="KW-0449" evidence="6">Lipoprotein</keyword>
+<keyword id="KW-1185" evidence="7">Reference proteome</keyword>
+<keyword id="KW-0732" evidence="4">Signal</keyword>
+<feature type="signal peptide" evidence="4">
+<location>
+<begin position="1"/>
+<end position="26"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5016878657" evidence="4">
+<location>
+<begin position="27"/>
+<end position="541"/>
+</location>
+</feature>
+<feature type="domain" description="NLPC_P60" evidence="5">
+<location>
+<begin position="439"/>
+<end position="530"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="3">
+<location>
+<begin position="236"/>
+<end position="425"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="27"/>
+<end position="110"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="151"/>
+<end position="183"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="3">
+<location>
+<begin position="245"/>
+<end position="273"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="3">
+<location>
+<begin position="276"/>
+<end position="370"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Pro-rich" evidence="3">
+<location>
+<begin position="371"/>
+<end position="391"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="3">
+<location>
+<begin position="392"/>
+<end position="425"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00007074"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF00877"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="STP28650.1"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000254070"/>
+</source>
+</evidence>
+<sequence length="541" mass="56565" checksum="5625A7ECA609D00A" modified="2018-11-07" version="1">MKKSLISAVMLSSIALTAVGSPIAAAADDFDSQIQQQDQKIADLQNQQASAQSQIEALEGQVSSINAKAQDLLTKQDTLRKESSQLEKEIADLQERIEKREATIQKQARETQVKNTSSNYIDAVLNADSLADAVGRIQAMTSIVKANQDLVDQQKQDKQAVEDKKAENEAKQKELSANQATLESQKGDLLAKQADLNVLKTSLAAEQATVEDKKADLNRKKAEAEAEQARIREQARLAEQARQQAAQEKAEKEAREQAAAQAAQEKAEKEAREQAAAQAAQSQAASSASTTENSSTVQSSTTESSSSSAQSSSSSAVVTPGSSSTTEESTVPESSTESSSTESSTTDSSVTESTTVPESSTQETTPATPATPATPATPATPATPATPATPSTPSTPGNGGTTNNNNNQGTIVTPPTTPSTPSGSVNGSAIVAEAYKYIGVPYVWGGKDPSGFDCSGFTSYVYKQVTGRDIGGWTVPQENAGAKISVSQAKAGDLLFWGSPGGTYHVAIALGGGQYIHAPQPGESVKVGSVQWFAPDFAVSM</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,160 +1,130 @@
->ref|YP_009724395.1| ORF7a protein [Severe acute respiratory syndrome coronavirus 2]
-MKIILFLALITLATCELYHYQECVRGTTVLLKEPCSSGTYEGNSPFHPLADNKFALTCFS
-TQFAFACPDGVKHVYQLRARSVSPKLFIRQEEV-QELYSPIFLIVAAIVFITLCFTLKRK
-TE
->gb|QHR63305.1| nonstructural protein NS7a [Bat coronavirus RaTG13]
-MKIILFLVLVTLATCELYHYQECVRGTTVLLKEPCSSGTYEGNSPFHPLADNKFALTCFS
-TQFAFACPDGVKHVYQLRARSVSPKLFIRQEEV-QELYSPIFLIIAAIVFITLCFTLKRK
-TE
->gb|QIG55950.1| ORF7a protein [Pangolin coronavirus]
-MKIILFLALITLATCELYHYQECVRGTTVLLKEPCSSGTYEGNSPFHPLADNKFALTCFS
-TQFAFACPDGVKHIYQLRARAVSPKLFIRQEEV-QELYSPIFLIVAAIVFITLCFTLKRK
-IE
->gb|QIA48619.1| orf7a protein [Pangolin coronavirus]
-MKIILLLALVTFATCERYHYQECVRGTTVLIKEPCSSGTYEGNSPFHPLADNKFALACSS
-QQFAFACPDGTKHTFQLRARSVSPKLFIRQEEV-QELYSPLFLIIAALVFITLCFTLKRK
-TE
->gb|QIQ54053.1| ORF7a protein [Pangolin coronavirus]
-MKIILLLALVTFATCERYHYQECVRGTTVLIKEPCSSGTYEGNSPFHPLADNKFALACTS
-QQFAFACPDGTKHTFQLRARSVSPKLFIRQEEV-QELYSPLFLIIAALVFITLCFTLKRK
-TE
->gb|AVP78047.1| hypothetical protein [Bat SARS-like coronavirus]
-MKIIFFLVLITLVTGELYHYQECIKGTTVLLKEPCSSGTYEGNSPFHPLADNKFALTCFS
-TQFAFACPDGVRHTFQLRARSVSPKLFTRQEEV-QELYSPVFLIVAAIVFIILCFTFKRK
-IE
->gb|AVP78036.1| hypothetical protein [Bat SARS-like coronavirus]
-MKIIFFLVLITLVTGELYHYQECIKGTTVLLKEPCSSGTYEGNSPFHPLADNKFALACFS
-TQFAFACPDGVRHTFQLRARSVSPKLFTRQEEV-QELYSPVFLIVAAIVFIILCFTFKRK
-IE
->sp|Q3I5J0.1| RecName: Full=Protein 7a; AltName: Full=Accessory protein 7a; Flags: Precursor [Bat SARS CoV Rp3/2004]
-MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFITLCFTIKRK
-TE
->gb|AIA62335.1| hypothetical protein ORF7a [BtRs-BetaCoV/YN2013]
-MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTS
-TRFAFACADGTRHTYQLRARSVSPKLFIRQEEVHQELYSPLFLIVAAIVFIILCFTIKRK
-TE
->sp|Q3LZX7.1| RecName: Full=Protein 7a; AltName: Full=Accessory protein 7a; Flags: Precursor [Bat SARS coronavirus HKU3]
-MKIILFLTLIALATCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEEVYQELYSPLFLIVAALVFIILCFTIKRK
-TE
->gb|ARO76387.1| protein 8 [Severe acute respiratory syndrome-related coronavirus]
-MKIILFLTLIVLASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCIS
-THFAFACADGTKHTYQLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRK
-TE
->gb|ATO98225.1| ORF7a [Bat SARS-like coronavirus]
-MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTS
-TRFAFACADGTRHTYQLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRK
-TE
->gb|ACU31037.1| hypothetical protein [SARS coronavirus Rs_672/2006]
-MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRK
-TE
->gb|AGZ48838.1| hypothetical protein [Bat SARS-like coronavirus WIV1]
-MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCLSGTYEGNSPFHPLADNKFALTCTS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRK
-TE
->gb|AAZ41334.1| hypothetical protein [Bat SARS coronavirus HKU3-2]
-MKIILFLTLIALATCELYHYRECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEEVYQELYSPLFLIVAALVFIILCFTIKRK
-TE
->gb|AKZ19081.1| hypothetical protein 7a [Bat SARS-like coronavirus YNLF_31C]
-MKIILFLTLIVLATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCTS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRK
-TE
->gb|ATO98237.1| ORF7a [Bat SARS-like coronavirus]
-MKIILFLTLIALASCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCTS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRK
-TE
->gb|AIA62325.1| hypothetical protein ORF7a [BtRs-BetaCoV/GX2013]
-MKIILFLTLVALATCELYHYQECIRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSS
-TYFAFACADGTRHTYQLRARSVSPKLFIRQEDVHQELYSPLFLIVAALVFIILCFTIKRK
-TE
->gb|ATO98187.1| ORF7a [Bat SARS-like coronavirus]
-MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEEVHQELYSPLFLIVAVLVFIILCFTIKRK
-TE
->gb|AIA62315.1| hypothetical protein ORF7a [BtRs-BetaCoV/HuB2013]
-MKIILFLTLIALASSELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCIS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRK
-TE
->gb|ADE34760.1| hypothetical protein [Bat SARS coronavirus HKU3-7]
-MKIILFLTLVALTTCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEDVHQELYSPLFLIVAALVFIILCFTIKRK
-TE
->gb|ABD75319.1| ORF7a [Bat SARS CoV Rf1/2004]
-MKIILFLTLIALATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCIS
-THFAFACADGTRHTYQLRARSVSPKLFTRQEKVYQELYSPLFLIVAALVFIILCFTIKRK
-TE
->sp|Q0Q470.1| RecName: Full=Protein 7a; AltName: Full=Accessory protein 7a; Flags: Precursor [Bat CoV 279/2005]
-MKIILFLTLIALASSELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCIS
-THFAFACADGTRHTYQLRARSVSPKLFTRQEEVHQELYSPLFLIVAALVFIILCFTIKRK
-TE
->gb|ACZ72114.1| hypothetical protein sars7a [SARS coronavirus ExoN1]
-MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRK
-TE
->ref|YP_009825057.1| ORF7a protein [SARS coronavirus Tor2]
-MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRK
-TE
->gb|AAT52336.1| 7a [SARS coronavirus LLJ-2004]
-MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEEVXQELYSPLFLIVAALVFLILCFTIKRK
-TE
->gb|AIA62295.1| hypothetical protein ORF7a [BtRf-BetaCoV/HeB2013]
-MKIIPFLTLIVLATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCTS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEKVYQELYSPLFLIVAALVFIILCFTIKRK
-TE
->gb|ANA96033.1| 7a protein [Bat coronavirus]
-MKIILFLTLIVLATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCIS
-THFAFACADGTRHTYQLRARSVSPKLFTRQEKVYQELYSPLFLIVAALVFIILCFTIKRK
-IE
->gb|AHX37563.1| protein 8 [Rhinolophus affinis coronavirus]
-MKIILFLTLVVLTTCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFTILCFTIKRN
-SE
->gb|ABI96964.1| sars7a [Severe acute respiratory syndrome-related coronavirus]
-MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSATYEGNSPFHPLADNKFALTCTS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRK
-TE
->gb|ACZ72157.1| hypothetical protein sars7a [SARS coronavirus MA15 ExoN1]
-MKISLFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRK
-TE
->gb|AFR58734.1| hypothetical protein sars7a [SARS coronavirus Tor2]
-MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCXTIKRK
-TE
->gb|AFR58706.1| hypothetical protein sars7a [SARS coronavirus Tor2]
-MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTS
-THFAFACADGTRHTYQLRARSVSXKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRK
-TE
->gb|AFR58678.1| hypothetical protein sars7a [SARS coronavirus Tor2]
-MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSXTYEGNSPFHPLADNKFALTCTS
-THFAFACADGTRHTYQLRARSVSPKLFXRQEEVQQELYSPLFLIVAALVFLILCFTIKRK
-TE
->gb|ASO66814.1| hypothetical protein B6N28_00007 [Bat coronavirus]
-MKIILFSILIVLATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCIS
-THFAFACADGTRHTYQLRARSVSPKLFTRQEKVYQELYSPLFLIVIALVFIILCFTIKRK
-IE
->gb|ADE34817.1| hypothetical protein [Bat SARS coronavirus HKU3-12]
-MKIILFLILIALATCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEEVYQELYSPLFLIVAALVFIILCFTIKRK
-TE
->gb|AIA62283.1| hypothetical protein ORF7a [BtRf-BetaCoV/JL2012]
-MKIILLLILIVLATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCIS
-THFAFACADGTRHTYQLRARSVSPKLFTRQEKVYQELYSPLFLIVAALVFIILCFTIKRK
-IE
->gb|AAP82970.1| Orf7a, partial [SARS coronavirus Shanhgai LY]
--------------------------------KEPCPSATYEGNSPFHPLADNKFALTCTS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRK
-TE
->pdb|1XAK|A Structure Of The Sars-Coronavirus Orf7a Accessory Protein [Severe acute respiratory syndrome-related coronavirus]
--------------SCELYHYQECVRGTTVILKEPCPSGTYEGNSPFHPLADNKFALTCTS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEEVQQ-------------------------
---
->pdb|1YO4|A Solution Structure of the SARS Coronavirus ORF 7a coded X4 protein [Severe acute respiratory syndrome-related coronavirus]
----------------ELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTS
-THFAFACADGTRHTYQLRARSVSPKLFIRQEEVQQELYS---------------------
---
+>sp|P0DTC7|NS7A_SARS2 ORF7a protein OS=Severe acute respiratory syndrome coronavirus 2 OX=2697049 GN=7a PE=1 SV=1
+--------------------------MKII------------LFLALITLATCELYHYQE
+CVRGTTVLLKEPCSSGTYEGNSPFHPLADN------KFA-L----TCFSTQFAFACPDGV
+KH----VYQLRARSVSPKLFIRQEEV--QELYSPIFLIVAAIVFITL-CFTLKRKTE---
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------------------------------------------------
+>sp|Q3I5J0|NS7A_BCRP3 Protein 7a OS=Bat coronavirus Rp3/2004 OX=349344 GN=7a PE=3 SV=1
+--------------------------MKII------------LFLTLIALASCELYHYQE
+CVRGTTVLLKEPCPSGTYEGNSPFHPLADN------KFA-L----TCTSTHFAFACADGT
+RH----TYQLRARSVSPKLFIRQEEVH-QELYSPLFLIVAALVFITL-CFTIKRKTE---
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------------------------------------------------
+>sp|Q3LZX7|NS7A_BCHK3 Protein 7a OS=Bat coronavirus HKU3 OX=442736 GN=7a PE=3 SV=1
+--------------------------MKII------------LFLTLIALATCELYHYQE
+CVRGTTVLLKEPCPSGTYEGNSPFHPLADN------KFA-L----TCSSTHFAFACADGT
+RH----TYQLRARSVSPKLFIRQEEVY-QELYSPLFLIVAALVFIIL-CFTIKRKTE---
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------------------------------------------------
+>tr|A0A0U1UZF3|A0A0U1UZF3_SARS Accessory protein 7a OS=BtRs-BetaCoV/YN2013 OX=1503303 PE=4 SV=1
+--------------------------MKII------------LFLTLIALASCELYHYQE
+CVRGTTVLLKEPCPSGTYEGNSPFHPLADN------KFA-L----TCTSTRFAFACADGT
+RH----TYQLRARSVSPKLFIRQEEVH-QELYSPLFLIVAAIVFIIL-CFTIKRKTE---
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------------------------------------------------
+>tr|A0A0K1Z075|A0A0K1Z075_SARS Accessory protein 7a OS=Bat SARS-like coronavirus YNLF_31C OX=1699360 GN=orf7a PE=4 SV=1
+--------------------------MKII------------LFLTLIVLATCELYHYQE
+CVRGTTVLLEEPCPSGTYEGNSPFHPLADN------KFA-L----TCTSTHFAFACADGT
+RH----TYQLRARSVSPKLFIRQEEVQ-QELYSPLFLIVAALVFLIL-CFTIKRKTE---
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------------------------------------------------
+>sp|P59635|NS7A_SARS ORF7a protein OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=7a PE=1 SV=1
+--------------------------MKII------------LFLTLIVFTSCELYHYQE
+CVRGTTVLLKEPCPSGTYEGNSPFHPLADN------KFA-L----TCTSTHFAFACADGT
+RH----TYQLRARSVSPKLFIRQEEVQ-QELYSPLFLIVAALVFLIL-CFTIKRKTE---
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------------------------------------------------
+>tr|D2E271|D2E271_SARS Accessory protein 7a OS=SARS coronavirus MA15 OX=633137 PE=4 SV=1
+--------------------------MKII------------LFLTLIVFTSCELYHYQE
+CVRGTTVLLKEPCPSGTYEGNSPFHPLADN------KFA-L----TCTSTHFAFACADGT
+RH----TYQLRARSVSPKLFIRQEEVQ-QELYSPLFLIVAALVFLIL-CFTIKRKTE---
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------------------------------------------------
+>sp|Q0Q470|NS7A_BC279 Protein 7a OS=Bat coronavirus 279/2005 OX=389167 GN=7a PE=3 SV=1
+--------------------------MKII------------LFLTLIALASSELYHYQE
+CVRGTTVLLKEPCPSGTYEGNSPFHPLADN------KFA-L----TCISTHFAFACADGT
+RH----TYQLRARSVSPKLFTRQEEVH-QELYSPLFLIVAALVFIIL-CFTIKRKTE---
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------------------------------------------------
+>tr|A0A0U1WHG5|A0A0U1WHG5_SARS Accessory protein 7a OS=BtRf-BetaCoV/JL2012 OX=1503299 PE=4 SV=1
+--------------------------MKII------------LLLILIVLATCELYHYQE
+CVRGTTVLLEEPCPSGTYEGNSPFHPLADN------KFA-L----TCISTHFAFACADGT
+RH----TYQLRARSVSPKLFTRQEKVY-QELYSPLFLIVAALVFIIL-CFTIKRKIE---
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------------------------------------------------
+>tr|E0XIZ8|E0XIZ8_9BETC Accessory protein 7a OS=Bat coronavirus BM48-31/BGR/2008 OX=864596 GN=ORF7a PE=4 SV=1
+--------------------------MKFL------------LLVAIVSIASAELYHYQE
+CARGTTVLLKEPCQPNTYEGNSPYHPLADN------KFA-I----TCTNTKFSFVCQDET
+RH----VFQLRARSISPRLFASPKHH--SDDFTPVILIIVTLLFVIY-CCMKRQ------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------------------------------------------------
+>tr|A0A1R2AKP7|A0A1R2AKP7_9CILI Ephrin_rec_like domain-containing protein OS=Stentor coeruleus OX=5963 GN=SteCoe_39427 PE=4 SV=1
+------------------------------------------------------------
+------MESCIPCPSGTYNSNKGGSSYRQCYPCQSGTFNNKEGSSICYDCPIGFDCPMGS
+KDPVKIVYTKVESSIQPKIYSTESSEKITSIYIISASVSLLIVLILLFTFKKIRDKIKNA
+DLYTEMHNHELLVPMIK----------KKNTIGGFFSLVFIIA-AVVYIG--SAIIEFSK
+SNIQESKVLVPLIILENESELLTANKIIVTSKIIGYGGECGVEGICNSQIFINITNLSGS
+LI-EYNCTNYYGNICIVTIVCNNC----A-------LLG-EATIFI---TTRELKSYASA
+IFVNITSDSSIPGEVSNINNELYSSEDYIFIGSEANEFYCIMIPSLFTSESSRWPSRLTG
+YHISNEKLNLKGSEALKTDLPVNAGFKIFIYMSKSSNGLYTQRLFKQNILILVSSIIGSV
+FGIMSFIGFFMELTEGLLLKFNKNQTKIKGLLSIISKRKEIGGINFGNNKEILNKK
+>tr|M1V4E0|M1V4E0_CYAM1 Uncharacterized protein OS=Cyanidioschyzon merolae (strain 10D) OX=280699 GN=CYME_CME056C PE=4 SV=1
+MVDFHLLLSRLWEKLVLTGPVTLCVGLQLLTTFRSFRQSEGDLLLRILRLATYELPFFMN
+LVFWTCTALAATLSSSSYTDRGNFHRSSVA------SFS-LGLFVFVDSTRFIFEHLEGS
+IF----QKRRLARPVQPA------NDP-HAVYIHLACIAVCLVYIFT-SFWKKWGVLSSD
+VTFVNFFT-ALIVIYVNRISLELACTAQQANSVEFFAGCELATKRVLLHGMISAILGFAV
+MWF----NMLPILMVVPSKR-TTRLEI-AIKRVA---ALPGCRRIISALLWRNLEGHWEA
+AVSMAVCDELSQH--LVASLARGCMKSCADDVTSMAVLERENAVPVRESRQTCERSFGTE
+HFLDIEQAKSIPTASTCLMHNHAE------------------------------------
+------------------------------------------------------------
+--------------------------------------------------------
+>tr|A0A4S8MSA5|A0A4S8MSA5_DENBC Uncharacterized protein OS=Dendrothele bispora (strain CBS 962.96) OX=1314807 GN=K435DRAFT_773619 PE=4 SV=1
+--------------------------MKFFIQTVLFAVLATVIAAASVPDASEELLKRQG
+CIGGTTVFFPDPCPAGTLACNSAGS------------IT-L----CCSSC----------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------------------------------------------------

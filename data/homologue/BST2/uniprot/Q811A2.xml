@@ -1,0 +1,434 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2006-10-17" modified="2020-12-02" version="91">
+<accession>Q811A2</accession>
+<name>BST2_RAT</name>
+<protein>
+<recommendedName>
+<fullName>Bone marrow stromal antigen 2</fullName>
+<shortName>BST-2</shortName>
+</recommendedName>
+<alternativeName>
+<fullName>Protein DAMP-1</fullName>
+</alternativeName>
+<cdAntigenName>CD317</cdAntigenName>
+</protein>
+<gene>
+<name type="primary">Bst2</name>
+<name type="synonym">Damp1</name>
+</gene>
+<organism>
+<name type="scientific">Rattus norvegicus</name>
+<name type="common">Rat</name>
+<dbReference type="NCBI Taxonomy" id="10116"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Myomorpha</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+<taxon>Rattus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2003" name="Traffic" volume="4" first="694" last="709">
+<title>Bst-2/HM1.24 is a raft-associated apical membrane protein with an unusual topology.</title>
+<authorList>
+<person name="Kupzig S."/>
+<person name="Korolchuk V."/>
+<person name="Rollason R."/>
+<person name="Sugden A."/>
+<person name="Wilde A."/>
+<person name="Banting G."/>
+</authorList>
+<dbReference type="PubMed" id="12956872"/>
+<dbReference type="DOI" id="10.1034/j.1600-0854.2003.00129.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>TOPOLOGY</scope>
+<scope>GPI-ANCHOR</scope>
+<scope>GLYCOSYLATION</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<source>
+<strain>Wistar</strain>
+<tissue>Liver</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2009" name="J. Cell Biol." volume="184" first="721" last="736">
+<title>A CD317/tetherin-RICH2 complex plays a critical role in the organization of the subapical actin cytoskeleton in polarized epithelial cells.</title>
+<authorList>
+<person name="Rollason R."/>
+<person name="Korolchuk V."/>
+<person name="Hamilton C."/>
+<person name="Jepson M."/>
+<person name="Banting G."/>
+</authorList>
+<dbReference type="PubMed" id="19273615"/>
+<dbReference type="DOI" id="10.1083/jcb.200804154"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>INTERACTION WITH ARHGAP44</scope>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2010" name="J. Virol." volume="84" first="11374" last="11384">
+<title>Endogenous CD317/Tetherin limits replication of HIV-1 and murine leukemia virus in rodent cells and is resistant to antagonists from primate viruses.</title>
+<authorList>
+<person name="Goffinet C."/>
+<person name="Schmidt S."/>
+<person name="Kern C."/>
+<person name="Oberbremer L."/>
+<person name="Keppler O.T."/>
+</authorList>
+<dbReference type="PubMed" id="20702620"/>
+<dbReference type="DOI" id="10.1128/jvi.01067-10"/>
+</citation>
+<scope>FUNCTION</scope>
+</reference>
+<comment type="function">
+<text evidence="1 5 6">IFN-induced antiviral host restriction factor which efficiently blocks the release of diverse mammalian enveloped viruses by directly tethering nascent virions to the membranes of infected cells. Acts as a direct physical tether, holding virions to the cell membrane and linking virions to each other. The tethered virions can be internalized by endocytosis and subsequently degraded or they can remain on the cell surface. In either case, their spread as cell-free virions is restricted. Its target viruses belong to diverse families, including retroviridae: human immunodeficiency virus type 1 (HIV-1), mouse mammary tumor virus (MMTV) and murine leukemia virus (MLV), filoviridae: ebola virus (EBOV), arenaviridae: lassa virus (LASV), and rhabdoviridae: vesicular stomatitis virus (VSV). Can inhibit cell surface proteolytic activity of MMP14 causing decreased activation of MMP15 which results in inhibition of cell growth and migration. Can stimulate signaling by LILRA4/ILT7 and consequently provide negative feedback to the production of IFN by plasmacytoid dendritic cells in response to viral infection (By similarity). Plays a role in the organization of the subapical actin cytoskeleton in polarized epithelial cells.</text>
+</comment>
+<comment type="subunit">
+<text evidence="1 5">Parallel homodimer; disulfide-linked. May form homotetramers under reducing conditions. Dimerization is essential for its antiviral activity. Interacts with MMP14 (via C-terminal cytoplasmic tail) (By similarity). Interacts with LILRA4/ILT7 (By similarity). Interacts (via cytoplasmic domain) with ARHGAP44.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Golgi apparatus</location>
+<location>trans-Golgi network</location>
+</subcellularLocation>
+<subcellularLocation>
+<location>Cell membrane</location>
+<topology>Single-pass type II membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location>Cell membrane</location>
+<topology>Lipid-anchor</topology>
+<topology>GPI-anchor</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="1">Late endosome</location>
+</subcellularLocation>
+<subcellularLocation>
+<location>Membrane raft</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="1">Cytoplasm</location>
+</subcellularLocation>
+<subcellularLocation>
+<location>Apical cell membrane</location>
+</subcellularLocation>
+<text evidence="1">Shuttles between the cell membrane, where it is present predominantly in membrane/lipid rafts, and the trans-Golgi network. Forms a complex with MMP14 and localizes to the cytoplasm (By similarity).</text>
+</comment>
+<comment type="tissue specificity">
+<text evidence="4">Ubiquitously expressed, with highest levels in brain and liver. Present in liver (at protein level).</text>
+</comment>
+<comment type="domain">
+<text evidence="1">The extracellular coiled coil domain forms an extended 170 A long semi-flexible rod-like structure important for virion retention at the cell surface and prevention of virus spreading.</text>
+</comment>
+<comment type="PTM">
+<text evidence="4">N-glycosylated.</text>
+</comment>
+<comment type="PTM">
+<text evidence="1">The GPI anchor is essential for its antiviral activity.</text>
+</comment>
+<dbReference type="EMBL" id="AJ538349">
+<property type="protein sequence ID" value="CAD61869.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_937767.1">
+<property type="nucleotide sequence ID" value="NM_198134.2"/>
+</dbReference>
+<dbReference type="SMR" id="Q811A2"/>
+<dbReference type="BioGRID" id="266956">
+<property type="interactions" value="1"/>
+</dbReference>
+<dbReference type="IntAct" id="Q811A2">
+<property type="interactions" value="1"/>
+</dbReference>
+<dbReference type="STRING" id="10116.ENSRNOP00000031515"/>
+<dbReference type="GlyGen" id="Q811A2">
+<property type="glycosylation" value="2 sites"/>
+</dbReference>
+<dbReference type="iPTMnet" id="Q811A2"/>
+<dbReference type="PhosphoSitePlus" id="Q811A2"/>
+<dbReference type="PaxDb" id="Q811A2"/>
+<dbReference type="PRIDE" id="Q811A2"/>
+<dbReference type="GeneID" id="378947"/>
+<dbReference type="KEGG" id="rno:378947"/>
+<dbReference type="UCSC" id="RGD:727849">
+<property type="organism name" value="rat"/>
+</dbReference>
+<dbReference type="CTD" id="684"/>
+<dbReference type="RGD" id="727849">
+<property type="gene designation" value="Bst2"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG502TB0V">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="InParanoid" id="Q811A2"/>
+<dbReference type="OrthoDB" id="1579815at2759"/>
+<dbReference type="PhylomeDB" id="Q811A2"/>
+<dbReference type="Reactome" id="R-RNO-6798695">
+<property type="pathway name" value="Neutrophil degranulation"/>
+</dbReference>
+<dbReference type="PRO" id="PR:Q811A2"/>
+<dbReference type="Proteomes" id="UP000002494">
+<property type="component" value="Unplaced"/>
+</dbReference>
+<dbReference type="GO" id="GO:0031225">
+<property type="term" value="C:anchored component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016324">
+<property type="term" value="C:apical plasma membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009986">
+<property type="term" value="C:cell surface"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005794">
+<property type="term" value="C:Golgi apparatus"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045121">
+<property type="term" value="C:membrane raft"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005771">
+<property type="term" value="C:multivesicular body"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042802">
+<property type="term" value="F:identical protein binding"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008191">
+<property type="term" value="F:metalloendopeptidase inhibitor activity"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042803">
+<property type="term" value="F:protein homodimerization activity"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051607">
+<property type="term" value="P:defense response to virus"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045087">
+<property type="term" value="P:innate immune response"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030308">
+<property type="term" value="P:negative regulation of cell growth"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030336">
+<property type="term" value="P:negative regulation of cell migration"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:1901253">
+<property type="term" value="P:negative regulation of intracellular transport of viral material"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002737">
+<property type="term" value="P:negative regulation of plasmacytoid dendritic cell cytokine production"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045071">
+<property type="term" value="P:negative regulation of viral genome replication"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0032956">
+<property type="term" value="P:regulation of actin cytoskeleton organization"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035455">
+<property type="term" value="P:response to interferon-alpha"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035456">
+<property type="term" value="P:response to interferon-beta"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0034341">
+<property type="term" value="P:response to interferon-gamma"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009615">
+<property type="term" value="P:response to virus"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024886">
+<property type="entry name" value="BST2"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR15190">
+<property type="entry name" value="PTHR15190"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF16716">
+<property type="entry name" value="BST2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0175">Coiled coil</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0967">Endosome</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0333">Golgi apparatus</keyword>
+<keyword id="KW-0336">GPI-anchor</keyword>
+<keyword id="KW-0391">Immunity</keyword>
+<keyword id="KW-0399">Innate immunity</keyword>
+<keyword id="KW-1017">Isopeptide bond</keyword>
+<keyword id="KW-0449">Lipoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0735">Signal-anchor</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<keyword id="KW-0832">Ubl conjugation</keyword>
+<feature type="chain" description="Bone marrow stromal antigen 2" id="PRO_0000253555">
+<location>
+<begin position="1"/>
+<end position="152"/>
+</location>
+</feature>
+<feature type="propeptide" description="Removed in mature form" id="PRO_0000253556" evidence="3">
+<location>
+<begin position="153"/>
+<end position="172"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="1"/>
+<end position="26"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Signal-anchor for type II membrane protein" evidence="3">
+<location>
+<begin position="27"/>
+<end position="47"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="3">
+<location>
+<begin position="48"/>
+<end position="152"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="103"/>
+<end position="149"/>
+</location>
+</feature>
+<feature type="lipid moiety-binding region" description="GPI-anchor amidated serine" evidence="3">
+<location>
+<position position="152"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="70"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="97"/>
+</location>
+</feature>
+<feature type="disulfide bond" description="Interchain" evidence="1">
+<location>
+<position position="58"/>
+</location>
+</feature>
+<feature type="disulfide bond" description="Interchain" evidence="1">
+<location>
+<position position="68"/>
+</location>
+</feature>
+<feature type="disulfide bond" description="Interchain" evidence="1">
+<location>
+<position position="96"/>
+</location>
+</feature>
+<feature type="cross-link" description="Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)" evidence="2">
+<location>
+<position position="20"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="Q10589"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000255"/>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="12956872"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="19273615"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="20702620"/>
+</source>
+</evidence>
+<sequence length="172" mass="19674" checksum="5B1018EBBDD0FB19" modified="2003-06-01" version="1" precursor="true">MAPSFYHYLPVAMDERWEPKGWSIRRWWLVAAILVVLIGVVLVCLIVYFANAAHSEACKNGLRLQDECRNTTHLLKHQLTRAQDSLLQTEMQANSCNQTVMDLRDSLKKKVSQTQEQQARIKELENKIERLNQELENLRTQKEISTTVQVNSGGSVVVSSLLVLVAVLFLHF</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

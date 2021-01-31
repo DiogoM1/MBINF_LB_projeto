@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2017-06-07" modified="2019-12-11" version="12">
+<accession>A0A1W4XL55</accession>
+<name>A0A1W4XL55_AGRPL</name>
+<protein>
+<submittedName>
+<fullName evidence="5">coiled-coil domain-containing protein 92-like</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="5">LOC108742702</name>
+</gene>
+<organism evidence="4 5">
+<name type="scientific">Agrilus planipennis</name>
+<name type="common">Emerald ash borer</name>
+<name type="synonym">Agrilus marcopoli</name>
+<dbReference type="NCBI Taxonomy" id="224129"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Holometabola</taxon>
+<taxon>Coleoptera</taxon>
+<taxon>Polyphaga</taxon>
+<taxon>Elateriformia</taxon>
+<taxon>Buprestoidea</taxon>
+<taxon>Buprestidae</taxon>
+<taxon>Agrilinae</taxon>
+<taxon>Agrilus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="5">
+<citation type="submission" date="2017-04" db="UniProtKB">
+<authorList>
+<consortium name="RefSeq"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+<source>
+<tissue evidence="5">Entire body</tissue>
+</source>
+</reference>
+<dbReference type="RefSeq" id="XP_018333507.1">
+<property type="nucleotide sequence ID" value="XM_018478005.1"/>
+</dbReference>
+<dbReference type="GeneID" id="108742702"/>
+<dbReference type="OrthoDB" id="1442164at2759"/>
+<dbReference type="Proteomes" id="UP000192223">
+<property type="component" value="Genome assembly"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR040370">
+<property type="entry name" value="CCDC74A/CCDC74B/CCDC92"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR039496">
+<property type="entry name" value="CCDC92/74_CC_dom"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR14882">
+<property type="entry name" value="PTHR14882"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF14916">
+<property type="entry name" value="CCDC92"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="domain" description="CCDC92" evidence="3">
+<location>
+<begin position="51"/>
+<end position="97"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="200"/>
+<end position="326"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="45"/>
+<end position="83"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="123"/>
+<end position="171"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="2">
+<location>
+<begin position="203"/>
+<end position="219"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="2">
+<location>
+<begin position="229"/>
+<end position="250"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="2">
+<location>
+<begin position="282"/>
+<end position="311"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF14916"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000192223"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="RefSeq" id="XP_018333507.1"/>
+</source>
+</evidence>
+<sequence length="326" mass="37150" checksum="801712D7A9F327D6" modified="2017-06-07" version="1">MASKVMVKLPCTSFAQVNKPGSIKEGLVVTGGRNDNGNYHLEMQNGNKISRIAQLEQNIRFLQQQHQQMLDGLHKEIDNLRCRNRELLFHLIFTKGSVPSPLSTPDEDVESKVSPKNTIPLQVELLEKELTELKLQLQESENQNAYLSAIVEEQKKKLERYARERERDLERVSKPDPELLHKLDDAEALIRRLRRENSELRREQANIPTPSSNSSESYRQRDRGNYHNQRPGSTENKGNRHRNNGGGRSNYKGNWFPPLHTQSYWHGGRASDKGGDDGEAGTSFPNLTQGGGGGHYQNRRGSNNNRYNITDGRKYEGTPNKGKRRS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

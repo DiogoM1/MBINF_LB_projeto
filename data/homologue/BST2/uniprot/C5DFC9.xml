@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2009-07-28" modified="2020-12-02" version="57">
+<accession>C5DFC9</accession>
+<name>C5DFC9_LACTC</name>
+<protein>
+<submittedName>
+<fullName evidence="7">KLTH0D14102p</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="7">KLTH0D14102g</name>
+</gene>
+<organism evidence="7 8">
+<name type="scientific">Lachancea thermotolerans (strain ATCC 56472 / CBS 6340 / NRRL Y-8284)</name>
+<name type="common">Yeast</name>
+<name type="synonym">Kluyveromyces thermotolerans</name>
+<dbReference type="NCBI Taxonomy" id="559295"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Saccharomycotina</taxon>
+<taxon>Saccharomycetes</taxon>
+<taxon>Saccharomycetales</taxon>
+<taxon>Saccharomycetaceae</taxon>
+<taxon>Lachancea</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="7 8">
+<citation type="journal article" date="2009" name="Genome Res." volume="19" first="1696" last="1709">
+<title>Comparative genomics of protoploid Saccharomycetaceae.</title>
+<authorList>
+<consortium name="The Genolevures Consortium"/>
+<person name="Souciet J.-L."/>
+<person name="Dujon B."/>
+<person name="Gaillardin C."/>
+<person name="Johnston M."/>
+<person name="Baret P.V."/>
+<person name="Cliften P."/>
+<person name="Sherman D.J."/>
+<person name="Weissenbach J."/>
+<person name="Westhof E."/>
+<person name="Wincker P."/>
+<person name="Jubin C."/>
+<person name="Poulain J."/>
+<person name="Barbe V."/>
+<person name="Segurens B."/>
+<person name="Artiguenave F."/>
+<person name="Anthouard V."/>
+<person name="Vacherie B."/>
+<person name="Val M.-E."/>
+<person name="Fulton R.S."/>
+<person name="Minx P."/>
+<person name="Wilson R."/>
+<person name="Durrens P."/>
+<person name="Jean G."/>
+<person name="Marck C."/>
+<person name="Martin T."/>
+<person name="Nikolski M."/>
+<person name="Rolland T."/>
+<person name="Seret M.-L."/>
+<person name="Casaregola S."/>
+<person name="Despons L."/>
+<person name="Fairhead C."/>
+<person name="Fischer G."/>
+<person name="Lafontaine I."/>
+<person name="Leh V."/>
+<person name="Lemaire M."/>
+<person name="de Montigny J."/>
+<person name="Neuveglise C."/>
+<person name="Thierry A."/>
+<person name="Blanc-Lenfle I."/>
+<person name="Bleykasten C."/>
+<person name="Diffels J."/>
+<person name="Fritsch E."/>
+<person name="Frangeul L."/>
+<person name="Goeffon A."/>
+<person name="Jauniaux N."/>
+<person name="Kachouri-Lafond R."/>
+<person name="Payen C."/>
+<person name="Potier S."/>
+<person name="Pribylova L."/>
+<person name="Ozanne C."/>
+<person name="Richard G.-F."/>
+<person name="Sacerdot C."/>
+<person name="Straub M.-L."/>
+<person name="Talla E."/>
+</authorList>
+<dbReference type="PubMed" id="19525356"/>
+<dbReference type="DOI" id="10.1101/gr.091546.109"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="8">ATCC 56472 / CBS 6340 / NRRL Y-8284</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CU928168">
+<property type="protein sequence ID" value="CAR22884.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_002553322.1">
+<property type="nucleotide sequence ID" value="XM_002553276.1"/>
+</dbReference>
+<dbReference type="STRING" id="381046.XP_002553322.1"/>
+<dbReference type="EnsemblFungi" id="CAR22884">
+<property type="protein sequence ID" value="CAR22884"/>
+<property type="gene ID" value="KLTH0D14102g"/>
+</dbReference>
+<dbReference type="GeneID" id="8295566"/>
+<dbReference type="KEGG" id="lth:KLTH0D14102g"/>
+<dbReference type="eggNOG" id="KOG0946">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_001063_0_0_1"/>
+<dbReference type="InParanoid" id="C5DFC9"/>
+<dbReference type="OMA" id="RGWISQQ"/>
+<dbReference type="OrthoDB" id="1273987at2759"/>
+<dbReference type="Proteomes" id="UP000002036">
+<property type="component" value="Chromosome D"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000139">
+<property type="term" value="C:Golgi membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006886">
+<property type="term" value="P:intracellular protein transport"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0048280">
+<property type="term" value="P:vesicle fusion with Golgi apparatus"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.25.10.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011989">
+<property type="entry name" value="ARM-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016024">
+<property type="entry name" value="ARM-type_fold"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006955">
+<property type="entry name" value="Uso1_p115_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006953">
+<property type="entry name" value="Vesicle_Uso1_P115_head"/>
+</dbReference>
+<dbReference type="Pfam" id="PF04871">
+<property type="entry name" value="Uso1_p115_C"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF04869">
+<property type="entry name" value="Uso1_p115_head"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF48371">
+<property type="entry name" value="SSF48371"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="2 3">Coiled coil</keyword>
+<keyword id="KW-0333" evidence="1">Golgi apparatus</keyword>
+<keyword id="KW-1185" evidence="8">Reference proteome</keyword>
+<feature type="domain" description="Uso1_p115_head" evidence="5">
+<location>
+<begin position="362"/>
+<end position="684"/>
+</location>
+</feature>
+<feature type="domain" description="Uso1_p115_C" evidence="6">
+<location>
+<begin position="1588"/>
+<end position="1712"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="4">
+<location>
+<begin position="1332"/>
+<end position="1448"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="4">
+<location>
+<begin position="1504"/>
+<end position="1537"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="4">
+<location>
+<begin position="1692"/>
+<end position="1712"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="702"/>
+<end position="817"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="825"/>
+<end position="852"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="857"/>
+<end position="961"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="966"/>
+<end position="1035"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1043"/>
+<end position="1158"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1166"/>
+<end position="1211"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1216"/>
+<end position="1264"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1582"/>
+<end position="1602"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1610"/>
+<end position="1630"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="4">
+<location>
+<begin position="1332"/>
+<end position="1348"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="4">
+<location>
+<begin position="1358"/>
+<end position="1425"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Acidic" evidence="4">
+<location>
+<begin position="1698"/>
+<end position="1712"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00023034"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00023054"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF04869"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF04871"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="CAR22884.1"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000002036"/>
+</source>
+</evidence>
+<sequence length="1712" mass="196086" checksum="BA7F7F864B2D0C89" modified="2009-07-28" version="1">MALFQGLIQPPKIQSAEETIPTLCDRVENATLISDRRSAVLGLKAFSRDYREAVIASGLKPLISTLKKDSIDEDSVKAILETLLILFIRGEGDADLTRNWISQQSRLQNGKYPSPLIMKQERQSVDQFSLWIADFMTQNDELVQLFIKLLETENFHIRLYTTQLLEAFVASRPSRTRDAILSIPVGISALVSLLDDIHEPVRDEAILLLMVVANNSPHIQKLVAFENIFQRLFAIIKEEGGLRGSLVVSDCLSLIVNLLSYSTSNQTLFLETGNLPQMASLLNEPMEEEFFWNDQRLLNIKTTLEILRLTVEPHSTTTPRNQKALSDSHLLMIVLRLALSRSTPNSVRPYALSTAADMIRENEKVQSEFRKIDAPLFDPSLGTNQTQEEQDLVPIVDLLLNWCFFANSIHTFDIRYASSELIKAYLANNHILRMSFINSQASLFEESNDILNGSENILSKPCIFNILLDYDPELKLNPYKLFFAVDLLMFLFDQDHAEELKEVVRNVKCPDLSTEEDPQEMTSPIQTICELTLTSFSLEDPRVSISYLCLLIFWIFGDSGAVDDFLSHRVTLKSLISSSAHIQRDDSTINCLICMLLGVAYEFSTPKSSLSRSEYFALLNKSIGADNYSFRIKQFTENSLFTSSREMKGVLDSVETDVTGLPKIYFSSYFKKLLRNNLYRIQTAMKRGPDFQIKDKVSFESLEKLIQQKTQLEEALLKSEESSKGQIEDLNRSLEELQKALKSTEDEKKAAELDLENVRASFKNLEDNYSGTKEELNLLQKENSDLVATNSKIENTKKDLELKFNNNRDALTKLEKELSIVCEQKKAAEDGINKMNRELLVLSREHNELKNTSTKSKNELEKVLAASNEELKRLQDFTREKDSSIEKSRAELERLKSENKALLLEKDNASRNSAELKSRLANQELLVSKLTTKLKDIAEKYKSIEQAKASKEHELAEVSESNQTKILSLQSEIVELRQQYDSMKHDKDNMLTETKKLKKSLEDAERSRSEAAYEIKQLKSELDHSSKEIEQLNSSSEEKSKNLADAVNTFNKARNELESLNKTLAEANDKLRSRESTIESLEEKLQELKKSSDEKIASLEKSRKDLEKFQQKFRDLELEKSKTQDALTDLQKALQDEKNNHQESLQLQKDKIKQLALEKENSAESTEALKSEVSKLRQTVEDLNKSHKLVHEDYEKKVSELKKKTVSLQDESSLRLQEVSALNTELEETRSRAEKLEEQATDLKEKHKNICNEIKSKVKQEKEKDSRILVLDKEMKSAKTDLSDIVHKLEASNSEIAKLQEIKAEFESQELEGKKQKEDFDAEIKTLRAKLKEKSAEVEKERKMLNEGSSNLEQEYSRKISQLEEELESLESKHSLKHQESDNEKRKLSGLLKKSESSATEKNRELECVRESMKKLRESLKDKEQQSEQLSSLQKTQSDKMREELGLANQKLEEAREKGRKHKENLEVALSQKASEVKKLKDQALNYLSKLDEKEAIINESKVQLETAKRDSDELKSSMDSKIKKSQETLSKAENERDQLRLELDLSKEKLEVNNQRLHELDATEAQLKDLKMTIENNLHLLSNSEAAKRNYEARSKSLAQECEKVSSTLKEVASQKDEVESKLRTSENALSTHAKKIAETELQQNTEVKRLEDEIAKLKKQAEDRSEVDDLMLLVTELDEKNQKYRNKLKALGADFSSDEEDEEEDEEDED</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2017-11-22" modified="2020-12-02" version="14">
+<accession>A0A287A9J8</accession>
+<name>A0A287A9J8_PIG</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Bone marrow stromal cell antigen 2</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="2 4">BST2</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Sus scrofa</name>
+<name type="common">Pig</name>
+<dbReference type="NCBI Taxonomy" id="9823"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Laurasiatheria</taxon>
+<taxon>Artiodactyla</taxon>
+<taxon>Suina</taxon>
+<taxon>Suidae</taxon>
+<taxon>Sus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2009-11" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<consortium name="Porcine genome sequencing project"/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">Duroc</strain>
+</source>
+</reference>
+<reference key="2" evidence="2">
+<citation type="submission" date="2017-10" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<dbReference type="EMBL" id="AEMK02000010">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSSSCT00000037675">
+<property type="protein sequence ID" value="ENSSSCP00000040617"/>
+<property type="gene ID" value="ENSSSCG00000033453"/>
+</dbReference>
+<dbReference type="VGNC" id="VGNC:85897">
+<property type="gene designation" value="BST2"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00390000013782"/>
+<dbReference type="OMA" id="KNNASSC"/>
+<dbReference type="Reactome" id="R-SSC-6798695">
+<property type="pathway name" value="Neutrophil degranulation"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000008227">
+<property type="component" value="Chromosome 2"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009986">
+<property type="term" value="C:cell surface"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005794">
+<property type="term" value="C:Golgi apparatus"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008191">
+<property type="term" value="F:metalloendopeptidase inhibitor activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051607">
+<property type="term" value="P:defense response to virus"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045087">
+<property type="term" value="P:innate immune response"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024886">
+<property type="entry name" value="BST2"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR15190">
+<property type="entry name" value="PTHR15190"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF16716">
+<property type="entry name" value="BST2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-1267" evidence="1">Proteomics identification</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<evidence key="1" type="ECO:0000213">
+<source>
+<dbReference type="PeptideAtlas" id="A0A287A9J8"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSSSCP00000040617"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000008227"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="VGNC" id="VGNC:85897"/>
+</source>
+</evidence>
+<sequence length="177" mass="19978" checksum="F04BEE149C72A802" modified="2017-11-22" version="1">MSPSLYSYSPLPMVSCLRESNLRDSRLWLVFLLCLLVVGLLVSLIIFAVKANSKGCKDGLRAQQECQNQTDHLQHQLTVAQEVLQRTKAQYTVCNQTVENLRDSLEMEKTQSQKQLKELQGEIKRLNQKLQEASEEAERLRKEFRRTTVNSGSFSCSSSSSLLFIAVVVLGLNALLT</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

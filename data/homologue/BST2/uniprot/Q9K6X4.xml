@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2000-10-01" modified="2020-12-02" version="104">
+<accession>Q9K6X4</accession>
+<name>Q9K6X4_BACHD</name>
+<protein>
+<submittedName>
+<fullName evidence="4">Cell wall-binding protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ordered locus" evidence="4">BH3600</name>
+</gene>
+<organism evidence="4 5">
+<name type="scientific">Bacillus halodurans (strain ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125)</name>
+<dbReference type="NCBI Taxonomy" id="272558"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacilli</taxon>
+<taxon>Bacillales</taxon>
+<taxon>Bacillaceae</taxon>
+<taxon>Alkalihalobacillus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4 5">
+<citation type="journal article" date="2000" name="Nucleic Acids Res." volume="28" first="4317" last="4331">
+<title>Complete genome sequence of the alkaliphilic bacterium Bacillus halodurans and genomic sequence comparison with Bacillus subtilis.</title>
+<authorList>
+<person name="Takami H."/>
+<person name="Nakasone K."/>
+<person name="Takaki Y."/>
+<person name="Maeno G."/>
+<person name="Sasaki R."/>
+<person name="Masui N."/>
+<person name="Fuji F."/>
+<person name="Hirama C."/>
+<person name="Nakamura Y."/>
+<person name="Ogasawara N."/>
+<person name="Kuhara S."/>
+<person name="Horikoshi K."/>
+</authorList>
+<dbReference type="PubMed" id="11058132"/>
+<dbReference type="DOI" id="10.1093/nar/28.21.4317"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5">ATCC BAA-125 / DSM 18197 / FERM 7344 / JCM 9153 / C-125</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="BA000004">
+<property type="protein sequence ID" value="BAB07319.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="PIR" id="H84099">
+<property type="entry name" value="H84099"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_010899728.1">
+<property type="nucleotide sequence ID" value="NC_002570.2"/>
+</dbReference>
+<dbReference type="STRING" id="272558.10176224"/>
+<dbReference type="EnsemblBacteria" id="BAB07319">
+<property type="protein sequence ID" value="BAB07319"/>
+<property type="gene ID" value="BAB07319"/>
+</dbReference>
+<dbReference type="KEGG" id="bha:BH3600"/>
+<dbReference type="eggNOG" id="COG0739">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="eggNOG" id="COG3883">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_029425_4_3_9"/>
+<dbReference type="OMA" id="VVHFEIW"/>
+<dbReference type="OrthoDB" id="1891666at2"/>
+<dbReference type="BioCyc" id="BHAL272558:G1G3A-3671-MONOMER"/>
+<dbReference type="Proteomes" id="UP000001258">
+<property type="component" value="Chromosome"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.70.70.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR011055">
+<property type="entry name" value="Dup_hybrid_motif"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR016047">
+<property type="entry name" value="Peptidase_M23"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01551">
+<property type="entry name" value="Peptidase_M23"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF51261">
+<property type="entry name" value="SSF51261"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-1185" evidence="5">Reference proteome</keyword>
+<keyword id="KW-0732" evidence="2">Signal</keyword>
+<feature type="signal peptide" evidence="2">
+<location>
+<begin position="1"/>
+<end position="28"/>
+</location>
+</feature>
+<feature type="chain" id="PRO_5004329499" evidence="2">
+<location>
+<begin position="29"/>
+<end position="461"/>
+</location>
+</feature>
+<feature type="domain" description="Peptidase_M23" evidence="3">
+<location>
+<begin position="351"/>
+<end position="450"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="1">
+<location>
+<begin position="31"/>
+<end position="61"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="1">
+<location>
+<begin position="210"/>
+<end position="237"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="1">
+<location>
+<begin position="266"/>
+<end position="344"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="1">
+<location>
+<begin position="41"/>
+<end position="61"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="1">
+<location>
+<begin position="275"/>
+<end position="329"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="SignalP"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF01551"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="BAB07319.1"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000001258"/>
+</source>
+</evidence>
+<sequence length="461" mass="50372" checksum="2918480CD67AFF3F" modified="2000-10-01" version="1">MNRKISLVAAAGLLTFSILFSQSSIEDAKANSSLQNQISDVQKERQEKQQEKQKTEAELKEVEKELGDITAEIERLDKEVEETSGKIQEKREEIEEVQAEIEELKEQIEILEERIAERDELLKDRARAMYQNGGSIDYLEVILGAKSFGDFLDRVSALSVIAEQDRGILEAHIEDHRLLEEAKAQVEEKLETLEGHLVELENLMAQLEEQQKEKEKVMGELASREDELHGDLESLENDEELLRQQEKALQEEYELWKKQEEERKAAEKAAAEAAAQQAQASSSGGGGSSNSDSGSNSGTTSRSNGGSSGGGGGETGSVPSSSGSGFMRPATGDISSPFGYRTHPVTGQRKLHAGIDIRRGNRSNVPVVAAYDGTVVQSTYSSGGYGNMVIIAHSYNGRQVTTLYAHLETRSVSAGQRVSKGQTIGIMGNTGLSTGPHLHFEVHEGSYRGSSSAVNPMNYIN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

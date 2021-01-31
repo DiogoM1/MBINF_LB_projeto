@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2020-06-17" modified="2020-10-07" version="3">
+<accession>A0A6A1QI69</accession>
+<name>A0A6A1QI69_BALPH</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">E2I00_018626</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Balaenoptera physalus</name>
+<name type="common">Fin whale</name>
+<name type="synonym">Balaena physalus</name>
+<dbReference type="NCBI Taxonomy" id="9770"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Laurasiatheria</taxon>
+<taxon>Artiodactyla</taxon>
+<taxon>Whippomorpha</taxon>
+<taxon>Cetacea</taxon>
+<taxon>Mysticeti</taxon>
+<taxon>Balaenopteridae</taxon>
+<taxon>Balaenoptera</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="journal article" date="2019" name="PLoS ONE" volume="14" last="e0222004">
+<title>Genomic analyses reveal an absence of contemporary introgressive admixture between fin whales and blue whales, despite known hybrids.</title>
+<authorList>
+<person name="Westbury M.V."/>
+<person name="Petersen B."/>
+<person name="Lorenzen E.D."/>
+</authorList>
+<dbReference type="PubMed" id="31553763"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">FinWhale-01</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="SGJD01000154">
+<property type="protein sequence ID" value="KAB0406623.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000437017">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051607">
+<property type="term" value="P:defense response to virus"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024886">
+<property type="entry name" value="BST2"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR15190">
+<property type="entry name" value="PTHR15190"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF16716">
+<property type="entry name" value="BST2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-0472" evidence="2">Membrane</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<keyword id="KW-0812" evidence="2">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="2">Transmembrane helix</keyword>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="62"/>
+<end position="84"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="173"/>
+<end position="189"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="133"/>
+<end position="153"/>
+</location>
+</feature>
+<feature type="non-terminal residue" evidence="3">
+<location>
+<position position="1"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KAB0406623.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000437017"/>
+</source>
+</evidence>
+<sequence length="190" mass="21174" checksum="690D2B2A063A587C" modified="2020-06-17" version="1" fragment="single">FPIQASPSQRILLELVIGRHSSYANNPYGQIWRAPALYHYSPVPMVDHLNESVLRCGKLPRCVCFLLLLVTLMVILVPLIIFVVRADSKDCTDGLQAERECQNLTRHVQHQLTQAQEVLHKMEIQAATCNQTVVTLRDSLKMEQARVAELQGEKSTRPVGSEASAENNSSSCWSVLFAVVVVVVLKALLI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

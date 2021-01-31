@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2017-06-07" modified="2020-10-07" version="7">
+<accession>A0A1V3NLZ8</accession>
+<name>A0A1V3NLZ8_9GAMM</name>
+<protein>
+<submittedName>
+<fullName evidence="4">Flagellar motor protein MotB</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="4">B1C78_05890</name>
+</gene>
+<organism evidence="4 5">
+<name type="scientific">Thioalkalivibrio denitrificans</name>
+<dbReference type="NCBI Taxonomy" id="108003"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Proteobacteria</taxon>
+<taxon>Gammaproteobacteria</taxon>
+<taxon>Chromatiales</taxon>
+<taxon>Ectothiorhodospiraceae</taxon>
+<taxon>Thioalkalivibrio</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4 5">
+<citation type="submission" date="2017-02" db="EMBL/GenBank/DDBJ databases">
+<title>Genomic diversity within the haloalkaliphilic genus Thioalkalivibrio.</title>
+<authorList>
+<person name="Ahn A.-C."/>
+<person name="Meier-Kolthoff J."/>
+<person name="Overmars L."/>
+<person name="Richter M."/>
+<person name="Woyke T."/>
+<person name="Sorokin D.Y."/>
+<person name="Muyzer G."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4 5">ALJD</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="4">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="MVBK01000034">
+<property type="protein sequence ID" value="OOG25898.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000189462">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="CDD" id="cd07185">
+<property type="entry name" value="OmpA_C-like"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.30.1330.60">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR006665">
+<property type="entry name" value="OmpA-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036737">
+<property type="entry name" value="OmpA-like_sf"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00691">
+<property type="entry name" value="OmpA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF103088">
+<property type="entry name" value="SSF103088"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51123">
+<property type="entry name" value="OMPA_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0966" evidence="4">Cell projection</keyword>
+<keyword id="KW-0969" evidence="4">Cilium</keyword>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-0282" evidence="4">Flagellum</keyword>
+<keyword id="KW-0472" evidence="2">Membrane</keyword>
+<keyword id="KW-1185" evidence="5">Reference proteome</keyword>
+<keyword id="KW-0812" evidence="2">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="2">Transmembrane helix</keyword>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="21"/>
+<end position="43"/>
+</location>
+</feature>
+<feature type="domain" description="OmpA-like" evidence="3">
+<location>
+<begin position="299"/>
+<end position="426"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="54"/>
+<end position="172"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="208"/>
+<end position="270"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51123"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="OOG25898.1"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000189462"/>
+</source>
+</evidence>
+<sequence length="427" mass="49500" checksum="C07EE654CA050ED4" modified="2017-06-07" version="1">MLSSFRRRSRTTDIWPGFVDVLATVVLVFIFLLMLFVVAQFYLSDVLFERHRALETLQERVTELADTLSMREAEAEALQDRVRALTGRLQVTLAERHQLEESLVEAQRELREREETLEERLLEIASLQEDIDVLRRMRAELEGEVGRLAAELEDERETVAVLRDRSMALEARLADEEDVTRLAQREIEERETRIQDLVALVEERDQALVEERRLTADAEARVDTLRRQMEAVERQLALLNETLRAREAIIEAQELEIADLGERLNIALAEEVRELSRYRSEFFGRLREVLADVEDIQIVGDRFRFQSELFFETASADIGPEGRERLDRVARLIRDVEDRIPDDIGWVLMVEGHTDRRPIRTEQFPSNWQLSTARAQSIVDYLIARGVSPRHLAAAGFGEHYPVAPGDTEEEFARNRRIEMRLTSAPN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

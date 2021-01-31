@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-12-09" modified="2020-06-17" version="15">
+<accession>A0A0M9G4Q7</accession>
+<name>A0A0M9G4Q7_9TRYP</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">ABB37_03327</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Leptomonas pyrrhocoris</name>
+<dbReference type="NCBI Taxonomy" id="157538"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Discoba</taxon>
+<taxon>Euglenozoa</taxon>
+<taxon>Kinetoplastea</taxon>
+<taxon>Metakinetoplastina</taxon>
+<taxon>Trypanosomatida</taxon>
+<taxon>Trypanosomatidae</taxon>
+<taxon>Leishmaniinae</taxon>
+<taxon>Leptomonas</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2015-07" db="EMBL/GenBank/DDBJ databases">
+<title>High-quality genome of monoxenous trypanosomatid Leptomonas pyrrhocoris.</title>
+<authorList>
+<person name="Flegontov P."/>
+<person name="Butenko A."/>
+<person name="Firsov S."/>
+<person name="Vlcek C."/>
+<person name="Logacheva M.D."/>
+<person name="Field M."/>
+<person name="Filatov D."/>
+<person name="Flegontova O."/>
+<person name="Gerasimov E."/>
+<person name="Jackson A.P."/>
+<person name="Kelly S."/>
+<person name="Opperdoes F."/>
+<person name="O'Reilly A."/>
+<person name="Votypka J."/>
+<person name="Yurchenko V."/>
+<person name="Lukes J."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">H10</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="LGTL01000005">
+<property type="protein sequence ID" value="KPA82207.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_015660646.1">
+<property type="nucleotide sequence ID" value="XM_015800639.1"/>
+</dbReference>
+<dbReference type="EnsemblProtists" id="KPA82207">
+<property type="protein sequence ID" value="KPA82207"/>
+<property type="gene ID" value="ABB37_03327"/>
+</dbReference>
+<dbReference type="GeneID" id="26903618"/>
+<dbReference type="Proteomes" id="UP000037923">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="1"/>
+<end position="40"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="46"/>
+<end position="73"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="191"/>
+<end position="211"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="226"/>
+<end position="302"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KPA82207.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000037923"/>
+</source>
+</evidence>
+<sequence length="302" mass="33919" checksum="3AB9198F051797BF" modified="2015-12-09" version="1">MMFRAHPPAAGPRPRSAASATPARQHKGGEGRSKRCRSPCNDELRYKELQRHKQNLQQRVRQQVEVLAGLEESILDFYYTHTIRYEPLLQQHASSPSTSALSDDVIKLFPELSGPLVGGDDSAAGRAPSAVPSKTRYYYDSALMRLYREAAIQERDLAQLYAGEEAKVTATERQIQNDIIDGALASQLSTERDAREALSKLQAALATLQSKCSEREASIGDVEATIEATEKAVEACTKRKALLEAKKQEQMDNAEKIKEEVAVFRRSVEAAARELEKRTRNNQSLEEEIARRKALLRRRRKE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

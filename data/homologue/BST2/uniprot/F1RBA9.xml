@@ -1,0 +1,391 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-05-03" modified="2020-12-02" version="56">
+<accession>F1RBA9</accession>
+<name>F1RBA9_DANRE</name>
+<protein>
+<submittedName>
+<fullName evidence="5">Calcium-binding and coiled-coil domain 1b</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="5 7">calcoco1b</name>
+<name type="synonym" evidence="7">tceb3</name>
+</gene>
+<organism evidence="5 6">
+<name type="scientific">Danio rerio</name>
+<name type="common">Zebrafish</name>
+<name type="synonym">Brachydanio rerio</name>
+<dbReference type="NCBI Taxonomy" id="7955"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Actinopterygii</taxon>
+<taxon>Neopterygii</taxon>
+<taxon>Teleostei</taxon>
+<taxon>Ostariophysi</taxon>
+<taxon>Cypriniformes</taxon>
+<taxon>Danionidae</taxon>
+<taxon>Danioninae</taxon>
+<taxon>Danio</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="5">
+<citation type="submission" date="2011-07" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+<source>
+<strain evidence="5">Tuebingen</strain>
+</source>
+</reference>
+<reference key="2" evidence="5 6">
+<citation type="journal article" date="2013" name="Nature" volume="496" first="498" last="503">
+<title>The zebrafish reference genome sequence and its relationship to the human genome.</title>
+<authorList>
+<person name="Howe K."/>
+<person name="Clark M.D."/>
+<person name="Torroja C.F."/>
+<person name="Torrance J."/>
+<person name="Berthelot C."/>
+<person name="Muffato M."/>
+<person name="Collins J.E."/>
+<person name="Humphray S."/>
+<person name="McLaren K."/>
+<person name="Matthews L."/>
+<person name="McLaren S."/>
+<person name="Sealy I."/>
+<person name="Caccamo M."/>
+<person name="Churcher C."/>
+<person name="Scott C."/>
+<person name="Barrett J.C."/>
+<person name="Koch R."/>
+<person name="Rauch G.J."/>
+<person name="White S."/>
+<person name="Chow W."/>
+<person name="Kilian B."/>
+<person name="Quintais L.T."/>
+<person name="Guerra-Assuncao J.A."/>
+<person name="Zhou Y."/>
+<person name="Gu Y."/>
+<person name="Yen J."/>
+<person name="Vogel J.H."/>
+<person name="Eyre T."/>
+<person name="Redmond S."/>
+<person name="Banerjee R."/>
+<person name="Chi J."/>
+<person name="Fu B."/>
+<person name="Langley E."/>
+<person name="Maguire S.F."/>
+<person name="Laird G.K."/>
+<person name="Lloyd D."/>
+<person name="Kenyon E."/>
+<person name="Donaldson S."/>
+<person name="Sehra H."/>
+<person name="Almeida-King J."/>
+<person name="Loveland J."/>
+<person name="Trevanion S."/>
+<person name="Jones M."/>
+<person name="Quail M."/>
+<person name="Willey D."/>
+<person name="Hunt A."/>
+<person name="Burton J."/>
+<person name="Sims S."/>
+<person name="McLay K."/>
+<person name="Plumb B."/>
+<person name="Davis J."/>
+<person name="Clee C."/>
+<person name="Oliver K."/>
+<person name="Clark R."/>
+<person name="Riddle C."/>
+<person name="Elliot D."/>
+<person name="Threadgold G."/>
+<person name="Harden G."/>
+<person name="Ware D."/>
+<person name="Begum S."/>
+<person name="Mortimore B."/>
+<person name="Kerry G."/>
+<person name="Heath P."/>
+<person name="Phillimore B."/>
+<person name="Tracey A."/>
+<person name="Corby N."/>
+<person name="Dunn M."/>
+<person name="Johnson C."/>
+<person name="Wood J."/>
+<person name="Clark S."/>
+<person name="Pelan S."/>
+<person name="Griffiths G."/>
+<person name="Smith M."/>
+<person name="Glithero R."/>
+<person name="Howden P."/>
+<person name="Barker N."/>
+<person name="Lloyd C."/>
+<person name="Stevens C."/>
+<person name="Harley J."/>
+<person name="Holt K."/>
+<person name="Panagiotidis G."/>
+<person name="Lovell J."/>
+<person name="Beasley H."/>
+<person name="Henderson C."/>
+<person name="Gordon D."/>
+<person name="Auger K."/>
+<person name="Wright D."/>
+<person name="Collins J."/>
+<person name="Raisen C."/>
+<person name="Dyer L."/>
+<person name="Leung K."/>
+<person name="Robertson L."/>
+<person name="Ambridge K."/>
+<person name="Leongamornlert D."/>
+<person name="McGuire S."/>
+<person name="Gilderthorp R."/>
+<person name="Griffiths C."/>
+<person name="Manthravadi D."/>
+<person name="Nichol S."/>
+<person name="Barker G."/>
+<person name="Whitehead S."/>
+<person name="Kay M."/>
+<person name="Brown J."/>
+<person name="Murnane C."/>
+<person name="Gray E."/>
+<person name="Humphries M."/>
+<person name="Sycamore N."/>
+<person name="Barker D."/>
+<person name="Saunders D."/>
+<person name="Wallis J."/>
+<person name="Babbage A."/>
+<person name="Hammond S."/>
+<person name="Mashreghi-Mohammadi M."/>
+<person name="Barr L."/>
+<person name="Martin S."/>
+<person name="Wray P."/>
+<person name="Ellington A."/>
+<person name="Matthews N."/>
+<person name="Ellwood M."/>
+<person name="Woodmansey R."/>
+<person name="Clark G."/>
+<person name="Cooper J."/>
+<person name="Tromans A."/>
+<person name="Grafham D."/>
+<person name="Skuce C."/>
+<person name="Pandian R."/>
+<person name="Andrews R."/>
+<person name="Harrison E."/>
+<person name="Kimberley A."/>
+<person name="Garnett J."/>
+<person name="Fosker N."/>
+<person name="Hall R."/>
+<person name="Garner P."/>
+<person name="Kelly D."/>
+<person name="Bird C."/>
+<person name="Palmer S."/>
+<person name="Gehring I."/>
+<person name="Berger A."/>
+<person name="Dooley C.M."/>
+<person name="Ersan-Urun Z."/>
+<person name="Eser C."/>
+<person name="Geiger H."/>
+<person name="Geisler M."/>
+<person name="Karotki L."/>
+<person name="Kirn A."/>
+<person name="Konantz J."/>
+<person name="Konantz M."/>
+<person name="Oberlander M."/>
+<person name="Rudolph-Geiger S."/>
+<person name="Teucke M."/>
+<person name="Lanz C."/>
+<person name="Raddatz G."/>
+<person name="Osoegawa K."/>
+<person name="Zhu B."/>
+<person name="Rapp A."/>
+<person name="Widaa S."/>
+<person name="Langford C."/>
+<person name="Yang F."/>
+<person name="Schuster S.C."/>
+<person name="Carter N.P."/>
+<person name="Harrow J."/>
+<person name="Ning Z."/>
+<person name="Herrero J."/>
+<person name="Searle S.M."/>
+<person name="Enright A."/>
+<person name="Geisler R."/>
+<person name="Plasterk R.H."/>
+<person name="Lee C."/>
+<person name="Westerfield M."/>
+<person name="de Jong P.J."/>
+<person name="Zon L.I."/>
+<person name="Postlethwait J.H."/>
+<person name="Nusslein-Volhard C."/>
+<person name="Hubbard T.J."/>
+<person name="Roest Crollius H."/>
+<person name="Rogers J."/>
+<person name="Stemple D.L."/>
+</authorList>
+<dbReference type="PubMed" id="23594743"/>
+<dbReference type="DOI" id="10.1038/nature12111"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5 6">Tuebingen</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="CABZ01088247">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CABZ01088248">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_956415.2">
+<property type="nucleotide sequence ID" value="NM_200121.2"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_017213695.1">
+<property type="nucleotide sequence ID" value="XM_017358206.1"/>
+</dbReference>
+<dbReference type="PaxDb" id="F1RBA9"/>
+<dbReference type="Ensembl" id="ENSDART00000008409">
+<property type="protein sequence ID" value="ENSDARP00000005521"/>
+<property type="gene ID" value="ENSDARG00000016391"/>
+</dbReference>
+<dbReference type="GeneID" id="386968"/>
+<dbReference type="KEGG" id="dre:386968"/>
+<dbReference type="CTD" id="386968"/>
+<dbReference type="ZFIN" id="ZDB-GENE-031118-126">
+<property type="gene designation" value="calcoco1b"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG502QS31">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00950000183025"/>
+<dbReference type="InParanoid" id="F1RBA9"/>
+<dbReference type="OrthoDB" id="179838at2759"/>
+<dbReference type="TreeFam" id="TF329501"/>
+<dbReference type="Proteomes" id="UP000000437">
+<property type="component" value="Chromosome 11"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSDARG00000016391">
+<property type="expression patterns" value="Expressed in muscle organ and 22 other tissues"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000790">
+<property type="term" value="C:nuclear chromatin"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003713">
+<property type="term" value="F:transcription coactivator activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045944">
+<property type="term" value="P:positive regulation of transcription by RNA polymerase II"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012852">
+<property type="entry name" value="CALCOCO1-like"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR041611">
+<property type="entry name" value="SKICH"/>
+</dbReference>
+<dbReference type="Pfam" id="PF07888">
+<property type="entry name" value="CALCOCO1"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF17751">
+<property type="entry name" value="SKICH"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-1185" evidence="6">Reference proteome</keyword>
+<feature type="domain" description="SKICH" evidence="4">
+<location>
+<begin position="7"/>
+<end position="110"/>
+</location>
+</feature>
+<feature type="domain" description="CALCOCO1" evidence="3">
+<location>
+<begin position="114"/>
+<end position="291"/>
+</location>
+</feature>
+<feature type="domain" description="CALCOCO1" evidence="3">
+<location>
+<begin position="291"/>
+<end position="543"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="275"/>
+<end position="295"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="498"/>
+<end position="531"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="367"/>
+<end position="408"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="416"/>
+<end position="443"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF07888"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF17751"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSDARP00000005521"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000000437"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000313">
+<source>
+<dbReference type="ZFIN" id="ZDB-GENE-031118-126"/>
+</source>
+</evidence>
+<sequence length="560" mass="65012" checksum="2475042FB19A57D6" modified="2011-05-03" version="1">MEEKRFVHFRDVAVSYFSQTRVDCRYTISSQHDWSSRDWIGLFKVGWLTVKDYYTFAWALAPEGYQKGADANCSVAFHPSYLPIPGVEEYQFVYVDERGDVCAISSQFTFTAPRPLDELVTLEKTGEGEEDGDDLLLVVPKALILQNLLEGCQRELHELHKKFEAVNGDVENERQRWKTDRDEFEILRSDMRSQIEELKTNLRHSTEKTEELEQKHKEAQISSESMSAEFNALLAERAENQQRIKELEQDSATLTQQKQDIEAELERMKERVKKMTIQRRDEETERRDLQLENEQMHADLRTLQERLEASERSTEALRRDLSELGSLQSHSHAELHQVRLQSAQMSLQLSQANLALREGQSTWAQERETLRQSAELDKDRVQKLSRELQKKEEWLQEERSEREKLEVELGIEKDCNREQRASLRALQKEQEQHQLEKQELLDHIHVLELRLDTETDAKWAEAAATPICQFAKSYLHRAAYIDSLSSIDEKPLLESSSELSLSALDSEQHNESTENNPKDNEDDVMQEDLEVQPFSSGIADQMLSEAKDSVFSALADAPLW</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

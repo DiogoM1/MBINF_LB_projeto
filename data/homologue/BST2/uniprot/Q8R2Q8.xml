@@ -1,0 +1,918 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2006-10-17" modified="2020-12-02" version="129">
+<accession>Q8R2Q8</accession>
+<accession>Q8CEY7</accession>
+<name>BST2_MOUSE</name>
+<protein>
+<recommendedName>
+<fullName>Bone marrow stromal antigen 2</fullName>
+<shortName>BST-2</shortName>
+</recommendedName>
+<alternativeName>
+<fullName>HM1.24 antigen</fullName>
+</alternativeName>
+<cdAntigenName>CD317</cdAntigenName>
+</protein>
+<gene>
+<name type="primary">Bst2</name>
+</gene>
+<organism>
+<name type="scientific">Mus musculus</name>
+<name type="common">Mouse</name>
+<dbReference type="NCBI Taxonomy" id="10090"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Myomorpha</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+<taxon>Mus</taxon>
+<taxon>Mus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="2005" name="Science" volume="309" first="1559" last="1563">
+<title>The transcriptional landscape of the mammalian genome.</title>
+<authorList>
+<person name="Carninci P."/>
+<person name="Kasukawa T."/>
+<person name="Katayama S."/>
+<person name="Gough J."/>
+<person name="Frith M.C."/>
+<person name="Maeda N."/>
+<person name="Oyama R."/>
+<person name="Ravasi T."/>
+<person name="Lenhard B."/>
+<person name="Wells C."/>
+<person name="Kodzius R."/>
+<person name="Shimokawa K."/>
+<person name="Bajic V.B."/>
+<person name="Brenner S.E."/>
+<person name="Batalov S."/>
+<person name="Forrest A.R."/>
+<person name="Zavolan M."/>
+<person name="Davis M.J."/>
+<person name="Wilming L.G."/>
+<person name="Aidinis V."/>
+<person name="Allen J.E."/>
+<person name="Ambesi-Impiombato A."/>
+<person name="Apweiler R."/>
+<person name="Aturaliya R.N."/>
+<person name="Bailey T.L."/>
+<person name="Bansal M."/>
+<person name="Baxter L."/>
+<person name="Beisel K.W."/>
+<person name="Bersano T."/>
+<person name="Bono H."/>
+<person name="Chalk A.M."/>
+<person name="Chiu K.P."/>
+<person name="Choudhary V."/>
+<person name="Christoffels A."/>
+<person name="Clutterbuck D.R."/>
+<person name="Crowe M.L."/>
+<person name="Dalla E."/>
+<person name="Dalrymple B.P."/>
+<person name="de Bono B."/>
+<person name="Della Gatta G."/>
+<person name="di Bernardo D."/>
+<person name="Down T."/>
+<person name="Engstrom P."/>
+<person name="Fagiolini M."/>
+<person name="Faulkner G."/>
+<person name="Fletcher C.F."/>
+<person name="Fukushima T."/>
+<person name="Furuno M."/>
+<person name="Futaki S."/>
+<person name="Gariboldi M."/>
+<person name="Georgii-Hemming P."/>
+<person name="Gingeras T.R."/>
+<person name="Gojobori T."/>
+<person name="Green R.E."/>
+<person name="Gustincich S."/>
+<person name="Harbers M."/>
+<person name="Hayashi Y."/>
+<person name="Hensch T.K."/>
+<person name="Hirokawa N."/>
+<person name="Hill D."/>
+<person name="Huminiecki L."/>
+<person name="Iacono M."/>
+<person name="Ikeo K."/>
+<person name="Iwama A."/>
+<person name="Ishikawa T."/>
+<person name="Jakt M."/>
+<person name="Kanapin A."/>
+<person name="Katoh M."/>
+<person name="Kawasawa Y."/>
+<person name="Kelso J."/>
+<person name="Kitamura H."/>
+<person name="Kitano H."/>
+<person name="Kollias G."/>
+<person name="Krishnan S.P."/>
+<person name="Kruger A."/>
+<person name="Kummerfeld S.K."/>
+<person name="Kurochkin I.V."/>
+<person name="Lareau L.F."/>
+<person name="Lazarevic D."/>
+<person name="Lipovich L."/>
+<person name="Liu J."/>
+<person name="Liuni S."/>
+<person name="McWilliam S."/>
+<person name="Madan Babu M."/>
+<person name="Madera M."/>
+<person name="Marchionni L."/>
+<person name="Matsuda H."/>
+<person name="Matsuzawa S."/>
+<person name="Miki H."/>
+<person name="Mignone F."/>
+<person name="Miyake S."/>
+<person name="Morris K."/>
+<person name="Mottagui-Tabar S."/>
+<person name="Mulder N."/>
+<person name="Nakano N."/>
+<person name="Nakauchi H."/>
+<person name="Ng P."/>
+<person name="Nilsson R."/>
+<person name="Nishiguchi S."/>
+<person name="Nishikawa S."/>
+<person name="Nori F."/>
+<person name="Ohara O."/>
+<person name="Okazaki Y."/>
+<person name="Orlando V."/>
+<person name="Pang K.C."/>
+<person name="Pavan W.J."/>
+<person name="Pavesi G."/>
+<person name="Pesole G."/>
+<person name="Petrovsky N."/>
+<person name="Piazza S."/>
+<person name="Reed J."/>
+<person name="Reid J.F."/>
+<person name="Ring B.Z."/>
+<person name="Ringwald M."/>
+<person name="Rost B."/>
+<person name="Ruan Y."/>
+<person name="Salzberg S.L."/>
+<person name="Sandelin A."/>
+<person name="Schneider C."/>
+<person name="Schoenbach C."/>
+<person name="Sekiguchi K."/>
+<person name="Semple C.A."/>
+<person name="Seno S."/>
+<person name="Sessa L."/>
+<person name="Sheng Y."/>
+<person name="Shibata Y."/>
+<person name="Shimada H."/>
+<person name="Shimada K."/>
+<person name="Silva D."/>
+<person name="Sinclair B."/>
+<person name="Sperling S."/>
+<person name="Stupka E."/>
+<person name="Sugiura K."/>
+<person name="Sultana R."/>
+<person name="Takenaka Y."/>
+<person name="Taki K."/>
+<person name="Tammoja K."/>
+<person name="Tan S.L."/>
+<person name="Tang S."/>
+<person name="Taylor M.S."/>
+<person name="Tegner J."/>
+<person name="Teichmann S.A."/>
+<person name="Ueda H.R."/>
+<person name="van Nimwegen E."/>
+<person name="Verardo R."/>
+<person name="Wei C.L."/>
+<person name="Yagi K."/>
+<person name="Yamanishi H."/>
+<person name="Zabarovsky E."/>
+<person name="Zhu S."/>
+<person name="Zimmer A."/>
+<person name="Hide W."/>
+<person name="Bult C."/>
+<person name="Grimmond S.M."/>
+<person name="Teasdale R.D."/>
+<person name="Liu E.T."/>
+<person name="Brusic V."/>
+<person name="Quackenbush J."/>
+<person name="Wahlestedt C."/>
+<person name="Mattick J.S."/>
+<person name="Hume D.A."/>
+<person name="Kai C."/>
+<person name="Sasaki D."/>
+<person name="Tomaru Y."/>
+<person name="Fukuda S."/>
+<person name="Kanamori-Katayama M."/>
+<person name="Suzuki M."/>
+<person name="Aoki J."/>
+<person name="Arakawa T."/>
+<person name="Iida J."/>
+<person name="Imamura K."/>
+<person name="Itoh M."/>
+<person name="Kato T."/>
+<person name="Kawaji H."/>
+<person name="Kawagashira N."/>
+<person name="Kawashima T."/>
+<person name="Kojima M."/>
+<person name="Kondo S."/>
+<person name="Konno H."/>
+<person name="Nakano K."/>
+<person name="Ninomiya N."/>
+<person name="Nishio T."/>
+<person name="Okada M."/>
+<person name="Plessy C."/>
+<person name="Shibata K."/>
+<person name="Shiraki T."/>
+<person name="Suzuki S."/>
+<person name="Tagami M."/>
+<person name="Waki K."/>
+<person name="Watahiki A."/>
+<person name="Okamura-Oho Y."/>
+<person name="Suzuki H."/>
+<person name="Kawai J."/>
+<person name="Hayashizaki Y."/>
+</authorList>
+<dbReference type="PubMed" id="16141072"/>
+<dbReference type="DOI" id="10.1126/science.1112014"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<strain>C57BL/6J</strain>
+<strain>NOD</strain>
+<tissue>Dendritic cell</tissue>
+<tissue>Tongue</tissue>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+<title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+<authorList>
+<consortium name="The MGC Project Team"/>
+</authorList>
+<dbReference type="PubMed" id="15489334"/>
+<dbReference type="DOI" id="10.1101/gr.2596504"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+<source>
+<strain>Czech II</strain>
+<tissue>Liver</tissue>
+<tissue>Mammary tumor</tissue>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1999" name="Biochem. Biophys. Res. Commun." volume="258" first="583" last="591">
+<title>Molecular cloning and characterization of a surface antigen preferentially overexpressed on multiple myeloma cells.</title>
+<authorList>
+<person name="Ohtomo T."/>
+<person name="Sugamata Y."/>
+<person name="Ozaki Y."/>
+<person name="Ono K."/>
+<person name="Yoshimura Y."/>
+<person name="Kawai S."/>
+<person name="Koishihara Y."/>
+<person name="Ozaki S."/>
+<person name="Kosaka M."/>
+<person name="Hirano T."/>
+<person name="Tsuchiya M."/>
+</authorList>
+<dbReference type="PubMed" id="10329429"/>
+<dbReference type="DOI" id="10.1006/bbrc.1999.0683"/>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2006" name="J. Immunol." volume="177" first="3260" last="3265">
+<title>Bone marrow stromal cell antigen 2 is a specific marker of type I IFN-producing cells in the naive mouse, but a promiscuous cell surface antigen following IFN stimulation.</title>
+<authorList>
+<person name="Blasius A.L."/>
+<person name="Giurisato E."/>
+<person name="Cella M."/>
+<person name="Schreiber R.D."/>
+<person name="Shaw A.S."/>
+<person name="Colonna M."/>
+</authorList>
+<dbReference type="PubMed" id="16920966"/>
+<dbReference type="DOI" id="10.4049/jimmunol.177.5.3260"/>
+</citation>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>INDUCTION BY INTERFERONS</scope>
+<scope>FUNCTION</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="2009" name="Nat. Biotechnol." volume="27" first="378" last="386">
+<title>Mass-spectrometric identification and relative quantification of N-linked cell surface glycoproteins.</title>
+<authorList>
+<person name="Wollscheid B."/>
+<person name="Bausch-Fluck D."/>
+<person name="Henderson C."/>
+<person name="O'Brien R."/>
+<person name="Bibel M."/>
+<person name="Schiess R."/>
+<person name="Aebersold R."/>
+<person name="Watts J.D."/>
+</authorList>
+<dbReference type="PubMed" id="19349973"/>
+<dbReference type="DOI" id="10.1038/nbt.1532"/>
+</citation>
+<scope>GLYCOSYLATION [LARGE SCALE ANALYSIS] AT ASN-70 AND ASN-94</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="2009" name="Proc. Natl. Acad. Sci. U.S.A." volume="106" first="2886" last="2891">
+<title>Tetherin-mediated restriction of filovirus budding is antagonized by the Ebola glycoprotein.</title>
+<authorList>
+<person name="Kaletsky R.L."/>
+<person name="Francica J.R."/>
+<person name="Agrawal-Gamse C."/>
+<person name="Bates P."/>
+</authorList>
+<dbReference type="PubMed" id="19179289"/>
+<dbReference type="DOI" id="10.1073/pnas.0811014106"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>INDUCTION BY EBOLA GP PROTEIN</scope>
+</reference>
+<reference key="7">
+<citation type="journal article" date="2010" name="Cell" volume="143" first="1174" last="1189">
+<title>A tissue-specific atlas of mouse protein phosphorylation and expression.</title>
+<authorList>
+<person name="Huttlin E.L."/>
+<person name="Jedrychowski M.P."/>
+<person name="Elias J.E."/>
+<person name="Goswami T."/>
+<person name="Rad R."/>
+<person name="Beausoleil S.A."/>
+<person name="Villen J."/>
+<person name="Haas W."/>
+<person name="Sowa M.E."/>
+<person name="Gygi S.P."/>
+</authorList>
+<dbReference type="PubMed" id="21183079"/>
+<dbReference type="DOI" id="10.1016/j.cell.2010.12.001"/>
+</citation>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+<source>
+<tissue>Brown adipose tissue</tissue>
+<tissue>Heart</tissue>
+<tissue>Liver</tissue>
+<tissue>Lung</tissue>
+<tissue>Spleen</tissue>
+</source>
+</reference>
+<reference key="8">
+<citation type="journal article" date="2010" name="J. Virol." volume="84" first="10569" last="10580">
+<title>Infectious Lassa virus, but not filoviruses, is restricted by BST-2/tetherin.</title>
+<authorList>
+<person name="Radoshitzky S.R."/>
+<person name="Dong L."/>
+<person name="Chi X."/>
+<person name="Clester J.C."/>
+<person name="Retterer C."/>
+<person name="Spurgers K."/>
+<person name="Kuhn J.H."/>
+<person name="Sandwick S."/>
+<person name="Ruthel G."/>
+<person name="Kota K."/>
+<person name="Boltz D."/>
+<person name="Warren T."/>
+<person name="Kranzusch P.J."/>
+<person name="Whelan S.P."/>
+<person name="Bavari S."/>
+</authorList>
+<dbReference type="PubMed" id="20686043"/>
+<dbReference type="DOI" id="10.1128/jvi.00103-10"/>
+</citation>
+<scope>FUNCTION</scope>
+</reference>
+<reference key="9">
+<citation type="journal article" date="2010" name="J. Virol." volume="84" first="11374" last="11384">
+<title>Endogenous CD317/Tetherin limits replication of HIV-1 and murine leukemia virus in rodent cells and is resistant to antagonists from primate viruses.</title>
+<authorList>
+<person name="Goffinet C."/>
+<person name="Schmidt S."/>
+<person name="Kern C."/>
+<person name="Oberbremer L."/>
+<person name="Keppler O.T."/>
+</authorList>
+<dbReference type="PubMed" id="20702620"/>
+<dbReference type="DOI" id="10.1128/jvi.01067-10"/>
+</citation>
+<scope>FUNCTION</scope>
+</reference>
+<reference key="10">
+<citation type="journal article" date="2011" name="DNA Cell Biol." volume="30" first="965" last="974">
+<title>Interferon-induced tetherin restricts vesicular stomatitis virus release in neurons.</title>
+<authorList>
+<person name="Sarojini S."/>
+<person name="Theofanis T."/>
+<person name="Reiss C.S."/>
+</authorList>
+<dbReference type="PubMed" id="21919738"/>
+<dbReference type="DOI" id="10.1089/dna.2011.1384"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+</reference>
+<reference key="11">
+<citation type="journal article" date="2011" name="Proc. Natl. Acad. Sci. U.S.A." volume="108" first="18097" last="18101">
+<title>Tetherin is a key effector of the antiretroviral activity of type I interferon in vitro and in vivo.</title>
+<authorList>
+<person name="Liberatore R.A."/>
+<person name="Bieniasz P.D."/>
+</authorList>
+<dbReference type="PubMed" id="22025715"/>
+<dbReference type="DOI" id="10.1073/pnas.1113694108"/>
+</citation>
+<scope>FUNCTION</scope>
+</reference>
+<reference key="12">
+<citation type="journal article" date="2012" name="J. Immunol." volume="188" first="2488" last="2492">
+<title>Paradoxical roles of BST2/tetherin in promoting type I IFN response and viral infection.</title>
+<authorList>
+<person name="Swiecki M."/>
+<person name="Wang Y."/>
+<person name="Gilfillan S."/>
+<person name="Lenschow D.J."/>
+<person name="Colonna M."/>
+</authorList>
+<dbReference type="PubMed" id="22327075"/>
+<dbReference type="DOI" id="10.4049/jimmunol.1103145"/>
+</citation>
+<scope>FUNCTION</scope>
+</reference>
+<reference key="13">
+<citation type="journal article" date="2012" name="Mol. Biol. Int." volume="2012" first="424768" last="424768">
+<title>Restriction of retroviral replication by tetherin/BST-2.</title>
+<authorList>
+<person name="Hammonds J."/>
+<person name="Wang J.J."/>
+<person name="Spearman P."/>
+</authorList>
+<dbReference type="PubMed" id="22811908"/>
+<dbReference type="DOI" id="10.1155/2012/424768"/>
+</citation>
+<scope>REVIEW</scope>
+</reference>
+<reference key="14">
+<citation type="journal article" date="2012" name="Retrovirology" volume="9" first="10" last="10">
+<title>Bone marrow stromal cell antigen 2 (BST-2) restricts mouse mammary tumor virus (MMTV) replication in vivo.</title>
+<authorList>
+<person name="Jones P.H."/>
+<person name="Mehta H.V."/>
+<person name="Maric M."/>
+<person name="Roller R.J."/>
+<person name="Okeoma C.M."/>
+</authorList>
+<dbReference type="PubMed" id="22284121"/>
+<dbReference type="DOI" id="10.1186/1742-4690-9-10"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+</reference>
+<reference key="15">
+<citation type="journal article" date="2011" name="J. Biol. Chem." volume="286" first="2987" last="2997">
+<title>Structural and biophysical analysis of BST-2/tetherin ectodomains reveals an evolutionary conserved design to inhibit virus release.</title>
+<authorList>
+<person name="Swiecki M."/>
+<person name="Scheaffer S.M."/>
+<person name="Allaire M."/>
+<person name="Fremont D.H."/>
+<person name="Colonna M."/>
+<person name="Brett T.J."/>
+</authorList>
+<dbReference type="PubMed" id="21084286"/>
+<dbReference type="DOI" id="10.1074/jbc.m110.190538"/>
+</citation>
+<scope>X-RAY CRYSTALLOGRAPHY (1.6 ANGSTROMS) OF 53-151</scope>
+<scope>COILED-COIL DOMAIN</scope>
+<scope>SUBUNIT</scope>
+<scope>DISULFIDE BONDS</scope>
+</reference>
+<comment type="function">
+<text evidence="4 5 7 8 10 11 12 13">IFN-induced antiviral host restriction factor which efficiently blocks the release of diverse mammalian enveloped viruses by directly tethering nascent virions to the membranes of infected cells. Acts as a direct physical tether, holding virions to the cell membrane and linking virions to each other. The tethered virions can be internalized by endocytosis and subsequently degraded or they can remain on the cell surface. In either case, their spread as cell-free virions is restricted. Its target viruses belong to diverse families, including retroviridae: human immunodeficiency virus type 1 (HIV-1), mouse mammary tumor virus (MMTV) and murine leukemia virus (MLV), filoviridae: ebola virus (EBOV), arenaviridae: lassa virus (LASV), and rhabdoviridae: vesicular stomatitis virus (VSV). Can inhibit cell surface proteolytic activity of MMP14 causing decreased activation of MMP15 which results in inhibition of cell growth and migration. Can stimulate signaling by LILRA4/ILT7 and consequently provide negative feedback to the production of IFN by plasmacytoid dendritic cells in response to viral infection. Plays a role in the organization of the subapical actin cytoskeleton in polarized epithelial cells.</text>
+</comment>
+<comment type="subunit">
+<text evidence="2">Parallel homodimer; disulfide-linked. May form homotetramers under reducing conditions. Dimerization is essential for its antiviral activity. Interacts (via cytoplasmic domain) with ARHGAP44 (By similarity). Interacts with MMP14 (via C-terminal cytoplasmic tail) (By similarity). Interacts with LILRA4/ILT7 (By similarity).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Golgi apparatus</location>
+<location>trans-Golgi network</location>
+</subcellularLocation>
+<subcellularLocation>
+<location>Cell membrane</location>
+<topology>Single-pass type II membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="2">Cell membrane</location>
+<topology evidence="2">Lipid-anchor</topology>
+<topology evidence="2">GPI-anchor</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="2">Late endosome</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="2">Membrane raft</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="2">Cytoplasm</location>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="2">Apical cell membrane</location>
+</subcellularLocation>
+<text evidence="2">Shuttles between the cell membrane, where it is present predominantly in membrane/lipid rafts, and the trans-Golgi network. Forms a complex with MMP14 and localizes to the cytoplasm (By similarity).</text>
+</comment>
+<comment type="tissue specificity">
+<text evidence="4">In naive mice, specifically expressed on type I interferon-producing cells (at protein level).</text>
+</comment>
+<comment type="induction">
+<text evidence="4 5">By viral or other interferon-inducing stimulation in most cell types (at protein level). Down-regulated by ebola virus GP protein.</text>
+</comment>
+<comment type="domain">
+<text evidence="2">The extracellular coiled coil domain forms an extended 170 A long semi-flexible rod-like structure important for virion retention at the cell surface and prevention of virus spreading.</text>
+</comment>
+<dbReference type="EMBL" id="AK009361">
+<property type="protein sequence ID" value="BAC25254.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AK154399">
+<property type="protein sequence ID" value="BAE32560.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC027328">
+<property type="protein sequence ID" value="AAH27328.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC056638">
+<property type="protein sequence ID" value="AAH56638.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="BC087949">
+<property type="protein sequence ID" value="AAH87949.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS22397.1"/>
+<dbReference type="RefSeq" id="NP_932763.1">
+<property type="nucleotide sequence ID" value="NM_198095.2"/>
+</dbReference>
+<dbReference type="PDB" id="3NI0">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.60"/>
+<property type="chains" value="A/B=53-151"/>
+</dbReference>
+<dbReference type="PDBsum" id="3NI0"/>
+<dbReference type="SMR" id="Q8R2Q8"/>
+<dbReference type="IntAct" id="Q8R2Q8">
+<property type="interactions" value="1"/>
+</dbReference>
+<dbReference type="STRING" id="10090.ENSMUSP00000051921"/>
+<dbReference type="GlyGen" id="Q8R2Q8">
+<property type="glycosylation" value="3 sites"/>
+</dbReference>
+<dbReference type="iPTMnet" id="Q8R2Q8"/>
+<dbReference type="PhosphoSitePlus" id="Q8R2Q8"/>
+<dbReference type="SwissPalm" id="Q8R2Q8"/>
+<dbReference type="EPD" id="Q8R2Q8"/>
+<dbReference type="jPOST" id="Q8R2Q8"/>
+<dbReference type="MaxQB" id="Q8R2Q8"/>
+<dbReference type="PaxDb" id="Q8R2Q8"/>
+<dbReference type="PeptideAtlas" id="Q8R2Q8"/>
+<dbReference type="PRIDE" id="Q8R2Q8"/>
+<dbReference type="Antibodypedia" id="1532">
+<property type="antibodies" value="672 antibodies"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSMUST00000051672">
+<property type="protein sequence ID" value="ENSMUSP00000051921"/>
+<property type="gene ID" value="ENSMUSG00000046718"/>
+</dbReference>
+<dbReference type="GeneID" id="69550"/>
+<dbReference type="KEGG" id="mmu:69550"/>
+<dbReference type="UCSC" id="uc009mdr.1">
+<property type="organism name" value="mouse"/>
+</dbReference>
+<dbReference type="CTD" id="684"/>
+<dbReference type="MGI" id="MGI:1916800">
+<property type="gene designation" value="Bst2"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG502TB0V">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00390000013782"/>
+<dbReference type="HOGENOM" id="CLU_104678_2_0_1"/>
+<dbReference type="InParanoid" id="Q8R2Q8"/>
+<dbReference type="OMA" id="KNNASSC"/>
+<dbReference type="OrthoDB" id="1579815at2759"/>
+<dbReference type="PhylomeDB" id="Q8R2Q8"/>
+<dbReference type="TreeFam" id="TF338345"/>
+<dbReference type="Reactome" id="R-MMU-6798695">
+<property type="pathway name" value="Neutrophil degranulation"/>
+</dbReference>
+<dbReference type="BioGRID-ORCS" id="69550">
+<property type="hits" value="0 hits in 17 CRISPR screens"/>
+</dbReference>
+<dbReference type="ChiTaRS" id="Bst2">
+<property type="organism name" value="mouse"/>
+</dbReference>
+<dbReference type="EvolutionaryTrace" id="Q8R2Q8"/>
+<dbReference type="PRO" id="PR:Q8R2Q8"/>
+<dbReference type="Proteomes" id="UP000000589">
+<property type="component" value="Chromosome 8"/>
+</dbReference>
+<dbReference type="RNAct" id="Q8R2Q8">
+<property type="molecule type" value="protein"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSMUSG00000046718">
+<property type="expression patterns" value="Expressed in liver and 205 other tissues"/>
+</dbReference>
+<dbReference type="Genevisible" id="Q8R2Q8">
+<property type="organism ID" value="MM"/>
+</dbReference>
+<dbReference type="GO" id="GO:0031225">
+<property type="term" value="C:anchored component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016324">
+<property type="term" value="C:apical plasma membrane"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009986">
+<property type="term" value="C:cell surface"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005794">
+<property type="term" value="C:Golgi apparatus"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005770">
+<property type="term" value="C:late endosome"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045121">
+<property type="term" value="C:membrane raft"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008191">
+<property type="term" value="F:metalloendopeptidase inhibitor activity"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051607">
+<property type="term" value="P:defense response to virus"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045087">
+<property type="term" value="P:innate immune response"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030308">
+<property type="term" value="P:negative regulation of cell growth"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030336">
+<property type="term" value="P:negative regulation of cell migration"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:1901253">
+<property type="term" value="P:negative regulation of intracellular transport of viral material"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002737">
+<property type="term" value="P:negative regulation of plasmacytoid dendritic cell cytokine production"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045071">
+<property type="term" value="P:negative regulation of viral genome replication"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0032956">
+<property type="term" value="P:regulation of actin cytoskeleton organization"/>
+<property type="evidence" value="ECO:0000250"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035455">
+<property type="term" value="P:response to interferon-alpha"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035456">
+<property type="term" value="P:response to interferon-beta"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0034341">
+<property type="term" value="P:response to interferon-gamma"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009615">
+<property type="term" value="P:response to virus"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024886">
+<property type="entry name" value="BST2"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR15190">
+<property type="entry name" value="PTHR15190"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF16716">
+<property type="entry name" value="BST2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0175">Coiled coil</keyword>
+<keyword id="KW-0963">Cytoplasm</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0967">Endosome</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0333">Golgi apparatus</keyword>
+<keyword id="KW-0336">GPI-anchor</keyword>
+<keyword id="KW-0391">Immunity</keyword>
+<keyword id="KW-0399">Innate immunity</keyword>
+<keyword id="KW-0449">Lipoprotein</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0735">Signal-anchor</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="chain" description="Bone marrow stromal antigen 2" id="PRO_0000253553">
+<location>
+<begin position="1"/>
+<end position="152"/>
+</location>
+</feature>
+<feature type="propeptide" description="Removed in mature form" id="PRO_0000253554" evidence="3">
+<location>
+<begin position="153"/>
+<end position="172"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="3">
+<location>
+<begin position="1"/>
+<end position="30"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical; Signal-anchor for type II membrane protein" evidence="3">
+<location>
+<begin position="31"/>
+<end position="51"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="3">
+<location>
+<begin position="52"/>
+<end position="152"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="9">
+<location>
+<begin position="74"/>
+<end position="147"/>
+</location>
+</feature>
+<feature type="lipid moiety-binding region" description="GPI-anchor amidated serine" evidence="3">
+<location>
+<position position="152"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="6">
+<location>
+<position position="70"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine; atypical" evidence="6">
+<location>
+<position position="94"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="3">
+<location>
+<position position="97"/>
+</location>
+</feature>
+<feature type="disulfide bond" description="Interchain" evidence="9">
+<location>
+<position position="58"/>
+</location>
+</feature>
+<feature type="disulfide bond" description="Interchain" evidence="9">
+<location>
+<position position="68"/>
+</location>
+</feature>
+<feature type="disulfide bond" description="Interchain" evidence="9">
+<location>
+<position position="96"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="59"/>
+<end position="143"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="144"/>
+<end position="146"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="3NI0"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250"/>
+<evidence key="3" type="ECO:0000255"/>
+<evidence key="4" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16920966"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="19179289"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="19349973"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="20686043"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="20702620"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="21084286"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="21919738"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="22025715"/>
+</source>
+</evidence>
+<evidence key="12" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="22284121"/>
+</source>
+</evidence>
+<evidence key="13" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="22327075"/>
+</source>
+</evidence>
+<sequence length="172" mass="19152" checksum="A2032FD01FAF601A" modified="2002-06-01" version="1" precursor="true">MAPSFYHYLPVPMDEMGGKQGWGSHRQWLGAAILVVLFGVTLVILTIYFAVTANSVACRDGLRAQAECRNTTHLLQRQLTRTQDSLLQAETQANSCNLTVVTLQESLEKKVSQALEQQARIKELENEVTKLNQELENLRIQKETSSTVQVNSGSSMVVSSLLVLKVSLFLLF</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

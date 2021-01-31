@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-02-19" modified="2020-04-22" version="8">
+<accession>V6LFU9</accession>
+<name>V6LFU9_9EUKA</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">SS50377_16785</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Spironucleus salmonicida</name>
+<dbReference type="NCBI Taxonomy" id="348837"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metamonada</taxon>
+<taxon>Diplomonadida</taxon>
+<taxon>Hexamitidae</taxon>
+<taxon>Hexamitinae</taxon>
+<taxon>Spironucleus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3">
+<citation type="journal article" date="2014" name="PLoS Genet." volume="10" first="E1004053" last="E1004053">
+<title>The Genome of Spironucleus salmonicida Highlights a Fish Pathogen Adapted to Fluctuating Environments.</title>
+<authorList>
+<person name="Xu F."/>
+<person name="Jerlstrom-Hultqvist J."/>
+<person name="Einarsson E."/>
+<person name="Astvaldsson A."/>
+<person name="Svard S.G."/>
+<person name="Andersson J.O."/>
+</authorList>
+<dbReference type="PubMed" id="24516394"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<dbReference type="EMBL" id="KI546136">
+<property type="protein sequence ID" value="EST43425.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblProtists" id="EST43425">
+<property type="protein sequence ID" value="EST43425"/>
+<property type="gene ID" value="SS50377_16785"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000018208">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="5"/>
+<end position="74"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="103"/>
+<end position="190"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EST43425.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000018208"/>
+</source>
+</evidence>
+<sequence length="313" mass="36222" checksum="2617A7F5FCD0BF00" modified="2014-02-19" version="1">MVAQTSQTEVALDQLEALQAQAEEQRAAYEQQLTALNEELEELKLSESDLIAENDELQGKVDELEEVLEYVNQQSTSKRDSIGLLGRELDDFKDAFKQLSTSNEETLREVAALRADKQLLQSEVEELRNQMQNLAEQLEDTQRENTAAQDATTDLQERLARETESLTRTVAEKEQAVYQLQQDLKETLSQLTQLKITSLQQNEIQIQERQKLLLQNSLYSSESTYVEEGQQEFSCEQQTQKQSQILLESQQSEMQITQSIHKQISLKQLDQNDEDDIKSCYLIVLSELYKAQDDILKMKYKQLIQEEDLKYNK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2017-05-10" modified="2020-08-12" version="15">
+<accession>A0A1S9DCG1</accession>
+<name>A0A1S9DCG1_ASPOZ</name>
+<protein>
+<submittedName>
+<fullName evidence="4">Monopolin complex, subunit Csm1/Pcs1</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="4">OAory_01090000</name>
+</gene>
+<organism evidence="4 5">
+<name type="scientific">Aspergillus oryzae</name>
+<name type="common">Yellow koji mold</name>
+<dbReference type="NCBI Taxonomy" id="5062"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Eurotiomycetes</taxon>
+<taxon>Eurotiomycetidae</taxon>
+<taxon>Eurotiales</taxon>
+<taxon>Aspergillaceae</taxon>
+<taxon>Aspergillus</taxon>
+<taxon>Aspergillus subgen. Circumdati</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4 5">
+<citation type="submission" date="2016-10" db="EMBL/GenBank/DDBJ databases">
+<title>Genome sequencing of Aspergillus oryzae BCC7051.</title>
+<authorList>
+<person name="Thammarongtham C."/>
+<person name="Vorapreeda T."/>
+<person name="Nookaew I."/>
+<person name="Srisuk T."/>
+<person name="Land M."/>
+<person name="Jeennor S."/>
+<person name="Laoteng K."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="4 5">BCC7051</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="4">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="MKZY01000007">
+<property type="protein sequence ID" value="OOO06797.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="STRING" id="5062.CADAORAP00004993"/>
+<dbReference type="eggNOG" id="ENOG502R6WM">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000190312">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0033551">
+<property type="term" value="C:monopolin complex"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.90.1150.80">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR040349">
+<property type="entry name" value="Csm1/Pcs1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR020981">
+<property type="entry name" value="Csm1/Pcs1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR038608">
+<property type="entry name" value="Csm1/Pcs1_sf"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR28006">
+<property type="entry name" value="PTHR28006"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12539">
+<property type="entry name" value="Csm1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-1185" evidence="5">Reference proteome</keyword>
+<feature type="domain" description="Csm1" evidence="3">
+<location>
+<begin position="410"/>
+<end position="496"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="1"/>
+<end position="256"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="259"/>
+<end position="279"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="281"/>
+<end position="301"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="323"/>
+<end position="378"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="2">
+<location>
+<begin position="22"/>
+<end position="46"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="2">
+<location>
+<begin position="50"/>
+<end position="68"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="2">
+<location>
+<begin position="119"/>
+<end position="139"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="2">
+<location>
+<begin position="172"/>
+<end position="213"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="2">
+<location>
+<begin position="230"/>
+<end position="245"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF12539"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="OOO06797.1"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000190312"/>
+</source>
+</evidence>
+<sequence length="519" mass="57137" checksum="2A1315A0D5A9EE8A" modified="2017-05-10" version="1">MPPKRKAAAKLSNLAESDNEDATQAQEPRDDERPTKKPRGRPRSKSAELKPLIQSKNDTATTPSQAPEAAPKRGTRRGRPRGSRGSLQSVNQEIEEQKEPEEGEEESGPQVPESAPASNDELVASQPAARSTRSAKPAKPTTTRGRRKATVEKQVKTDGEFQYTPRNTRHYKSPVKANEEAEQSTKQQQKADPQSELEEEVSEGEKAAPDVVEETFVQEEPMEPRSISMSPAKRRQSTQRPLQGSPLKPNAEPELRRKIGELTKKYDTLESRYRTLKEIGVVEANANMEKLRKQCEAMTNASNNLVAGLKAELEAQKALGQRSRTLQKQLKERDAEIAQLKSQAEEATSQLSSAQTEVKALQTKLAAARNTAASLESAAAKVPGSAIKGGSNRANAAASAEAAQAAQFAQLKEDLYTDLTGLIIRDVKKGDSDNLYDCIQTGINGTLHFKLAVPHVSSANFENAEFQYVPLLDDNRDRDLIDILPEYLTVDITFVRQQASKFYTRVIDALTKRRTSTGN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

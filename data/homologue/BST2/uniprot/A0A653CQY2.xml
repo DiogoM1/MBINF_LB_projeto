@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2020-04-22" modified="2020-08-12" version="3">
+<accession>A0A653CQY2</accession>
+<name>A0A653CQY2_CALMS</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">CALMAC_LOCUS11122</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Callosobruchus maculatus</name>
+<name type="common">Southern cowpea weevil</name>
+<name type="synonym">Pulse bruchid</name>
+<dbReference type="NCBI Taxonomy" id="64391"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Holometabola</taxon>
+<taxon>Coleoptera</taxon>
+<taxon>Polyphaga</taxon>
+<taxon>Cucujiformia</taxon>
+<taxon>Chrysomeloidea</taxon>
+<taxon>Chrysomelidae</taxon>
+<taxon>Bruchinae</taxon>
+<taxon>Bruchini</taxon>
+<taxon>Callosobruchus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="submission" date="2019-01" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Sayadi A."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<dbReference type="EMBL" id="CAACVG010008554">
+<property type="protein sequence ID" value="VEN50315.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000410492">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="34"/>
+<end position="54"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="218"/>
+<end position="270"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="296"/>
+<end position="316"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="357"/>
+<end position="395"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="404"/>
+<end position="459"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="484"/>
+<end position="514"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="519"/>
+<end position="539"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="673"/>
+<end position="700"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="708"/>
+<end position="742"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="750"/>
+<end position="795"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="816"/>
+<end position="871"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="879"/>
+<end position="987"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="VEN50315.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000410492"/>
+</source>
+</evidence>
+<sequence length="1022" mass="119333" checksum="E0D64D103213FD39" modified="2020-04-22" version="1">MESCLNSDINMKHNLEDLSKNELIRKCVHLLSLAQKARQAKVSLQEENSKLKQILCSKDINFDFQLEVSEEVSKQKLPFVRIIDEVVNYLNTSLEEEVFISNREIKEFKNHMQMLKHDLEYDTVQEVASRMKFNHSSKEKDREEKHQAENINETQQCNDRLREKIKFYHSKIVKLASNVKSVKEEKDYIVSLFKSYTEQVQDWKEQLYNCKGTVLSYIDNIERENQSLKEQLHKNDDIIDKLKVELRQTISQYQCRLDSLKSDHEQLLSKWKESEVKNSAEIDELKTYKMQSTNEIKDLLLLKTKYEKEIDCLKTKYAQSSNCSETDGHLDNIPSNGKSKNSYVTDVSELRNSDTTLQTNFKQLEKLNQNLQKSIEEQKNELDSLRNEKKSFSIILKEKSASCSKSIEVNKEHYEKLINNLKKELKSYEELGERSSQEIRRLVDENKTITATIEHLQQKLDMLEHPKVVQNADIQTDDGSFCDSLELKEQLISLKRENSELLTEMNEMNQAIKERGETISMLEAHCEEVKKKLQIYEAQANKNIDSINEKEKIIEQLKSEIGILKSCRQTETKDSEQIDSLKNEIEYLKDRLNANSDITYAENETMSTSTISRADEGNRLKELEGSWEERYGKLRSLAIKLKGKIREQNSSLTIHQKENDDLTKKLAANMSTIQILQSEIDRSQNELHDCKKKCRQYEDRLSTIGDEISRTKVQLASKDEQVDQLKKEIETLKAEKQTTENWKKQISGKIQTLRREVEANNVLKKEFEAQIAKLASDLEAKEQELKLEVESHKQTKHLLEQSSNECRKNTVLSLEMQDYERSQKETAKKLEKQQNEITNLKNQIESQKSTINALREQNKLLEERINEEKEKTDLLGVEIASQKKKISILENDIETKDDKLQNLNHQLEVARSETEDLSTELSKAIAEHQKTNAQLKEERDMLRGQTMCLQQTLRELQDESKLKADELKVIQQEYEKYKVRAQSILRQNQNHRDLGLEEKHSEELATLTAQNATLTSQLNEYT</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

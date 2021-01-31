@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2007-09-11" modified="2020-12-02" version="66">
+<accession>A7EZE1</accession>
+<name>A7EZE1_SCLS1</name>
+<protein>
+<recommendedName>
+<fullName evidence="9">CAP-Gly domain-containing protein</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="ORF" evidence="10">SS1G_10708</name>
+</gene>
+<organism evidence="10 11">
+<name type="scientific">Sclerotinia sclerotiorum (strain ATCC 18683 / 1980 / Ss-1)</name>
+<name type="common">White mold</name>
+<name type="synonym">Whetzelinia sclerotiorum</name>
+<dbReference type="NCBI Taxonomy" id="665079"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Leotiomycetes</taxon>
+<taxon>Helotiales</taxon>
+<taxon>Sclerotiniaceae</taxon>
+<taxon>Sclerotinia</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="11">
+<citation type="journal article" date="2011" name="PLoS Genet." volume="7" first="E1002230" last="E1002230">
+<title>Genomic analysis of the necrotrophic fungal pathogens Sclerotinia sclerotiorum and Botrytis cinerea.</title>
+<authorList>
+<person name="Amselem J."/>
+<person name="Cuomo C.A."/>
+<person name="van Kan J.A."/>
+<person name="Viaud M."/>
+<person name="Benito E.P."/>
+<person name="Couloux A."/>
+<person name="Coutinho P.M."/>
+<person name="de Vries R.P."/>
+<person name="Dyer P.S."/>
+<person name="Fillinger S."/>
+<person name="Fournier E."/>
+<person name="Gout L."/>
+<person name="Hahn M."/>
+<person name="Kohn L."/>
+<person name="Lapalu N."/>
+<person name="Plummer K.M."/>
+<person name="Pradier J.M."/>
+<person name="Quevillon E."/>
+<person name="Sharon A."/>
+<person name="Simon A."/>
+<person name="ten Have A."/>
+<person name="Tudzynski B."/>
+<person name="Tudzynski P."/>
+<person name="Wincker P."/>
+<person name="Andrew M."/>
+<person name="Anthouard V."/>
+<person name="Beever R.E."/>
+<person name="Beffa R."/>
+<person name="Benoit I."/>
+<person name="Bouzid O."/>
+<person name="Brault B."/>
+<person name="Chen Z."/>
+<person name="Choquer M."/>
+<person name="Collemare J."/>
+<person name="Cotton P."/>
+<person name="Danchin E.G."/>
+<person name="Da Silva C."/>
+<person name="Gautier A."/>
+<person name="Giraud C."/>
+<person name="Giraud T."/>
+<person name="Gonzalez C."/>
+<person name="Grossetete S."/>
+<person name="Guldener U."/>
+<person name="Henrissat B."/>
+<person name="Howlett B.J."/>
+<person name="Kodira C."/>
+<person name="Kretschmer M."/>
+<person name="Lappartient A."/>
+<person name="Leroch M."/>
+<person name="Levis C."/>
+<person name="Mauceli E."/>
+<person name="Neuveglise C."/>
+<person name="Oeser B."/>
+<person name="Pearson M."/>
+<person name="Poulain J."/>
+<person name="Poussereau N."/>
+<person name="Quesneville H."/>
+<person name="Rascle C."/>
+<person name="Schumacher J."/>
+<person name="Segurens B."/>
+<person name="Sexton A."/>
+<person name="Silva E."/>
+<person name="Sirven C."/>
+<person name="Soanes D.M."/>
+<person name="Talbot N.J."/>
+<person name="Templeton M."/>
+<person name="Yandava C."/>
+<person name="Yarden O."/>
+<person name="Zeng Q."/>
+<person name="Rollins J.A."/>
+<person name="Lebrun M.H."/>
+<person name="Dickman M."/>
+</authorList>
+<dbReference type="PubMed" id="21876677"/>
+<dbReference type="DOI" id="10.1371/journal.pgen.1002230"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="11">ATCC 18683 / 1980 / Ss-1</strain>
+</source>
+</reference>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Cytoplasm</location>
+<location evidence="1">Cytoskeleton</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="2">Belongs to the dynactin 150 kDa subunit family.</text>
+</comment>
+<dbReference type="EMBL" id="CH476636">
+<property type="protein sequence ID" value="EDN94833.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_001588261.1">
+<property type="nucleotide sequence ID" value="XM_001588211.1"/>
+</dbReference>
+<dbReference type="GeneID" id="5484388"/>
+<dbReference type="KEGG" id="ssl:SS1G_10708"/>
+<dbReference type="EuPathDB" id="FungiDB:SS1G_10708"/>
+<dbReference type="InParanoid" id="A7EZE1"/>
+<dbReference type="OMA" id="IEAKEQH"/>
+<dbReference type="Proteomes" id="UP000001312">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051286">
+<property type="term" value="C:cell tip"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030286">
+<property type="term" value="C:dynein complex"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000776">
+<property type="term" value="C:kinetochore"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005875">
+<property type="term" value="C:microtubule associated complex"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035371">
+<property type="term" value="C:microtubule plus-end"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005634">
+<property type="term" value="C:nucleus"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005819">
+<property type="term" value="C:spindle"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005816">
+<property type="term" value="C:spindle pole body"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051010">
+<property type="term" value="F:microtubule plus-end binding"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003774">
+<property type="term" value="F:motor activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0031122">
+<property type="term" value="P:cytoplasmic microtubule organization"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000132">
+<property type="term" value="P:establishment of mitotic spindle orientation"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0000743">
+<property type="term" value="P:nuclear migration involved in conjugation with cellular fusion"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.30.30.190">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036859">
+<property type="entry name" value="CAP-Gly_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000938">
+<property type="entry name" value="CAP-Gly_domain"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR022157">
+<property type="entry name" value="Dynactin"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01302">
+<property type="entry name" value="CAP_GLY"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12455">
+<property type="entry name" value="Dynactin"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM01052">
+<property type="entry name" value="CAP_GLY"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF74924">
+<property type="entry name" value="SSF74924"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00845">
+<property type="entry name" value="CAP_GLY_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50245">
+<property type="entry name" value="CAP_GLY_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0175" evidence="5 7">Coiled coil</keyword>
+<keyword id="KW-0963" evidence="6">Cytoplasm</keyword>
+<keyword id="KW-0206" evidence="6">Cytoskeleton</keyword>
+<keyword id="KW-0243" evidence="4">Dynein</keyword>
+<keyword id="KW-0493" evidence="3">Microtubule</keyword>
+<keyword id="KW-1185" evidence="11">Reference proteome</keyword>
+<feature type="domain" description="CAP-Gly" evidence="9">
+<location>
+<begin position="29"/>
+<end position="67"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="8">
+<location>
+<begin position="71"/>
+<end position="312"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="7">
+<location>
+<begin position="393"/>
+<end position="441"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="7">
+<location>
+<begin position="452"/>
+<end position="490"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="7">
+<location>
+<begin position="501"/>
+<end position="576"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="7">
+<location>
+<begin position="623"/>
+<end position="643"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="7">
+<location>
+<begin position="1055"/>
+<end position="1106"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="7">
+<location>
+<begin position="1141"/>
+<end position="1168"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="8">
+<location>
+<begin position="136"/>
+<end position="185"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="8">
+<location>
+<begin position="211"/>
+<end position="228"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="8">
+<location>
+<begin position="237"/>
+<end position="253"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="8">
+<location>
+<begin position="268"/>
+<end position="286"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00004245"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00011010"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00022701"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00023017"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00023054"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00023212"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50245"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EDN94833.1"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000001312"/>
+</source>
+</evidence>
+<sequence length="1337" mass="149751" checksum="4264F930926DC2EF" modified="2007-09-11" version="1">MAEFEIGQTVELGNGAIGTILYIGTDPIFAAGDWIGVELEDGGGKNDGSVLGKRYFRCEMGRGMFVRPSTIRIIDRPAAPPKPPAPAKKPGRPSSVVVPAARRTSSVPDNGVVKRKSMNAPSPSPMARHPSGPSGGLRSPTKSPTKQLYSTGTSVASTPRTGTPANSRAASASVSKPRPSSVTSRTSMGPPPPPAGRGKPLAGGSNVGNRIGAPATRTTGTRPTSLAPKRTLRPTADRVPSGSSQVSTGHLSDGTHETVDDDRLLSPSLRSDTGQLSPQAVSPVLSRTERDASPGGSPAAPRGAASTAASREIEDLKTKLRVMEKKRMEDREKLKALENVQAEKEKFEGIIQKLQTKYQPQQQEITDLRKQLKEFAARFEESEAMQAEHESILEMATLDREMAEETAEVLKTELDALKQKTEELELEVEVLREENTELGGEMSAEEKTSQSYLQMERKNERLTEALLRLRDLTQQAEAELKDEIKSLHEDVRELGSVKEHYDVVKGKLAQSEAVIEDLRQQLDNALGAEDMIEELTDRNMSMSEQIEELKVTIEELESLKELNDELEINHVETEKEMQEELDFKESIINEQARRAAQQDETLDDMEYTLSKFRELVTSLQSDLEDMRASHAVTETESEQLNNRSRAMQDLNMKLQVSAAKTQIKTIDLELRRLDAQEASEHLLIVQLFLPDQFNAERDSVLALLRFRRVAFKANLLHGFVKERVNGQPSIGHEDDIFAGCDVLDKLVWVSAMCDRFINAISHCSIEEFGKYEGALYELEPVERALNGWIDGLRRDELKEKQCASELQRTIALMSHLAEFHLRDGLANYADEVHMRTLVMQSQLENAAAAIASTRTMVQFIIPSQEEDDELFQHFSKKTEAVITQTRSAKVVIGKAVREIEDLKARSLSLMPDTIESFEQCEVGIQQLADYTRHVGNDLFTLLHEEGRAEPYTYVEVQNAIYQTTSNTLSADESDLFSTYAHKLKLLNSQLVDLSTLTSDLDMTLEFELATAPWILRSQELKSSKTVTIDTQEELRRLKEDNHERLRLIALRDQTLEEASVKIELLESRMRDATKKNERINELERRIEIAKNRETELTEAIELQNKELSTMEADREKWKKIADESKALGEVVSGSKAGQERAVATAREMDALKTEIASLQAAVRYLREDNRRVKLSERENMSWLDEPLIKPKSIEEQRKALVIAEGQDVLSELLTLATGENSRIYDLGAMQKDRGKWRPAKSTPGYWVARQREGYEDWRAWNEEVLRKGRVLGEREGTAGRGVGTGRKGLRKIGDREVVAKVDLRWKELEGKGAGKGREAEIVEAGEWEGVRREWGFV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

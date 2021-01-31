@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-07-06" modified="2020-10-07" version="14">
+<accession>A0A166HER1</accession>
+<name>A0A166HER1_9AGAM</name>
+<protein>
+<recommendedName>
+<fullName evidence="5">TPR_MLP1_2 domain-containing protein</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="ORF" evidence="6">SISSUDRAFT_896415</name>
+</gene>
+<organism evidence="6 7">
+<name type="scientific">Sistotremastrum suecicum HHB10207 ss-3</name>
+<dbReference type="NCBI Taxonomy" id="1314776"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Basidiomycota</taxon>
+<taxon>Agaricomycotina</taxon>
+<taxon>Agaricomycetes</taxon>
+<taxon>Trechisporales</taxon>
+<taxon>Hydnodontaceae</taxon>
+<taxon>Sistotremastrum</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="6 7">
+<citation type="journal article" date="2016" name="Mol. Biol. Evol." volume="33" first="959" last="970">
+<title>Comparative Genomics of Early-Diverging Mushroom-Forming Fungi Provides Insights into the Origins of Lignocellulose Decay Capabilities.</title>
+<authorList>
+<person name="Nagy L.G."/>
+<person name="Riley R."/>
+<person name="Tritt A."/>
+<person name="Adam C."/>
+<person name="Daum C."/>
+<person name="Floudas D."/>
+<person name="Sun H."/>
+<person name="Yadav J.S."/>
+<person name="Pangilinan J."/>
+<person name="Larsson K.H."/>
+<person name="Matsuura K."/>
+<person name="Barry K."/>
+<person name="Labutti K."/>
+<person name="Kuo R."/>
+<person name="Ohm R.A."/>
+<person name="Bhattacharya S.S."/>
+<person name="Shirouzu T."/>
+<person name="Yoshinaga Y."/>
+<person name="Martin F.M."/>
+<person name="Grigoriev I.V."/>
+<person name="Hibbett D.S."/>
+</authorList>
+<dbReference type="PubMed" id="26659563"/>
+<dbReference type="DOI" id="10.1093/molbev/msv337"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="6 7">HHB10207 ss-3</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="KV428012">
+<property type="protein sequence ID" value="KZT42635.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblFungi" id="KZT42635">
+<property type="protein sequence ID" value="KZT42635"/>
+<property type="gene ID" value="SISSUDRAFT_896415"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000076798">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005634">
+<property type="term" value="C:nucleus"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006606">
+<property type="term" value="P:protein import into nucleus"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR012929">
+<property type="entry name" value="TPR/MLP1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF07926">
+<property type="entry name" value="TPR_MLP1_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1 3">Coiled coil</keyword>
+<keyword id="KW-0539" evidence="2">Nucleus</keyword>
+<keyword id="KW-1185" evidence="7">Reference proteome</keyword>
+<feature type="domain" description="TPR_MLP1_2" evidence="5">
+<location>
+<begin position="907"/>
+<end position="1034"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="4">
+<location>
+<begin position="1421"/>
+<end position="1454"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="4">
+<location>
+<begin position="1600"/>
+<end position="1627"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="4">
+<location>
+<begin position="1648"/>
+<end position="1692"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="4">
+<location>
+<begin position="1704"/>
+<end position="1749"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="21"/>
+<end position="41"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="49"/>
+<end position="83"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="91"/>
+<end position="111"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="151"/>
+<end position="217"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="222"/>
+<end position="263"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="344"/>
+<end position="399"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="486"/>
+<end position="513"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="569"/>
+<end position="603"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="611"/>
+<end position="638"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="713"/>
+<end position="733"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="770"/>
+<end position="790"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="802"/>
+<end position="822"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="855"/>
+<end position="882"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="936"/>
+<end position="956"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="964"/>
+<end position="1030"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1097"/>
+<end position="1117"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1145"/>
+<end position="1179"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1194"/>
+<end position="1214"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1223"/>
+<end position="1257"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1304"/>
+<end position="1338"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1458"/>
+<end position="1478"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="3">
+<location>
+<begin position="1536"/>
+<end position="1563"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="4">
+<location>
+<begin position="1438"/>
+<end position="1454"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="4">
+<location>
+<begin position="1600"/>
+<end position="1621"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="4">
+<location>
+<begin position="1652"/>
+<end position="1666"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="4">
+<location>
+<begin position="1708"/>
+<end position="1722"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00023054"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00023242"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF07926"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KZT42635.1"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000076798"/>
+</source>
+</evidence>
+<sequence length="1749" mass="195504" checksum="40395EA754CCA9B3" modified="2016-07-06" version="1">MNLENEKLLLAQAQSSTGSEVEKLKYELSQVESEKRDLLAVVGRLHSDDKQMEEEVQSLRSNLKQVRGEYQELQSQLADLKSSDTHMKFKIQTLEQQLDHAQSSSKSYSEEVATKSEEFSKFRREKHAEIVSLQSSLDSLNTAYSGVQATLQSVQETYGRQNQQLTQATQKVSQLEAQLADQAASFRSESANQERLIELLERRNEQARTRVQEVESEWETMVKTAEERESSLVADLERQKKRGDQLEAVVEELRAEKERAAEGELALLNEETTPGVNRDRGFFTLSPAAGVAARLQKSGKTFTEVYTDYVRIQGELAGSQSEARRLQDLLSQVLADIEERSPVLAQQRQDFERIKAEAEVLTGQLTQTLSERDQYSRRVADLEKQLQSERLMIAELEQSGADLGRQVTNLTRRIAIMENPSLEDIPMLPVAPAEALSADLALSTDQVVLFENLPSLQAQNQKLLRISHSLALAFDRREQELRQGLEREESEAIREANDAIALLEDQIESQSRSHQMRINALAKELEIAKMAAPQQSGALLPPVNGTESQLQTDMQDHFEAYRLELGIDASRLREDLAKSQHELNQKAADLAKANGTIQFLNERQRMMQDEQQLKTREIEALNRRIQDLRDQHTKLELTYSQTADNATHAHSIAERLRTECANLRAEQEIWKSIESRLTSENRVLAKERSQFADLANNIQKMHHDLEMSGQSDRRRMEGQIQSMDLQLQDLRAQVTREREISRNLSLQKDVETRELHLRLDQTTSDLGSAKQSLIKEVETAREKLSVYERHPGADVAPLQRHEHELRAEAAQLSADFKQTQQALTAALAHVEQYKSISESNERAFQELTATFDELKKSAQEKLEGKEAEVKSLLQKLNDQQVHTTSLNERIADLDKTLATERLAFKEEQRNLETQIVNLSTSAANSETNSASRDNELRSLEQRAKTSEQKYEDEIKAHAESIKAADLLKQELVQAQAVIRDIQTNADAAEANLATSEASWRNQRAALDKEMADLTKRCQELTGQNERLHAHLESVSAQASRIRQAADAPVDQTDASNGVDDKLSDLRAVVSYLRKEKEIVDLHLEVSRQETARSRNEIEHLSRLLKESRTALSEERERVVQSATSAAEHDELMERINQLNIVRESNATLRAENEGNKRRVSQLQKRVEELSQEVNPLTEKLRVAHAELETRTLQVATLEDDVKRWRERCNELMSKYDRVDPAELQQLKADLEASKTQLKEMEEQKSESEKKLVESSESVEKFRNALQLHKDALAKARTSLQTRQQQFSAEIEAIKTERGALQQTITGLTERVDAASAEVKTLTDQLDRTKQELELERVTSAKHGEAVTLQQELASKITALTQERDALLSRLNLSAQDASEGMSAPSEWIAEKEVLLKEKEASATLISALRTQIEELQRDIAQRSAAQSAEPPVSGAVPEESKKLREQLDEQSKQHAEFVKTLSAQADTLRAELQRTKDASSSLSASHAEEMRALQTRLQAEHSKAIEELRATKVAENKDVDPAALEAIIQSRLADINKDATSQISKLREEIEALRKERDDAKNQGIEQGRKEMGMKLKLKDSQYAKTAKRLQEVEAALANFQPPTPSTASASTVSQGGNSAPVIAAPSAPSAETNTVVSPAAPVAPLATSTPVEGAHGSSTVNTGSPVARRGRGVSLRGAATRGRGGRAAPAGAVAAAGTSILGAAAKRPRESETDTPDDSLVKRLKPANPPITLNRNRPLPPDSSSSTS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

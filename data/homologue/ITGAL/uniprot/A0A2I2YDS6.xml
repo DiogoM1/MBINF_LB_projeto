@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2018-02-28" modified="2020-08-12" version="10">
+<accession>A0A2I2YDS6</accession>
+<name>A0A2I2YDS6_GORGO</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Integrin subunit alpha L</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3">ITGAL</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Gorilla gorilla gorilla</name>
+<name type="common">Western lowland gorilla</name>
+<dbReference type="NCBI Taxonomy" id="9595"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Gorilla</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2011-05" db="EMBL/GenBank/DDBJ databases">
+<title>Insights into the evolution of the great apes provided by the gorilla genome.</title>
+<authorList>
+<person name="Scally A."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<reference key="2" evidence="3 4">
+<citation type="journal article" date="2012" name="Nature" volume="483" first="169" last="175">
+<title>Insights into hominid evolution from the gorilla genome sequence.</title>
+<authorList>
+<person name="Scally A."/>
+<person name="Dutheil J.Y."/>
+<person name="Hillier L.W."/>
+<person name="Jordan G.E."/>
+<person name="Goodhead I."/>
+<person name="Herrero J."/>
+<person name="Hobolth A."/>
+<person name="Lappalainen T."/>
+<person name="Mailund T."/>
+<person name="Marques-Bonet T."/>
+<person name="McCarthy S."/>
+<person name="Montgomery S.H."/>
+<person name="Schwalie P.C."/>
+<person name="Tang Y.A."/>
+<person name="Ward M.C."/>
+<person name="Xue Y."/>
+<person name="Yngvadottir B."/>
+<person name="Alkan C."/>
+<person name="Andersen L.N."/>
+<person name="Ayub Q."/>
+<person name="Ball E.V."/>
+<person name="Beal K."/>
+<person name="Bradley B.J."/>
+<person name="Chen Y."/>
+<person name="Clee C.M."/>
+<person name="Fitzgerald S."/>
+<person name="Graves T.A."/>
+<person name="Gu Y."/>
+<person name="Heath P."/>
+<person name="Heger A."/>
+<person name="Karakoc E."/>
+<person name="Kolb-Kokocinski A."/>
+<person name="Laird G.K."/>
+<person name="Lunter G."/>
+<person name="Meader S."/>
+<person name="Mort M."/>
+<person name="Mullikin J.C."/>
+<person name="Munch K."/>
+<person name="O'Connor T.D."/>
+<person name="Phillips A.D."/>
+<person name="Prado-Martinez J."/>
+<person name="Rogers A.S."/>
+<person name="Sajjadian S."/>
+<person name="Schmidt D."/>
+<person name="Shaw K."/>
+<person name="Simpson J.T."/>
+<person name="Stenson P.D."/>
+<person name="Turner D.J."/>
+<person name="Vigilant L."/>
+<person name="Vilella A.J."/>
+<person name="Whitener W."/>
+<person name="Zhu B."/>
+<person name="Cooper D.N."/>
+<person name="de Jong P."/>
+<person name="Dermitzakis E.T."/>
+<person name="Eichler E.E."/>
+<person name="Flicek P."/>
+<person name="Goldman N."/>
+<person name="Mundy N.I."/>
+<person name="Ning Z."/>
+<person name="Odom D.T."/>
+<person name="Ponting C.P."/>
+<person name="Quail M.A."/>
+<person name="Ryder O.A."/>
+<person name="Searle S.M."/>
+<person name="Warren W.C."/>
+<person name="Wilson R.K."/>
+<person name="Schierup M.H."/>
+<person name="Rogers J."/>
+<person name="Tyler-Smith C."/>
+<person name="Durbin R."/>
+</authorList>
+<dbReference type="PubMed" id="22398555"/>
+<dbReference type="DOI" id="10.1038/nature10842"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<reference key="3" evidence="3">
+<citation type="submission" date="2018-01" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<dbReference type="EMBL" id="CABD030100223">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CABD030100224">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CABD030100225">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CABD030100226">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CABD030100227">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CABD030100228">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CABD030100229">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CABD030100230">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CABD030100231">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="CABD030100232">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Ensembl" id="ENSGGOT00000058066">
+<property type="protein sequence ID" value="ENSGGOP00000033074"/>
+<property type="gene ID" value="ENSGGOG00000002189"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00940000161495"/>
+<dbReference type="Proteomes" id="UP000001519">
+<property type="component" value="Chromosome 16"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018184">
+<property type="entry name" value="Integrin_alpha_C_CS"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00357">
+<property type="entry name" value="Integrin_alpha"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00242">
+<property type="entry name" value="INTEGRIN_ALPHA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0472" evidence="2">Membrane</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<keyword id="KW-0812" evidence="2">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="2">Transmembrane helix</keyword>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="324"/>
+<end position="346"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="1">
+<location>
+<begin position="366"/>
+<end position="404"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="1">
+<location>
+<begin position="388"/>
+<end position="404"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSGGOP00000033074"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000001519"/>
+</source>
+</evidence>
+<sequence length="404" mass="44852" checksum="7869BD9ABBBA802F" modified="2018-02-28" version="1">MKDSCITVMAMALLSGFFFFAPASSYNLDVRGARSFSPPRPGRHFGYRVLQIKSLIPQFQGRLVANLTYTLQLDGHRTRRRGLFPGGRHELRRNIAVTTSMSCTDFSFHFPMMFNTLVNSSWGDSVELHANVTCNNEDSGLLEDNSATTIIPILYPINILIQDQENSTLYVSFTPKGPKIHQVKHMYQVRIQPSIHDHNIPTLEAVVGVPQPPSEGPITHQWSVQMEPPVPCHYEDLERLPDAAEPCLPGALFRCPVVFRQEILVQVIGTLELVGEIEASSMFSLCSSLSISFNSSKHFHLYGSNASLAQVVMKVDVVYEKQMLYLYVLSGIGGLLLLLLIFIVLYKVGFFKRNLKEKMEAVRGVPNGIPAEDSEQLASGQEAGDPGCLKPLHEKDSESGGGKD</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

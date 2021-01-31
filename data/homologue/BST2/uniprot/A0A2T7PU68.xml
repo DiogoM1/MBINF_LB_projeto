@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2018-07-18" modified="2020-04-22" version="8">
+<accession>A0A2T7PU68</accession>
+<name>A0A2T7PU68_POMCA</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">C0Q70_03967</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Pomacea canaliculata</name>
+<name type="common">Golden apple snail</name>
+<dbReference type="NCBI Taxonomy" id="400727"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Spiralia</taxon>
+<taxon>Lophotrochozoa</taxon>
+<taxon>Mollusca</taxon>
+<taxon>Gastropoda</taxon>
+<taxon>Caenogastropoda</taxon>
+<taxon>Architaenioglossa</taxon>
+<taxon>Ampullarioidea</taxon>
+<taxon>Ampullariidae</taxon>
+<taxon>Pomacea</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2018-04" db="EMBL/GenBank/DDBJ databases">
+<title>The genome of golden apple snail Pomacea canaliculata provides insight into stress tolerance and invasive adaptation.</title>
+<authorList>
+<person name="Liu C."/>
+<person name="Liu B."/>
+<person name="Ren Y."/>
+<person name="Zhang Y."/>
+<person name="Wang H."/>
+<person name="Li S."/>
+<person name="Jiang F."/>
+<person name="Yin L."/>
+<person name="Zhang G."/>
+<person name="Qian W."/>
+<person name="Fan W."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">SZHN2017</strain>
+<tissue evidence="3">Muscle</tissue>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="PZQS01000002">
+<property type="protein sequence ID" value="PVD36974.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000245119">
+<property type="component" value="Miscellaneous, Linkage group lg2"/>
+</dbReference>
+<dbReference type="GO" id="GO:0035253">
+<property type="term" value="C:ciliary rootlet"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007098">
+<property type="term" value="P:centrosome cycle"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR026733">
+<property type="entry name" value="Rootletin"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR23159:SF34">
+<property type="entry name" value="PTHR23159:SF34"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="463"/>
+<end position="521"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="635"/>
+<end position="656"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="984"/>
+<end position="1008"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="1448"/>
+<end position="1518"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="2066"/>
+<end position="2119"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="73"/>
+<end position="107"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="129"/>
+<end position="156"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="164"/>
+<end position="191"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="245"/>
+<end position="290"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="380"/>
+<end position="421"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="714"/>
+<end position="741"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="756"/>
+<end position="783"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="812"/>
+<end position="881"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1025"/>
+<end position="1059"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1068"/>
+<end position="1102"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1114"/>
+<end position="1180"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1216"/>
+<end position="1327"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1335"/>
+<end position="1369"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1402"/>
+<end position="1429"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1528"/>
+<end position="1583"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1605"/>
+<end position="1737"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1745"/>
+<end position="1905"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1920"/>
+<end position="1961"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1965"/>
+<end position="1985"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="1992"/>
+<end position="2019"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="2">
+<location>
+<begin position="489"/>
+<end position="513"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="2">
+<location>
+<begin position="642"/>
+<end position="656"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="2">
+<location>
+<begin position="988"/>
+<end position="1008"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="2">
+<location>
+<begin position="1464"/>
+<end position="1486"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="PVD36974.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000245119"/>
+</source>
+</evidence>
+<sequence length="2119" mass="244786" checksum="EBEF2AB1E19A8832" modified="2018-07-18" version="1">MSFDRDNRLERVIQRLEDSVLRGGEEYTIRGIDGSPAKIPARVREIITKNLSGEELTYTPSSMAAPTVLQEENRLLSSELNRVEDLLAASKAERDELSIKYNALSERLEQHLRGDGSGDGGDTTSRSLVQQNLELRRKLEEEHSSYKRKLQAYQDGQQRQAQLVQKLQAKLLQYKKKCQDLEENMRNKDRELHHASFKLTTSSDRLEGSESRFRRMETEHSFDLESALIKLEEEQQRSASLAHVNGMLREQLDQATEANQQLTTDIHRLTQDWQRAREELEAKETEWREEEKSFNEYFSAEHGRLLSLWRTVVAFRRHFSELKSSTERDISSVKADMTKAARSVQSACLNLNANMRSVDTQAQVSLDRERSERLSVEGQLRERTRELSEMQARINELTMLNERLKIQLDERDKTIATLQKTVGNLEVQVGSYDLPETDTARQVREETEALHLALRNIAEAVINDADQTRTDDEGGEDALPAPRSISPYRPRSISPTARAQSPLVRNRSPSPRGRSRSPAFADATFSAVQAALGKRQMQVSELRVKLKASKDQSTTIRKHLDDAENEKRRLEHLIMNLREDLEVARREKDDSSRDRDRIKNALNVTGSEKTQLERVRQELNEQIESLHKENEKLQAANSELQRQRDSLEDEKEDVEKDKLRQVKENERCQKVIDQLDSKVSGLREELVATKEALNRALLDKEVLEGQKMEVGEALSKAEMSKAELEVEINKLKTEEATLRDALLKMQALNEGLGQDKIELNKIIIQLEGEKANLLNEKAALEQEKCGIREELVRVEQEKMDLDTEKHGLNHTLELSEFTRQQLEEEIQMLNREKQEVTSQLSLVSRQKQALAEELLTARRDLERSQQAYDRVVKDKEVLNNDKGELIVQVTATERENRQQSEVIASLHSEKDQLEGALYEAQQTVVQLEIRKAQLEGENQELIVRKENLQAEISRLEKEKAADLERFEHQKDQLNQRLQQLERDSQMALAQEKQAHEEDVERLTTERDRQRLEFENNREQLLHGHSLEKEEMKSRADNEIADLQEEIARIQHDRDEALLLAENDRQQAISILEQEKGILQEKLAKTQQDLTDAIVEYDRLKREAQTRTETDRSNIFALQGELKNFRQQFEEATDAHEREVKTLNEQLREVARQRESALREVAELKTQLRMVEEIRDAIRRDLIDANRAIREGDETRDLMRKDITDLKRAVNEEIREKEAVARTADDLRTKVKKSELEKTDLGRALQDSKQRVDVLEEQKSGLVKEANDLRVNLREVEKARLEARRELQDLRRQVKMLDSERSKLGKEVTDLQMRVARDEEKEEEARRTSFDLKQKVVETEASREALRKELANIQRKMAEFADEAALKEKDYLLALEDARRSECRLDDQRKNLEFALESAGADISDLRLKLSGAEGRVNALETTLARLEGAKRDVEFKLSSILSSLRRTIGFRQEMPRSRSRSPSPRRSRPNSPSKGFDSTYATTTEGKGSPIPRVGSPSRAGSPLRHRTPSPGRMESIDVDPEAVRMALRDFMNQLANAERERDDALAQVRSVTSQIKDLEEERERTENRLQVLQKSLGDAEEDKRGIDGRLSSAQTALMLQEETIRRNERERKAMADKINSLERAVAAAESEKRQLQEKISKLKTSESKLEEDKKNLRVGLDDAESRCTKLELARRALDGELQRLKLAMTDKETENQVLQDRVESLVKQIQDLESKAQSLQLTIDRLHTSLAKTEEDSHQSKDKVQALNMSLSDSNAVINELEDRVAQMQRALTNSEHDRRVLQERLDATRQGLNDAKKQNHTLMERLQTMQTEISDSEVRCSELEGQIRQSNNLLVQRQEAEQELNQRIQKLGSEKQVLLERVSSLSRTLSSMELEKREIERSSMRLEKDRSALMKTLDKVEREKLKTEEIATKTIYDRNTFDRSIQRLEEENIEMQRQLQQLQAQLAEAEQQHAQRLIDLTTRHRAETEMETERLRSAQMQAERLLEARELTHRQKVKGLEEQVNTLKDQLSQELRRRQQYISKSTRAGEEIRDIRSKLDSSLSTVGRDINLDPLLLEHETRKLDESLSRSSYSPSRLGGRRRSPVRGSSPPRMACVTSTPSFRPSRSPILRRKLKQ</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

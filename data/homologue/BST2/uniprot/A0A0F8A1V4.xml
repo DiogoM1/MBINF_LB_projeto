@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-07-22" modified="2020-04-22" version="17">
+<accession>A0A0F8A1V4</accession>
+<name>A0A0F8A1V4_9HYPO</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">HIM_03873</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Hirsutella minnesotensis 3608</name>
+<dbReference type="NCBI Taxonomy" id="1043627"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Sordariomycetes</taxon>
+<taxon>Hypocreomycetidae</taxon>
+<taxon>Hypocreales</taxon>
+<taxon>Ophiocordycipitaceae</taxon>
+<taxon>Hirsutella</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="journal article" date="2014" name="Genome Biol. Evol." volume="6" first="3077" last="3093">
+<title>Comparative genomics and transcriptomics analyses reveal divergent lifestyle features of nematode endoparasitic fungus Hirsutella minnesotensis.</title>
+<authorList>
+<person name="Lai Y."/>
+<person name="Liu K."/>
+<person name="Zhang X."/>
+<person name="Zhang X."/>
+<person name="Li K."/>
+<person name="Wang N."/>
+<person name="Shu C."/>
+<person name="Wu Y."/>
+<person name="Wang C."/>
+<person name="Bushley K.E."/>
+<person name="Xiang M."/>
+<person name="Liu X."/>
+</authorList>
+<dbReference type="PubMed" id="25359922"/>
+<dbReference type="DOI" id="10.1093/gbe/evu241"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3 4">3608</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="KQ030510">
+<property type="protein sequence ID" value="KJZ76537.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblFungi" id="KJZ76537">
+<property type="protein sequence ID" value="KJZ76537"/>
+<property type="gene ID" value="HIM_03873"/>
+</dbReference>
+<dbReference type="OrthoDB" id="1399463at2759"/>
+<dbReference type="Proteomes" id="UP000054481">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="119"/>
+<end position="155"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="386"/>
+<end position="500"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="182"/>
+<end position="202"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="237"/>
+<end position="299"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="307"/>
+<end position="334"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="365"/>
+<end position="385"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="2">
+<location>
+<begin position="386"/>
+<end position="400"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="2">
+<location>
+<begin position="409"/>
+<end position="443"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="2">
+<location>
+<begin position="463"/>
+<end position="477"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KJZ76537.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000054481"/>
+</source>
+</evidence>
+<sequence length="500" mass="55341" checksum="8A4A3CDC2AA29C7B" modified="2015-07-22" version="1">MDLVVCKCAKCDFTLGSILNLWIQIGKKYITPVTQMEDAPFKLSTAGVIREGEPDTLVSGCELQDAECAKCHVNLGQTCLSSPVNHVLNDGQAIFRIASVTLKRAKDLRRKVEPKIKRVLSLKNQTPSADEGARAPRDEREAPDSSKPTNQTGSLNFMQVQAELDSQRENINRIGATGMQVVSNFETVIARVDRQLQQLKESIESVHKGRDDQHAEVRALKTELLDVRVDCQNNPVLARLDQQLQTTDRVVTELRQALSQSRSETEALRDQLTTAQHNLQEMRDEAASLRAEASESSQAVQESVGAVKDYACEVSALRREVKQLRAELAQERTQPQAAEPESFSSHELDILASSISKIGNRASQVESLQMEFELFRTRLQRLEARPLATSANQSRAAPATASEPMSLDNDDKPGYEGAMRRKRILAGRDDTQSFDKTPHKRQALSPSDLDSGVSMGRSRADELYGSSPNTRSVARTGTRRTRAGLGQYGKTRLESWANSG</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

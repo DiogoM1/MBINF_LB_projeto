@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2015-11-11" modified="2020-10-07" version="28">
+<accession>A0A0L0DG62</accession>
+<name>A0A0L0DG62_THETB</name>
+<protein>
+<recommendedName>
+<fullName evidence="4">Kinesin motor domain-containing protein</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="ORF" evidence="5">AMSG_06822</name>
+</gene>
+<organism evidence="5 6">
+<name type="scientific">Thecamonas trahens ATCC 50062</name>
+<dbReference type="NCBI Taxonomy" id="461836"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Apusozoa</taxon>
+<taxon>Apusomonadidae</taxon>
+<taxon>Thecamonas</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="5 6">
+<citation type="submission" date="2010-05" db="EMBL/GenBank/DDBJ databases">
+<title>The Genome Sequence of Thecamonas trahens ATCC 50062.</title>
+<authorList>
+<consortium name="The Broad Institute Genome Sequencing Platform"/>
+<person name="Russ C."/>
+<person name="Cuomo C."/>
+<person name="Shea T."/>
+<person name="Young S.K."/>
+<person name="Zeng Q."/>
+<person name="Koehrsen M."/>
+<person name="Haas B."/>
+<person name="Borodovsky M."/>
+<person name="Guigo R."/>
+<person name="Alvarado L."/>
+<person name="Berlin A."/>
+<person name="Bochicchio J."/>
+<person name="Borenstein D."/>
+<person name="Chapman S."/>
+<person name="Chen Z."/>
+<person name="Freedman E."/>
+<person name="Gellesch M."/>
+<person name="Goldberg J."/>
+<person name="Griggs A."/>
+<person name="Gujja S."/>
+<person name="Heilman E."/>
+<person name="Heiman D."/>
+<person name="Hepburn T."/>
+<person name="Howarth C."/>
+<person name="Jen D."/>
+<person name="Larson L."/>
+<person name="Mehta T."/>
+<person name="Park D."/>
+<person name="Pearson M."/>
+<person name="Roberts A."/>
+<person name="Saif S."/>
+<person name="Shenoy N."/>
+<person name="Sisk P."/>
+<person name="Stolte C."/>
+<person name="Sykes S."/>
+<person name="Thomson T."/>
+<person name="Walk T."/>
+<person name="White J."/>
+<person name="Yandava C."/>
+<person name="Burger G."/>
+<person name="Gray M.W."/>
+<person name="Holland P.W.H."/>
+<person name="King N."/>
+<person name="Lang F.B.F."/>
+<person name="Roger A.J."/>
+<person name="Ruiz-Trillo I."/>
+<person name="Lander E."/>
+<person name="Nusbaum C."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5 6">ATCC 50062</strain>
+</source>
+</reference>
+<comment type="similarity">
+<text evidence="1">Belongs to the TRAFAC class myosin-kinesin ATPase superfamily. Kinesin family.</text>
+</comment>
+<comment type="caution">
+<text evidence="1">Lacks conserved residue(s) required for the propagation of feature annotation.</text>
+</comment>
+<dbReference type="EMBL" id="GL349461">
+<property type="protein sequence ID" value="KNC50338.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_013756884.1">
+<property type="nucleotide sequence ID" value="XM_013901430.1"/>
+</dbReference>
+<dbReference type="STRING" id="529818.AMSG_06822T0"/>
+<dbReference type="EnsemblProtists" id="KNC50338">
+<property type="protein sequence ID" value="KNC50338"/>
+<property type="gene ID" value="AMSG_06822"/>
+</dbReference>
+<dbReference type="GeneID" id="25565900"/>
+<dbReference type="eggNOG" id="KOG4280">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000054408">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008017">
+<property type="term" value="F:microtubule binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0003777">
+<property type="term" value="F:microtubule motor activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007018">
+<property type="term" value="P:microtubule-based movement"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.850.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001752">
+<property type="entry name" value="Kinesin_motor_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036961">
+<property type="entry name" value="Kinesin_motor_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027417">
+<property type="entry name" value="P-loop_NTPase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00225">
+<property type="entry name" value="Kinesin"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SMART" id="SM00129">
+<property type="entry name" value="KISc"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52540">
+<property type="entry name" value="SSF52540"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50067">
+<property type="entry name" value="KINESIN_MOTOR_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0175" evidence="2">Coiled coil</keyword>
+<keyword id="KW-1185" evidence="6">Reference proteome</keyword>
+<feature type="domain" description="Kinesin motor" evidence="4">
+<location>
+<begin position="10"/>
+<end position="347"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="3">
+<location>
+<begin position="1323"/>
+<end position="1345"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="425"/>
+<end position="452"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="481"/>
+<end position="515"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="523"/>
+<end position="578"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="638"/>
+<end position="661"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="669"/>
+<end position="746"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="757"/>
+<end position="805"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="820"/>
+<end position="854"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="911"/>
+<end position="931"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="939"/>
+<end position="959"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="974"/>
+<end position="1008"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="1030"/>
+<end position="1050"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="1072"/>
+<end position="1106"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="1135"/>
+<end position="1190"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="1215"/>
+<end position="1235"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="1250"/>
+<end position="1270"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="1359"/>
+<end position="1386"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="1394"/>
+<end position="1421"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="1451"/>
+<end position="1478"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="1486"/>
+<end position="1513"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="1543"/>
+<end position="1594"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="1626"/>
+<end position="1646"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="1654"/>
+<end position="1751"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="1794"/>
+<end position="1828"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="1897"/>
+<end position="1924"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="1932"/>
+<end position="1959"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="1967"/>
+<end position="1987"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="1998"/>
+<end position="2032"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="2040"/>
+<end position="2074"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="2">
+<location>
+<begin position="2110"/>
+<end position="2231"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00283"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS50067"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KNC50338.1"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000054408"/>
+</source>
+</evidence>
+<sequence length="2280" mass="244329" checksum="4BB6583D53B06353" modified="2015-11-11" version="1">MESRSREPDAVHVALRVVSPSGARGGSARVLSVNRHPPCVSYTPGGGAGSSATVFGADAVYSEADSNKAVYASSVRPLVAAALQGASGLLAVHGRTGTGRLALLCGTGDGGDRSIILRALQDIFYFLRKRASVEAAASPAPTGMDSVGFALHASLLQVGPGEELVDVLRPASGSLRLVEAPAGDAMEVEGLSLRPLANPGDIEPLLARLARRTKGESVEHRKASSVVLILTIAQSQTSRAQRTRFVTTSKLGFVLLPSAEVATAQVNRSLNALRAVLTLLRCHARESPDATLLVRSIPYAYAKLTTALKDMLSPASHVVLIATASDDDNQLDASLATLLYASRVAAPLYGSDPDIGELLGGYGMPHGAPGFGSPAQRQHPAAGDSVDGQLGFAASGAGASFTSEPSMAAALDAATVDNATLTKLLAASQDKLAAAVDESQHAQAEAKDATERLRVESERAAAAAKAHTTATKQLAKCRNELNSARATAKSASASAAQAEADRDELTALNDVLHKQLGDTISQLEEASAVNGRLDERNATLEAEVSRLRAALNKACDELEASQHREITLSQQLADAQREAASNHDALTSALAELDMLSAQHNQAVARLDEVKHHAQSTAAETANLRSRLEASALATSMASQYRDRAATAEELREELMRVQAKLTRTVNYARNIEDEKDKAEHVIMQMQAQLDQAERKLQRVAIRVEAEVEDQIQGMRKKLTDANAEIERLHRKVREEEERAHRAQTLQATDPILDRQMSQLKMELQAETTRREQVESELRDARKALQELKTQHEIVSHDLESMSRKLDHRQDALSAAVSDKKTMAQELDSTAKALAQASRERDATAAELMAASARIASLTSEVEAAGEKLADRDESVRRLEAQLTKATDASLASEKKVLHLGMQVEHSAATVQRLKDDLAAAKATAADAQTATHQVTKTRDELAVQLSSLTAQLAAADEQSKRDAAAIDDAAVKLAAALAAHDETKTEIRELRHDLDAAQKTGASLARELAAAQTTAEKAEAARKAAVVAAAAASDEARGLKSELATTESQLGKLAAQLDAVRDASRDAKELHTALAAELKDKTAELDAAKSKLMQLENKVVLADDKVAHAHESIADLKAALASSEARSDSLAASKDDALSKLRTREAELAEARRANDVLSRDSEAVIAARRELEETLRSVRDELGEARAEASRSAGRVTHLEQDLTHANSRIESLRTVEEKAARLDGEVAQQKAELQLAAGRIESSSRAASEWEGKAEALVRELAVARDEVRDVKFELRECQTAREKTHAELDAALRASSQLEHKLSAATDKVANLEQALREARAHGESMRTSLERKNAETGASLDASRAENARLETALAGQNAAVRECQAKIETLNEALQAAKMQHVDVAAQASAAQAKVDGLRNELDAARGAARDAQSAAKAKLAASVRAADEAAAAAASKLAARESELDSLAKARSEMQHQLSKLRLELDAARQDAVREAAAVSAAESRIRSLQDEVAQANERVAQARDEAASMVMAHKEAQFAADQKAARELGAVQVELATTKAALQSLTEACNAARAEAQRVPDLERQVAALTNQVSALRQAEARAQAAVMQAESKAATSESLAASLAPLKDAVADGLATNAQLHAKIADLNETIQELRSGAASSAIEVESKQSQLESLDEKLSQALAHLESERGTVAALRDELDRTRREVDALRSESTSREREVRELASKAAAAEQQAAFARESLAALEKDKSEAVAQAREATIARETAMREAATLAAQQARHEAEAALMKVSSDNAADKQASCAAELERVREEARRATDRVTGLETTNASLQALVKQLEASLGEAKAGSESVRTELVQMKAALDEAHGRELAAKEAAASLKLEMATQGAQAQLAMYESQARAESSKAKSAEALSMQLAAAEERARALNSELQRKSDEGAYAVSQSENLTTQVQSLRARVTEAERQVLEANAATRGAAVKAERLEQELAVKEAMVVQLSAELDGAQSLHARAARLEENVGSLSALLAEAEARIETERSRAARLGESEAQSVTRVAALTREVAQVRERADRAEAELALAKRTIDDLDSSKRQLAVQLSEASITSTRLDASVSEARTRTMQIERTSRDATTRAQAAEQQLERVRAQLVAAEARAEAAEREAADLRREMVRATSQEQQLAATSDEARRLQTRVRELEAQLVQAEAAAASARSDLATQRRESDELRRQVDRLESEVARIQDRASHLQMTLLERESELAASVLATRQMEDELHMERMQHSRIRDQIELAVSQIDLKRDI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-05-14" modified="2020-12-02" version="42">
+<accession>X0PDF1</accession>
+<name>X0PDF1_9LACO</name>
+<protein>
+<recommendedName>
+<fullName evidence="9">Chaperone protein ClpB</fullName>
+</recommendedName>
+</protein>
+<gene>
+<name type="primary" evidence="9">clpB</name>
+<name type="ORF" evidence="11">FC83_GL002448</name>
+</gene>
+<organism evidence="11 12">
+<name type="scientific">Lactobacillus composti DSM 18527 = JCM 14202</name>
+<dbReference type="NCBI Taxonomy" id="1423734"/>
+<lineage>
+<taxon>Bacteria</taxon>
+<taxon>Firmicutes</taxon>
+<taxon>Bacilli</taxon>
+<taxon>Lactobacillales</taxon>
+<taxon>Lactobacillaceae</taxon>
+<taxon>Lactobacillus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="11 12">
+<citation type="journal article" date="2015" name="Nat. Commun." volume="6" first="8322" last="8322">
+<title>Expanding the biotechnology potential of lactobacilli through comparative genomics of 213 strains and associated genera.</title>
+<authorList>
+<person name="Sun Z."/>
+<person name="Harris H.M."/>
+<person name="McCann A."/>
+<person name="Guo C."/>
+<person name="Argimon S."/>
+<person name="Zhang W."/>
+<person name="Yang X."/>
+<person name="Jeffery I.B."/>
+<person name="Cooney J.C."/>
+<person name="Kagawa T.F."/>
+<person name="Liu W."/>
+<person name="Song Y."/>
+<person name="Salvetti E."/>
+<person name="Wrobel A."/>
+<person name="Rasinkangas P."/>
+<person name="Parkhill J."/>
+<person name="Rea M.C."/>
+<person name="O'Sullivan O."/>
+<person name="Ritari J."/>
+<person name="Douillard F.P."/>
+<person name="Paul Ross R."/>
+<person name="Yang R."/>
+<person name="Briner A.E."/>
+<person name="Felis G.E."/>
+<person name="de Vos W.M."/>
+<person name="Barrangou R."/>
+<person name="Klaenhammer T.R."/>
+<person name="Caufield P.W."/>
+<person name="Cui Y."/>
+<person name="Zhang H."/>
+<person name="O'Toole P.W."/>
+</authorList>
+<dbReference type="PubMed" id="26415554"/>
+<dbReference type="DOI" id="10.1038/ncomms9322"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="11 12">DSM 18527</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="9">Part of a stress-induced multi-chaperone system, it is involved in the recovery of the cell from heat-induced damage, in cooperation with DnaK, DnaJ and GrpE.</text>
+</comment>
+<comment type="subunit">
+<text evidence="2">Homohexamer. The oligomerization is ATP-dependent.</text>
+</comment>
+<comment type="subunit">
+<text evidence="9">Homohexamer; The oligomerization is ATP-dependent.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="9">Cytoplasm</location>
+</subcellularLocation>
+</comment>
+<comment type="similarity">
+<text evidence="1 8">Belongs to the ClpA/ClpB family.</text>
+</comment>
+<comment type="caution">
+<text evidence="11">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="AZGA01000002">
+<property type="protein sequence ID" value="KRM36575.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="WP_035451666.1">
+<property type="nucleotide sequence ID" value="NZ_BAMK01000005.1"/>
+</dbReference>
+<dbReference type="STRING" id="1423734.JCM14202_946"/>
+<dbReference type="EnsemblBacteria" id="KRM36575">
+<property type="protein sequence ID" value="KRM36575"/>
+<property type="gene ID" value="FC83_GL002448"/>
+</dbReference>
+<dbReference type="PATRIC" id="fig|1423734.3.peg.2482"/>
+<dbReference type="eggNOG" id="COG0542">
+<property type="taxonomic scope" value="Bacteria"/>
+</dbReference>
+<dbReference type="OrthoDB" id="44062at2"/>
+<dbReference type="Proteomes" id="UP000051236">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005737">
+<property type="term" value="C:cytoplasm"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005524">
+<property type="term" value="F:ATP binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniRule"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016887">
+<property type="term" value="F:ATPase activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042026">
+<property type="term" value="P:protein refolding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniRule"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009408">
+<property type="term" value="P:response to heat"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-UniRule"/>
+</dbReference>
+<dbReference type="Gene3D" id="1.10.1780.10">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003593">
+<property type="entry name" value="AAA+_ATPase"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR003959">
+<property type="entry name" value="ATPase_AAA_core"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR017730">
+<property type="entry name" value="Chaperonin_ClpB"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR019489">
+<property type="entry name" value="Clp_ATPase_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036628">
+<property type="entry name" value="Clp_N_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR004176">
+<property type="entry name" value="Clp_R_dom"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR001270">
+<property type="entry name" value="ClpA/B"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018368">
+<property type="entry name" value="ClpA/B_CS1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR028299">
+<property type="entry name" value="ClpA/B_CS2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR041546">
+<property type="entry name" value="ClpA/ClpB_AAA_lid"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR027417">
+<property type="entry name" value="P-loop_NTPase"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00004">
+<property type="entry name" value="AAA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF07724">
+<property type="entry name" value="AAA_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF17871">
+<property type="entry name" value="AAA_lid_9"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF02861">
+<property type="entry name" value="Clp_N"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF10431">
+<property type="entry name" value="ClpB_D2-small"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR00300">
+<property type="entry name" value="CLPPROTEASEA"/>
+</dbReference>
+<dbReference type="SMART" id="SM00382">
+<property type="entry name" value="AAA"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SMART" id="SM01086">
+<property type="entry name" value="ClpB_D2-small"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF52540">
+<property type="entry name" value="SSF52540"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF81923">
+<property type="entry name" value="SSF81923"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="TIGRFAMs" id="TIGR03346">
+<property type="entry name" value="chaperone_ClpB"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51903">
+<property type="entry name" value="CLP_R"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00870">
+<property type="entry name" value="CLPAB_1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00871">
+<property type="entry name" value="CLPAB_2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="inferred from homology"/>
+<keyword id="KW-0067" evidence="4 8">ATP-binding</keyword>
+<keyword id="KW-0143" evidence="6 8">Chaperone</keyword>
+<keyword id="KW-0175" evidence="5 9">Coiled coil</keyword>
+<keyword id="KW-0963" evidence="9">Cytoplasm</keyword>
+<keyword id="KW-0547" evidence="4 8">Nucleotide-binding</keyword>
+<keyword id="KW-1185" evidence="12">Reference proteome</keyword>
+<keyword id="KW-0677" evidence="3 7">Repeat</keyword>
+<keyword id="KW-0346" evidence="9">Stress response</keyword>
+<feature type="domain" description="Clp R" evidence="10">
+<location>
+<begin position="3"/>
+<end position="147"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="9">
+<location>
+<begin position="442"/>
+<end position="500"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="9">
+<location>
+<begin position="507"/>
+<end position="530"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00008675"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00011230"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00022737"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00022840"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00023054"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00023186"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000256">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU01251"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000256">
+<source>
+<dbReference type="RuleBase" id="RU004432"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000256">
+<source>
+<dbReference type="RuleBase" id="RU362034"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000259">
+<source>
+<dbReference type="PROSITE" id="PS51903"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KRM36575.1"/>
+</source>
+</evidence>
+<evidence key="12" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000051236"/>
+</source>
+</evidence>
+<sequence length="870" mass="96726" checksum="C364DE04F487D602" modified="2014-05-14" version="1">MNPDNFTQAVQEALAQAQQIAVTRHHADIHLAHLFKALIQPGELLPNLLKQSGVETAGFEAAIDKQLDQIPTVEGQTAYGQNMTPKLYQLLQDADTIRQQFHDDYIAVDVLPLALLKQPDLPITKYLLDQGLTAKKLTEVIQSVRGNERVTSKTQEANYQALAKYGTDLVKAVRAGDQDPIIGRDEEIRNVIRILSRKTKNNPVLIGEPGVGKTAIVEGLAQRIVHGDVPDNLKHKTIISLDMGSLIAGAKYRGEFEERLKSVLKEVKKSEGQVILFIDEIHTIVGAGKAEGAMDAGNLLKPMLARGELHLIGATTLDEYRENIEKDKALERRFQRVLVQEPTVEETIMILRGLKERFEIFHGVRIHDNALVAAATLSNRYITDRFLPDKAIDLVDEASANINVEMNSMPTELDQQMRKMMELQIEEAALNKEADPASKARLQDVKAQKATLQETISQLKAKWDAEKAEINALNDKKSQIDKAKHELEDAEAKYDLEAAARLQHGTIPKLQAELKQLEASDNQAKNLVQESVTADEIAEVVSRQTGIPVAKLVASDREKLLHLADELHQRVVGQDEAVQSVADAVLRSRAGLQDPNRPLGSFLFLGPTGVGKTELAKALASNLFDSEKHMVRIDMSEYMEKYAVSRLVGAAPGYVGYEEGGQLTEAVRRNPYTIVLLDEIEKAHPDVFNILLQVLDDGRLTDGQGRTVDFKNTIIIMTSNLGSDILLDAQQSATGITADTRQQVQNVLQQHFKPEFLNRIDDIILFHPLDMNAVKQIVVKLVAELSKRLRDKDIQLQVSEKAQAWIADKGYDPAFGARPLQRFITNQVETPLAKQLIGGQILPHSKVTIDLEDDKLIFNSEKMSEHQVIV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

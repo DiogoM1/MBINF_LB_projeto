@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2018-09-12" modified="2020-02-26" version="6">
+<accession>A0A2Y9GI37</accession>
+<name>A0A2Y9GI37_NEOSC</name>
+<protein>
+<submittedName>
+<fullName evidence="4">bone marrow stromal antigen 2</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="4">BST2</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Neomonachus schauinslandi</name>
+<name type="common">Hawaiian monk seal</name>
+<name type="synonym">Monachus schauinslandi</name>
+<dbReference type="NCBI Taxonomy" id="29088"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Laurasiatheria</taxon>
+<taxon>Carnivora</taxon>
+<taxon>Caniformia</taxon>
+<taxon>Phocidae</taxon>
+<taxon>Neomonachus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4">
+<citation type="submission" date="2018-06" db="UniProtKB">
+<authorList>
+<consortium name="RefSeq"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+<source>
+<tissue evidence="4">Blood</tissue>
+</source>
+</reference>
+<dbReference type="RefSeq" id="XP_021538808.1">
+<property type="nucleotide sequence ID" value="XM_021683133.1"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000248481">
+<property type="component" value="Genome assembly"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051607">
+<property type="term" value="P:defense response to virus"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024886">
+<property type="entry name" value="BST2"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR15190">
+<property type="entry name" value="PTHR15190"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF16716">
+<property type="entry name" value="BST2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-0472" evidence="2">Membrane</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<keyword id="KW-0812" evidence="2">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="2">Transmembrane helix</keyword>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="30"/>
+<end position="51"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="166"/>
+<end position="184"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="114"/>
+<end position="155"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000248481"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="RefSeq" id="XP_021538808.1"/>
+</source>
+</evidence>
+<sequence length="185" mass="20629" checksum="CF5BAFB763D9481C" modified="2018-09-12" version="1">MAPTFYHYWPVPADKSESMLQDWKLRRQNWLVVLGILLVLGLCAGLIVFAVRANSKACKDGLLAEQECLNVTRLLELQLTQTRQDLLGTMDQAATCNQTVVNLSASLEMEKAQGQEQLIQKEELQGEIEKLKQKLQDALEEVERLRKEKEASSTEGETSFGSSLQALSPLMVPVYLLLGLIALLA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2014-10-29" modified="2020-08-12" version="12">
+<accession>A0A084W9V0</accession>
+<name>A0A084W9V0_ANOSI</name>
+<protein>
+<submittedName>
+<fullName evidence="3">AGAP002112-PA-like protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">ZHAS_00015005</name>
+</gene>
+<organism evidence="3 5">
+<name type="scientific">Anopheles sinensis</name>
+<name type="common">Mosquito</name>
+<dbReference type="NCBI Taxonomy" id="74873"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Ecdysozoa</taxon>
+<taxon>Arthropoda</taxon>
+<taxon>Hexapoda</taxon>
+<taxon>Insecta</taxon>
+<taxon>Pterygota</taxon>
+<taxon>Neoptera</taxon>
+<taxon>Holometabola</taxon>
+<taxon>Diptera</taxon>
+<taxon>Nematocera</taxon>
+<taxon>Culicoidea</taxon>
+<taxon>Culicidae</taxon>
+<taxon>Anophelinae</taxon>
+<taxon>Anopheles</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4 5">
+<citation type="journal article" date="2014" name="BMC Genomics" volume="15" first="42" last="42">
+<title>Genome sequence of Anopheles sinensis provides insight into genetics basis of mosquito competence for malaria parasites.</title>
+<authorList>
+<person name="Zhou D."/>
+<person name="Zhang D."/>
+<person name="Ding G."/>
+<person name="Shi L."/>
+<person name="Hou Q."/>
+<person name="Ye Y."/>
+<person name="Xu Y."/>
+<person name="Zhou H."/>
+<person name="Xiong C."/>
+<person name="Li S."/>
+<person name="Yu J."/>
+<person name="Hong S."/>
+<person name="Yu X."/>
+<person name="Zou P."/>
+<person name="Chen C."/>
+<person name="Chang X."/>
+<person name="Wang W."/>
+<person name="Lv Y."/>
+<person name="Sun Y."/>
+<person name="Ma L."/>
+<person name="Shen B."/>
+<person name="Zhu C."/>
+</authorList>
+<dbReference type="PubMed" id="24438588"/>
+<dbReference type="DOI" id="10.1186/1471-2164-15-42"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<reference key="2" evidence="4">
+<citation type="submission" date="2020-05" db="UniProtKB">
+<authorList>
+<consortium name="EnsemblMetazoa"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<dbReference type="EMBL" id="ATLV01021917">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="KE525325">
+<property type="protein sequence ID" value="KFB46994.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblMetazoa" id="ASIC015005-RA">
+<property type="protein sequence ID" value="ASIC015005-PA"/>
+<property type="gene ID" value="ASIC015005"/>
+</dbReference>
+<dbReference type="VectorBase" id="ASIC015005-RA">
+<property type="protein sequence ID" value="ASIC015005-PA"/>
+<property type="gene ID" value="ASIC015005"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000030765">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-1185" evidence="5">Reference proteome</keyword>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="1"/>
+<end position="26"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="226"/>
+<end position="260"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="308"/>
+<end position="342"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="351"/>
+<end position="385"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="401"/>
+<end position="512"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="2">
+<location>
+<begin position="1"/>
+<end position="18"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="2">
+<location>
+<begin position="243"/>
+<end position="260"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KFB46994.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EnsemblMetazoa" id="ASIC015005-PA"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000030765"/>
+</source>
+</evidence>
+<sequence length="566" mass="63118" checksum="4EE7D48616D22577" modified="2014-10-29" version="1">MFDNGRKESDDDEDFFKPPTTGGKSTLAKIFGISSKSATNNNERGTAPSVAPKSIKISDRYGPSNFRYIPSQSVEAEPMAEDTGKPPEWAIVRATVVTAYKLVDGDNVFLGKVGLALLKSSSGHRLLLYRTKTEVLGAVTFTPEVKLILKQDYLQFRTDETGDFWSVLFESEPDRQAMLTVLESWAAIEREPLIEEPMSEAEKDPEPTSVRSNLVARMARMGGQAMPLPERSKAPPIPAAGPGSDSSDTSDSKIETISTRPIRRQNMLTAVGMQMVPLTGMVSSGGTTQNTPGQGTSGVADVNFNLIMSETRMQNTEMRMNISKLESKLDRVLDRIDLLNLHSSSERPTSVADREAEVLALEEKLLELKRENHSLRARVRTLEASELEGKRNADSKLEQKVQAMEVTERRLNGEIASLEEKLESSRTEQERVREKLELTEKQLTQAKETEERNTKELASTMGQLKEAKEKVEQLEKQLTEETSRSADAKTLIDLLRKENETLKQTIATEKERPSASQTPGSALVKEIMNSCYQQLCDQITDPQVLRLIAQTIKRETKAVLDREKNK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2010-08-10" modified="2020-12-02" version="64">
+<accession>D7RVC2</accession>
+<accession>A0A2J8LTQ2</accession>
+<name>D7RVC2_PANTR</name>
+<protein>
+<submittedName>
+<fullName evidence="3 8">Bone marrow stromal cell antigen 2</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="primary" evidence="3 8 10">BST2</name>
+</gene>
+<organism evidence="3">
+<name type="scientific">Pan troglodytes</name>
+<name type="common">Chimpanzee</name>
+<dbReference type="NCBI Taxonomy" id="9598"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Pan</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="8 9">
+<citation type="journal article" date="2005" name="Nature" volume="437" first="69" last="87">
+<title>Initial sequence of the chimpanzee genome and comparison with the human genome.</title>
+<authorList>
+<consortium name="Chimpanzee sequencing and analysis consortium"/>
+</authorList>
+<dbReference type="PubMed" id="16136131"/>
+<dbReference type="DOI" id="10.1038/nature04072"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<reference key="2" evidence="3">
+<citation type="journal article" date="2010" name="J. Virol." volume="84" first="7124" last="7134">
+<title>Ancient adaptive evolution of tetherin shaped the functions of Vpu and Nef in human immunodeficiency virus and primate lentiviruses.</title>
+<authorList>
+<person name="Lim E.S."/>
+<person name="Malik H.S."/>
+<person name="Emerman M."/>
+</authorList>
+<dbReference type="PubMed" id="20444900"/>
+<dbReference type="DOI" id="10.1128/JVI.00468-10"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+</reference>
+<reference key="3" evidence="8">
+<citation type="submission" date="2012-02" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<reference key="4" evidence="4">
+<citation type="submission" date="2012-10" db="EMBL/GenBank/DDBJ databases">
+<title>De novo assembly of the reference chimpanzee transcriptome from NextGen mRNA sequences.</title>
+<authorList>
+<person name="Maudhoo M.D."/>
+<person name="Meehan D.T."/>
+<person name="Norgren R.B.Jr."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE</scope>
+<source>
+<tissue evidence="4">Adipose stromal</tissue>
+<tissue evidence="7">Skeletal muscle</tissue>
+<tissue evidence="6">Skin</tissue>
+<tissue evidence="5">Smooth vascular</tissue>
+</source>
+</reference>
+<dbReference type="EMBL" id="AACZ04031527">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EMBL" id="HM136905">
+<property type="protein sequence ID" value="ADI58593.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="GABC01009765">
+<property type="protein sequence ID" value="JAA01573.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="GABF01008201">
+<property type="protein sequence ID" value="JAA13944.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="GABD01005326">
+<property type="protein sequence ID" value="JAA27774.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="GABE01009892">
+<property type="protein sequence ID" value="JAA34847.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_001177409.1">
+<property type="nucleotide sequence ID" value="NM_001190480.1"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_009433231.1">
+<property type="nucleotide sequence ID" value="XM_009434956.1"/>
+</dbReference>
+<dbReference type="SMR" id="D7RVC2"/>
+<dbReference type="STRING" id="9598.ENSPTRP00000018209"/>
+<dbReference type="Ensembl" id="ENSPTRT00000019678">
+<property type="protein sequence ID" value="ENSPTRP00000018209"/>
+<property type="gene ID" value="ENSPTRG00000010672"/>
+</dbReference>
+<dbReference type="GeneID" id="455837"/>
+<dbReference type="KEGG" id="ptr:455837"/>
+<dbReference type="CTD" id="684"/>
+<dbReference type="VGNC" id="VGNC:2093">
+<property type="gene designation" value="BST2"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG502TB0V">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00390000013782"/>
+<dbReference type="HOGENOM" id="CLU_104678_0_0_1"/>
+<dbReference type="OMA" id="KNNASSC"/>
+<dbReference type="OrthoDB" id="1579815at2759"/>
+<dbReference type="TreeFam" id="TF338345"/>
+<dbReference type="Proteomes" id="UP000002277">
+<property type="component" value="Chromosome 19"/>
+</dbReference>
+<dbReference type="Bgee" id="ENSPTRG00000010672">
+<property type="expression patterns" value="Expressed in placenta and 7 other tissues"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009986">
+<property type="term" value="C:cell surface"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005829">
+<property type="term" value="C:cytosol"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005794">
+<property type="term" value="C:Golgi apparatus"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005771">
+<property type="term" value="C:multivesicular body"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008191">
+<property type="term" value="F:metalloendopeptidase inhibitor activity"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0042803">
+<property type="term" value="F:protein homodimerization activity"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051607">
+<property type="term" value="P:defense response to virus"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045087">
+<property type="term" value="P:innate immune response"/>
+<property type="evidence" value="ECO:0000318"/>
+<property type="project" value="GO_Central"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030308">
+<property type="term" value="P:negative regulation of cell growth"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030336">
+<property type="term" value="P:negative regulation of cell migration"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:1901253">
+<property type="term" value="P:negative regulation of intracellular transport of viral material"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002737">
+<property type="term" value="P:negative regulation of plasmacytoid dendritic cell cytokine production"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045071">
+<property type="term" value="P:negative regulation of viral genome replication"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="Ensembl"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024886">
+<property type="entry name" value="BST2"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR15190">
+<property type="entry name" value="PTHR15190"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF16716">
+<property type="entry name" value="BST2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-0472" evidence="2">Membrane</keyword>
+<keyword id="KW-1185" evidence="9">Reference proteome</keyword>
+<keyword id="KW-0812" evidence="2">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="2">Transmembrane helix</keyword>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="27"/>
+<end position="49"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="104"/>
+<end position="152"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="ADI58593.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAA01573.1"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAA13944.1"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAA27774.1"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="JAA34847.1"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSPTRP00000018209"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000002277"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000313">
+<source>
+<dbReference type="VGNC" id="VGNC:2093"/>
+</source>
+</evidence>
+<sequence length="185" mass="20546" checksum="58A687F43E653110" modified="2010-08-10" version="1">MASTLYDYCRVPMDDIWKKDGDKRCKLLLGIGILMLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEEEITTLNHKLQDASAEVERLRRENQVLSVRIADKKYYSSSQDSSSAAAPQLLIVLLGLSALLQ</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

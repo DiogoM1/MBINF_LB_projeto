@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-01-09" modified="2020-08-12" version="34">
+<accession>K7ETD2</accession>
+<name>K7ETD2_PONAB</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<organism evidence="3 4">
+<name type="scientific">Pongo abelii</name>
+<name type="common">Sumatran orangutan</name>
+<name type="synonym">Pongo pygmaeus abelii</name>
+<dbReference type="NCBI Taxonomy" id="9601"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Primates</taxon>
+<taxon>Haplorrhini</taxon>
+<taxon>Catarrhini</taxon>
+<taxon>Hominidae</taxon>
+<taxon>Pongo</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="submission" date="2008-02" db="EMBL/GenBank/DDBJ databases">
+<title>A 6x draft sequence assembly of the Pongo pygmaeus abelii genome.</title>
+<authorList>
+<person name="Wilson R.K."/>
+<person name="Mardis E."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<reference key="2" evidence="3">
+<citation type="submission" date="2012-11" db="UniProtKB">
+<authorList>
+<consortium name="Ensembl"/>
+</authorList>
+</citation>
+<scope>IDENTIFICATION</scope>
+</reference>
+<dbReference type="STRING" id="9601.ENSPPYP00000023801"/>
+<dbReference type="Ensembl" id="ENSPPYT00000033066">
+<property type="protein sequence ID" value="ENSPPYP00000023801"/>
+<property type="gene ID" value="ENSPPYG00000029692"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG502TB0V">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="GeneTree" id="ENSGT00390000013782"/>
+<dbReference type="HOGENOM" id="CLU_104678_0_0_1"/>
+<dbReference type="InParanoid" id="K7ETD2"/>
+<dbReference type="OMA" id="KNNASSC"/>
+<dbReference type="TreeFam" id="TF338345"/>
+<dbReference type="Proteomes" id="UP000001595">
+<property type="component" value="Chromosome 19"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051607">
+<property type="term" value="P:defense response to virus"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024886">
+<property type="entry name" value="BST2"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR15190">
+<property type="entry name" value="PTHR15190"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF16716">
+<property type="entry name" value="BST2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-0472" evidence="2">Membrane</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<keyword id="KW-0812" evidence="2">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="2">Transmembrane helix</keyword>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="27"/>
+<end position="49"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="104"/>
+<end position="145"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Ensembl" id="ENSPPYP00000023801"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000001595"/>
+</source>
+</evidence>
+<sequence length="200" mass="21983" checksum="7DE9FAED1FA436BF" modified="2013-01-09" version="1">MASTLYDYCRVPMGDICKKDGDKRCKLLLGIGILVLLITVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDTEAQVTTCNQTVMALMASLDAEKAQGQKKVEELEGEITILNHKLQDASAEVERLREKPVLSVRSQTEVLASSRLQLRGGTPALICCWASALCCEIPGSWHILESLVPARLFA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

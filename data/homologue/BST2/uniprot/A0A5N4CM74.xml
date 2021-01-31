@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2020-02-26" modified="2020-06-17" version="3">
+<accession>A0A5N4CM74</accession>
+<name>A0A5N4CM74_CAMDR</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Coiled-coil domain-containing protein 194</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">Cadr_000025591</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Camelus dromedarius</name>
+<name type="common">Dromedary</name>
+<name type="synonym">Arabian camel</name>
+<dbReference type="NCBI Taxonomy" id="9838"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Laurasiatheria</taxon>
+<taxon>Artiodactyla</taxon>
+<taxon>Tylopoda</taxon>
+<taxon>Camelidae</taxon>
+<taxon>Camelus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="journal article" date="2019" name="Mol. Ecol. Resour." volume="19" first="1015" last="1026">
+<title>Improving Illumina assemblies with Hi-C and long reads: an example with the North African dromedary.</title>
+<authorList>
+<person name="Elbers J.P."/>
+<person name="Rogers M.F."/>
+<person name="Perelman P.L."/>
+<person name="Proskuryakova A.A."/>
+<person name="Serdyukova N.A."/>
+<person name="Johnson W.E."/>
+<person name="Horin P."/>
+<person name="Corander J."/>
+<person name="Murphy D."/>
+<person name="Burger P.A."/>
+</authorList>
+<dbReference type="PubMed" id="30972949"/>
+<dbReference type="DOI" id=".1111/1755-0998.13020"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3">Drom800</strain>
+<tissue evidence="3">Blood</tissue>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="JWIN03000022">
+<property type="protein sequence ID" value="KAB1260026.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000299084">
+<property type="component" value="Chromosome 22"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0051607">
+<property type="term" value="P:defense response to virus"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR024886">
+<property type="entry name" value="BST2"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR15190">
+<property type="entry name" value="PTHR15190"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF16716">
+<property type="entry name" value="BST2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-0472" evidence="2">Membrane</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<keyword id="KW-0812" evidence="2">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="2">Transmembrane helix</keyword>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="18"/>
+<end position="40"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="63"/>
+<end position="83"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="95"/>
+<end position="115"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="157"/>
+<end position="219"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="234"/>
+<end position="261"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="KAB1260026.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000299084"/>
+</source>
+</evidence>
+<sequence length="276" mass="30387" checksum="2ECD9731AE5D8976" modified="2020-02-26" version="1">MLDCCRKLMQRGRKLPGWLWFLLFLMVLVVVALLVPLIIFTIRANSKSCKDGLQAEQECQNSTNLLQRQLTQTEEVLQETKAQATICIQSVETLRDSLEKEKALGREQLARAEELQAVAAGAALLAWNLAASASRKPLCPEPGTNTTAPPGDPAPEVEELRRRLAEAAQREEALTRQLNQAESVRGQLEEALRACEGRQSRLQTQLMTLKTEMDEAKAQGTQMGAENGALTEALARWEAAATESAQRLDEAQRRARAAVAEGEACAAREAALRERV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-05-01" modified="2020-08-12" version="17">
+<accession>M1VVG2</accession>
+<name>M1VVG2_CLAP2</name>
+<protein>
+<submittedName>
+<fullName evidence="3">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="3">CPUR_03160</name>
+</gene>
+<organism evidence="3 4">
+<name type="scientific">Claviceps purpurea (strain 20.1)</name>
+<name type="common">Ergot fungus</name>
+<name type="synonym">Sphacelia segetum</name>
+<dbReference type="NCBI Taxonomy" id="1111077"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Sordariomycetes</taxon>
+<taxon>Hypocreomycetidae</taxon>
+<taxon>Hypocreales</taxon>
+<taxon>Clavicipitaceae</taxon>
+<taxon>Claviceps</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="3 4">
+<citation type="journal article" date="2013" name="PLoS Genet." volume="9" first="E1003323" last="E1003323">
+<title>Plant-symbiotic fungi as chemical engineers: Multi-genome analysis of the Clavicipitaceae reveals dynamics of alkaloid loci.</title>
+<authorList>
+<person name="Schardl C.L."/>
+<person name="Young C.A."/>
+<person name="Hesse U."/>
+<person name="Amyotte S.G."/>
+<person name="Andreeva K."/>
+<person name="Calie P.J."/>
+<person name="Fleetwood D.J."/>
+<person name="Haws D.C."/>
+<person name="Moore N."/>
+<person name="Oeser B."/>
+<person name="Panaccione D.G."/>
+<person name="Schweri K.K."/>
+<person name="Voisey C.R."/>
+<person name="Farman M.L."/>
+<person name="Jaromczyk J.W."/>
+<person name="Roe B.A."/>
+<person name="O'Sullivan D.M."/>
+<person name="Scott B."/>
+<person name="Tudzynski P."/>
+<person name="An Z."/>
+<person name="Arnaoudova E.G."/>
+<person name="Bullock C.T."/>
+<person name="Charlton N.D."/>
+<person name="Chen L."/>
+<person name="Cox M."/>
+<person name="Dinkins R.D."/>
+<person name="Florea S."/>
+<person name="Glenn A.E."/>
+<person name="Gordon A."/>
+<person name="Gueldener U."/>
+<person name="Harris D.R."/>
+<person name="Hollin W."/>
+<person name="Jaromczyk J."/>
+<person name="Johnson R.D."/>
+<person name="Khan A.K."/>
+<person name="Leistner E."/>
+<person name="Leuchtmann A."/>
+<person name="Li C."/>
+<person name="Liu J."/>
+<person name="Liu J."/>
+<person name="Liu M."/>
+<person name="Mace W."/>
+<person name="Machado C."/>
+<person name="Nagabhyru P."/>
+<person name="Pan J."/>
+<person name="Schmid J."/>
+<person name="Sugawara K."/>
+<person name="Steiner U."/>
+<person name="Takach J.E."/>
+<person name="Tanaka E."/>
+<person name="Webb J.S."/>
+<person name="Wilson E.V."/>
+<person name="Wiseman J.L."/>
+<person name="Yoshida R."/>
+<person name="Zeng Z."/>
+</authorList>
+<dbReference type="PubMed" id="23468653"/>
+<dbReference type="DOI" id="10.1371/journal.pgen.1003323"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="3 4">20.1</strain>
+</source>
+</reference>
+<comment type="caution">
+<text evidence="3">The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data.</text>
+</comment>
+<dbReference type="EMBL" id="CAGA01000014">
+<property type="protein sequence ID" value="CCE29467.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="EnsemblFungi" id="CCE29467">
+<property type="protein sequence ID" value="CCE29467"/>
+<property type="gene ID" value="CPUR_03160"/>
+</dbReference>
+<dbReference type="eggNOG" id="ENOG502RNN7">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_049051_0_0_1"/>
+<dbReference type="OrthoDB" id="1620906at2759"/>
+<dbReference type="PhylomeDB" id="M1VVG2"/>
+<dbReference type="Proteomes" id="UP000016801">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-1185" evidence="4">Reference proteome</keyword>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="69"/>
+<end position="132"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="209"/>
+<end position="229"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="CCE29467.1"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000016801"/>
+</source>
+</evidence>
+<sequence length="520" mass="59101" checksum="5C288CF0E711D1EB" modified="2013-05-01" version="1">MSTCISDDRLSESRLIRVERKLDNLSKGVENISLKLCDEYMKRCIESEKQLETKHMEAEGLRSELQSLEKQLQQEKADSQDKVEQIEKKSTEAEGLRSELQSLKKQLHQEKADSRDKVEQIETKSTEAEGLRSELQSLRKRLQQESTEAKGLRSELQSLKKQLQQEKADSREKVELFEMKSTEAKGLRSTLQSLRKQSLQEKADSQDKVAGLTTTIQQLDEDKKKLREVILTQVNLGNTLRYQISDDEIRQRFVYMRQSIQSVVNNLKTRDFISFIAVNDFESRLHQCYNSYSPKDRIFLVRSVLYQIIDESILKGDAFGLAGSVRVPPQYNLEALDQSLSGFEDLLRATKVTNKVISDSRIATFQCIEGFSAAPQDNSDARGRIRRLLFPLLDSDISEQDLLKSSREIDQLCDDAFSLRLLTRKSGDQYGFQEPGNGQVFSPTKGVVEVCGALGGGEVSNTVAFSICGALIKYTLNDGTWTENFLEPAHVVVQAKLSQKPSSIPKNRRLVRKRTNEVEK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

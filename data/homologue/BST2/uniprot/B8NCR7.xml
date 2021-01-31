@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2009-03-03" modified="2020-08-12" version="50">
+<accession>B8NCR7</accession>
+<name>B8NCR7_ASPFN</name>
+<protein>
+<submittedName>
+<fullName evidence="4">Chromosome segregation protein (Pcs1), putative</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="4">AFLA_041520</name>
+</gene>
+<organism evidence="4 5">
+<name type="scientific">Aspergillus flavus (strain ATCC 200026 / FGSC A1120 / NRRL 3357 / JCM 12722 / SRRC 167)</name>
+<dbReference type="NCBI Taxonomy" id="332952"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Fungi</taxon>
+<taxon>Dikarya</taxon>
+<taxon>Ascomycota</taxon>
+<taxon>Pezizomycotina</taxon>
+<taxon>Eurotiomycetes</taxon>
+<taxon>Eurotiomycetidae</taxon>
+<taxon>Eurotiales</taxon>
+<taxon>Aspergillaceae</taxon>
+<taxon>Aspergillus</taxon>
+<taxon>Aspergillus subgen. Circumdati</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="4 5">
+<citation type="journal article" date="2015" name="Genome Announc." volume="3" first="E0016815" last="E0016815">
+<title>Genome sequence of Aspergillus flavus NRRL 3357, a strain that causes aflatoxin contamination of food and feed.</title>
+<authorList>
+<person name="Nierman W.C."/>
+<person name="Yu J."/>
+<person name="Fedorova-Abrams N.D."/>
+<person name="Losada L."/>
+<person name="Cleveland T.E."/>
+<person name="Bhatnagar D."/>
+<person name="Bennett J.W."/>
+<person name="Dean R."/>
+<person name="Payne G.A."/>
+</authorList>
+<dbReference type="PubMed" id="25883274"/>
+<dbReference type="DOI" id="10.1128/genomeA.00168-15"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="5">ATCC 200026 / FGSC A1120 / NRRL 3357 / JCM 12722 / SRRC 167</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="EQ963476">
+<property type="protein sequence ID" value="EED52450.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_002377614.1">
+<property type="nucleotide sequence ID" value="XM_002377573.1"/>
+</dbReference>
+<dbReference type="STRING" id="5059.CADAFLAP00005479"/>
+<dbReference type="EnsemblFungi" id="EED52450">
+<property type="protein sequence ID" value="EED52450"/>
+<property type="gene ID" value="AFLA_041520"/>
+</dbReference>
+<dbReference type="GeneID" id="7921985"/>
+<dbReference type="KEGG" id="afv:AFLA_041520"/>
+<dbReference type="EuPathDB" id="FungiDB:AFLA_041520"/>
+<dbReference type="eggNOG" id="ENOG502R6WM">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="HOGENOM" id="CLU_029214_3_0_1"/>
+<dbReference type="OMA" id="EICFPRN"/>
+<dbReference type="Proteomes" id="UP000001875">
+<property type="component" value="Unassembled WGS sequence"/>
+</dbReference>
+<dbReference type="GO" id="GO:0033551">
+<property type="term" value="C:monopolin complex"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.90.1150.80">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR040349">
+<property type="entry name" value="Csm1/Pcs1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR020981">
+<property type="entry name" value="Csm1/Pcs1_C"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR038608">
+<property type="entry name" value="Csm1/Pcs1_sf"/>
+</dbReference>
+<dbReference type="PANTHER" id="PTHR28006">
+<property type="entry name" value="PTHR28006"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF12539">
+<property type="entry name" value="Csm1"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0175" evidence="1">Coiled coil</keyword>
+<keyword id="KW-1185" evidence="5">Reference proteome</keyword>
+<feature type="domain" description="Csm1" evidence="3">
+<location>
+<begin position="410"/>
+<end position="496"/>
+</location>
+</feature>
+<feature type="region of interest" description="Disordered" evidence="2">
+<location>
+<begin position="1"/>
+<end position="258"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="259"/>
+<end position="279"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="281"/>
+<end position="301"/>
+</location>
+</feature>
+<feature type="coiled-coil region" evidence="1">
+<location>
+<begin position="323"/>
+<end position="378"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="2">
+<location>
+<begin position="22"/>
+<end position="46"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="2">
+<location>
+<begin position="50"/>
+<end position="64"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="2">
+<location>
+<begin position="119"/>
+<end position="139"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polyampholyte" evidence="2">
+<location>
+<begin position="172"/>
+<end position="213"/>
+</location>
+</feature>
+<feature type="compositionally biased region" description="Polar" evidence="2">
+<location>
+<begin position="230"/>
+<end position="245"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Coils"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="MobiDB-lite"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF12539"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="EED52450.1"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000001875"/>
+</source>
+</evidence>
+<sequence length="519" mass="57109" checksum="2CED3C1A50202459" modified="2009-03-03" version="1">MPPKRKAAAKLSNLAESDNEDATQAQEPRDDERPTKKPRGRPRSKSAELKPLIQSKNDTATAPSQAPEAAPKRGTRRGRPRGSRSSLQSVNQEIEEQKEPEEGEEESGPQVPESAPASNDELVASQPAARSTRSAKPAKPTTTRGRRKATVEKQVKTDGEFQYTPRNTRHYKSPVKANEEAEQSTKQQQKADPQSELEEEVSEGEKAAPDVVEETFVQEEPMEPRSISMSPAKRRQSTQRPLQGSPLKPNAEPELRRKIGELTKKYDTLESRYRTLKEIGVVEANANMEKLRKQCEAMTNASNNLVAGLKAELEAQKALGQQSRTLQKQLKERDAEIAQLKSQAEEATSQLSSAQTEVKALQTKLAAARNTAASLESAAAKVPGSAIKGGSNRANAAASAEAAQAAQFAQLKEDLYTDLTGLIIRDVKKGDSDNLYDCIQTGINGTLHFKLAVPHVSSANFENAEFQYVPLLDDNRDRDLIDILPEYLTVDITFVRQQASKFYTRVIDALTKRRTSTGN</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>
