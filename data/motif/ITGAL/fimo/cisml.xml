@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<!-- Document definition -->
+<!-- http://zlab.bu.edu/~phaverty/SupplementalData/CisML/cisml.dtd -->
+<!DOCTYPE cis-element-search[
+<!ELEMENT cis-element-search (program-name, parameters, (pattern | multi-pattern-scan)*)>
+<!ELEMENT program-name (#PCDATA)>
+<!ELEMENT parameters (
+  pattern-file, 
+  sequence-file, 
+  background-seq-file?,
+  pattern-pvalue-cutoff?,
+  sequence-pvalue-cutoff?,
+  site-pvalue-cutoff?,
+  sequence-filtering,
+  ANY*
+ )>
+<!ELEMENT command-line (#PCDATA)>
+<!ELEMENT pattern-file (#PCDATA)>
+<!ELEMENT sequence-file (#PCDATA)>
+<!ELEMENT background-seq-file (#PCDATA)>
+<!ELEMENT pattern-pvalue-cutoff (#PCDATA)>
+<!ELEMENT sequence-pvalue-cutoff (#PCDATA)>
+<!ELEMENT site-pvalue-cutoff (#PCDATA)>
+<!ELEMENT sequence-filtering EMPTY>
+<!ELEMENT multi-pattern-scan (pattern+, ANY*)>
+<!ELEMENT pattern (scanned-sequence+, ANY*)>
+<!ELEMENT scanned-sequence (matched-element*, ANY*)>
+<!ELEMENT matched-element (sequence)>
+<!ELEMENT sequence (#PCDATA)>
+<!ATTLIST cis-element-search
+xmlns:xsi CDATA #IMPLIED
+xmlns:mem CDATA #IMPLIED
+xsi:schemaLocation CDATA #IMPLIED
+>
+<!ATTLIST sequence-filtering
+on-off CDATA #REQUIRED
+type CDATA #IMPLIED
+>
+<!ATTLIST multi-pattern-scan
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+>
+<!ATTLIST pattern
+accession CDATA #REQUIRED
+name CDATA #REQUIRED
+pvalue CDATA #IMPLIED
+score CDATA #IMPLIED
+db CDATA #IMPLIED
+lsid CDATA #IMPLIED
+>
+<!ATTLIST scanned-sequence
+accession CDATA #REQUIRED
+name CDATA #REQUIRED
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+length CDATA #IMPLIED
+db CDATA #IMPLIED
+lsid CDATA #IMPLIED
+>
+<!ATTLIST matched-element
+start CDATA #REQUIRED
+stop CDATA #REQUIRED
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+clusterid CDATA #IMPLIED
+>
+
+]>
+<cis-element-search
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://zlab.bu.edu/schema/cisml cisml.xsd"
+  xmlns="http://zlab.bu.edu/schema/cisml"
+  xmlns:mem="http://noble.gs.washington.edu/meme"
+>
+<program-name>fimo</program-name>
+<parameters>
+<command-line>fimo --bfile --motif-- -oc /opt/project/data/motif/ITGAL/fimo /opt/project/data/motif/ITGAL/meme/meme.txt /opt/project/data/reference/ITGAL/ITGAL_prot.fasta</command-line>
+<pattern-file>/opt/project/data/motif/ITGAL/meme/meme.txt</pattern-file>
+<sequence-file>/opt/project/data/reference/ITGAL/ITGAL_prot.fasta</sequence-file>
+<site-pvalue-cutoff>0.0001</site-pvalue-cutoff>
+<sequence-filtering on-off="off"/>
+</parameters>
+<pattern accession="SIPVLYPINVLIQDQENSTLYVSFTPKGPKIHQVKHIYQVRIQPSIHDHN" name="MEME-1">
+<scanned-sequence accession="NP_001107852.1" name="NP_001107852.1">
+<matched-element start="832" stop="881" score="197.385" pvalue="3.78e-61">
+<sequence>IIPILYPINILIQDQEDSTLYVSFTPKGPKIHQVKHMYQVRIQPSIHDHN</sequence>
+<mem:qvalue>3.87e-58</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="ASSMFSLCSSLSISFNSSKHFHLYGSNASLAQVVMKVDVVYEKZMLYLYV" name="MEME-2">
+<scanned-sequence accession="NP_001107852.1" name="NP_001107852.1">
+<matched-element start="961" stop="1010" score="203.397" pvalue="1.52e-63">
+<sequence>ASSMFSLCSSLSISFNSSKHFHLYGSNASLAQVVMKVDVVYEKQMLYLYV</sequence>
+<mem:qvalue>1.54e-60</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="AKDIIRYIIGIGKHFQTKESQETLHKFASKPASEFVKILDTFEKLKDLFT" name="MEME-3">
+<scanned-sequence accession="NP_001107852.1" name="NP_001107852.1">
+<matched-element start="193" stop="242" score="204.662" pvalue="1.22e-63">
+<sequence>AKDIIRYIIGIGKHFQTKESQETLHKFASKPASEFVKILDTFEKLKDLFT</sequence>
+<mem:qvalue>1.26e-60</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="AJQMMFNTLVNSSWGDFVELHANVTCNNEDSGLLEDNSATT" name="MEME-4">
+<scanned-sequence accession="NP_001107852.1" name="NP_001107852.1">
+<matched-element start="791" stop="831" score="160.136" pvalue="7.24e-51">
+<sequence>ALQMMFNTLVNSSWGDSVELHANVTCNNEDSDLLEDNSATT</sequence>
+<mem:qvalue>7.51e-48</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+<pattern accession="MKDVMKKLSNTSYQFAAVQFSTSYKTEFBFSDYVKQKDPDILLEHVKHML" name="MEME-5">
+<scanned-sequence accession="NP_001107852.1" name="NP_001107852.1">
+<matched-element start="96" stop="145" score="166.952" pvalue="7.48e-53">
+<sequence>GMTLATDPTDGSILFAAVQFSTSYKTEFDFSDYVKRKDPDALLKHVKHML</sequence>
+<mem:qvalue>7.71e-50</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+</cis-element-search>
