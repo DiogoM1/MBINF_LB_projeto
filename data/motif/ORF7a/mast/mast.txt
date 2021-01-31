@@ -23,32 +23,31 @@ REFERENCE
 DATABASE AND MOTIFS
 ********************************************************************************
 	DATABASE MN908947.3_ORF7a.fasta (peptide)
-	Last updated on Thu Jan 21 21:26:18 2021
+	Last updated on Sun Jan 31 00:21:05 2021
 	Database contains 40 sequences, 4764 residues
 
 	MOTIFS meme.txt (peptide)
 	MOTIF ID                                                 ALT ID WIDTH BEST POSSIBLE MATCH
 	----- -------------------------------------------------- ------ ----- -------------------
-	    1 PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS MEME-1    50 PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVS
-	    2 MKIILFLTLIALATCELYHYQECVRGTTV                      MEME-2    29 MKIILFLTLIVLASCELYHYQECVRGTTV
-	    3 HQELYSPLFLIVAALVFIILCFTIKRKTE                      MEME-3    29 HQELYSPLFLIVAALVFIILCWTIKRKTE
-	    4 PKLFIRQE                                           MEME-4     8 PKLFIRQE
+	    1 CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFA MEME-1    50 CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFA
+	    2 FACADGTRHTYQLRARSVSPKLFIRQEEV                      MEME-2    29 FACADGTRHTYQLRARSVSPKLFIRQEEV
+	    3 HQELYSPLFLIVAALVFJILCFTIKRKTE                      MEME-3    29 HQELYSPLFLIVAALVFIILCFTIKRKTE
+	    4 MKIILFLTLIA                                        MEME-4    11 MKIILFLTLIV
+	    5 CEMHNH                                             MEME-5     6 CEMHNH
 
 	PAIRWISE MOTIF CORRELATIONS:
 	MOTIF     1     2     3     4
 	----- ----- ----- ----- -----
-	   2   0.34
-	   3   0.29  0.30
-	   4   0.36  0.46  0.35
-	Correlations above 0.60 may cause some combined p-values and
-	E-values to be underestimates.
-	Removed motif 5 because they have correlation > 0.60
-	with the remaining motifs.
+	   2   0.20
+	   3   0.17  0.12
+	   4   0.21  0.16  0.44
+	   5   0.58  0.28  0.33  0.16
+	No overly similar pairs (correlation > 0.60) found.
 
 	Random model letter frequencies (from --motif--):
-	A 0.075 C 0.048 D 0.017 E 0.066 F 0.078 G 0.033 H 0.034 I 0.063 K 0.050 
-	L 0.127 M 0.008 N 0.017 P 0.050 Q 0.038 R 0.049 S 0.058 T 0.091 V 0.055 
-	W 0.000 Y 0.042 
+	A 0.070 C 0.044 D 0.021 E 0.062 F 0.069 G 0.043 H 0.027 I 0.078 K 0.051 
+	L 0.117 M 0.015 N 0.032 P 0.043 Q 0.031 R 0.044 S 0.076 T 0.077 V 0.059 
+	W 0.004 Y 0.037 
 ********************************************************************************
 
 
@@ -79,46 +78,46 @@ SECTION I: HIGH-SCORING SEQUENCES
 
 SEQUENCE NAME                      DESCRIPTION                   E-VALUE  LENGTH
 -------------                      -----------                   -------- ------
-gb|ACU31037.1|                                                   5.1e-126    122
-gb|ATO98237.1|                                                   5.1e-126    122
-sp|Q3LZX7.1|                                                     6.7e-125    122
-gb|AKZ19081.1|                                                   6.7e-125    122
-sp|Q3I5J0.1|                                                     8.1e-125    122
-gb|ATO98225.1|                                                   1.4e-124    122
-gb|ABD75319.1|                                                   1.6e-124    122
-gb|ATO98187.1|                                                     3e-124    122
-gb|ARO76387.1|                                                   3.4e-124    122
-gb|ADE34760.1|                                                   3.9e-124    122
-gb|AGZ48838.1|                                                   3.9e-124    122
-gb|ACZ72114.1|                                                   4.2e-124    122
-ref|YP_009825057.1|                                              4.2e-124    122
-gb|AIA62295.1|                                                   4.3e-124    122
-gb|ANA96033.1|                                                   4.8e-124    122
-gb|ADE34817.1|                                                   5.1e-124    122
-gb|AIA62335.1|                                                   5.3e-124    122
-gb|AIA62315.1|                                                   6.2e-124    122
-sp|Q0Q470.1|                                                     1.5e-123    122
-gb|AAZ41334.1|                                                   4.3e-123    122
-gb|AFR58706.1|                                                   8.9e-123    122
-gb|ACZ72157.1|                                                   1.3e-122    122
-gb|AAT52336.1|                                                   1.3e-122    122
-gb|ABI96964.1|                                                   2.1e-122    122
-gb|AFR58734.1|                                                   4.2e-122    122
-gb|AIA62325.1|                                                   4.3e-122    122
-gb|AIA62283.1|                                                     9e-122    122
-gb|AFR58678.1|                                                   4.6e-121    122
-gb|AHX37563.1|                                                   1.9e-120    122
-gb|ASO66814.1|                                                   2.4e-120    122
-ref|YP_009724395.1|                                              1.1e-115    121
-gb|QHR63305.1|                                                   2.8e-114    121
-gb|QIG55950.1|                                                   1.5e-113    121
-gb|QIQ54053.1|                                                   2.3e-112    121
-gb|QIA48619.1|                                                   5.3e-112    121
-gb|AVP78047.1|                                                   7.8e-111    121
-gb|AVP78036.1|                                                   4.9e-110    121
-gb|AAP82970.1|                                                    9.6e-92     91
-pdb|1XAK|A                                                        2.6e-63     82
-pdb|1YO4|A                                                        2.9e-63     84
+gb|ACU31037.1|                     hypothetical protein [SARS... 9.3e-130    122
+gb|ACZ72114.1|                     hypothetical protein sars7... 4.1e-129    122
+ref|YP_009825057.1|                ORF7a protein [SARS corona... 4.1e-129    122
+gb|ATO98237.1|                     ORF7a [Bat SARS-like coron... 5.5e-129    122
+gb|ATO98225.1|                     ORF7a [Bat SARS-like coron... 1.4e-128    122
+sp|Q3LZX7.1|                       RecName: Full=Protein 7a; ... 1.6e-128    122
+sp|Q3I5J0.1|                       RecName: Full=Protein 7a; ... 1.7e-128    122
+gb|AKZ19081.1|                     hypothetical protein 7a [B... 2.4e-128    122
+gb|AIA62335.1|                     hypothetical protein ORF7a... 9.5e-128    122
+gb|ATO98187.1|                     ORF7a [Bat SARS-like coron... 9.9e-128    122
+gb|ADE34817.1|                     hypothetical protein [Bat ...   1e-127    122
+gb|ADE34760.1|                     hypothetical protein [Bat ... 2.1e-127    122
+gb|AAT52336.1|                     7a [SARS coronavirus LLJ-2... 3.4e-127    122
+gb|ARO76387.1|                     protein 8 [Severe acute re... 3.6e-127    122
+gb|AGZ48838.1|                     hypothetical protein [Bat ... 4.7e-127    122
+gb|ABI96964.1|                     sars7a [Severe acute respi... 5.4e-127    122
+gb|ACZ72157.1|                     hypothetical protein sars7... 9.8e-127    122
+gb|AFR58734.1|                     hypothetical protein sars7... 1.1e-126    122
+gb|AFR58706.1|                     hypothetical protein sars7... 2.5e-126    122
+gb|AIA62315.1|                     hypothetical protein ORF7a... 4.8e-126    122
+sp|Q0Q470.1|                       RecName: Full=Protein 7a; ... 1.3e-125    122
+gb|AAZ41334.1|                     hypothetical protein [Bat ... 1.5e-125    122
+gb|ABD75319.1|                     ORF7a [Bat SARS CoV Rf1/20... 2.2e-125    122
+gb|AIA62295.1|                     hypothetical protein ORF7a... 2.8e-125    122
+gb|AFR58678.1|                     hypothetical protein sars7... 5.7e-125    122
+gb|ANA96033.1|                     7a protein [Bat coronavirus]  1.4e-124    122
+gb|AIA62325.1|                     hypothetical protein ORF7a... 1.4e-123    122
+gb|AHX37563.1|                     protein 8 [Rhinolophus aff... 2.4e-123    122
+gb|AIA62283.1|                     hypothetical protein ORF7a... 4.4e-122    122
+gb|ASO66814.1|                     hypothetical protein B6N28... 1.4e-118    122
+ref|YP_009724395.1|                ORF7a protein [Severe acut... 3.1e-112    121
+gb|QHR63305.1|                     nonstructural protein NS7a... 1.4e-109    121
+gb|QIG55950.1|                     ORF7a protein [Pangolin co... 2.6e-108    121
+gb|AVP78047.1|                     hypothetical protein [Bat ... 1.3e-103    121
+gb|QIQ54053.1|                     ORF7a protein [Pangolin co... 1.5e-103    121
+gb|QIA48619.1|                     orf7a protein [Pangolin co...   8e-103    121
+gb|AVP78036.1|                     hypothetical protein [Bat ... 1.5e-101    121
+pdb|1XAK|A                         Structure Of The Sars-Coro...  2.8e-87     82
+gb|AAP82970.1|                     Orf7a, partial [SARS coron...  1.7e-59     91
+pdb|1YO4|A                         Solution Structure of the ...    2e-28     84
 
 ********************************************************************************
 
@@ -147,8 +146,15 @@ SECTION II: MOTIF DIAGRAMS
 
 SEQUENCE NAME                      E-VALUE   MOTIF DIAGRAM
 -------------                      --------  -------------
-pdb|1XAK|A                          2.6e-63  20-[1]-[4]-4
-pdb|1YO4|A                          2.9e-63  18-[1]-[4]-8
+ref|YP_009724395.1|                3.1e-112  [4]-3-[1]-[2]-28
+gb|QHR63305.1|                     1.4e-109  [4]-3-[1]-[2]-28
+gb|QIG55950.1|                     2.6e-108  [4]-3-[1]-[2]-28
+gb|AVP78047.1|                     1.3e-103  [4]-3-[1]-[2]-28
+gb|QIQ54053.1|                     1.5e-103  [4]-3-[1]-[2]-28
+gb|QIA48619.1|                       8e-103  [4]-3-[1]-[2]-28
+gb|AVP78036.1|                     1.5e-101  [4]-3-[1]-[2]-28
+pdb|1XAK|A                          2.8e-87  1-[1]-[2]-2
+pdb|1YO4|A                            2e-28  49-[2]-6
 
 ********************************************************************************
 
@@ -181,650 +187,702 @@ SECTION III: ANNOTATED SEQUENCES
 
 
 gb|ACU31037.1|
-  LENGTH = 122  COMBINED P-VALUE = 1.28e-127  E-VALUE = 5.1e-126
+  hypothetical protein [SARS coronavirus Rs_672/2006] 
+  LENGTH = 122  COMBINED P-VALUE = 2.33e-131  E-VALUE = 9.3e-130
 
-     [2]                              [1]
-     2.1e-35                          6.3e-64
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+     [4]           [1]                                               [2]
+     3.9e-13       8.9e-64                                           2.5e-37
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 1    MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
 
-             [4]       [3]
-             1.9e-10   1.4e-34
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
-76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
-
-
-gb|ATO98237.1|
-  LENGTH = 122  COMBINED P-VALUE = 1.28e-127  E-VALUE = 5.1e-126
-
-     [2]                              [1]
-     2.1e-35                          6.3e-64
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
-1    MKIILFLTLIALASCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-
-             [4]       [3]
-             1.9e-10   1.4e-34
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
-76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
-
-
-sp|Q3LZX7.1|
-  LENGTH = 122  COMBINED P-VALUE = 1.68e-126  E-VALUE = 6.7e-125
-
-     [2]                              [1]
-     3.6e-35                          1.5e-63
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
-1    MKIILFLTLIALATCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHTY
-
-             [4]       [3]
-             1.9e-10   4.7e-34
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
-76   QLRARSVSPKLFIRQEEVYQELYSPLFLIVAALVFIILCFTIKRKTE
-
-
-gb|AKZ19081.1|
-  LENGTH = 122  COMBINED P-VALUE = 1.68e-126  E-VALUE = 6.7e-125
-
-     [2]                              [1]
-     2.1e-35                          6.3e-64
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
-1    MKIILFLTLIVLATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-
-             [4]       [3]
-             1.9e-10   1.9e-33
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
-76   QLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRKTE
-
-
-sp|Q3I5J0.1|
-  LENGTH = 122  COMBINED P-VALUE = 2.03e-126  E-VALUE = 8.1e-125
-
-     [2]                              [1]
-     2.1e-35                          6.3e-64
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
-1    MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-
-             [4]       [3]
-             1.9e-10   2.3e-33
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
-76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFITLCFTIKRKTE
-
-
-gb|ATO98225.1|
-  LENGTH = 122  COMBINED P-VALUE = 3.45e-126  E-VALUE = 1.4e-124
-
-     [2]                              [1]
-     2.1e-35                          1.8e-62
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++ +++++++++++++
-1    MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTRFAFACADGTRHTY
-
-             [4]       [3]
-             1.9e-10   1.4e-34
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
-76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
-
-
-gb|ABD75319.1|
-  LENGTH = 122  COMBINED P-VALUE = 4.07e-126  E-VALUE = 1.6e-124
-
-     [2]                              [1]
-     3.6e-35                          1.5e-63
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
-1    MKIILFLTLIALATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTY
-
-             [4]       [3]
-             4.6e-10   4.7e-34
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
-76   QLRARSVSPKLFTRQEKVYQELYSPLFLIVAALVFIILCFTIKRKTE
-
-
-gb|ATO98187.1|
-  LENGTH = 122  COMBINED P-VALUE = 7.44e-126  E-VALUE =   3e-124
-
-     [2]                              [1]
-     2.1e-35                          6.3e-64
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
-1    MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-
-             [4]       [3]
-             1.9e-10   8.4e-33
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++ +++++++++++++++
-76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAVLVFIILCFTIKRKTE
-
-
-gb|ARO76387.1|
-  LENGTH = 122  COMBINED P-VALUE = 8.38e-126  E-VALUE = 3.4e-124
-
-     [2]                              [1]
-     5.4e-36                          1.3e-62
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
-1    MKIILFLTLIVLASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTKHTY
-
-             [4]       [3]
-             1.9e-10   1.9e-33
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
-76   QLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRKTE
-
-
-gb|ADE34760.1|
-  LENGTH = 122  COMBINED P-VALUE = 9.82e-126  E-VALUE = 3.9e-124
-
-     [2]                              [1]
-     7.3e-34                          1.5e-63
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
-1    MKIILFLTLVALTTCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHTY
-
-             [4]       [3]
-             1.9e-10   1.4e-34
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
-76   QLRARSVSPKLFIRQEDVHQELYSPLFLIVAALVFIILCFTIKRKTE
-
-
-gb|AGZ48838.1|
-  LENGTH = 122  COMBINED P-VALUE = 9.83e-126  E-VALUE = 3.9e-124
-
-     [2]                              [1]
-     2.1e-35                          5.1e-62
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++ +++++++++++++++++++++++++++++++++++++++
-1    MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCLSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-
-             [4]       [3]
-             1.9e-10   1.4e-34
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
+                       [3]
+                       5.2e-35
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++++++++++++++++++
 76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
 
 
 gb|ACZ72114.1|
-  LENGTH = 122  COMBINED P-VALUE = 1.06e-125  E-VALUE = 4.2e-124
+  hypothetical protein sars7a [SARS coronavirus ExoN1]
+  LENGTH = 122  COMBINED P-VALUE = 1.02e-130  E-VALUE = 4.1e-129
 
-     [2]                              [1]
-     1.4e-34                          6.3e-64
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+     [4]           [1]                                               [2]
+     1.8e-13       8.9e-64                                           2.5e-37
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 1    MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
 
-             [4]       [3]
-             1.9e-10   1.9e-33
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
+                       [3]
+                       5.1e-34
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++++++++++++++++++
 76   QLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRKTE
 
 
 ref|YP_009825057.1|
-  LENGTH = 122  COMBINED P-VALUE = 1.06e-125  E-VALUE = 4.2e-124
+  ORF7a protein [SARS coronavirus Tor2] 
+  LENGTH = 122  COMBINED P-VALUE = 1.02e-130  E-VALUE = 4.1e-129
 
-     [2]                              [1]
-     1.4e-34                          6.3e-64
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+     [4]           [1]                                               [2]
+     1.8e-13       8.9e-64                                           2.5e-37
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 1    MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
 
-             [4]       [3]
-             1.9e-10   1.9e-33
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
+                       [3]
+                       5.1e-34
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++++++++++++++++++
 76   QLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRKTE
 
 
-gb|AIA62295.1|
-  LENGTH = 122  COMBINED P-VALUE = 1.08e-125  E-VALUE = 4.3e-124
+gb|ATO98237.1|
+  ORF7a [Bat SARS-like coronavirus]
+  LENGTH = 122  COMBINED P-VALUE = 1.36e-130  E-VALUE = 5.5e-129
 
-     [2]                              [1]
-     5.6e-34                          6.3e-64
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     ++++ ++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
-1    MKIIPFLTLIVLATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     [4]           [1]                                               [2]
+     3.9e-13       5.3e-63                                           2.5e-37
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALASCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
 
-             [4]       [3]
-             1.9e-10   4.7e-34
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
-76   QLRARSVSPKLFIRQEKVYQELYSPLFLIVAALVFIILCFTIKRKTE
-
-
-gb|ANA96033.1|
-  LENGTH = 122  COMBINED P-VALUE = 1.20e-125  E-VALUE = 4.8e-124
-
-     [2]                              [1]
-     2.1e-35                          1.5e-63
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
-1    MKIILFLTLIVLATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTY
-
-             [4]       [3]
-             4.6e-10   2.4e-33
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
-76   QLRARSVSPKLFTRQEKVYQELYSPLFLIVAALVFIILCFTIKRKIE
-
-
-gb|ADE34817.1|
-  LENGTH = 122  COMBINED P-VALUE = 1.26e-125  E-VALUE = 5.1e-124
-
-     [2]                              [1]
-     2.8e-34                          1.5e-63
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
-1    MKIILFLILIALATCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHTY
-
-             [4]       [3]
-             1.9e-10   4.7e-34
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
-76   QLRARSVSPKLFIRQEEVYQELYSPLFLIVAALVFIILCFTIKRKTE
-
-
-gb|AIA62335.1|
-  LENGTH = 122  COMBINED P-VALUE = 1.32e-125  E-VALUE = 5.3e-124
-
-     [2]                              [1]
-     2.1e-35                          1.8e-62
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++ +++++++++++++
-1    MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTRFAFACADGTRHTY
-
-             [4]       [3]
-             1.9e-10   5.4e-34
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
-76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAAIVFIILCFTIKRKTE
-
-
-gb|AIA62315.1|
-  LENGTH = 122  COMBINED P-VALUE = 1.54e-125  E-VALUE = 6.2e-124
-
-     [2]                              [1]
-     1.1e-33                          1.5e-63
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     ++++++++++++++ ++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
-1    MKIILFLTLIALASSELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTY
-
-             [4]       [3]
-             1.9e-10   1.4e-34
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
+                       [3]
+                       5.2e-35
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++++++++++++++++++
 76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
 
 
-sp|Q0Q470.1|
-  LENGTH = 122  COMBINED P-VALUE = 3.73e-125  E-VALUE = 1.5e-123
+gb|ATO98225.1|
+  ORF7a [Bat SARS-like coronavirus]
+  LENGTH = 122  COMBINED P-VALUE = 3.60e-130  E-VALUE = 1.4e-128
 
-     [2]                              [1]
-     1.1e-33                          1.5e-63
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     ++++++++++++++ ++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
-1    MKIILFLTLIALASSELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTY
+     [4]           [1]                                               [2]
+     3.9e-13       1.4e-62                                           2.5e-37
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTRFAFACADGTRHTY
 
-             [4]       [3]
-             4.6e-10   1.4e-34
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
-76   QLRARSVSPKLFTRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+                       [3]
+                       5.2e-35
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
 
 
-gb|AAZ41334.1|
-  LENGTH = 122  COMBINED P-VALUE = 1.07e-124  E-VALUE = 4.3e-123
+sp|Q3LZX7.1|
+  RecName: Full=Protein 7a; AltName: Full=Accessory protein 7a; Flags: 
+  Precursor [Bat SARS coronavirus HKU3] 
+  LENGTH = 122  COMBINED P-VALUE = 3.99e-130  E-VALUE = 1.6e-128
 
-     [2]                              [1]
-     2.4e-33                          1.5e-63
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     ++++++++++++++++++++ ++++++++    ++++++++++++++++++++++++++++++++++++++++++
-1    MKIILFLTLIALATCELYHYRECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHTY
+     [4]           [1]                                               [2]
+     3.9e-13       3.2e-63                                           2.5e-37
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALATCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHTY
 
-             [4]       [3]
-             1.9e-10   4.7e-34
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
+                       [3]
+                       2.6e-34
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++++++++++++++++++
 76   QLRARSVSPKLFIRQEEVYQELYSPLFLIVAALVFIILCFTIKRKTE
 
 
-gb|AFR58706.1|
-  LENGTH = 122  COMBINED P-VALUE = 2.23e-124  E-VALUE = 8.9e-123
+sp|Q3I5J0.1|
+  RecName: Full=Protein 7a; AltName: Full=Accessory protein 7a; Flags: 
+  Precursor [Bat SARS CoV Rp3/2004] 
+  LENGTH = 122  COMBINED P-VALUE = 4.27e-130  E-VALUE = 1.7e-128
 
-     [2]                              [1]
-     1.4e-34                          6.3e-64
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
-1    MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     [4]           [1]                                               [2]
+     3.9e-13       8.9e-64                                           2.5e-37
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
 
-             [4]       [3]
-             4.1e-09   1.9e-33
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++ +++++++  +++++++++++++++++++++++++++++
-76   QLRARSVSXKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRKTE
+                       [3]
+                       9.9e-34
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     ++++++++++++++++++++++++++++++++++++ ++++++++++
+76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFITLCFTIKRKTE
 
 
-gb|ACZ72157.1|
-  LENGTH = 122  COMBINED P-VALUE = 3.14e-124  E-VALUE = 1.3e-122
+gb|AKZ19081.1|
+  hypothetical protein 7a [Bat SARS-like coronavirus YNLF_31C] 
+  LENGTH = 122  COMBINED P-VALUE = 5.96e-130  E-VALUE = 2.4e-128
 
-     [2]                              [1]
-     4.2e-33                          6.3e-64
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++ +++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
-1    MKISLFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     [4]           [1]                                               [2]
+     1.8e-13       5.3e-63                                           2.5e-37
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIVLATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
 
-             [4]       [3]
-             1.9e-10   1.9e-33
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
+                       [3]
+                       5.1e-34
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++++++++++++++++++
 76   QLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRKTE
 
 
-gb|AAT52336.1|
-  LENGTH = 122  COMBINED P-VALUE = 3.15e-124  E-VALUE = 1.3e-122
+gb|AIA62335.1|
+  hypothetical protein ORF7a [BtRs-BetaCoV/YN2013]
+  LENGTH = 122  COMBINED P-VALUE = 2.37e-129  E-VALUE = 9.5e-128
 
-     [2]                              [1]
-     1.4e-34                          6.3e-64
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+     [4]           [1]                                               [2]
+     3.9e-13       1.4e-62                                           2.5e-37
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTRFAFACADGTRHTY
+
+                       [3]
+                       3.5e-34
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAAIVFIILCFTIKRKTE
+
+
+gb|ATO98187.1|
+  ORF7a [Bat SARS-like coronavirus]
+  LENGTH = 122  COMBINED P-VALUE = 2.46e-129  E-VALUE = 9.9e-128
+
+     [4]           [1]                                               [2]
+     3.9e-13       8.9e-64                                           2.5e-37
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+
+                       [3]
+                       5.8e-33
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++ +++++++++++++++
+76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAVLVFIILCFTIKRKTE
+
+
+gb|ADE34817.1|
+  hypothetical protein [Bat SARS coronavirus HKU3-12]
+  LENGTH = 122  COMBINED P-VALUE = 2.60e-129  E-VALUE =   1e-127
+
+     [4]           [1]                                               [2]
+     2.6e-12       3.2e-63                                           2.5e-37
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++ +++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLILIALATCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHTY
+
+                       [3]
+                       2.6e-34
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVYQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+gb|ADE34760.1|
+  hypothetical protein [Bat SARS coronavirus HKU3-7] 
+  LENGTH = 122  COMBINED P-VALUE = 5.22e-129  E-VALUE = 2.1e-127
+
+     [4]           [1]                                               [2]
+     2.2e-12       3.2e-63                                           3.1e-36
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLVALTTCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHTY
+
+                       [3]
+                       5.2e-35
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEDVHQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+gb|AAT52336.1|
+  7a [SARS coronavirus LLJ-2004]
+  LENGTH = 122  COMBINED P-VALUE = 8.51e-129  E-VALUE = 3.4e-127
+
+     [4]           [1]                                               [2]
+     1.8e-13       8.9e-64                                           2.5e-37
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 1    MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
 
-             [4]       [3]
-             1.9e-10   5.8e-32
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++   ++++++++++++++++++++++++++++
+                       [3]
+                       4.5e-32
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     ++++++++++++++++++ ++++++++++++++++++++++++++++
 76   QLRARSVSPKLFIRQEEVXQELYSPLFLIVAALVFLILCFTIKRKTE
 
 
-gb|ABI96964.1|
-  LENGTH = 122  COMBINED P-VALUE = 5.35e-124  E-VALUE = 2.1e-122
+gb|ARO76387.1|
+  protein 8 [Severe acute respiratory syndrome-related coronavirus]
+  LENGTH = 122  COMBINED P-VALUE = 9.12e-129  E-VALUE = 3.6e-127
 
-     [2]                              [1]
-     1.4e-34                          3.3e-62
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++ +++++++++++++++++++++++++++++++++++++
+     [4]           [1]                                               [2]
+     1.8e-13       3.2e-63                                           6.8e-36
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ +++
+1    MKIILFLTLIVLASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTKHTY
+
+                       [3]
+                       5.1e-34
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRKTE
+
+
+gb|AGZ48838.1|
+  hypothetical protein [Bat SARS-like coronavirus WIV1] 
+  LENGTH = 122  COMBINED P-VALUE = 1.18e-128  E-VALUE = 4.7e-127
+
+     [4]           [1]                                               [2]
+     3.9e-13       4.9e-61                                           2.5e-37
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++ +++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCLSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+
+                       [3]
+                       5.2e-35
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+gb|ABI96964.1|
+  sars7a [Severe acute respiratory syndrome-related coronavirus]
+  LENGTH = 122  COMBINED P-VALUE = 1.35e-128  E-VALUE = 5.4e-127
+
+     [4]           [1]                                               [2]
+     1.8e-13       1.3e-61                                           2.5e-37
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++++ +++++++++++++++++++++++++++++++++++++
 1    MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSATYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
 
-             [4]       [3]
-             1.9e-10   1.9e-33
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
+                       [3]
+                       5.1e-34
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRKTE
+
+
+gb|ACZ72157.1|
+  hypothetical protein sars7a [SARS coronavirus MA15 ExoN1]
+  LENGTH = 122  COMBINED P-VALUE = 2.44e-128  E-VALUE = 9.8e-127
+
+     [4]           [1]                                               [2]
+     4.6e-11       8.9e-64                                           2.5e-37
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++ +++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    MKISLFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+
+                       [3]
+                       5.1e-34
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++++++++++++++++++
 76   QLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRKTE
 
 
 gb|AFR58734.1|
-  LENGTH = 122  COMBINED P-VALUE = 1.05e-123  E-VALUE = 4.2e-122
+  hypothetical protein sars7a [SARS coronavirus Tor2]
+  LENGTH = 122  COMBINED P-VALUE = 2.84e-128  E-VALUE = 1.1e-126
 
-     [2]                              [1]
-     1.4e-34                          6.3e-64
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+     [4]           [1]                                               [2]
+     1.8e-13       8.9e-64                                           2.5e-37
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 1    MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
 
-             [4]       [3]
-             1.9e-10   2.0e-31
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++ +++++++
+                       [3]
+                       1.5e-31
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++++++++++ +++++++
 76   QLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCXTIKRKTE
 
 
-gb|AIA62325.1|
-  LENGTH = 122  COMBINED P-VALUE = 1.07e-123  E-VALUE = 4.3e-122
+gb|AFR58706.1|
+  hypothetical protein sars7a [SARS coronavirus Tor2]
+  LENGTH = 122  COMBINED P-VALUE = 6.32e-128  E-VALUE = 2.5e-126
 
-     [2]                              [1]
-     2.4e-33                          5.1e-62
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++ +++++++++++++
-1    MKIILFLTLVALATCELYHYQECIRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSSTYFAFACADGTRHTY
+     [4]           [1]                                               [2]
+     1.8e-13       8.9e-64                                           1.7e-34
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
 
-             [4]       [3]
-             1.9e-10   1.4e-34
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
-76   QLRARSVSPKLFIRQEDVHQELYSPLFLIVAALVFIILCFTIKRKTE
+                       [3]
+                       5.1e-34
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     ++++++++ ++++++++++++++++++++++++++++++++++++++
+76   QLRARSVSXKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRKTE
 
 
-gb|AIA62283.1|
-  LENGTH = 122  COMBINED P-VALUE = 2.25e-123  E-VALUE =   9e-122
+gb|AIA62315.1|
+  hypothetical protein ORF7a [BtRs-BetaCoV/HuB2013]
+  LENGTH = 122  COMBINED P-VALUE = 1.19e-127  E-VALUE = 4.8e-126
 
-     [2]                              [1]
-     4.2e-33                          1.5e-63
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++ +++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
-1    MKIILLLILIVLATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTY
+     [4]           [1]                                               [2]
+     3.9e-13       1.1e-60                                           2.5e-37
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALASSELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTY
 
-             [4]       [3]
-             4.6e-10   2.4e-33
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++++++++++++++
-76   QLRARSVSPKLFTRQEKVYQELYSPLFLIVAALVFIILCFTIKRKIE
+                       [3]
+                       5.2e-35
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+sp|Q0Q470.1|
+  RecName: Full=Protein 7a; AltName: Full=Accessory protein 7a; Flags: 
+  Precursor [Bat CoV 279/2005] 
+  LENGTH = 122  COMBINED P-VALUE = 3.25e-127  E-VALUE = 1.3e-125
+
+     [4]           [1]                                               [2]
+     3.9e-13       1.1e-60                                           7.0e-37
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALASSELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTY
+
+                       [3]
+                       5.2e-35
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++++++++++++++++++
+76   QLRARSVSPKLFTRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+gb|AAZ41334.1|
+  hypothetical protein [Bat SARS coronavirus HKU3-2]
+  LENGTH = 122  COMBINED P-VALUE = 3.66e-127  E-VALUE = 1.5e-125
+
+     [4]           [1]                                               [2]
+     3.9e-13       3.2e-60                                           2.5e-37
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   ++++++ ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALATCELYHYRECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSSTHFAFACADGTRHTY
+
+                       [3]
+                       2.6e-34
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEEVYQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+gb|ABD75319.1|
+  ORF7a [Bat SARS CoV Rf1/2004] 
+  LENGTH = 122  COMBINED P-VALUE = 5.42e-127  E-VALUE = 2.2e-125
+
+     [4]           [1]                                               [2]
+     3.9e-13       4.6e-62                                           2.6e-35
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIALATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTY
+
+                       [3]
+                       2.6e-34
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     ++++++++++++++++ ++++++++++++++++++++++++++++++
+76   QLRARSVSPKLFTRQEKVYQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+gb|AIA62295.1|
+  hypothetical protein ORF7a [BtRf-BetaCoV/HeB2013] 
+  LENGTH = 122  COMBINED P-VALUE = 7.12e-127  E-VALUE = 2.8e-125
+
+     [4]           [1]                                               [2]
+     2.9e-11       5.3e-63                                           3.9e-36
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     ++++ ++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    MKIIPFLTLIVLATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+
+                       [3]
+                       2.6e-34
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     ++++++++++++++++ ++++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEKVYQELYSPLFLIVAALVFIILCFTIKRKTE
 
 
 gb|AFR58678.1|
-  LENGTH = 122  COMBINED P-VALUE = 1.14e-122  E-VALUE = 4.6e-121
+  hypothetical protein sars7a [SARS coronavirus Tor2]
+  LENGTH = 122  COMBINED P-VALUE = 1.43e-126  E-VALUE = 5.7e-125
 
-     [2]                              [1]
-     1.4e-34                          2.0e-61
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++ +++++++++++++++++++++++++++++++++++++
+     [4]           [1]                                               [2]
+     1.8e-13       4.5e-61                                           8.0e-36
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++++ +++++++++++++++++++++++++++++++++++++
 1    MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSXTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
 
-             [4]       [3]
-             7.1e-10   1.9e-33
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++ +++  +++++++++++++++++++++++++++++
+                       [3]
+                       5.1e-34
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     ++++++++++++ ++++++++++++++++++++++++++++++++++
 76   QLRARSVSPKLFXRQEEVQQELYSPLFLIVAALVFLILCFTIKRKTE
 
 
-gb|AHX37563.1|
-  LENGTH = 122  COMBINED P-VALUE = 4.64e-122  E-VALUE = 1.9e-120
+gb|ANA96033.1|
+  7a protein [Bat coronavirus]
+  LENGTH = 122  COMBINED P-VALUE = 3.62e-126  E-VALUE = 1.4e-124
 
-     [2]                              [1]
-     5.0e-34                          6.3e-64
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+     [4]           [1]                                               [2]
+     1.8e-13       4.6e-62                                           2.6e-35
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    MKIILFLTLIVLATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTY
+
+                       [3]
+                       3.9e-33
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     ++++++++++++++++ ++++++++++++++++++++++++++++ +
+76   QLRARSVSPKLFTRQEKVYQELYSPLFLIVAALVFIILCFTIKRKIE
+
+
+gb|AIA62325.1|
+  hypothetical protein ORF7a [BtRs-BetaCoV/GX2013]
+  LENGTH = 122  COMBINED P-VALUE = 3.53e-125  E-VALUE = 1.4e-123
+
+     [4]           [1]                                               [2]
+     2.2e-12       2.4e-59                                           3.1e-36
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++ +++++++++++++++++++++++++++++++++++++ +++++++++++++
+1    MKIILFLTLVALATCELYHYQECIRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSSTYFAFACADGTRHTY
+
+                       [3]
+                       5.2e-35
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++++++++++++++++++
+76   QLRARSVSPKLFIRQEDVHQELYSPLFLIVAALVFIILCFTIKRKTE
+
+
+gb|AHX37563.1|
+  protein 8 [Rhinolophus affinis coronavirus]
+  LENGTH = 122  COMBINED P-VALUE = 6.11e-125  E-VALUE = 2.4e-123
+
+     [4]           [1]                                               [2]
+     1.3e-12       8.9e-64                                           2.5e-37
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 1    MKIILFLTLVVLTTCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
 
-             [4]       [3]
-             1.9e-10   2.4e-30
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  +++++++++++++++++ ++++++++  +
+                       [3]
+                       4.8e-29
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     +++++++++++++++++++++++++++++++++++ ++++++++  +
 76   QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFTILCFTIKRNSE
 
 
-gb|ASO66814.1|
-  LENGTH = 122  COMBINED P-VALUE = 5.94e-122  E-VALUE = 2.4e-120
+gb|AIA62283.1|
+  hypothetical protein ORF7a [BtRf-BetaCoV/JL2012]
+  LENGTH = 122  COMBINED P-VALUE = 1.10e-123  E-VALUE = 4.4e-122
 
-     [2]                              [1]
-     3.0e-33                          1.5e-63
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     ++++++ ++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+     [4]           [1]                                               [2]
+     5.8e-11       4.6e-62                                           2.6e-35
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++ + +++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    MKIILLLILIVLATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTY
+
+                       [3]
+                       3.9e-33
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     ++++++++++++++++ ++++++++++++++++++++++++++++ +
+76   QLRARSVSPKLFTRQEKVYQELYSPLFLIVAALVFIILCFTIKRKIE
+
+
+gb|ASO66814.1|
+  hypothetical protein B6N28_00007 [Bat coronavirus]
+  LENGTH = 122  COMBINED P-VALUE = 3.50e-120  E-VALUE = 1.4e-118
+
+     [4]           [1]                                               [2]
+     3.3e-10       4.6e-62                                           2.6e-35
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     ++++++  +++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 1    MKIILFSILIVLATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTY
 
-             [4]       [3]
-             4.6e-10   9.1e-32
-     QLRARSVSPKLFIRQE  HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++  ++++++++++++ ++++++++++++++++
+                       [3]
+                       2.4e-30
+     QLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFIILCFTIKRKTE
+     ++++++++++++++++ +++++++++++++ ++++++++++++++ +
 76   QLRARSVSPKLFTRQEKVYQELYSPLFLIVIALVFIILCFTIKRKIE
 
 
 ref|YP_009724395.1|
-  LENGTH = 121  COMBINED P-VALUE = 2.84e-117  E-VALUE = 1.1e-115
+  ORF7a protein [Severe acute respiratory syndrome coronavirus 2] 
+  LENGTH = 121  COMBINED P-VALUE = 7.67e-114  E-VALUE = 3.1e-112
+  DIAGRAM: [4]-3-[1]-[2]-28
 
-     [2]                              [1]
-     7.3e-34                          7.6e-59
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+     [4]           [1]                                               [2]
+     9.3e-12       1.1e-59                                           6.8e-33
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++ +++   +++++++++++++++++++++ ++++++++++++++++++++++ ++++++++++++ +++
 1    MKIILFLALITLATCELYHYQECVRGTTVLLKEPCSSGTYEGNSPFHPLADNKFALTCFSTQFAFACPDGVKHVY
 
-             [4]      [3]
-             1.9e-10  1.0e-30
-     QLRARSVSPKLFIRQE HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++ +++++++++++++++++++++++++++++
+     
+     
+     QLRARSVSPKLFIRQEEV
+     ++++++++++++++++++
 76   QLRARSVSPKLFIRQEEVQELYSPIFLIVAAIVFITLCFTLKRKTE
 
 
 gb|QHR63305.1|
-  LENGTH = 121  COMBINED P-VALUE = 7.12e-116  E-VALUE = 2.8e-114
+  nonstructural protein NS7a [Bat coronavirus RaTG13]
+  LENGTH = 121  COMBINED P-VALUE = 3.50e-111  E-VALUE = 1.4e-109
+  DIAGRAM: [4]-3-[1]-[2]-28
 
-     [2]                              [1]
-     2.4e-33                          7.6e-59
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+     [4]           [1]                                               [2]
+     2.2e-10       1.1e-59                                           6.8e-33
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++ +++   +++++++++++++++++++++ ++++++++++++++++++++++ ++++++++++++ +++
 1    MKIILFLVLVTLATCELYHYQECVRGTTVLLKEPCSSGTYEGNSPFHPLADNKFALTCFSTQFAFACPDGVKHVY
 
-             [4]      [3]
-             1.9e-10  7.8e-30
-     QLRARSVSPKLFIRQE HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++ +++++++++++++++++++++++++++++
+     
+     
+     QLRARSVSPKLFIRQEEV
+     ++++++++++++++++++
 76   QLRARSVSPKLFIRQEEVQELYSPIFLIIAAIVFITLCFTLKRKTE
 
 
 gb|QIG55950.1|
-  LENGTH = 121  COMBINED P-VALUE = 3.84e-115  E-VALUE = 1.5e-113
+  ORF7a protein [Pangolin coronavirus]
+  LENGTH = 121  COMBINED P-VALUE = 6.53e-110  E-VALUE = 2.6e-108
+  DIAGRAM: [4]-3-[1]-[2]-28
 
-     [2]                              [1]
-     7.3e-34                          2.9e-57
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++++++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++ +
+     [4]           [1]                                               [2]
+     9.3e-12       1.1e-59                                           7.6e-30
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++++ +++   +++++++++++++++++++++ ++++++++++++++++++++++ ++++++++++++ + +
 1    MKIILFLALITLATCELYHYQECVRGTTVLLKEPCSSGTYEGNSPFHPLADNKFALTCFSTQFAFACPDGVKHIY
 
-             [4]      [3]
-             1.9e-10  3.7e-30
-     QLRARSVSPKLFIRQE HQELYSPLFLIVAALVFIILCWTIKRKTE
-     +++++ ++++++++++ +++++++++++++++++++++++++++++
+     
+     
+     QLRARSVSPKLFIRQEEV
+     +++++ ++++++++++++
 76   QLRARAVSPKLFIRQEEVQELYSPIFLIVAAIVFITLCFTLKRKIE
 
 
-gb|QIQ54053.1|
-  LENGTH = 121  COMBINED P-VALUE = 5.87e-114  E-VALUE = 2.3e-112
+gb|AVP78047.1|
+  hypothetical protein [Bat SARS-like coronavirus]
+  LENGTH = 121  COMBINED P-VALUE = 3.32e-105  E-VALUE = 1.3e-103
+  DIAGRAM: [4]-3-[1]-[2]-28
 
-     [2]                              [1]
-     5.3e-31                          3.1e-58
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++ +++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+     [4]           [1]                                               [2]
+     9.9e-10       7.1e-54                                           3.1e-33
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     ++++ ++ +++    ++++++++  ++++++++++ ++++++++++++++++++++++ ++++++++++++++++
+1    MKIIFFLVLITLVTGELYHYQECIKGTTVLLKEPCSSGTYEGNSPFHPLADNKFALTCFSTQFAFACPDGVRHTF
+
+     
+     
+     QLRARSVSPKLFIRQEEV
+     ++++++++++++++++++
+76   QLRARSVSPKLFTRQEEVQELYSPVFLIVAAIVFIILCFTFKRKIE
+
+
+gb|QIQ54053.1|
+  ORF7a protein [Pangolin coronavirus]
+  LENGTH = 121  COMBINED P-VALUE = 3.78e-105  E-VALUE = 1.5e-103
+  DIAGRAM: [4]-3-[1]-[2]-28
+
+     [4]           [1]                                               [2]
+     1.6e-09       3.2e-52                                           2.1e-33
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++ + +++   ++ +++++++++++++ ++++ ++++++++++++++++++++ +++ ++++++++++ +++
 1    MKIILLLALVTFATCERYHYQECVRGTTVLIKEPCSSGTYEGNSPFHPLADNKFALACTSQQFAFACPDGTKHTF
 
-             [4]      [3]
-             1.9e-10  7.6e-31
-     QLRARSVSPKLFIRQE HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++ +++++++++++++++++++++++++++++
+     
+     
+     QLRARSVSPKLFIRQEEV
+     ++++++++++++++++++
 76   QLRARSVSPKLFIRQEEVQELYSPLFLIIAALVFITLCFTLKRKTE
 
 
 gb|QIA48619.1|
-  LENGTH = 121  COMBINED P-VALUE = 1.33e-113  E-VALUE = 5.3e-112
+  orf7a protein [Pangolin coronavirus] 
+  LENGTH = 121  COMBINED P-VALUE = 1.99e-104  E-VALUE =   8e-103
+  DIAGRAM: [4]-3-[1]-[2]-28
 
-     [2]                              [1]
-     5.3e-31                          7.0e-58
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     +++++ +++++++++++++++++++++++    ++++++++++++++++++++++++++++++++++++++++++
+     [4]           [1]                                               [2]
+     1.6e-09       1.7e-51                                           2.1e-33
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     +++++ + +++   ++ +++++++++++++ ++++ ++++++++++++++++++++ +++ ++++++++++ +++
 1    MKIILLLALVTFATCERYHYQECVRGTTVLIKEPCSSGTYEGNSPFHPLADNKFALACSSQQFAFACPDGTKHTF
 
-             [4]      [3]
-             1.9e-10  7.6e-31
-     QLRARSVSPKLFIRQE HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++ +++++++++++++++++++++++++++++
+     
+     
+     QLRARSVSPKLFIRQEEV
+     ++++++++++++++++++
 76   QLRARSVSPKLFIRQEEVQELYSPLFLIIAALVFITLCFTLKRKTE
 
 
-gb|AVP78047.1|
-  LENGTH = 121  COMBINED P-VALUE = 1.94e-112  E-VALUE = 7.8e-111
-
-     [2]                              [1]
-     7.1e-29                          2.2e-59
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     ++++ +++++++++++++++++++ ++++    ++++++++++++++++++++++++++++++++++++++++++
-1    MKIIFFLVLITLVTGELYHYQECIKGTTVLLKEPCSSGTYEGNSPFHPLADNKFALTCFSTQFAFACPDGVRHTF
-
-             [4]      [3]
-             4.6e-10  1.1e-30
-     QLRARSVSPKLFIRQE HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++ +++++++ +++++++++++++++ +++++
-76   QLRARSVSPKLFTRQEEVQELYSPVFLIVAAIVFIILCFTFKRKIE
-
-
 gb|AVP78036.1|
-  LENGTH = 121  COMBINED P-VALUE = 1.24e-111  E-VALUE = 4.9e-110
+  hypothetical protein [Bat SARS-like coronavirus]
+  LENGTH = 121  COMBINED P-VALUE = 3.65e-103  E-VALUE = 1.5e-101
+  DIAGRAM: [4]-3-[1]-[2]-28
 
-     [2]                              [1]
-     7.1e-29                          1.5e-58
-     MKIILFLTLIVLASCELYHYQECVRGTTV    PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
-     ++++ +++++++++++++++++++ ++++    ++++++++++++++++++++++++++++++++++++++++++
+     [4]           [1]                                               [2]
+     9.9e-10       8.5e-52                                           3.1e-33
+     MKIILFLTLIV   CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTY
+     ++++ ++ +++    ++++++++  ++++++++++ ++++++++++++++++++++ + ++++++++++++++++
 1    MKIIFFLVLITLVTGELYHYQECIKGTTVLLKEPCSSGTYEGNSPFHPLADNKFALACFSTQFAFACPDGVRHTF
 
-             [4]      [3]
-             4.6e-10  1.1e-30
-     QLRARSVSPKLFIRQE HQELYSPLFLIVAALVFIILCWTIKRKTE
-     ++++++++++++++++ +++++++ +++++++++++++++ +++++
+     
+     
+     QLRARSVSPKLFIRQEEV
+     ++++++++++++++++++
 76   QLRARSVSPKLFTRQEEVQELYSPVFLIVAAIVFIILCFTFKRKIE
+
+
+pdb|1XAK|A
+  Structure Of The Sars-Coronavirus Orf7a Accessory Protein [Severe acute 
+  respiratory syndrome-related coronavirus]
+  LENGTH = 82  COMBINED P-VALUE = 6.94e-89  E-VALUE =  2.8e-87
+  DIAGRAM: 1-[1]-[2]-2
+
+      [1]                                               [2]
+      3.7e-62                                           2.5e-37
+      CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVSPKLFI
+      +++++++++++++++ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1    SCELYHYQECVRGTTVILKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVSPKLFI
+
+     
+     
+     RQEEV
+     +++++
+76   RQEEVQQ
 
 
 gb|AAP82970.1|
-  LENGTH = 91  COMBINED P-VALUE = 2.39e-93  E-VALUE =  9.6e-92
+  Orf7a, partial [SARS coronavirus Shanhgai LY]
+  LENGTH = 91  COMBINED P-VALUE = 4.33e-61  E-VALUE =  1.7e-59
 
-       [1]                                               [4]       [3]
-       3.3e-62                                           1.9e-10   1.9e-33
-       PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVSPKLFIRQE  HQELYSPLFLIVA
-       ++++ +++++++++++++++++++++++++++++++++++++++++++++++++++++  +++++++++++++
+                                      [2]                          [3]
+                                      2.5e-37                      5.1e-34
+                                      FACADGTRHTYQLRARSVSPKLFIRQEEVHQELYSPLFLIVA
+                                      ++++++++++++++++++++++++++++++++++++++++++
 1    KEPCPSATYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVSPKLFIRQEEVQQELYSPLFLIVA
 
      
      
-     ALVFIILCWTIKRKTE
+     ALVFIILCFTIKRKTE
      ++++++++++++++++
 76   ALVFLILCFTIKRKTE
 
 
-pdb|1XAK|A
-  LENGTH = 82  COMBINED P-VALUE = 6.38e-65  E-VALUE =  2.6e-63
-  DIAGRAM: 20-[1]-[4]-4
-
-                         [1]                                               [4]
-                         6.3e-64                                           1.9e-
-                         PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVSPKLFI
-                         +++++++++++++++++++++++++++++++++++++++++++++++++++++++
-1    SCELYHYQECVRGTTVILKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVSPKLFI
-
-     
-     10
-     RQE
-     +++
-76   RQEEVQQ
-
-
 pdb|1YO4|A
-  LENGTH = 84  COMBINED P-VALUE = 7.25e-65  E-VALUE =  2.9e-63
-  DIAGRAM: 18-[1]-[4]-8
+  Solution Structure of the SARS Coronavirus ORF 7a coded X4 protein [Severe 
+  acute respiratory syndrome-related coronavirus]
+  LENGTH = 84  COMBINED P-VALUE = 4.96e-30  E-VALUE =    2e-28
+  DIAGRAM: 49-[2]-6
 
-                       [1]                                               [4]
-                       6.3e-64                                           1.9e-10
-                       PCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVSPKLFIRQ
-                       +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                                      [2]
+                                                      2.5e-37
+                                                      FACADGTRHTYQLRARSVSPKLFIRQ
+                                                      ++++++++++++++++++++++++++
 1    ELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVSPKLFIRQ
 
      
      
-     E
-     +
+     EEV
+     +++
 76   EEVQQELYS
 
 ********************************************************************************
 
 
-CPU: 880a13490bda
-Time 0.052 secs.
+CPU: 2bbf82b204bc
+Time 0.044 secs.
 
 mast -bfile --motif-- -remcorr -oc /opt/project/data/motif/ORF7a/mast /opt/project/data/motif/ORF7a/meme/meme.txt /opt/project/data/homologue/ORF7a/MN908947.3_ORF7a.fasta
