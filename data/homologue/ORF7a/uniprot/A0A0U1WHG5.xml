@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2016-03-16" modified="2020-12-02" version="19">
+<accession>A0A0U1WHG5</accession>
+<name>A0A0U1WHG5_SARS</name>
+<protein>
+<recommendedName>
+<fullName evidence="10">Accessory protein 7a</fullName>
+</recommendedName>
+</protein>
+<organism evidence="14 15">
+<name type="scientific">BtRf-BetaCoV/JL2012</name>
+<dbReference type="NCBI Taxonomy" id="1503299"/>
+<lineage>
+<taxon>Viruses</taxon>
+<taxon>Riboviria</taxon>
+<taxon>Orthornavirae</taxon>
+<taxon>Pisuviricota</taxon>
+<taxon>Pisoniviricetes</taxon>
+<taxon>Nidovirales</taxon>
+<taxon>Cornidovirineae</taxon>
+<taxon>Coronaviridae</taxon>
+<taxon>Orthocoronavirinae</taxon>
+<taxon>Betacoronavirus</taxon>
+<taxon>Sarbecovirus</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="15">
+<citation type="submission" date="2014-02" db="EMBL/GenBank/DDBJ databases">
+<title>Bat coronavirus in China.</title>
+<authorList>
+<person name="Yang L."/>
+<person name="Wu Z."/>
+<person name="Jin Q."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+</reference>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="7">Endoplasmic reticulum membrane</location>
+<topology evidence="7">Single-pass membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="1">Endoplasmic reticulum-Golgi intermediate compartment membrane</location>
+<topology evidence="1">Single-pass type I membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="4">Golgi apparatus membrane</location>
+<topology evidence="4">Single-pass membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="2">Host Golgi apparatus membrane</location>
+<topology evidence="2">Single-pass membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="9">Host endoplasmic reticulum membrane</location>
+<topology evidence="9">Single-pass membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="6">Host endoplasmic reticulum-Golgi intermediate compartment membrane</location>
+<topology evidence="6">Single-pass type I membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="3">Membrane</location>
+<topology evidence="3">Single-pass membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="8">Membrane</location>
+<topology evidence="8">Single-pass type I membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="5">Virion</location>
+</subcellularLocation>
+</comment>
+<dbReference type="EMBL" id="KJ473811">
+<property type="protein sequence ID" value="AIA62283.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000123530">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0033116">
+<property type="term" value="C:endoplasmic reticulum-Golgi intermediate compartment membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044165">
+<property type="term" value="C:host cell endoplasmic reticulum"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044173">
+<property type="term" value="C:host cell endoplasmic reticulum-Golgi intermediate compartment membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044178">
+<property type="term" value="C:host cell Golgi membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019012">
+<property type="term" value="C:virion"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039646">
+<property type="term" value="P:modulation by virus of host G0/G1 transition checkpoint"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.40.1550">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014888">
+<property type="entry name" value="NS7A_CoV"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036495">
+<property type="entry name" value="NS7A_sf_CoV"/>
+</dbReference>
+<dbReference type="Pfam" id="PF08779">
+<property type="entry name" value="bCoV_NS7A"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF117066">
+<property type="entry name" value="SSF117066"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-1077" evidence="11">G0/G1 host cell cycle checkpoint dysregulation by virus</keyword>
+<keyword id="KW-0945" evidence="11">Host-virus interaction</keyword>
+<keyword id="KW-0472" evidence="12">Membrane</keyword>
+<keyword id="KW-1121" evidence="11">Modulation of host cell cycle by virus</keyword>
+<keyword id="KW-1185" evidence="15">Reference proteome</keyword>
+<keyword id="KW-0812" evidence="12">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="12">Transmembrane helix</keyword>
+<feature type="transmembrane region" description="Helical" evidence="12">
+<location>
+<begin position="97"/>
+<end position="117"/>
+</location>
+</feature>
+<feature type="domain" description="bCoV_NS7A" evidence="13">
+<location>
+<begin position="16"/>
+<end position="122"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00004151"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00004152"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00004167"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00004194"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00004328"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00004372"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00004389"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00004479"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00004517"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00021766"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000256">
+<source>
+<dbReference type="ARBA" id="ARBA00023226"/>
+</source>
+</evidence>
+<evidence key="12" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="13" type="ECO:0000259">
+<source>
+<dbReference type="Pfam" id="PF08779"/>
+</source>
+</evidence>
+<evidence key="14" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="AIA62283.1"/>
+</source>
+</evidence>
+<evidence key="15" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000123530"/>
+</source>
+</evidence>
+<sequence length="122" mass="13916" checksum="B7B7191A4257C566" modified="2016-03-16" version="1">MKIILLLILIVLATCELYHYQECVRGTTVLLEEPCPSGTYEGNSPFHPLADNKFALTCISTHFAFACADGTRHTYQLRARSVSPKLFTRQEKVYQELYSPLFLIVAALVFIILCFTIKRKIE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,1179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2003-04-23" modified="2020-12-02" version="105">
+<accession>P59635</accession>
+<accession>Q7TA11</accession>
+<accession>Q7TA17</accession>
+<name>NS7A_SARS</name>
+<protein>
+<recommendedName>
+<fullName>ORF7a protein</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>Accessory protein 7a</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Protein U122</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Protein X4</fullName>
+</alternativeName>
+</protein>
+<gene>
+<name type="ORF">7a</name>
+</gene>
+<organism>
+<name type="scientific">Severe acute respiratory syndrome coronavirus</name>
+<name type="common">SARS-CoV</name>
+<dbReference type="NCBI Taxonomy" id="694009"/>
+<lineage>
+<taxon>Viruses</taxon>
+<taxon>Riboviria</taxon>
+<taxon>Orthornavirae</taxon>
+<taxon>Pisuviricota</taxon>
+<taxon>Pisoniviricetes</taxon>
+<taxon>Nidovirales</taxon>
+<taxon>Cornidovirineae</taxon>
+<taxon>Coronaviridae</taxon>
+<taxon>Orthocoronavirinae</taxon>
+<taxon>Betacoronavirus</taxon>
+<taxon>Sarbecovirus</taxon>
+</lineage>
+</organism>
+<organismHost>
+<name type="scientific">Homo sapiens</name>
+<name type="common">Human</name>
+<dbReference type="NCBI Taxonomy" id="9606"/>
+</organismHost>
+<organismHost>
+<name type="scientific">Paguma larvata</name>
+<name type="common">Masked palm civet</name>
+<dbReference type="NCBI Taxonomy" id="9675"/>
+</organismHost>
+<reference key="1">
+<citation type="journal article" date="2003" name="Science" volume="300" first="1394" last="1399">
+<title>Characterization of a novel coronavirus associated with severe acute respiratory syndrome.</title>
+<authorList>
+<person name="Rota P.A."/>
+<person name="Oberste M.S."/>
+<person name="Monroe S.S."/>
+<person name="Nix W.A."/>
+<person name="Campagnoli R."/>
+<person name="Icenogle J.P."/>
+<person name="Penaranda S."/>
+<person name="Bankamp B."/>
+<person name="Maher K."/>
+<person name="Chen M.-H."/>
+<person name="Tong S."/>
+<person name="Tamin A."/>
+<person name="Lowe L."/>
+<person name="Frace M."/>
+<person name="DeRisi J.L."/>
+<person name="Chen Q."/>
+<person name="Wang D."/>
+<person name="Erdman D.D."/>
+<person name="Peret T.C.T."/>
+<person name="Burns C."/>
+<person name="Ksiazek T.G."/>
+<person name="Rollin P.E."/>
+<person name="Sanchez A."/>
+<person name="Liffick S."/>
+<person name="Holloway B."/>
+<person name="Limor J."/>
+<person name="McCaustland K."/>
+<person name="Olsen-Rasmussen M."/>
+<person name="Fouchier R."/>
+<person name="Guenther S."/>
+<person name="Osterhaus A.D.M.E."/>
+<person name="Drosten C."/>
+<person name="Pallansch M.A."/>
+<person name="Anderson L.J."/>
+<person name="Bellini W.J."/>
+</authorList>
+<dbReference type="PubMed" id="12730500"/>
+<dbReference type="DOI" id="10.1126/science.1085952"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC RNA]</scope>
+<source>
+<strain>Isolate Urbani</strain>
+</source>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2003" name="Science" volume="300" first="1399" last="1404">
+<title>The genome sequence of the SARS-associated coronavirus.</title>
+<authorList>
+<person name="Marra M.A."/>
+<person name="Jones S.J.M."/>
+<person name="Astell C.R."/>
+<person name="Holt R.A."/>
+<person name="Brooks-Wilson A."/>
+<person name="Butterfield Y.S.N."/>
+<person name="Khattra J."/>
+<person name="Asano J.K."/>
+<person name="Barber S.A."/>
+<person name="Chan S.Y."/>
+<person name="Cloutier A."/>
+<person name="Coughlin S.M."/>
+<person name="Freeman D."/>
+<person name="Girn N."/>
+<person name="Griffith O.L."/>
+<person name="Leach S.R."/>
+<person name="Mayo M."/>
+<person name="McDonald H."/>
+<person name="Montgomery S.B."/>
+<person name="Pandoh P.K."/>
+<person name="Petrescu A.S."/>
+<person name="Robertson A.G."/>
+<person name="Schein J.E."/>
+<person name="Siddiqui A."/>
+<person name="Smailus D.E."/>
+<person name="Stott J.M."/>
+<person name="Yang G.S."/>
+<person name="Plummer F."/>
+<person name="Andonov A."/>
+<person name="Artsob H."/>
+<person name="Bastien N."/>
+<person name="Bernard K."/>
+<person name="Booth T.F."/>
+<person name="Bowness D."/>
+<person name="Czub M."/>
+<person name="Drebot M."/>
+<person name="Fernando L."/>
+<person name="Flick R."/>
+<person name="Garbutt M."/>
+<person name="Gray M."/>
+<person name="Grolla A."/>
+<person name="Jones S."/>
+<person name="Feldmann H."/>
+<person name="Meyers A."/>
+<person name="Kabani A."/>
+<person name="Li Y."/>
+<person name="Normand S."/>
+<person name="Stroher U."/>
+<person name="Tipples G.A."/>
+<person name="Tyler S."/>
+<person name="Vogrig R."/>
+<person name="Ward D."/>
+<person name="Watson B."/>
+<person name="Brunham R.C."/>
+<person name="Krajden M."/>
+<person name="Petric M."/>
+<person name="Skowronski D.M."/>
+<person name="Upton C."/>
+<person name="Roper R.L."/>
+</authorList>
+<dbReference type="PubMed" id="12730501"/>
+<dbReference type="DOI" id="10.1126/science.1085953"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC RNA]</scope>
+<source>
+<strain>Isolate Tor2</strain>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="2003" name="N. Engl. J. Med." volume="349" first="187" last="188">
+<title>Coronavirus genomic-sequence variations and the epidemiology of the severe acute respiratory syndrome.</title>
+<authorList>
+<person name="Tsui S.K.W."/>
+<person name="Chim S.S.C."/>
+<person name="Lo Y.M.D."/>
+</authorList>
+<dbReference type="PubMed" id="12853594"/>
+<dbReference type="DOI" id="10.1056/nejm200307103490216"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC RNA]</scope>
+<source>
+<strain>Isolate CUHK-Su10</strain>
+<strain>Isolate CUHK-W1</strain>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="2003" name="Exp. Biol. Med." volume="228" first="866" last="873">
+<title>The complete genome sequence of severe acute respiratory syndrome coronavirus strain HKU-39849 (HK-39).</title>
+<authorList>
+<person name="Zeng F.Y."/>
+<person name="Chan C.W."/>
+<person name="Chan M.N."/>
+<person name="Chen J.D."/>
+<person name="Chow K.Y.C."/>
+<person name="Hon C.C.C."/>
+<person name="Hui R.K.H."/>
+<person name="Li J."/>
+<person name="Li V.Y.Y."/>
+<person name="Wang C.Y."/>
+<person name="Wang P.Y."/>
+<person name="Guan Y."/>
+<person name="Zheng B."/>
+<person name="Poon L.L.M."/>
+<person name="Chan K.H."/>
+<person name="Yuen K.Y."/>
+<person name="Peiris J.S.M."/>
+<person name="Leung F.C."/>
+</authorList>
+<dbReference type="PubMed" id="12876307"/>
+<dbReference type="DOI" id="10.1177/15353702-0322807-13"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC RNA]</scope>
+<source>
+<strain>Isolate HKU-39849</strain>
+</source>
+</reference>
+<reference key="5">
+<citation type="submission" date="2003-04" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Qin E."/>
+<person name="Zhu Q."/>
+<person name="Yu M."/>
+<person name="Fan B."/>
+<person name="Chang G."/>
+<person name="Si B."/>
+<person name="Yang B."/>
+<person name="Peng W."/>
+<person name="Jiang T."/>
+<person name="Liu B."/>
+<person name="Deng Y."/>
+<person name="Liu H."/>
+<person name="Zhang Y."/>
+<person name="Wang C."/>
+<person name="Li Y."/>
+<person name="Gan Y."/>
+<person name="Li X."/>
+<person name="Lu F."/>
+<person name="Tan G."/>
+<person name="Yang R."/>
+<person name="Cao W.S."/>
+<person name="Wang J."/>
+<person name="Chen W."/>
+<person name="Cong L."/>
+<person name="Deng Y."/>
+<person name="Dong W."/>
+<person name="Han Y."/>
+<person name="Hu W."/>
+<person name="Lei M."/>
+<person name="Li C."/>
+<person name="Li G."/>
+<person name="Li G."/>
+<person name="Li H."/>
+<person name="Li S."/>
+<person name="Li S."/>
+<person name="Li W."/>
+<person name="Li W."/>
+<person name="Lin W."/>
+<person name="Liu J."/>
+<person name="Liu Z."/>
+<person name="Lu H."/>
+<person name="Ni P."/>
+<person name="Qi Q."/>
+<person name="Sun Y."/>
+<person name="Tang L."/>
+<person name="Tong Z."/>
+<person name="Wang J."/>
+<person name="Wang X."/>
+<person name="Wu Q."/>
+<person name="Xi Y."/>
+<person name="Xu Z."/>
+<person name="Yang L."/>
+<person name="Ye C."/>
+<person name="Ye J."/>
+<person name="Zhang B."/>
+<person name="Zhang F."/>
+<person name="Zhang J."/>
+<person name="Zhang X."/>
+<person name="Zhou J."/>
+<person name="Yang H."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC RNA]</scope>
+<source>
+<strain>Isolate BJ01</strain>
+<strain>Isolate BJ02</strain>
+<strain>Isolate BJ03</strain>
+<strain>Isolate BJ04</strain>
+<strain>Isolate GD01</strain>
+</source>
+</reference>
+<reference key="6">
+<citation type="submission" date="2003-05" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome of SARS coronavirus clone TW1.</title>
+<authorList>
+<person name="Yeh S.-H."/>
+<person name="Kao C.-L."/>
+<person name="Tsai C.-Y."/>
+<person name="Liu C.-J."/>
+<person name="Chen D.-S."/>
+<person name="Chen P.-J."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC RNA]</scope>
+<source>
+<strain>Isolate TW1</strain>
+</source>
+</reference>
+<reference key="7">
+<citation type="submission" date="2003-05" db="EMBL/GenBank/DDBJ databases">
+<title>SARS virus is a close relative of type II coronaviruses.</title>
+<authorList>
+<person name="Eickmann M."/>
+<person name="Becker S."/>
+<person name="Klenk H.-D."/>
+<person name="Doerr H.W."/>
+<person name="Stadler K."/>
+<person name="Censini S."/>
+<person name="Guidotti S."/>
+<person name="Masignani V."/>
+<person name="Scarselli M."/>
+<person name="Mora M."/>
+<person name="Donati C."/>
+<person name="Han J."/>
+<person name="Song H.C."/>
+<person name="Abrignani S."/>
+<person name="Covacci A."/>
+<person name="Rappuoli R."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC RNA]</scope>
+<source>
+<strain>Isolate FRA</strain>
+</source>
+</reference>
+<reference key="8">
+<citation type="submission" date="2003-05" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Thiel V."/>
+<person name="Hertzig T."/>
+<person name="Putics A."/>
+<person name="Ivanov K.A."/>
+<person name="Schelle B."/>
+<person name="Bayer S."/>
+<person name="Scheiner B."/>
+<person name="Weinand H."/>
+<person name="Weissbrich B."/>
+<person name="Ziebuhr J."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC RNA]</scope>
+<source>
+<strain>Isolate Frankfurt 1</strain>
+</source>
+</reference>
+<reference key="9">
+<citation type="submission" date="2003-07" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Chang J.-G.C."/>
+<person name="Lin T.-H."/>
+<person name="Chen C.-M."/>
+<person name="Lin C.-S."/>
+<person name="Chan W.-L."/>
+<person name="Shih M.-C."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC RNA]</scope>
+<source>
+<strain>Isolate Taiwan TC1</strain>
+<strain>Isolate Taiwan TC2</strain>
+<strain>Isolate Taiwan TC3</strain>
+</source>
+</reference>
+<reference key="10">
+<citation type="submission" date="2003-07" db="EMBL/GenBank/DDBJ databases">
+<title>The complete genome of SARS coronavirus TWH.</title>
+<authorList>
+<person name="Shu H.Y."/>
+<person name="Wu K.M."/>
+<person name="Tsai S.F."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC RNA]</scope>
+<source>
+<strain>Isolate TWH</strain>
+<strain>Isolate TWJ</strain>
+<strain>Isolate TWK</strain>
+<strain>Isolate TWS</strain>
+<strain>Isolate TWY</strain>
+</source>
+</reference>
+<reference key="11">
+<citation type="submission" date="2003-07" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Canducci F."/>
+<person name="Clementi M."/>
+<person name="Poli G."/>
+<person name="Vicenzi E."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC RNA]</scope>
+<source>
+<strain>Isolate HSR 1</strain>
+</source>
+</reference>
+<reference key="12">
+<citation type="submission" date="2003-10" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Balotta C."/>
+<person name="Corvasce S."/>
+<person name="Violin M."/>
+<person name="Galli M."/>
+<person name="Moroni M."/>
+<person name="Vigevani G.M."/>
+<person name="Ruan Y.J."/>
+<person name="Salemi M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC RNA]</scope>
+<source>
+<strain>Isolate AS</strain>
+</source>
+</reference>
+<reference key="13">
+<citation type="submission" date="2004-01" db="EMBL/GenBank/DDBJ databases">
+<title>Analysis of SARS coronavirus genome in Shanghai isolates.</title>
+<authorList>
+<person name="Yuan Z."/>
+<person name="Zhang X."/>
+<person name="Hu Y."/>
+<person name="Lan S."/>
+<person name="Wang H."/>
+<person name="Zhou Z."/>
+<person name="Wen Y."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC RNA]</scope>
+<source>
+<strain>Isolate Shanghai QXC1</strain>
+</source>
+</reference>
+<reference key="14">
+<citation type="submission" date="2003-06" db="EMBL/GenBank/DDBJ databases">
+<authorList>
+<person name="Yuan Z."/>
+<person name="Zhang X."/>
+<person name="Hu Y."/>
+<person name="Lan S."/>
+<person name="Wang H."/>
+<person name="Zhou Z."/>
+<person name="Wen Y."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC RNA] OF 32-122</scope>
+<source>
+<strain>Isolate Shanghai LY</strain>
+</source>
+</reference>
+<reference key="15">
+<citation type="journal article" date="2005" name="Structure" volume="13" first="75" last="85">
+<title>Structure and intracellular targeting of the SARS-coronavirus Orf7a accessory protein.</title>
+<authorList>
+<person name="Nelson C.A."/>
+<person name="Pekosz A."/>
+<person name="Lee C.A."/>
+<person name="Diamond M.S."/>
+<person name="Fremont D.H."/>
+</authorList>
+<dbReference type="PubMed" id="15642263"/>
+<dbReference type="DOI" id="10.1016/j.str.2004.10.010"/>
+</citation>
+<scope>PEPTIDE SEQUENCE OF 16-29</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>X-RAY CRYSTALLOGRAPHY (1.8 ANGSTROMS) OF 16-96</scope>
+</reference>
+<reference key="16">
+<citation type="journal article" date="2004" name="J. Virol." volume="78" first="6723" last="6734">
+<title>A novel severe acute respiratory syndrome coronavirus protein, U274, is transported to the cell surface and undergoes endocytosis.</title>
+<authorList>
+<person name="Tan Y.-J."/>
+<person name="Teng E."/>
+<person name="Shen S."/>
+<person name="Tan T.H.P."/>
+<person name="Goh P.-Y."/>
+<person name="Fielding B.C."/>
+<person name="Ooi E.-E."/>
+<person name="Tan H.-C."/>
+<person name="Lim S.G."/>
+<person name="Hong W."/>
+</authorList>
+<dbReference type="PubMed" id="15194747"/>
+<dbReference type="DOI" id="10.1128/jvi.78.13.6723-6734.2004"/>
+</citation>
+<scope>INTERACTION WITH ACCESSORY PROTEIN 3A</scope>
+</reference>
+<reference key="17">
+<citation type="journal article" date="2004" name="J. Virol." volume="78" first="7311" last="7318">
+<title>Characterization of a unique group-specific protein (U122) of the severe acute respiratory syndrome coronavirus.</title>
+<authorList>
+<person name="Fielding B.C."/>
+<person name="Tan Y.-J."/>
+<person name="Shuo S."/>
+<person name="Tan T.H.P."/>
+<person name="Ooi E.-E."/>
+<person name="Lim S.G."/>
+<person name="Hong W."/>
+<person name="Goh P.-Y."/>
+</authorList>
+<dbReference type="PubMed" id="15220404"/>
+<dbReference type="DOI" id="10.1128/jvi.78.14.7311-7318.2004"/>
+</citation>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>DI-LYSINE MOTIF</scope>
+<scope>MUTAGENESIS OF 14-SER--TYR-18 AND 118-LYS--LYS-120</scope>
+</reference>
+<reference key="18">
+<citation type="journal article" date="2004" name="J. Virol." volume="78" first="14043" last="14047">
+<title>Overexpression of 7a, a protein specifically encoded by the severe acute respiratory syndrome coronavirus, induces apoptosis via a caspase-dependent pathway.</title>
+<authorList>
+<person name="Tan Y.-J."/>
+<person name="Fielding B.C."/>
+<person name="Goh P.-Y."/>
+<person name="Shen S."/>
+<person name="Tan T.H.P."/>
+<person name="Lim S.G."/>
+<person name="Hong W."/>
+</authorList>
+<dbReference type="PubMed" id="15564512"/>
+<dbReference type="DOI" id="10.1128/jvi.78.24.14043-14047.2004"/>
+</citation>
+<scope>FUNCTION</scope>
+</reference>
+<reference key="19">
+<citation type="journal article" date="2006" name="J. Virol." volume="80" first="7287" last="7294">
+<title>Severe acute respiratory syndrome coronavirus 7a accessory protein is a viral structural protein.</title>
+<authorList>
+<person name="Huang C."/>
+<person name="Ito N."/>
+<person name="Tseng C.-T.K."/>
+<person name="Makino S."/>
+</authorList>
+<dbReference type="PubMed" id="16840309"/>
+<dbReference type="DOI" id="10.1128/jvi.00414-06"/>
+</citation>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>INTERACTION WITH SPIKE GLYCOPROTEIN</scope>
+</reference>
+<reference key="20">
+<citation type="journal article" date="2006" name="Adv. Exp. Med. Biol." volume="581" first="115" last="120">
+<title>Structure, expression, and intracellular localization of the SARS-CoV accessory proteins 7a and 7b.</title>
+<authorList>
+<person name="Pekosz A."/>
+<person name="Schaecher S.R."/>
+<person name="Diamond M.S."/>
+<person name="Fremont D.H."/>
+<person name="Sims A.C."/>
+<person name="Baric R.S."/>
+</authorList>
+<dbReference type="PubMed" id="17037516"/>
+<dbReference type="DOI" id="10.1007/978-0-387-33012-9_20"/>
+</citation>
+<scope>SUBCELLULAR LOCATION</scope>
+</reference>
+<reference key="21">
+<citation type="journal article" date="2006" name="Biochem. Biophys. Res. Commun." volume="343" first="1201" last="1208">
+<title>Severe acute respiratory syndrome coronavirus protein 7a interacts with hSGT.</title>
+<authorList>
+<person name="Fielding B.C."/>
+<person name="Gunalan V."/>
+<person name="Tan T.H.P."/>
+<person name="Chou C.-F."/>
+<person name="Shen S."/>
+<person name="Khan S."/>
+<person name="Lim S.G."/>
+<person name="Hong W."/>
+<person name="Tan Y.-J."/>
+</authorList>
+<dbReference type="PubMed" id="16580632"/>
+<dbReference type="DOI" id="10.1016/j.bbrc.2006.03.091"/>
+</citation>
+<scope>INTERACTION WITH M PROTEIN; E PROTEIN AND HUMAN SGT</scope>
+</reference>
+<reference key="22">
+<citation type="journal article" date="2006" name="J. Biomed. Sci." volume="13" first="281" last="293">
+<title>Solution structure of the X4 protein coded by the SARS related coronavirus reveals an immunoglobulin like fold and suggests a binding activity to integrin I domains.</title>
+<authorList>
+<person name="Haenel K."/>
+<person name="Stangler T."/>
+<person name="Stoldt M."/>
+<person name="Willbold D."/>
+</authorList>
+<dbReference type="PubMed" id="16328780"/>
+<dbReference type="DOI" id="10.1007/s11373-005-9043-9"/>
+</citation>
+<scope>STRUCTURE BY NMR OF 16-99</scope>
+</reference>
+<reference key="23">
+<citation type="journal article" date="2007" name="Biol. Chem." volume="388" first="1325" last="1332">
+<title>SARS-CoV accessory protein 7a directly interacts with human LFA-1.</title>
+<authorList>
+<person name="Haenel K."/>
+<person name="Willbold D."/>
+</authorList>
+<dbReference type="PubMed" id="18020948"/>
+<dbReference type="DOI" id="10.1515/bc.2007.157"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>INTERACTION WITH HOST ITGAL</scope>
+</reference>
+<reference key="24">
+<citation type="journal article" date="2010" name="J. Virol." volume="84" first="10395" last="10401">
+<title>The 7a accessory protein of severe acute respiratory syndrome coronavirus acts as an RNA silencing suppressor.</title>
+<authorList>
+<person name="Karjee S."/>
+<person name="Minhas A."/>
+<person name="Sood V."/>
+<person name="Ponia S.S."/>
+<person name="Banerjea A.C."/>
+<person name="Chow V.T."/>
+<person name="Mukherjee S.K."/>
+<person name="Lal S.K."/>
+</authorList>
+<dbReference type="PubMed" id="20631126"/>
+<dbReference type="DOI" id="10.1128/jvi.00748-10"/>
+</citation>
+<scope>FUNCTION</scope>
+</reference>
+<reference key="25">
+<citation type="journal article" date="2015" name="J. Virol." volume="89" first="11820" last="11833">
+<title>Severe Acute Respiratory Syndrome Coronavirus ORF7a Inhibits Bone Marrow Stromal Antigen 2 Virion Tethering through a Novel Mechanism of Glycosylation Interference.</title>
+<authorList>
+<person name="Taylor J.K."/>
+<person name="Coleman C.M."/>
+<person name="Postel S."/>
+<person name="Sisk J.M."/>
+<person name="Bernbaum J.G."/>
+<person name="Venkataraman T."/>
+<person name="Sundberg E.J."/>
+<person name="Frieman M.B."/>
+</authorList>
+<dbReference type="PubMed" id="26378163"/>
+<dbReference type="DOI" id="10.1128/jvi.02274-15"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>INTERACTION WITH HOST BST2</scope>
+</reference>
+<comment type="function">
+<text evidence="8 11 12 13">Plays a role as antagonist of host tetherin (BST2), disrupting its antiviral effect. Acts by binding to BST2 thereby interfering with its glycosylation. May suppress small interfering RNA (siRNA). May bind to host ITGAL, thereby playing a role in attachment or modulation of leukocytes.</text>
+</comment>
+<comment type="subunit">
+<text evidence="6 9 10 11 13">Interacts with the spike glycoprotein (PubMed:16840309). Interacts with M protein (PubMed:16580632). Interacts with E protein (PubMed:16580632). Interacts with the ORF3a protein (PubMed:15194747). Interacts with human SGT (PubMed:16580632). Interacts with host ITGAL (PubMed:18020948). Interacts with host BST2 (PubMed:26378163).</text>
+</comment>
+<comment type="interaction">
+<interactant intactId="EBI-25492879">
+<id>P59635</id>
+</interactant>
+<interactant intactId="EBI-347996">
+<id>O43765</id>
+<label>SGTA</label>
+</interactant>
+<organismsDiffer>true</organismsDiffer>
+<experiments>3</experiments>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location>Virion</location>
+</subcellularLocation>
+<subcellularLocation>
+<location>Host endoplasmic reticulum membrane</location>
+<topology>Single-pass membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location>Host endoplasmic reticulum-Golgi intermediate compartment membrane</location>
+<topology>Single-pass type I membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location>Host Golgi apparatus membrane</location>
+<topology>Single-pass membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="domain">
+<text evidence="3">The di-lysine motif confers endoplasmic reticulum localization for type I membrane proteins.</text>
+</comment>
+<dbReference type="EMBL" id="AY278741">
+<property type="protein sequence ID" value="AAP13449.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY274119">
+<property type="protein sequence ID" value="AAP41043.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY282752">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY278554">
+<property type="protein sequence ID" value="AAP13573.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY278491">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY278487">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY278488">
+<property type="protein sequence ID" value="AAP30036.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY278489">
+<property type="protein sequence ID" value="AAP51233.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY278490">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY279354">
+<property type="status" value="NOT_ANNOTATED_CDS"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY291451">
+<property type="protein sequence ID" value="AAP37023.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY310120">
+<property type="protein sequence ID" value="AAP50491.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY291315">
+<property type="protein sequence ID" value="AAP33703.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY338174">
+<property type="protein sequence ID" value="AAQ01603.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY338175">
+<property type="protein sequence ID" value="AAQ01615.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY348314">
+<property type="protein sequence ID" value="AAP97888.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP006557">
+<property type="protein sequence ID" value="BAC81354.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP006558">
+<property type="protein sequence ID" value="BAC81368.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP006559">
+<property type="protein sequence ID" value="BAC81382.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP006560">
+<property type="protein sequence ID" value="BAC81396.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AP006561">
+<property type="protein sequence ID" value="BAC81410.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY323977">
+<property type="protein sequence ID" value="AAP72980.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY427439">
+<property type="protein sequence ID" value="AAQ94066.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY463059">
+<property type="protein sequence ID" value="AAP82982.2"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AY322208">
+<property type="protein sequence ID" value="AAP82970.1"/>
+<property type="molecule type" value="Genomic_RNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_828857.1">
+<property type="nucleotide sequence ID" value="NC_004718.3"/>
+</dbReference>
+<dbReference type="PDB" id="1XAK">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="1.80"/>
+<property type="chains" value="A=14-96"/>
+</dbReference>
+<dbReference type="PDB" id="1YO4">
+<property type="method" value="NMR"/>
+<property type="chains" value="A=16-99"/>
+</dbReference>
+<dbReference type="PDBsum" id="1XAK"/>
+<dbReference type="PDBsum" id="1YO4"/>
+<dbReference type="BMRB" id="P59635"/>
+<dbReference type="SMR" id="P59635"/>
+<dbReference type="BioGRID" id="4383920">
+<property type="interactions" value="35"/>
+</dbReference>
+<dbReference type="ELM" id="P59635"/>
+<dbReference type="IntAct" id="P59635">
+<property type="interactions" value="35"/>
+</dbReference>
+<dbReference type="PRIDE" id="P59635"/>
+<dbReference type="GeneID" id="1489674"/>
+<dbReference type="KEGG" id="vg:1489674"/>
+<dbReference type="Reactome" id="R-HSA-9678110">
+<property type="pathway name" value="Attachment and Entry"/>
+</dbReference>
+<dbReference type="Reactome" id="R-HSA-9679509">
+<property type="pathway name" value="Virion Assembly and Release"/>
+</dbReference>
+<dbReference type="SIGNOR" id="P59635"/>
+<dbReference type="EvolutionaryTrace" id="P59635"/>
+<dbReference type="Proteomes" id="UP000000354">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000103670">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000109640">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000116947">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000121636">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000131569">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000131955">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000137377">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000138690">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000143093">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000145651">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000146108">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000146181">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000146296">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000148194">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000153467">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000160648">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000164441">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="Proteomes" id="UP000172416">
+<property type="component" value="Genome"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044165">
+<property type="term" value="C:host cell endoplasmic reticulum"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044167">
+<property type="term" value="C:host cell endoplasmic reticulum membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044173">
+<property type="term" value="C:host cell endoplasmic reticulum-Golgi intermediate compartment membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044177">
+<property type="term" value="C:host cell Golgi apparatus"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044178">
+<property type="term" value="C:host cell Golgi membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019012">
+<property type="term" value="C:virion"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-SubCell"/>
+</dbReference>
+<dbReference type="GO" id="GO:0019051">
+<property type="term" value="P:induction by virus of host apoptotic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="DIBU"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039646">
+<property type="term" value="P:modulation by virus of host G0/G1 transition checkpoint"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039587">
+<property type="term" value="P:suppression by virus of host tetherin activity"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0039502">
+<property type="term" value="P:suppression by virus of host type I interferon-mediated signaling pathway"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.60.40.1550">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR014888">
+<property type="entry name" value="NS7A_CoV"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036495">
+<property type="entry name" value="NS7A_sf_CoV"/>
+</dbReference>
+<dbReference type="Pfam" id="PF08779">
+<property type="entry name" value="bCoV_NS7A"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF117066">
+<property type="entry name" value="SSF117066"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51919">
+<property type="entry name" value="X4E"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-1077">G0/G1 host cell cycle checkpoint dysregulation by virus</keyword>
+<keyword id="KW-1038">Host endoplasmic reticulum</keyword>
+<keyword id="KW-1040">Host Golgi apparatus</keyword>
+<keyword id="KW-1043">Host membrane</keyword>
+<keyword id="KW-0945">Host-virus interaction</keyword>
+<keyword id="KW-1090">Inhibition of host innate immune response by virus</keyword>
+<keyword id="KW-1114">Inhibition of host interferon signaling pathway by virus</keyword>
+<keyword id="KW-1084">Inhibition of host tetherin by virus</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-1121">Modulation of host cell cycle by virus</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<keyword id="KW-0899">Viral immunoevasion</keyword>
+<keyword id="KW-0946">Virion</keyword>
+<feature type="signal peptide">
+<location>
+<begin position="1"/>
+<end position="15"/>
+</location>
+</feature>
+<feature type="chain" description="ORF7a protein" id="PRO_0000037435">
+<location>
+<begin position="16"/>
+<end position="122"/>
+</location>
+</feature>
+<feature type="topological domain" description="Virion surface" evidence="4">
+<location>
+<begin position="16"/>
+<end position="96"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="4">
+<location>
+<begin position="97"/>
+<end position="117"/>
+</location>
+</feature>
+<feature type="topological domain" description="Intravirion" evidence="4">
+<location>
+<begin position="118"/>
+<end position="122"/>
+</location>
+</feature>
+<feature type="domain" description="X4e" evidence="5">
+<location>
+<begin position="16"/>
+<end position="81"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="Di-lysine motif">
+<location>
+<begin position="118"/>
+<end position="122"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="5">
+<location>
+<begin position="23"/>
+<end position="58"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="5">
+<location>
+<begin position="35"/>
+<end position="67"/>
+</location>
+</feature>
+<feature type="sequence variant" description="In strain: Isolate Shanghai LY.">
+<original>G</original>
+<variation>A</variation>
+<location>
+<position position="38"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Complete loss of signal sequence cleavage." evidence="7">
+<original>SCELY</original>
+<variation>LLLLL</variation>
+<location>
+<begin position="14"/>
+<end position="18"/>
+</location>
+</feature>
+<feature type="mutagenesis site" description="Induces rapid exit from the endoplasmic reticulum." evidence="7">
+<original>KRK</original>
+<variation>ERE</variation>
+<location>
+<begin position="118"/>
+<end position="120"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="16"/>
+<end position="24"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="27"/>
+<end position="32"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="34"/>
+<end position="37"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="39"/>
+<end position="44"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="50"/>
+<end position="52"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="53"/>
+<end position="57"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="60"/>
+<end position="66"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="72"/>
+<end position="80"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="82"/>
+<end position="84"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="89"/>
+<end position="93"/>
+</location>
+</feature>
+<feature type="strand" evidence="2">
+<location>
+<begin position="95"/>
+<end position="97"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1XAK"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="1YO4"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000250"/>
+<evidence key="4" type="ECO:0000255"/>
+<evidence key="5" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU01267"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15194747"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15220404"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="15564512"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16580632"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="16840309"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="18020948"/>
+</source>
+</evidence>
+<evidence key="12" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="20631126"/>
+</source>
+</evidence>
+<evidence key="13" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="26378163"/>
+</source>
+</evidence>
+<sequence length="122" mass="13941" checksum="6D8D8D949B0DB4B5" modified="2003-04-23" version="1" precursor="true">MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFACADGTRHTYQLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRKTE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

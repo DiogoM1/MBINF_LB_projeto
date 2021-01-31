@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2013-05-01" modified="2020-02-26" version="15">
+<accession>M1V4E0</accession>
+<name>M1V4E0_CYAM1</name>
+<protein>
+<submittedName>
+<fullName evidence="2">Uncharacterized protein</fullName>
+</submittedName>
+</protein>
+<gene>
+<name type="ORF" evidence="2">CYME_CME056C</name>
+</gene>
+<organism evidence="2 3">
+<name type="scientific">Cyanidioschyzon merolae (strain 10D)</name>
+<name type="common">Red alga</name>
+<dbReference type="NCBI Taxonomy" id="280699"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Rhodophyta</taxon>
+<taxon>Bangiophyceae</taxon>
+<taxon>Cyanidiales</taxon>
+<taxon>Cyanidiaceae</taxon>
+<taxon>Cyanidioschyzon</taxon>
+</lineage>
+</organism>
+<reference key="1" evidence="2 3">
+<citation type="journal article" date="2004" name="Nature" volume="428" first="653" last="657">
+<title>Genome sequence of the ultrasmall unicellular red alga Cyanidioschyzon merolae 10D.</title>
+<authorList>
+<person name="Matsuzaki M."/>
+<person name="Misumi O."/>
+<person name="Shin-i T."/>
+<person name="Maruyama S."/>
+<person name="Takahara M."/>
+<person name="Miyagishima S."/>
+<person name="Mori T."/>
+<person name="Nishida K."/>
+<person name="Yagisawa F."/>
+<person name="Nishida K."/>
+<person name="Yoshida Y."/>
+<person name="Nishimura Y."/>
+<person name="Nakao S."/>
+<person name="Kobayashi T."/>
+<person name="Momoyama Y."/>
+<person name="Higashiyama T."/>
+<person name="Minoda A."/>
+<person name="Sano M."/>
+<person name="Nomoto H."/>
+<person name="Oishi K."/>
+<person name="Hayashi H."/>
+<person name="Ohta F."/>
+<person name="Nishizaka S."/>
+<person name="Haga S."/>
+<person name="Miura S."/>
+<person name="Morishita T."/>
+<person name="Kabeya Y."/>
+<person name="Terasawa K."/>
+<person name="Suzuki Y."/>
+<person name="Ishii Y."/>
+<person name="Asakawa S."/>
+<person name="Takano H."/>
+<person name="Ohta N."/>
+<person name="Kuroiwa H."/>
+<person name="Tanaka K."/>
+<person name="Shimizu N."/>
+<person name="Sugano S."/>
+<person name="Sato N."/>
+<person name="Nozaki H."/>
+<person name="Ogasawara N."/>
+<person name="Kohara Y."/>
+<person name="Kuroiwa T."/>
+</authorList>
+<dbReference type="PubMed" id="15071595"/>
+<dbReference type="DOI" id="10.1038/nature02398"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">10D</strain>
+</source>
+</reference>
+<reference key="2" evidence="2 3">
+<citation type="journal article" date="2007" name="BMC Biol." volume="5" first="28" last="28">
+<title>A 100%-complete sequence reveals unusually simple genomic features in the hot-spring red alga Cyanidioschyzon merolae.</title>
+<authorList>
+<person name="Nozaki H."/>
+<person name="Takano H."/>
+<person name="Misumi O."/>
+<person name="Terasawa K."/>
+<person name="Matsuzaki M."/>
+<person name="Maruyama S."/>
+<person name="Nishida K."/>
+<person name="Yagisawa F."/>
+<person name="Yoshida Y."/>
+<person name="Fujiwara T."/>
+<person name="Takio S."/>
+<person name="Tamura K."/>
+<person name="Chung S.J."/>
+<person name="Nakamura S."/>
+<person name="Kuroiwa H."/>
+<person name="Tanaka K."/>
+<person name="Sato N."/>
+<person name="Kuroiwa T."/>
+</authorList>
+<dbReference type="PubMed" id="17623057"/>
+<dbReference type="DOI" id="10.1186/1741-7007-5-28"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+<source>
+<strain evidence="2 3">10D</strain>
+</source>
+</reference>
+<dbReference type="EMBL" id="AP006487">
+<property type="protein sequence ID" value="BAM79285.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="XP_005535571.1">
+<property type="nucleotide sequence ID" value="XM_005535514.1"/>
+</dbReference>
+<dbReference type="EnsemblPlants" id="CME056CT">
+<property type="protein sequence ID" value="CME056CT"/>
+<property type="gene ID" value="CME056C"/>
+</dbReference>
+<dbReference type="GeneID" id="16992755"/>
+<dbReference type="Gramene" id="CME056CT">
+<property type="protein sequence ID" value="CME056CT"/>
+<property type="gene ID" value="CME056C"/>
+</dbReference>
+<dbReference type="KEGG" id="cme:CYME_CME056C"/>
+<dbReference type="HOGENOM" id="CLU_786106_0_0_1"/>
+<dbReference type="Proteomes" id="UP000007014">
+<property type="component" value="Chromosome 5"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<proteinExistence type="predicted"/>
+<keyword id="KW-0472" evidence="1">Membrane</keyword>
+<keyword id="KW-1185" evidence="3">Reference proteome</keyword>
+<keyword id="KW-0812" evidence="1">Transmembrane</keyword>
+<keyword id="KW-1133" evidence="1">Transmembrane helix</keyword>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="15"/>
+<end position="36"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="57"/>
+<end position="78"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="90"/>
+<end position="110"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="131"/>
+<end position="152"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="164"/>
+<end position="185"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="1">
+<location>
+<begin position="206"/>
+<end position="232"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000256">
+<source>
+<dbReference type="SAM" id="Phobius"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000313">
+<source>
+<dbReference type="EMBL" id="BAM79285.1"/>
+</source>
+</evidence>
+<evidence key="3" type="ECO:0000313">
+<source>
+<dbReference type="Proteomes" id="UP000007014"/>
+</source>
+</evidence>
+<sequence length="353" mass="39696" checksum="34CC278477781C25" modified="2013-05-01" version="1">MVDFHLLLSRLWEKLVLTGPVTLCVGLQLLTTFRSFRQSEGDLLLRILRLATYELPFFMNLVFWTCTALAATLSSSSYTDRGNFHRSSVASFSLGLFVFVDSTRFIFEHLEGSIFQKRRLARPVQPANDPHAVYIHLACIAVCLVYIFTSFWKKWGVLSSDVTFVNFFTALIVIYVNRISLELACTAQQANSVEFFAGCELATKRVLLHGMISAILGFAVMWFNMLPILMVVPSKRTTRLEIAIKRVAALPGCRRIISALLWRNLEGHWEAAVSMAVCDELSQHLVASLARGCMKSCADDVTSMAVLERENAVPVRESRQTCERSFGTEHFLDIEQAKSIPTASTCLMHNHAE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>
