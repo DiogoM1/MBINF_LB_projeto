@@ -1,0 +1,1279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1988-11-01" modified="2020-10-07" version="180">
+<accession>P05555</accession>
+<accession>Q8CA73</accession>
+<name>ITAM_MOUSE</name>
+<protein>
+<recommendedName>
+<fullName>Integrin alpha-M</fullName>
+</recommendedName>
+<alternativeName>
+<fullName>CD11 antigen-like family member B</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>CR-3 alpha chain</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Cell surface glycoprotein MAC-1 subunit alpha</fullName>
+</alternativeName>
+<alternativeName>
+<fullName>Leukocyte adhesion receptor MO1</fullName>
+</alternativeName>
+<cdAntigenName>CD11b</cdAntigenName>
+</protein>
+<gene>
+<name type="primary">Itgam</name>
+</gene>
+<organism>
+<name type="scientific">Mus musculus</name>
+<name type="common">Mouse</name>
+<dbReference type="NCBI Taxonomy" id="10090"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Myomorpha</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+<taxon>Mus</taxon>
+<taxon>Mus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="journal article" date="1988" name="EMBO J." volume="7" first="1371" last="1378">
+<title>Amino acid sequence of the murine Mac-1 alpha chain reveals homology with the integrin family and an additional domain related to von Willebrand factor.</title>
+<authorList>
+<person name="Pytela R."/>
+</authorList>
+<dbReference type="PubMed" id="3044779"/>
+<dbReference type="DOI" id="10.1002/j.1460-2075.1988.tb02953.x"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)</scope>
+</reference>
+<reference key="2">
+<citation type="journal article" date="2005" name="Science" volume="309" first="1559" last="1563">
+<title>The transcriptional landscape of the mammalian genome.</title>
+<authorList>
+<person name="Carninci P."/>
+<person name="Kasukawa T."/>
+<person name="Katayama S."/>
+<person name="Gough J."/>
+<person name="Frith M.C."/>
+<person name="Maeda N."/>
+<person name="Oyama R."/>
+<person name="Ravasi T."/>
+<person name="Lenhard B."/>
+<person name="Wells C."/>
+<person name="Kodzius R."/>
+<person name="Shimokawa K."/>
+<person name="Bajic V.B."/>
+<person name="Brenner S.E."/>
+<person name="Batalov S."/>
+<person name="Forrest A.R."/>
+<person name="Zavolan M."/>
+<person name="Davis M.J."/>
+<person name="Wilming L.G."/>
+<person name="Aidinis V."/>
+<person name="Allen J.E."/>
+<person name="Ambesi-Impiombato A."/>
+<person name="Apweiler R."/>
+<person name="Aturaliya R.N."/>
+<person name="Bailey T.L."/>
+<person name="Bansal M."/>
+<person name="Baxter L."/>
+<person name="Beisel K.W."/>
+<person name="Bersano T."/>
+<person name="Bono H."/>
+<person name="Chalk A.M."/>
+<person name="Chiu K.P."/>
+<person name="Choudhary V."/>
+<person name="Christoffels A."/>
+<person name="Clutterbuck D.R."/>
+<person name="Crowe M.L."/>
+<person name="Dalla E."/>
+<person name="Dalrymple B.P."/>
+<person name="de Bono B."/>
+<person name="Della Gatta G."/>
+<person name="di Bernardo D."/>
+<person name="Down T."/>
+<person name="Engstrom P."/>
+<person name="Fagiolini M."/>
+<person name="Faulkner G."/>
+<person name="Fletcher C.F."/>
+<person name="Fukushima T."/>
+<person name="Furuno M."/>
+<person name="Futaki S."/>
+<person name="Gariboldi M."/>
+<person name="Georgii-Hemming P."/>
+<person name="Gingeras T.R."/>
+<person name="Gojobori T."/>
+<person name="Green R.E."/>
+<person name="Gustincich S."/>
+<person name="Harbers M."/>
+<person name="Hayashi Y."/>
+<person name="Hensch T.K."/>
+<person name="Hirokawa N."/>
+<person name="Hill D."/>
+<person name="Huminiecki L."/>
+<person name="Iacono M."/>
+<person name="Ikeo K."/>
+<person name="Iwama A."/>
+<person name="Ishikawa T."/>
+<person name="Jakt M."/>
+<person name="Kanapin A."/>
+<person name="Katoh M."/>
+<person name="Kawasawa Y."/>
+<person name="Kelso J."/>
+<person name="Kitamura H."/>
+<person name="Kitano H."/>
+<person name="Kollias G."/>
+<person name="Krishnan S.P."/>
+<person name="Kruger A."/>
+<person name="Kummerfeld S.K."/>
+<person name="Kurochkin I.V."/>
+<person name="Lareau L.F."/>
+<person name="Lazarevic D."/>
+<person name="Lipovich L."/>
+<person name="Liu J."/>
+<person name="Liuni S."/>
+<person name="McWilliam S."/>
+<person name="Madan Babu M."/>
+<person name="Madera M."/>
+<person name="Marchionni L."/>
+<person name="Matsuda H."/>
+<person name="Matsuzawa S."/>
+<person name="Miki H."/>
+<person name="Mignone F."/>
+<person name="Miyake S."/>
+<person name="Morris K."/>
+<person name="Mottagui-Tabar S."/>
+<person name="Mulder N."/>
+<person name="Nakano N."/>
+<person name="Nakauchi H."/>
+<person name="Ng P."/>
+<person name="Nilsson R."/>
+<person name="Nishiguchi S."/>
+<person name="Nishikawa S."/>
+<person name="Nori F."/>
+<person name="Ohara O."/>
+<person name="Okazaki Y."/>
+<person name="Orlando V."/>
+<person name="Pang K.C."/>
+<person name="Pavan W.J."/>
+<person name="Pavesi G."/>
+<person name="Pesole G."/>
+<person name="Petrovsky N."/>
+<person name="Piazza S."/>
+<person name="Reed J."/>
+<person name="Reid J.F."/>
+<person name="Ring B.Z."/>
+<person name="Ringwald M."/>
+<person name="Rost B."/>
+<person name="Ruan Y."/>
+<person name="Salzberg S.L."/>
+<person name="Sandelin A."/>
+<person name="Schneider C."/>
+<person name="Schoenbach C."/>
+<person name="Sekiguchi K."/>
+<person name="Semple C.A."/>
+<person name="Seno S."/>
+<person name="Sessa L."/>
+<person name="Sheng Y."/>
+<person name="Shibata Y."/>
+<person name="Shimada H."/>
+<person name="Shimada K."/>
+<person name="Silva D."/>
+<person name="Sinclair B."/>
+<person name="Sperling S."/>
+<person name="Stupka E."/>
+<person name="Sugiura K."/>
+<person name="Sultana R."/>
+<person name="Takenaka Y."/>
+<person name="Taki K."/>
+<person name="Tammoja K."/>
+<person name="Tan S.L."/>
+<person name="Tang S."/>
+<person name="Taylor M.S."/>
+<person name="Tegner J."/>
+<person name="Teichmann S.A."/>
+<person name="Ueda H.R."/>
+<person name="van Nimwegen E."/>
+<person name="Verardo R."/>
+<person name="Wei C.L."/>
+<person name="Yagi K."/>
+<person name="Yamanishi H."/>
+<person name="Zabarovsky E."/>
+<person name="Zhu S."/>
+<person name="Zimmer A."/>
+<person name="Hide W."/>
+<person name="Bult C."/>
+<person name="Grimmond S.M."/>
+<person name="Teasdale R.D."/>
+<person name="Liu E.T."/>
+<person name="Brusic V."/>
+<person name="Quackenbush J."/>
+<person name="Wahlestedt C."/>
+<person name="Mattick J.S."/>
+<person name="Hume D.A."/>
+<person name="Kai C."/>
+<person name="Sasaki D."/>
+<person name="Tomaru Y."/>
+<person name="Fukuda S."/>
+<person name="Kanamori-Katayama M."/>
+<person name="Suzuki M."/>
+<person name="Aoki J."/>
+<person name="Arakawa T."/>
+<person name="Iida J."/>
+<person name="Imamura K."/>
+<person name="Itoh M."/>
+<person name="Kato T."/>
+<person name="Kawaji H."/>
+<person name="Kawagashira N."/>
+<person name="Kawashima T."/>
+<person name="Kojima M."/>
+<person name="Kondo S."/>
+<person name="Konno H."/>
+<person name="Nakano K."/>
+<person name="Ninomiya N."/>
+<person name="Nishio T."/>
+<person name="Okada M."/>
+<person name="Plessy C."/>
+<person name="Shibata K."/>
+<person name="Shiraki T."/>
+<person name="Suzuki S."/>
+<person name="Tagami M."/>
+<person name="Waki K."/>
+<person name="Watahiki A."/>
+<person name="Okamura-Oho Y."/>
+<person name="Suzuki H."/>
+<person name="Kawai J."/>
+<person name="Hayashizaki Y."/>
+</authorList>
+<dbReference type="PubMed" id="16141072"/>
+<dbReference type="DOI" id="10.1126/science.1112014"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2)</scope>
+<source>
+<strain>C57BL/6J</strain>
+<tissue>Spinal cord</tissue>
+</source>
+</reference>
+<reference key="3">
+<citation type="journal article" date="1986" name="Proc. Natl. Acad. Sci. U.S.A." volume="83" first="5644" last="5648">
+<title>A partial genomic DNA clone for the alpha subunit of the mouse complement receptor type 3 and cellular adhesion molecule Mac-1.</title>
+<authorList>
+<person name="Sastre L."/>
+<person name="Roman J.M."/>
+<person name="Teplow D.B."/>
+<person name="Dreyer W.J."/>
+<person name="Gee C.E."/>
+<person name="Larson R.S."/>
+<person name="Roberts T.M."/>
+<person name="Springer T.A."/>
+</authorList>
+<dbReference type="PubMed" id="2942940"/>
+<dbReference type="DOI" id="10.1073/pnas.83.15.5644"/>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 11-45</scope>
+<source>
+<strain>BALB/cJ</strain>
+<tissue>Spleen</tissue>
+</source>
+</reference>
+<reference key="4">
+<citation type="journal article" date="1985" name="Nature" volume="314" first="540" last="542">
+<title>Sequence homology of the LFA-1 and Mac-1 leukocyte adhesion glycoproteins and unexpected relation to leukocyte interferon.</title>
+<authorList>
+<person name="Springer T.A."/>
+<person name="Teplow D.B."/>
+<person name="Dreyer W.J."/>
+</authorList>
+<dbReference type="PubMed" id="3887182"/>
+<dbReference type="DOI" id="10.1038/314540a0"/>
+</citation>
+<scope>PROTEIN SEQUENCE OF 17-28</scope>
+<scope>TISSUE SPECIFICITY</scope>
+</reference>
+<reference key="5">
+<citation type="journal article" date="1996" name="Immunity" volume="5" first="653" last="666">
+<title>A novel role for the beta 2 integrin CD11b/CD18 in neutrophil apoptosis: a homeostatic mechanism in inflammation.</title>
+<authorList>
+<person name="Coxon A."/>
+<person name="Rieu P."/>
+<person name="Barkalow F.J."/>
+<person name="Askari S."/>
+<person name="Sharpe A.H."/>
+<person name="von Andrian U.H."/>
+<person name="Arnaout M.A."/>
+<person name="Mayadas T.N."/>
+</authorList>
+<dbReference type="PubMed" id="8986723"/>
+<dbReference type="DOI" id="10.1016/s1074-7613(00)80278-2"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+</reference>
+<reference key="6">
+<citation type="journal article" date="1997" name="J. Exp. Med." volume="186" first="1853" last="1863">
+<title>A role for Mac-1 (CDIIb/CD18) in immune complex-stimulated neutrophil function in vivo: Mac-1 deficiency abrogates sustained Fcgamma receptor-dependent neutrophil adhesion and complement-dependent proteinuria in acute glomerulonephritis.</title>
+<authorList>
+<person name="Tang T."/>
+<person name="Rosenkranz A."/>
+<person name="Assmann K.J."/>
+<person name="Goodman M.J."/>
+<person name="Gutierrez-Ramos J.C."/>
+<person name="Carroll M.C."/>
+<person name="Cotran R.S."/>
+<person name="Mayadas T.N."/>
+</authorList>
+<dbReference type="PubMed" id="9382884"/>
+<dbReference type="DOI" id="10.1084/jem.186.11.1853"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+</reference>
+<reference key="7">
+<citation type="journal article" date="1997" name="Proc. Natl. Acad. Sci. U.S.A." volume="94" first="7526" last="7530">
+<title>A new class of obesity genes encodes leukocyte adhesion receptors.</title>
+<authorList>
+<person name="Dong Z.M."/>
+<person name="Gutierrez-Ramos J.C."/>
+<person name="Coxon A."/>
+<person name="Mayadas T.N."/>
+<person name="Wagner D.D."/>
+</authorList>
+<dbReference type="PubMed" id="9207125"/>
+<dbReference type="DOI" id="10.1073/pnas.94.14.7526"/>
+</citation>
+<scope>DISRUPTION PHENOTYPE</scope>
+</reference>
+<reference key="8">
+<citation type="journal article" date="1998" name="J. Immunol." volume="161" first="6463" last="6467">
+<title>Impaired mast cell development and innate immunity in Mac-1 (CD11b/CD18, CR3)-deficient mice.</title>
+<authorList>
+<person name="Rosenkranz A.R."/>
+<person name="Coxon A."/>
+<person name="Maurer M."/>
+<person name="Gurish M.F."/>
+<person name="Austen K.F."/>
+<person name="Friend D.S."/>
+<person name="Galli S.J."/>
+<person name="Mayadas T.N."/>
+</authorList>
+<dbReference type="PubMed" id="9862668"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>SUBCELLULAR LOCATION</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+</reference>
+<reference key="9">
+<citation type="journal article" date="2008" name="J. Neurosci." volume="28" first="8138" last="8143">
+<title>Developmental neuronal death in hippocampus requires the microglial CD11b integrin and DAP12 immunoreceptor.</title>
+<authorList>
+<person name="Wakselman S."/>
+<person name="Bechade C."/>
+<person name="Roumier A."/>
+<person name="Bernard D."/>
+<person name="Triller A."/>
+<person name="Bessis A."/>
+</authorList>
+<dbReference type="PubMed" id="18685038"/>
+<dbReference type="DOI" id="10.1523/jneurosci.1006-08.2008"/>
+</citation>
+<scope>FUNCTION</scope>
+<scope>TISSUE SPECIFICITY</scope>
+<scope>DISRUPTION PHENOTYPE</scope>
+</reference>
+<reference key="10">
+<citation type="journal article" date="2010" name="Cell" volume="143" first="1174" last="1189">
+<title>A tissue-specific atlas of mouse protein phosphorylation and expression.</title>
+<authorList>
+<person name="Huttlin E.L."/>
+<person name="Jedrychowski M.P."/>
+<person name="Elias J.E."/>
+<person name="Goswami T."/>
+<person name="Rad R."/>
+<person name="Beausoleil S.A."/>
+<person name="Villen J."/>
+<person name="Haas W."/>
+<person name="Sowa M.E."/>
+<person name="Gygi S.P."/>
+</authorList>
+<dbReference type="PubMed" id="21183079"/>
+<dbReference type="DOI" id="10.1016/j.cell.2010.12.001"/>
+</citation>
+<scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+<source>
+<tissue>Brain</tissue>
+<tissue>Brown adipose tissue</tissue>
+<tissue>Lung</tissue>
+<tissue>Spleen</tissue>
+</source>
+</reference>
+<comment type="function">
+<text evidence="3 7 9 11 12">Integrin ITGAM/ITGB2 is implicated in various adhesive interactions of monocytes, macrophages and granulocytes as well as in mediating the uptake of complement-coated particles and pathogens (By similarity). It is identical with CR-3, the receptor for the iC3b fragment of the third complement component. It probably recognizes the R-G-D peptide in C3b. Integrin ITGAM/ITGB2 is also a receptor for fibrinogen, factor X and ICAM1. It recognizes P1 and P2 peptides of fibrinogen gamma chain. Regulates neutrophil migration. In association with beta subunit ITGB2/CD18, required for CD177-PRTN3-mediated activation of TNF primed neutrophils (By similarity). May regulate phagocytosis-induced apoptosis in extravasated neutrophils (By similarity). May play a role in mast cell development (By similarity). Required with TYROBP/DAP12 in microglia to control production of microglial superoxide ions which promote the neuronal apoptosis that occurs during brain development (PubMed:18685038).</text>
+</comment>
+<comment type="subunit">
+<text evidence="3">Heterodimer of an alpha and a beta subunit. ITGAM associates with ITGB2. Found in a complex with CD177 and ITGB2/CD18. Interacts with JAM3. Interacts with THBD. Interacts with complement factor H/CFH; this interaction mediates adhesion of neutrophils to pathogens leading to pathogen clearance.</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="9 12">Cell membrane</location>
+<topology evidence="3">Single-pass type I membrane protein</topology>
+</subcellularLocation>
+<subcellularLocation>
+<location evidence="3">Membrane raft</location>
+<topology evidence="3">Single-pass type I membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="alternative products">
+<event type="alternative splicing"/>
+<isoform>
+<id>P05555-1</id>
+<name>1</name>
+<sequence type="displayed"/>
+</isoform>
+<isoform>
+<id>P05555-2</id>
+<name>2</name>
+<sequence type="described" ref="VSP_010473"/>
+</isoform>
+</comment>
+<comment type="tissue specificity">
+<text evidence="7 8 9 12">Predominantly expressed in monocytes and granulocytes (PubMed:3887182, PubMed:8986723). Expressed in a subset of peritoneal mast cells (PubMed:9862668). Expressed in microglia (at protein level) (PubMed:18685038).</text>
+</comment>
+<comment type="induction">
+<text evidence="12">Induced by lipopolysaccharide (LPS) in mast cells.</text>
+</comment>
+<comment type="domain">
+<text>The integrin I-domain (insert) is a VWFA domain. Integrins with I-domains do not undergo protease cleavage.</text>
+</comment>
+<comment type="disruption phenotype">
+<text evidence="7 9 10 11 12">Mice are born at the expected Mendelian rate (PubMed:8986723). The numbers of blood leukocytes are normal and neutrophils rolling on blood vessels is not affected (PubMed:8986723). Impaired LTB4-induced neutrophil adhesion to venules (PubMed:8986723). Numbers of mast cells in the peritoneal cavity, peritoneal wall and in the dorsal skin are reduced (PubMed:9862668). In an experimental model of thioglycolate-induced peritonitis, abnormal accumulation of recruited neutrophils due to impaired apoptosis (PubMed:8986723). In an experimental model of acute septic peritonitis, 5-fold increase in mortality rate, reduced neutrophil recruitment in the peritoneum, reduced histamine production and impaired bacterial clearence (PubMed:9862668). In experimental model of immune complex-mediated glomerulonephritis, reduced neutrophil accumulation without affecting their initial recruitment and reduced proteinuria (PubMed:9382884). Enhanced susceptibility to high fat diet-induced obesity characterized by a weight increase and higher levels of white and brown fat (PubMed:9207125). Reduced apoptosis in the hippocampus in neonates (PubMed:18685038).</text>
+</comment>
+<comment type="similarity">
+<text evidence="14">Belongs to the integrin alpha chain family.</text>
+</comment>
+<dbReference type="EMBL" id="X07640">
+<property type="protein sequence ID" value="CAA30479.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="AK039444">
+<property type="protein sequence ID" value="BAC30350.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="EMBL" id="M14293">
+<property type="protein sequence ID" value="AAA39484.1"/>
+<property type="molecule type" value="Genomic_DNA"/>
+</dbReference>
+<dbReference type="CCDS" id="CCDS21889.1">
+<molecule id="P05555-1"/>
+</dbReference>
+<dbReference type="PIR" id="S00551">
+<property type="entry name" value="S00551"/>
+</dbReference>
+<dbReference type="PDB" id="6RHV">
+<property type="method" value="X-ray"/>
+<property type="resolution" value="2.29"/>
+<property type="chains" value="C=143-337"/>
+</dbReference>
+<dbReference type="PDBsum" id="6RHV"/>
+<dbReference type="SMR" id="P05555"/>
+<dbReference type="ComplexPortal" id="CPX-3129">
+<property type="entry name" value="Integrin alphaM-beta2 complex"/>
+</dbReference>
+<dbReference type="IntAct" id="P05555">
+<property type="interactions" value="2"/>
+</dbReference>
+<dbReference type="MINT" id="P05555"/>
+<dbReference type="STRING" id="10090.ENSMUSP00000068468"/>
+<dbReference type="ChEMBL" id="CHEMBL3603"/>
+<dbReference type="GlyConnect" id="2401">
+<property type="glycosylation" value="3 N-Linked glycans (3 sites)"/>
+</dbReference>
+<dbReference type="GlyGen" id="P05555">
+<property type="glycosylation" value="16 sites"/>
+</dbReference>
+<dbReference type="PhosphoSitePlus" id="P05555"/>
+<dbReference type="MaxQB" id="P05555"/>
+<dbReference type="PaxDb" id="P05555"/>
+<dbReference type="PeptideAtlas" id="P05555"/>
+<dbReference type="PRIDE" id="P05555"/>
+<dbReference type="ABCD" id="P05555">
+<property type="antibodies" value="1 sequenced antibody"/>
+</dbReference>
+<dbReference type="MGI" id="MGI:96607">
+<property type="gene designation" value="Itgam"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG3637">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="InParanoid" id="P05555"/>
+<dbReference type="PhylomeDB" id="P05555"/>
+<dbReference type="Reactome" id="R-MMU-166016">
+<property type="pathway name" value="Toll Like Receptor 4 (TLR4) Cascade"/>
+</dbReference>
+<dbReference type="Reactome" id="R-MMU-202733">
+<property type="pathway name" value="Cell surface interactions at the vascular wall"/>
+</dbReference>
+<dbReference type="Reactome" id="R-MMU-216083">
+<property type="pathway name" value="Integrin cell surface interactions"/>
+</dbReference>
+<dbReference type="Reactome" id="R-MMU-6798695">
+<property type="pathway name" value="Neutrophil degranulation"/>
+</dbReference>
+<dbReference type="ChiTaRS" id="Itgam">
+<property type="organism name" value="mouse"/>
+</dbReference>
+<dbReference type="PRO" id="PR:P05555"/>
+<dbReference type="Proteomes" id="UP000000589">
+<property type="component" value="Unplaced"/>
+</dbReference>
+<dbReference type="RNAct" id="P05555">
+<property type="molecule type" value="protein"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009986">
+<property type="term" value="C:cell surface"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0009897">
+<property type="term" value="C:external side of plasma membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005615">
+<property type="term" value="C:extracellular space"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0016021">
+<property type="term" value="C:integral component of membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0034688">
+<property type="term" value="C:integrin alphaM-beta2 complex"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005634">
+<property type="term" value="C:nucleus"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0005886">
+<property type="term" value="C:plasma membrane"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044853">
+<property type="term" value="C:plasma membrane raft"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0038024">
+<property type="term" value="F:cargo receptor activity"/>
+<property type="evidence" value="ECO:0000316"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001851">
+<property type="term" value="F:complement component C3b binding"/>
+<property type="evidence" value="ECO:0000316"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0031072">
+<property type="term" value="F:heat shock protein binding"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043395">
+<property type="term" value="F:heparan sulfate proteoglycan binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008201">
+<property type="term" value="F:heparin binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001846">
+<property type="term" value="F:opsonin binding"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044877">
+<property type="term" value="F:protein-containing complex binding"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050798">
+<property type="term" value="P:activated T cell proliferation"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0097242">
+<property type="term" value="P:amyloid-beta clearance"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0097190">
+<property type="term" value="P:apoptotic signaling pathway"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007155">
+<property type="term" value="P:cell adhesion"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:1905114">
+<property type="term" value="P:cell surface receptor signaling pathway involved in cell-cell signaling"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0098609">
+<property type="term" value="P:cell-cell adhesion"/>
+<property type="evidence" value="ECO:0000316"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045123">
+<property type="term" value="P:cellular extravasation"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0150062">
+<property type="term" value="P:complement-mediated synapse pruning"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030900">
+<property type="term" value="P:forebrain development"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007229">
+<property type="term" value="P:integrin-mediated signaling pathway"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0061756">
+<property type="term" value="P:leukocyte adhesion to vascular endothelial cell"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007159">
+<property type="term" value="P:leukocyte cell-cell adhesion"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0002523">
+<property type="term" value="P:leukocyte migration involved in inflammatory response"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0014005">
+<property type="term" value="P:microglia development"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001774">
+<property type="term" value="P:microglial cell activation"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0045963">
+<property type="term" value="P:negative regulation of dopamine metabolic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0001781">
+<property type="term" value="P:neutrophil apoptotic process"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0030593">
+<property type="term" value="P:neutrophil chemotaxis"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006909">
+<property type="term" value="P:phagocytosis"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006911">
+<property type="term" value="P:phagocytosis, engulfment"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0110090">
+<property type="term" value="P:positive regulation of hippocampal neuron apoptotic process"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0060376">
+<property type="term" value="P:positive regulation of mast cell differentiation"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:1904151">
+<property type="term" value="P:positive regulation of microglial cell mediated cytotoxicity"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="UniProtKB"/>
+</dbReference>
+<dbReference type="GO" id="GO:1901216">
+<property type="term" value="P:positive regulation of neuron death"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0043315">
+<property type="term" value="P:positive regulation of neutrophil degranulation"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="MGI"/>
+</dbReference>
+<dbReference type="GO" id="GO:1903223">
+<property type="term" value="P:positive regulation of oxidative stress-induced neuron death"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:2000363">
+<property type="term" value="P:positive regulation of prostaglandin-E synthase activity"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0090314">
+<property type="term" value="P:positive regulation of protein targeting to membrane"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0032930">
+<property type="term" value="P:positive regulation of superoxide anion generation"/>
+<property type="evidence" value="ECO:0000314"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0006898">
+<property type="term" value="P:receptor-mediated endocytosis"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="GO" id="GO:0150064">
+<property type="term" value="P:vertebrate eye-specific patterning"/>
+<property type="evidence" value="ECO:0000315"/>
+<property type="project" value="ARUK-UCL"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.130.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.410">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013517">
+<property type="entry name" value="FG-GAP"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013519">
+<property type="entry name" value="Int_alpha_beta-p"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000413">
+<property type="entry name" value="Integrin_alpha"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013649">
+<property type="entry name" value="Integrin_alpha-2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018184">
+<property type="entry name" value="Integrin_alpha_C_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR028994">
+<property type="entry name" value="Integrin_alpha_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032695">
+<property type="entry name" value="Integrin_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002035">
+<property type="entry name" value="VWF_A"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036465">
+<property type="entry name" value="vWFA_dom_sf"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01839">
+<property type="entry name" value="FG-GAP"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00357">
+<property type="entry name" value="Integrin_alpha"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF08441">
+<property type="entry name" value="Integrin_alpha2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00092">
+<property type="entry name" value="VWA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01185">
+<property type="entry name" value="INTEGRINA"/>
+</dbReference>
+<dbReference type="SMART" id="SM00191">
+<property type="entry name" value="Int_alpha"/>
+<property type="match status" value="5"/>
+</dbReference>
+<dbReference type="SMART" id="SM00327">
+<property type="entry name" value="VWA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53300">
+<property type="entry name" value="SSF53300"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF69179">
+<property type="entry name" value="SSF69179"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51470">
+<property type="entry name" value="FG_GAP"/>
+<property type="match status" value="7"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00242">
+<property type="entry name" value="INTEGRIN_ALPHA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50234">
+<property type="entry name" value="VWFA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at protein level"/>
+<keyword id="KW-0002">3D-structure</keyword>
+<keyword id="KW-0025">Alternative splicing</keyword>
+<keyword id="KW-0106">Calcium</keyword>
+<keyword id="KW-0130">Cell adhesion</keyword>
+<keyword id="KW-1003">Cell membrane</keyword>
+<keyword id="KW-0903">Direct protein sequencing</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0401">Integrin</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0675">Receptor</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="signal peptide" evidence="8">
+<location>
+<begin position="1"/>
+<end position="16"/>
+</location>
+</feature>
+<feature type="chain" description="Integrin alpha-M" id="PRO_0000016290">
+<location>
+<begin position="17"/>
+<end position="1153"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="4">
+<location>
+<begin position="17"/>
+<end position="1105"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="4">
+<location>
+<begin position="1106"/>
+<end position="1129"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="4">
+<location>
+<begin position="1130"/>
+<end position="1153"/>
+</location>
+</feature>
+<feature type="repeat" description="FG-GAP 1" evidence="6">
+<location>
+<begin position="18"/>
+<end position="75"/>
+</location>
+</feature>
+<feature type="repeat" description="FG-GAP 2" evidence="6">
+<location>
+<begin position="76"/>
+<end position="135"/>
+</location>
+</feature>
+<feature type="domain" description="VWFA" evidence="5">
+<location>
+<begin position="164"/>
+<end position="338"/>
+</location>
+</feature>
+<feature type="repeat" description="FG-GAP 3" evidence="6">
+<location>
+<begin position="339"/>
+<end position="390"/>
+</location>
+</feature>
+<feature type="repeat" description="FG-GAP 4" evidence="6">
+<location>
+<begin position="391"/>
+<end position="442"/>
+</location>
+</feature>
+<feature type="repeat" description="FG-GAP 5" evidence="6">
+<location>
+<begin position="443"/>
+<end position="503"/>
+</location>
+</feature>
+<feature type="repeat" description="FG-GAP 6" evidence="6">
+<location>
+<begin position="506"/>
+<end position="564"/>
+</location>
+</feature>
+<feature type="repeat" description="FG-GAP 7" evidence="6">
+<location>
+<begin position="569"/>
+<end position="629"/>
+</location>
+</feature>
+<feature type="calcium-binding region" evidence="4">
+<location>
+<begin position="465"/>
+<end position="473"/>
+</location>
+</feature>
+<feature type="calcium-binding region" evidence="4">
+<location>
+<begin position="529"/>
+<end position="537"/>
+</location>
+</feature>
+<feature type="calcium-binding region" evidence="4">
+<location>
+<begin position="592"/>
+<end position="600"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="GFFKR motif">
+<location>
+<begin position="1132"/>
+<end position="1136"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="58"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="86"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="391"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="696"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="734"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="772"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="801"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="881"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="907"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="941"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="980"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="994"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="1022"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="1045"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="1051"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="4">
+<location>
+<position position="1076"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="2">
+<location>
+<begin position="66"/>
+<end position="73"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="2">
+<location>
+<begin position="105"/>
+<end position="123"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="2">
+<location>
+<begin position="654"/>
+<end position="711"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="2">
+<location>
+<begin position="770"/>
+<end position="776"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="2">
+<location>
+<begin position="999"/>
+<end position="1023"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="2">
+<location>
+<begin position="1028"/>
+<end position="1033"/>
+</location>
+</feature>
+<feature type="splice variant" description="In isoform 2." id="VSP_010473" evidence="13">
+<location>
+<begin position="453"/>
+<end position="569"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; BAC30350." ref="2" evidence="14">
+<original>N</original>
+<variation>S</variation>
+<location>
+<position position="37"/>
+</location>
+</feature>
+<feature type="sequence conflict" description="In Ref. 2; BAC30350." ref="2" evidence="14">
+<original>V</original>
+<variation>G</variation>
+<location>
+<position position="683"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="149"/>
+<end position="156"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="163"/>
+<end position="179"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="180"/>
+<end position="182"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="186"/>
+<end position="200"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="202"/>
+<end position="207"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="211"/>
+<end position="215"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="227"/>
+<end position="236"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="237"/>
+<end position="239"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="241"/>
+<end position="243"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="249"/>
+<end position="257"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="268"/>
+<end position="277"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="280"/>
+<end position="286"/>
+</location>
+</feature>
+<feature type="turn" evidence="1">
+<location>
+<begin position="288"/>
+<end position="292"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="294"/>
+<end position="303"/>
+</location>
+</feature>
+<feature type="helix" evidence="1">
+<location>
+<begin position="308"/>
+<end position="310"/>
+</location>
+</feature>
+<feature type="strand" evidence="1">
+<location>
+<begin position="312"/>
+<end position="315"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000244">
+<source>
+<dbReference type="PDB" id="6RHV"/>
+</source>
+</evidence>
+<evidence key="2" type="ECO:0000250"/>
+<evidence key="3" type="ECO:0000250">
+<source>
+<dbReference type="UniProtKB" id="P11215"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000255"/>
+<evidence key="5" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00219"/>
+</source>
+</evidence>
+<evidence key="6" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00803"/>
+</source>
+</evidence>
+<evidence key="7" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="18685038"/>
+</source>
+</evidence>
+<evidence key="8" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="3887182"/>
+</source>
+</evidence>
+<evidence key="9" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="8986723"/>
+</source>
+</evidence>
+<evidence key="10" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9207125"/>
+</source>
+</evidence>
+<evidence key="11" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9382884"/>
+</source>
+</evidence>
+<evidence key="12" type="ECO:0000269">
+<source>
+<dbReference type="PubMed" id="9862668"/>
+</source>
+</evidence>
+<evidence key="13" type="ECO:0000303">
+<source>
+<dbReference type="PubMed" id="16141072"/>
+</source>
+</evidence>
+<evidence key="14" type="ECO:0000305"/>
+<sequence length="1153" mass="127481" checksum="178DB988AECB0343" modified="1991-02-01" version="2" precursor="true">MTLKALLVTALALCHGFNLDTEHPMTFQENAKGFGQNVVQLGGTSVVVAAPQEAKAVNQTGALYQCDYSTSRCHPIPLQVPPEAVNMSLGLSLAVSTVPQQLLACGPTVHQNCKENTYVNGLCYLFGSNLLRPPQQFPEALRECPQQESDIVFLIDGSGSINNIDFQKMKEFVSTVMEQFKKSKTLFSLMQYSDEFRIHFTFNDFKRNPSPRSHVSPIKQLNGRTKTASGIRKVVRELFHKTNGARENAAKILVVITDGEKFGDPLDYKDVIPEADRAGVIRYVIGVGNAFNKPQSRRELDTIASKPAGEHVFQVDNFEALNTIQNQLQEKIFAIEGTQTGSTSSFEHEMSQEGFSASITSNGPLLGSVGSFDWAGGAFLYTSKDKVTFINTTRVDSDMNDAYLGYASAVILRNRVQSLVLGAPRYQHIGLVVMFRENFGTWEPHTSIKGSQIGSYFGASLCSVDMDADGNTNLILIGAPHYYEKTRGGQVSVCPLPRGRARWQCEALLHGDQGHPWGRFGAALTVLGDVNGDKLTDVAIGAPGEQENQGAVYIFYGASIASLSASHSHRIIGAHFSPGLQYFGQSLSGGKDLTMDGLMDLAVGAQGHLLLLRAQPVLRLEATMEFSPKKVARSVFACQEQVLKNKDAGEVRVCLRVRKNTKDRLREGDIQSTVTYDLALDPVRSRIRAFFDETKNNTRRRTQVFGLMQKCETLKLILPDCVDDSVSPIILRLNYTLVGEPLRSFGNLRPVLAMDAQRFFTAMFPFEKNCGNDSICQDDLSITMSAMGLDTLVVGGPQDFNMSVTLRNDGEDSYGTQVTVYYPSGLSYRKDSASQNPLTKKPWFVKPAESSSSSEGHGALKSTTWNINHPIFPANSEVTFNVTFDVDSHASFGNKLLLKAIVASENNMSRTHKTKFQLELPVKYAIYMIVTSDESSIRYLNFTASEMTSKVIQHQYQFNNLGQRSLPVSVVFWIPVQINNVTVWDHPQVIFSQNLSSACHTEQKSPPHSNFRDQLERTPVLNCSVAVCKRIQCDLPSFNTQEIFNVTLKGNLSFDWYIKTSHGHLLLVSSTEILFNDSAFALLPGQESYVRSKTETKVEPYEVHNPVPLIVGSSIGGLVLLALITAGLYKLGFFKRQYKDMMNEAAPQDAPPQ</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

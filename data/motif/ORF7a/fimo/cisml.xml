@@ -80,44 +80,39 @@ clusterid CDATA #IMPLIED
 <site-pvalue-cutoff>0.0001</site-pvalue-cutoff>
 <sequence-filtering on-off="off"/>
 </parameters>
-<pattern accession="CELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFA" name="MEME-1">
+<pattern accession="YHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFAC" name="MEME-1">
 <scanned-sequence accession="sp|P0DTC7|NS7A_SARS2" name="sp|P0DTC7|NS7A_SARS2">
-<matched-element start="15" stop="64" score="196.304" pvalue="5.87e-61">
-<sequence>CELYHYQECVRGTTVLLKEPCSSGTYEGNSPFHPLADNKFALTCFSTQFA</sequence>
-<mem:qvalue>4.23e-59</mem:qvalue>
+<matched-element start="18" stop="67" score="199.607" pvalue="3.64e-62">
+<sequence>YHYQECVRGTTVLLKEPCSSGTYEGNSPFHPLADNKFALTCFSTQFAFAC</sequence>
+<mem:qvalue>2.62e-60</mem:qvalue>
 </matched-element>
 </scanned-sequence>
 <mem:has-qvalues>yes</mem:has-qvalues>
 </pattern>
-<pattern accession="FACADGTRHTYQLRARSVSPKLFIRQEEV" name="MEME-2">
+<pattern accession="ADGTRHTYQLRARSVSPKLFIRQEEVHQE" name="MEME-2">
 <scanned-sequence accession="sp|P0DTC7|NS7A_SARS2" name="sp|P0DTC7|NS7A_SARS2">
-<matched-element start="65" stop="93" score="108.013" pvalue="2.18e-34">
-<sequence>FACPDGVKHVYQLRARSVSPKLFIRQEEV</sequence>
-<mem:qvalue>2.03e-32</mem:qvalue>
+<matched-element start="68" stop="96" score="105.786" pvalue="9.33e-34">
+<sequence>PDGVKHVYQLRARSVSPKLFIRQEEVQEL</sequence>
+<mem:qvalue>8.68e-32</mem:qvalue>
 </matched-element>
 </scanned-sequence>
 <mem:has-qvalues>yes</mem:has-qvalues>
 </pattern>
-<pattern accession="HQELYSPLFLIVAALVFJILCFTIKRKTE" name="MEME-3">
+<pattern accession="FLIVAALVFIILCFTIKRKTE" name="MEME-3">
 <scanned-sequence accession="sp|P0DTC7|NS7A_SARS2" name="sp|P0DTC7|NS7A_SARS2">
-<matched-element start="93" stop="121" score="76.2048" pvalue="8.87e-27">
-<sequence>VQELYSPIFLIVAAIVFITLCFTLKRKTE</sequence>
-<mem:qvalue>8.25e-25</mem:qvalue>
+<matched-element start="101" stop="121" score="72.8438" pvalue="1.35e-23">
+<sequence>FLIVAAIVFITLCFTLKRKTE</sequence>
+<mem:qvalue>1.34e-21</mem:qvalue>
 </matched-element>
 </scanned-sequence>
 <mem:has-qvalues>yes</mem:has-qvalues>
 </pattern>
-<pattern accession="MKIILFLTLIA" name="MEME-4">
+<pattern accession="MKIILFLTLIALASC" name="MEME-4">
 <scanned-sequence accession="sp|P0DTC7|NS7A_SARS2" name="sp|P0DTC7|NS7A_SARS2">
-<matched-element start="1" stop="11" score="35.4605" pvalue="2.24e-12">
-<sequence>MKIILFLALIT</sequence>
-<mem:qvalue>2.4e-10</mem:qvalue>
+<matched-element start="1" stop="15" score="50.0769" pvalue="1.4e-16">
+<sequence>MKIILFLALITLATC</sequence>
+<mem:qvalue>1.47e-14</mem:qvalue>
 </matched-element>
-</scanned-sequence>
-<mem:has-qvalues>yes</mem:has-qvalues>
-</pattern>
-<pattern accession="CEMHNH" name="MEME-5">
-<scanned-sequence accession="sp|P0DTC7|NS7A_SARS2" name="sp|P0DTC7|NS7A_SARS2">
 </scanned-sequence>
 <mem:has-qvalues>yes</mem:has-qvalues>
 </pattern>

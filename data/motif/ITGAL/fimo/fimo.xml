@@ -48,31 +48,31 @@
 <letter id="Z" symbol="Z" equals="EQ" name="Glutamine or Glutamic acid"/>
 <letter id="J" symbol="J" equals="IL" name="Leucine or Isoleucine"/>
 </alphabet>
-<motif name="SIPVLYPINVLIQDQENSTLYVSFTPKGPKIHQVKHIYQVRIQPSIHDHN" alt="MEME-1" width="50" best-possible-match="SIPVLYPINVLIQDQENSTLYVSFTPKGPKIHQVKHIYQVRIQPSIHDHN"/>
-<motif name="ASSMFSLCSSLSISFNSSKHFHLYGSNASLAQVVMKVDVVYEKZMLYLYV" alt="MEME-2" width="50" best-possible-match="ASSMFSLCSSLSISFNSSKHFHLYGSNASLAQVVMKVDVVYEKQMLYLYV"/>
-<motif name="AKDIIRYIIGIGKHFQTKESQETLHKFASKPASEFVKILDTFEKLKDLFT" alt="MEME-3" width="50" best-possible-match="AKDIIRYIIGIGKHFQTKESQETLHKFASKPASEFVKILDTFEKLKDLFT"/>
-<motif name="AJQMMFNTLVNSSWGDFVELHANVTCNNEDSGLLEDNSATT" alt="MEME-4" width="41" best-possible-match="ALQMMFNTLVNSSWGDFVELHANVTCNNEDSGLLEDNSATT"/>
-<motif name="MKDVMKKLSNTSYQFAAVQFSTSYKTEFBFSDYVKQKDPDILLEHVKHML" alt="MEME-5" width="50" best-possible-match="MKDVMKKLSNTSYQFAAVQFSTSYKTEFDFSDYVKQKDPDILLEHVKHML"/>
+<motif name="WRPKQEVRGTQIGSYFGASLCSVDVDRDGSTDLLLIGAPHYYEZTRGGQV" alt="MEME-1" width="50" best-possible-match="WRPKQEVRGTQIGSYFGASLCSVDVDRDGSTDLLLIGAPHYYEETRGGQV"/>
+<motif name="GRFGAAJTVLGDVNGDKLTDVAIGAPGEEENRGAV" alt="MEME-2" width="35" best-possible-match="GRFGAALTVLGDVNGDSLTDVAIGAPGEEENRGAV"/>
+<motif name="PSQRITGSQLSPGLQYFGQSJSGGQDLTQDGLVDLAVGAZGHVLLLRSRP" alt="MEME-3" width="50" best-possible-match="PSQRIAGSQLSPGLQYFGQSLSGGQDLTGDGLVDLAVGAQGQVLLLRSRP"/>
+<motif name="VKNPLPLIVGSSIGGLLLLALITAALYKLGFFKRQYKEMME" alt="MEME-4" width="41" best-possible-match="VKNPLPLIVGSSVGGLLLLALITAALYKLGFFKRQYKEMME"/>
+<motif name="EAVNMSLGLSLATDTNDSQLLACGPTLSRTCGENTYLTGLC" alt="MEME-5" width="41" best-possible-match="EAVNMSLGLSLATDTNPSQLLACGPTLSRTCGENTYLSGLC"/>
 <background source="--motif--">
-<value letter="A">0.056</value>
+<value letter="A">0.065</value>
 <value letter="C">0.019</value>
 <value letter="D">0.050</value>
-<value letter="E">0.064</value>
-<value letter="F">0.048</value>
-<value letter="G">0.089</value>
-<value letter="H">0.027</value>
-<value letter="I">0.052</value>
-<value letter="K">0.047</value>
-<value letter="L">0.105</value>
+<value letter="E">0.056</value>
+<value letter="F">0.050</value>
+<value letter="G">0.079</value>
+<value letter="H">0.025</value>
+<value letter="I">0.046</value>
+<value letter="K">0.040</value>
+<value letter="L">0.104</value>
 <value letter="M">0.018</value>
-<value letter="N">0.034</value>
-<value letter="P">0.055</value>
-<value letter="Q">0.047</value>
-<value letter="R">0.043</value>
+<value letter="N">0.039</value>
+<value letter="P">0.050</value>
+<value letter="Q">0.051</value>
+<value letter="R">0.051</value>
 <value letter="S">0.086</value>
-<value letter="T">0.050</value>
-<value letter="V">0.074</value>
-<value letter="W">0.009</value>
+<value letter="T">0.057</value>
+<value letter="V">0.077</value>
+<value letter="W">0.010</value>
 <value letter="Y">0.028</value>
 </background>
 <cisml-file>cisml.xml</cisml-file>

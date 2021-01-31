@@ -1,130 +1,20 @@
 >sp|P0DTC7|NS7A_SARS2 ORF7a protein OS=Severe acute respiratory syndrome coronavirus 2 OX=2697049 GN=7a PE=1 SV=1
---------------------------MKII------------LFLALITLATCELYHYQE
-CVRGTTVLLKEPCSSGTYEGNSPFHPLADN------KFA-L----TCFSTQFAFACPDGV
-KH----VYQLRARSVSPKLFIRQEEV--QELYSPIFLIVAAIVFITL-CFTLKRKTE---
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
---------------------------------------------------------
+MKIILFLALITLATCELYHYQECVRGTTVLLKEPCSSGTYEGNSPFHPLADNKFALTCFS
+TQFAFACPDGVKHVYQLRARSVSPKLFIRQEEV-QELYSPIFLIVAAIVFITLCFTLKRK
+TE
 >sp|Q3I5J0|NS7A_BCRP3 Protein 7a OS=Bat coronavirus Rp3/2004 OX=349344 GN=7a PE=3 SV=1
---------------------------MKII------------LFLTLIALASCELYHYQE
-CVRGTTVLLKEPCPSGTYEGNSPFHPLADN------KFA-L----TCTSTHFAFACADGT
-RH----TYQLRARSVSPKLFIRQEEVH-QELYSPLFLIVAALVFITL-CFTIKRKTE---
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
---------------------------------------------------------
+MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTS
+THFAFACADGTRHTYQLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFITLCFTIKRK
+TE
 >sp|Q3LZX7|NS7A_BCHK3 Protein 7a OS=Bat coronavirus HKU3 OX=442736 GN=7a PE=3 SV=1
---------------------------MKII------------LFLTLIALATCELYHYQE
-CVRGTTVLLKEPCPSGTYEGNSPFHPLADN------KFA-L----TCSSTHFAFACADGT
-RH----TYQLRARSVSPKLFIRQEEVY-QELYSPLFLIVAALVFIIL-CFTIKRKTE---
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
---------------------------------------------------------
->tr|A0A0U1UZF3|A0A0U1UZF3_SARS Accessory protein 7a OS=BtRs-BetaCoV/YN2013 OX=1503303 PE=4 SV=1
---------------------------MKII------------LFLTLIALASCELYHYQE
-CVRGTTVLLKEPCPSGTYEGNSPFHPLADN------KFA-L----TCTSTRFAFACADGT
-RH----TYQLRARSVSPKLFIRQEEVH-QELYSPLFLIVAAIVFIIL-CFTIKRKTE---
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
---------------------------------------------------------
->tr|A0A0K1Z075|A0A0K1Z075_SARS Accessory protein 7a OS=Bat SARS-like coronavirus YNLF_31C OX=1699360 GN=orf7a PE=4 SV=1
---------------------------MKII------------LFLTLIVLATCELYHYQE
-CVRGTTVLLEEPCPSGTYEGNSPFHPLADN------KFA-L----TCTSTHFAFACADGT
-RH----TYQLRARSVSPKLFIRQEEVQ-QELYSPLFLIVAALVFLIL-CFTIKRKTE---
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
---------------------------------------------------------
+MKIILFLTLIALATCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSS
+THFAFACADGTRHTYQLRARSVSPKLFIRQEEVYQELYSPLFLIVAALVFIILCFTIKRK
+TE
 >sp|P59635|NS7A_SARS ORF7a protein OS=Severe acute respiratory syndrome coronavirus OX=694009 GN=7a PE=1 SV=1
---------------------------MKII------------LFLTLIVFTSCELYHYQE
-CVRGTTVLLKEPCPSGTYEGNSPFHPLADN------KFA-L----TCTSTHFAFACADGT
-RH----TYQLRARSVSPKLFIRQEEVQ-QELYSPLFLIVAALVFLIL-CFTIKRKTE---
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
---------------------------------------------------------
->tr|D2E271|D2E271_SARS Accessory protein 7a OS=SARS coronavirus MA15 OX=633137 PE=4 SV=1
---------------------------MKII------------LFLTLIVFTSCELYHYQE
-CVRGTTVLLKEPCPSGTYEGNSPFHPLADN------KFA-L----TCTSTHFAFACADGT
-RH----TYQLRARSVSPKLFIRQEEVQ-QELYSPLFLIVAALVFLIL-CFTIKRKTE---
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
---------------------------------------------------------
+MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTS
+THFAFACADGTRHTYQLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRK
+TE
 >sp|Q0Q470|NS7A_BC279 Protein 7a OS=Bat coronavirus 279/2005 OX=389167 GN=7a PE=3 SV=1
---------------------------MKII------------LFLTLIALASSELYHYQE
-CVRGTTVLLKEPCPSGTYEGNSPFHPLADN------KFA-L----TCISTHFAFACADGT
-RH----TYQLRARSVSPKLFTRQEEVH-QELYSPLFLIVAALVFIIL-CFTIKRKTE---
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
---------------------------------------------------------
->tr|A0A0U1WHG5|A0A0U1WHG5_SARS Accessory protein 7a OS=BtRf-BetaCoV/JL2012 OX=1503299 PE=4 SV=1
---------------------------MKII------------LLLILIVLATCELYHYQE
-CVRGTTVLLEEPCPSGTYEGNSPFHPLADN------KFA-L----TCISTHFAFACADGT
-RH----TYQLRARSVSPKLFTRQEKVY-QELYSPLFLIVAALVFIIL-CFTIKRKIE---
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
---------------------------------------------------------
->tr|E0XIZ8|E0XIZ8_9BETC Accessory protein 7a OS=Bat coronavirus BM48-31/BGR/2008 OX=864596 GN=ORF7a PE=4 SV=1
---------------------------MKFL------------LLVAIVSIASAELYHYQE
-CARGTTVLLKEPCQPNTYEGNSPYHPLADN------KFA-I----TCTNTKFSFVCQDET
-RH----VFQLRARSISPRLFASPKHH--SDDFTPVILIIVTLLFVIY-CCMKRQ------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
---------------------------------------------------------
->tr|A0A1R2AKP7|A0A1R2AKP7_9CILI Ephrin_rec_like domain-containing protein OS=Stentor coeruleus OX=5963 GN=SteCoe_39427 PE=4 SV=1
-------------------------------------------------------------
-------MESCIPCPSGTYNSNKGGSSYRQCYPCQSGTFNNKEGSSICYDCPIGFDCPMGS
-KDPVKIVYTKVESSIQPKIYSTESSEKITSIYIISASVSLLIVLILLFTFKKIRDKIKNA
-DLYTEMHNHELLVPMIK----------KKNTIGGFFSLVFIIA-AVVYIG--SAIIEFSK
-SNIQESKVLVPLIILENESELLTANKIIVTSKIIGYGGECGVEGICNSQIFINITNLSGS
-LI-EYNCTNYYGNICIVTIVCNNC----A-------LLG-EATIFI---TTRELKSYASA
-IFVNITSDSSIPGEVSNINNELYSSEDYIFIGSEANEFYCIMIPSLFTSESSRWPSRLTG
-YHISNEKLNLKGSEALKTDLPVNAGFKIFIYMSKSSNGLYTQRLFKQNILILVSSIIGSV
-FGIMSFIGFFMELTEGLLLKFNKNQTKIKGLLSIISKRKEIGGINFGNNKEILNKK
->tr|M1V4E0|M1V4E0_CYAM1 Uncharacterized protein OS=Cyanidioschyzon merolae (strain 10D) OX=280699 GN=CYME_CME056C PE=4 SV=1
-MVDFHLLLSRLWEKLVLTGPVTLCVGLQLLTTFRSFRQSEGDLLLRILRLATYELPFFMN
-LVFWTCTALAATLSSSSYTDRGNFHRSSVA------SFS-LGLFVFVDSTRFIFEHLEGS
-IF----QKRRLARPVQPA------NDP-HAVYIHLACIAVCLVYIFT-SFWKKWGVLSSD
-VTFVNFFT-ALIVIYVNRISLELACTAQQANSVEFFAGCELATKRVLLHGMISAILGFAV
-MWF----NMLPILMVVPSKR-TTRLEI-AIKRVA---ALPGCRRIISALLWRNLEGHWEA
-AVSMAVCDELSQH--LVASLARGCMKSCADDVTSMAVLERENAVPVRESRQTCERSFGTE
-HFLDIEQAKSIPTASTCLMHNHAE------------------------------------
-------------------------------------------------------------
---------------------------------------------------------
->tr|A0A4S8MSA5|A0A4S8MSA5_DENBC Uncharacterized protein OS=Dendrothele bispora (strain CBS 962.96) OX=1314807 GN=K435DRAFT_773619 PE=4 SV=1
---------------------------MKFFIQTVLFAVLATVIAAASVPDASEELLKRQG
-CIGGTTVFFPDPCPAGTLACNSAGS------------IT-L----CCSSC----------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
---------------------------------------------------------
+MKIILFLTLIALASSELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCIS
+THFAFACADGTRHTYQLRARSVSPKLFTRQEEVHQELYSPLFLIVAALVFIILCFTIKRK
+TE

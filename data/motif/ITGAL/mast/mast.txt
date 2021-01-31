@@ -23,31 +23,31 @@ REFERENCE
 DATABASE AND MOTIFS
 ********************************************************************************
 	DATABASE NM_001114380_ITGAL.fasta (peptide)
-	Last updated on Sun Jan 31 17:19:36 2021
+	Last updated on Sun Jan 31 22:11:22 2021
 	Database contains 2 sequences, 2340 residues
 
 	MOTIFS meme.txt (peptide)
 	MOTIF ID                                                 ALT ID WIDTH BEST POSSIBLE MATCH
 	----- -------------------------------------------------- ------ ----- -------------------
-	    1 SIPVLYPINVLIQDQENSTLYVSFTPKGPKIHQVKHIYQVRIQPSIHDHN MEME-1    50 SIPIMYPINILIQDQENSTLYVSFTPKGPKIHQVKHIYQVRIQPSIHDHN
-	    2 ASSMFSLCSSLSISFNSSKHFHLYGSNASLAQVVMKVDVVYEKZMLYLYV MEME-2    50 ASSMFSLCSSLSISFNSSKHFHLYGSNASLAQVVMKVDVVYEKQMLYLYV
-	    3 AKDIIRYIIGIGKHFQTKESQETLHKFASKPASEFVKILDTFEKLKDLFT MEME-3    50 AKDIIRYIIGIGKHFQTKESQETLHKFASKPASEFVKILDTFEKLKDLFT
-	    4 AJQMMFNTLVNSSWGDFVELHANVTCNNEDSGLLEDNSATT          MEME-4    41 AIQMMFNTLVNSSWGDFVELHANVTCNNEDSGLLKDNSATT
-	    5 MKDVMKKLSNTSYQFAAVQFSTSYKTEFBFSDYVKQKDPDILLEHVKHML MEME-5    50 MKDVMKKLSNTSYQFAAVQFSTSYKTEFNFSDYVKWKDPDILLAHVKHMR
+	    1 WRPKQEVRGTQIGSYFGASLCSVDVDRDGSTDLLLIGAPHYYEZTRGGQV MEME-1    50 WRPKQEIRGTQIGSYFGAELCSVDMDRDGSTDLVLIGAPHYYEETRGGQV
+	    2 GRFGAAJTVLGDVNGDKLTDVAIGAPGEEENRGAV                MEME-2    35 GRFGAAITVLGDVNGDKLTDVAIGAPGEEENRGAI
+	    3 PSQRITGSQLSPGLQYFGQSJSGGQDLTQDGLVDLAVGAZGHVLLLRSRP MEME-3    50 PSQRITGSQMSPRLQYFGQSIHGGQDLTMDGLVDLAVGAQGHVILLWSRP
+	    4 VKNPLPLIVGSSIGGLLLLALITAALYKLGFFKRQYKEMME          MEME-4    41 WHNPIWIIVGSSIGGLLLLALITAALYKLGFFKRQYKEMME
+	    5 EAVNMSLGLSLATDTNDSQLLACGPTLSRTCGENTYLTGLC          MEME-5    41 EAVNMYLGMSLATDTNDNQLLACGPTWHHTCGENMYLKGMC
 
 	PAIRWISE MOTIF CORRELATIONS:
 	MOTIF     1     2     3     4
 	----- ----- ----- ----- -----
-	   2   0.15
-	   3   0.12  0.05
-	   4   0.12  0.11  0.09
-	   5   0.10  0.14  0.12  0.13
+	   2   0.31
+	   3   0.18  0.39
+	   4   0.13  0.14  0.14
+	   5   0.15  0.24  0.14  0.14
 	No overly similar pairs (correlation > 0.60) found.
 
 	Random model letter frequencies (from --motif--):
-	A 0.056 C 0.019 D 0.050 E 0.064 F 0.048 G 0.089 H 0.027 I 0.052 K 0.047 
-	L 0.105 M 0.018 N 0.034 P 0.055 Q 0.047 R 0.043 S 0.086 T 0.050 V 0.074 
-	W 0.009 Y 0.028 
+	A 0.065 C 0.019 D 0.050 E 0.056 F 0.050 G 0.079 H 0.025 I 0.046 K 0.040 
+	L 0.104 M 0.018 N 0.039 P 0.050 Q 0.051 R 0.051 S 0.086 T 0.057 V 0.077 
+	W 0.010 Y 0.028 
 ********************************************************************************
 
 
@@ -78,8 +78,8 @@ SECTION I: HIGH-SCORING SEQUENCES
 
 SEQUENCE NAME                      DESCRIPTION                   E-VALUE  LENGTH
 -------------                      -----------                   -------- ------
-ref|NP_002200.2|                   integrin alpha-L isoform a...   2e-272   1170
-dbj|BAG36913.1|                    unnamed protein product [H...   2e-272   1170
+ref|NP_002200.2|                   integrin alpha-L isoform a... 4.5e-168   1170
+dbj|BAG36913.1|                    unnamed protein product [H... 1.2e-165   1170
 
 ********************************************************************************
 
@@ -108,8 +108,8 @@ SECTION II: MOTIF DIAGRAMS
 
 SEQUENCE NAME                      E-VALUE   MOTIF DIAGRAM
 -------------                      --------  -------------
-ref|NP_002200.2|                     2e-272  95-[5]-33-[5]-47-[3]-549-[4]-[1]-79-[2]-76
-dbj|BAG36913.1|                      2e-272  95-[5]-33-[5]-47-[3]-549-[4]-[1]-79-[2]-76
+ref|NP_002200.2|                   4.5e-168  88-[5]-315-[1]-24-[2]-11-[3]-471-[4]-44
+dbj|BAG36913.1|                    1.2e-165  88-[5]-315-[1]-24-[2]-11-[3]-471-[4]-44
 
 ********************************************************************************
 
@@ -143,115 +143,103 @@ SECTION III: ANNOTATED SEQUENCES
 
 ref|NP_002200.2|
   integrin alpha-L isoform a precursor [Homo sapiens] 
-  LENGTH = 1170  COMBINED P-VALUE = 1.01e-272  E-VALUE =   2e-272
-  DIAGRAM: 95-[5]-33-[5]-47-[3]-549-[4]-[1]-79-[2]-76
+  LENGTH = 1170  COMBINED P-VALUE = 2.26e-168  E-VALUE = 4.5e-168
+  DIAGRAM: 88-[5]-315-[1]-24-[2]-11-[3]-471-[4]-44
 
-                         [5]
-                         2.1e-06
-                         MKDVMKKLSNTSYQFAAVQFSTSYKTEFNFSDYVKWKDPDILLAHVKHMR
-                         ++++++++++++++      + ++      +
+                  [5]
+                  9.5e-36
+                  EAVNMYLGMSLATDTNDNQLLACGPTWHHTCGENMYLKGMC
+                  +++++++++++++++++++++++++++++++++++++++++
 76   GTGHCLPVTLRGSNYTSKYLGMTLATDPTDGSILACDPGLSRTCDQNTYLSGLCYLFRQNLQGPMLQGRPGFQEC
 
-                                 [5]
-                                 5.8e-62
-                                 MKDVMKKLSNTSYQFAAVQFSTSYKTEFNFSDYVKWKDPDILLAHVK
-                                 +++++++++++++++++++++++++++++++++++++++++++++++
-151  IKGNVDLVFLFDGSMSLQPDEFQKILDFMKDVMKKLSNTSYQFAAVQFSTSYKTEFDFSDYVKRKDPDALLKHVK
+                                                                          [1]
+                                                                          2.0e-4
+                                                                          WRPKQE
+                                                                          +++ ++
+376  GFLDLKADLQDDTFIGNEPLTPEVRAGYLGYTVTWLPSRQKTSLLASGAPRYQHMGRVLLFQEPQGGGHWSQVQT
 
-                                                       [3]
-                                                       1.9e-63
-     HMR                                               AKDIIRYIIGIGKHFQTKESQETLH
-     +++                                               +++++++++++++++++++++++++
-226  HMLLLTNTFGAINYVATEVFREELGARPDATKVLIIITDGEATDSGNIDAAKDIIRYIIGIGKHFQTKESQETLH
+                                                                         [2]
+     7                                                                   3.1e-32
+     IRGTQIGSYFGAELCSVDMDRDGSTDLVLIGAPHYYEETRGGQV                        GRFGAAI
+     ++++++++++++++++++++++++++++++++++++++++++++                        ++++ ++
+451  IHGTQIGSYFGGELCGVDVDQDGETELLLIGAPLFYGEQRGGRVFIYQRRQLGFEEVSELQGDPGYPLGRFGEAI
 
-     
-     
-     KFASKPASEFVKILDTFEKLKDLFT
-     +++++++++++++++++++++++++
-301  KFASKPASEFVKILDTFEKLKDLFTELQKKIYVIEGTSKQDLTSFNMELSSSGISADLSRGHAVVGAVGAKDWAG
-
-                                                      [4]
-                                                      1.1e-50
-                                                      AIQMMFNTLVNSSWGDFVELHANVTC
-                                                      ++++++++++++++++++++++++++
-826  GLSFRKVEMLKPHSQIPVSCEELPEESRLLSRALSCNVSSPIFKAGHSVALQMMFNTLVNSSWGDSVELHANVTC
-
-                    [1]
-                    4.1e-61
-     NNEDSGLLKDNSATTSIPIMYPINILIQDQENSTLYVSFTPKGPKIHQVKHIYQVRIQPSIHDHN
-     +++++++++++++++++++++++++++++++ +++++++++++++++++++++++++++++++++
-901  NNEDSDLLEDNSATTIIPILYPINILIQDQEDSTLYVSFTPKGPKIHQVKHMYQVRIQPSIHDHNIPTLEAVVGV
-
-                                                                          [2]
-                                                                          1.5e-6
-                                                                          ASSMFS
-                                                                          ++++++
-976  PQPPSEGPITHQWSVQMEPPVPCHYEDLERLPDAAEPCLPGALFRCPVVFRQEILVQVIGTLELVGEIEASSMFS
+                                            [3]
+                                            1.4e-43
+     TVLGDVNGDKLTDVAIGAPGEEENRGAI           PSQRITGSQMSPRLQYFGQSIHGGQDLTMDGLVDLA
+     ++++++++++++++++++++++++++++           ++++++++++ +++++++++++++++++++++++++
+526  TALTDINGDGLVDVAVGAPLEEQGAVYIFNGRHGGLSPQPSQRIEGTQVLSGIQWFGRSIHGVKDLEGDGLADVA
 
      
-     3
-     LCSSLSISFNSSKHFHLYGSNASLAQVVMKVDVVYEKQMLYLYV
-     ++++++++++++++++++++++++++++++++++++++++++++
+     
+     VGAQGHVILLWSRP
+     ++++ +++++++++
+601  VGAESQMIVLSSRPVVDMVTLMSFSPAEIPVHEVECSYSTSNKMKEGVNITICFQIKSLIPQFQGRLVANLTYTL
+
+                                        [4]
+                                        1.2e-36
+                                        WHNPIWIIVGSSIGGLLLLALITAALYKLGFFKRQYKEMM
+                                        +++++++++++++++++++ ++++++++++++++++++++
 1051 LCSSLSISFNSSKHFHLYGSNASLAQVVMKVDVVYEKQMLYLYVLSGIGGLLLLLLIFIVLYKVGFFKRNLKEKM
+
+     
+     
+     E
+     +
+1126 EAGRGVPNGIPAEDSEQLASGQEAGDPGCLKPLHEKDSESGGGKD
 
 
 dbj|BAG36913.1|
   unnamed protein product [Homo sapiens]
-  LENGTH = 1170  COMBINED P-VALUE = 1.01e-272  E-VALUE =   2e-272
-  DIAGRAM: 95-[5]-33-[5]-47-[3]-549-[4]-[1]-79-[2]-76
+  LENGTH = 1170  COMBINED P-VALUE = 5.84e-166  E-VALUE = 1.2e-165
+  DIAGRAM: 88-[5]-315-[1]-24-[2]-11-[3]-471-[4]-44
 
-                         [5]
-                         2.1e-06
-                         MKDVMKKLSNTSYQFAAVQFSTSYKTEFNFSDYVKWKDPDILLAHVKHMR
-                         ++++++++++++++      + ++      +
+                  [5]
+                  9.5e-36
+                  EAVNMYLGMSLATDTNDNQLLACGPTWHHTCGENMYLKGMC
+                  +++++++++++++++++++++++++++++++++++++++++
 76   GTGHCLPVTLRGSNYTSKYLGMTLATDPTDGSILACDPGLSRTCDQNTYLSGLCYLFRQNLQGPMLQGRPGFQEC
 
-                                 [5]
-                                 5.8e-62
-                                 MKDVMKKLSNTSYQFAAVQFSTSYKTEFNFSDYVKWKDPDILLAHVK
-                                 +++++++++++++++++++++++++++++++++++++++++++++++
-151  IKGNVDLVFLFDGSMSLQPDEFQKILDFMKDVMKKLSNTSYQFAAVQFSTSYKTEFDFSDYVKRKDPDALLKHVK
+                                                                          [1]
+                                                                          2.0e-4
+                                                                          WRPKQE
+                                                                          +++ ++
+376  GFLDLKADLQDDTFIGNEPLTPEVRAGYLGYTVTWLPSRQKTSLLASGAPRYQHMGRVLLFQEPQGGGHWSQVQT
 
-                                                       [3]
-                                                       1.9e-63
-     HMR                                               AKDIIRYIIGIGKHFQTKESQETLH
-     +++                                               +++++++++++++++++++++++++
-226  HMLLLTNTFGAINYVATEVFREELGARPDATKVLIIITDGEATDSGNIDAAKDIIRYIIGIGKHFQTKESQETLH
+                                                                         [2]
+     7                                                                   3.1e-32
+     IRGTQIGSYFGAELCSVDMDRDGSTDLVLIGAPHYYEETRGGQV                        GRFGAAI
+     ++++++++++++++++++++++++++++++++++++++++++++                        ++++ ++
+451  IHGTQIGSYFGGELCGVDVDQDGETELLLIGAPLFYGEQRGGRVFIYQRRQLGFEEVSELQGDPGYPLGRFGEAI
 
-     
-     
-     KFASKPASEFVKILDTFEKLKDLFT
-     +++++++++++++++++++++++++
-301  KFASKPASEFVKILDTFEKLKDLFTELQKKIYVIEGTSKQDLTSFNMELSSSGISADLSRGHAVVGAVGAKDWAG
-
-                                                      [4]
-                                                      1.1e-50
-                                                      AIQMMFNTLVNSSWGDFVELHANVTC
-                                                      ++++++++++++++++++++++++++
-826  GLSFRKVEMLKPHSQIPVSCEELPEESRLLSRALSCNVSSPIFKAGHSVALQMMFNTLVNSSWGDSVELHANVTC
-
-                    [1]
-                    4.1e-61
-     NNEDSGLLKDNSATTSIPIMYPINILIQDQENSTLYVSFTPKGPKIHQVKHIYQVRIQPSIHDHN
-     +++++++++++++++++++++++++++++++ +++++++++++++++++++++++++++++++++
-901  NNEDSDLLEDNSATTIIPILYPINILIQDQEDSTLYVSFTPKGPKIHQVKHMYQVRIQPSIHDHNIPTLEAVVGV
-
-                                                                          [2]
-                                                                          1.5e-6
-                                                                          ASSMFS
-                                                                          ++++++
-976  PQPPSEGPITHQWSVQMEPPVPCHYEDLERLPDAAEPCLPGALFRCPVVFRQEILVQVIGTLELVGEIEASSMFS
+                                            [3]
+                                            3.9e-41
+     TVLGDVNGDKLTDVAIGAPGEEENRGAI           PSQRITGSQMSPRLQYFGQSIHGGQDLTMDGLVDLA
+     ++++++++++++++++++++++++++++           ++++++ +++ +++++++++++++++++++++++++
+526  TALTDINGDGLVDVAVGAPLEEQGAVYIFNGRHGGLSPQPSQRIERTQVLSGIQWFGRSIHGVKDLEGDGLADVA
 
      
-     3
-     LCSSLSISFNSSKHFHLYGSNASLAQVVMKVDVVYEKQMLYLYV
-     ++++++++++++++++++++++++++++++++++++++++++++
+     
+     VGAQGHVILLWSRP
+     ++++ +++++++++
+601  VGAESQMIVLSSRPVVDMVTLMSFSPAEIPVHEVECSYSTSNKMKEGVNITICFQIKSLIPQFQGRLVANLTYTL
+
+                                        [4]
+                                        1.2e-36
+                                        WHNPIWIIVGSSIGGLLLLALITAALYKLGFFKRQYKEMM
+                                        +++++++++++++++++++ ++++++++++++++++++++
 1051 LCSSLSISFNSSKHFHLYGSNASLAQVVMKVDVVYEKQMLYLYVLSGIGGLLLLLLIFIVLYKVGFFKRNLKEKM
+
+     
+     
+     E
+     +
+1126 EAGRGVPNGIPAEDSEQLASGQEAGDPGCLKPLHEKDSESGGGKD
 
 ********************************************************************************
 
 
-CPU: bffd8fd42d8a
-Time 0.105 secs.
+CPU: 0d6f8b48e437
+Time 0.078 secs.
 
 mast -bfile --motif-- -remcorr -oc /opt/project/data/motif/ITGAL/mast /opt/project/data/motif/ITGAL/meme/meme.txt /opt/project/data/homologue/ITGAL/NM_001114380_ITGAL.fasta

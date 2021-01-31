@@ -23,31 +23,31 @@ REFERENCE
 DATABASE AND MOTIFS
 ********************************************************************************
 	DATABASE NM_004335_BST2.fasta (peptide)
-	Last updated on Sun Jan 31 17:23:39 2021
+	Last updated on Sun Jan 31 22:09:52 2021
 	Database contains 15 sequences, 2482 residues
 
 	MOTIFS meme.txt (peptide)
 	MOTIF ID                                                 ALT ID WIDTH BEST POSSIBLE MATCH
 	----- -------------------------------------------------- ------ ----- -------------------
-	    1 AEQECRNVTHLLZRQLTQAQEGLRDTEAQAATCN                 MEME-1    34 AVMECRNVTHHLQHQLTQAQEGFHDMEAQAATCN
-	    2 CDVLDKLVWVSAMCDRFVNAISHCSTEZFAKYEGALYELEPVERALNAWI MEME-2    50 CDVLDKLVWVTAMCDRFVNFISHCSTEQFAKYEGALYELEPVERALNGWI
-	    3 GIIRYVGFTHFAAGEWVGVELEDDTGKNDGSVQGERYFDCEM         MEME-3    42 GIIRYIGFPHFAPGDWVGVELEDDTGKNDGSVQGERYFDCDM
-	    4 DMEYTLSRFRELVTNLQSDLEDMRASHALTETESEZLNSRSRAMMDLNMK MEME-4    50 DMEYTLSRFRELVTNLQSDLEDMRASHAVTETESEQLNSRSRAMMDLNMK
-	    5 IEDLKTKLRLMEKKRMEDRDKLKALEKIQAERDKFEGIIQKLQTKYQPQQ MEME-5    50 IEDLKTKLRVMEKKRMEDRDKIKGLDKIQAERDKFEGIIQKLQTKYQPQQ
+	    1 YFAVKANSEACRDGLRAQEECRNTTHLLQRQLTRAQDSLLQAEAQANSCN MEME-1    50 YFAVKANSEACRDGLRAQMECRNTTHLLQRQLTRAQDSLLQAEAQANSCN
+	    2 MAPSFYHYLPVPMD                                     MEME-2    14 MAPSFYHYHPVPMD
+	    3 LENEVEKLNQELENLRTQKEASTTVQVNSGGSMVVSSLLVLVVPLFLLF  MEME-3    49 LENEVEKFNQELENLRTQKEISTTVQVNSGGSMVVSSLLVLVVPLFLHF
+	    4 MWGPQGWGTRRQW                                      MEME-4    13 MWGPMGWGTHRWW
+	    5 KFYYFS                                             MEME-5     6 KFYYFS
 
 	PAIRWISE MOTIF CORRELATIONS:
 	MOTIF     1     2     3     4
 	----- ----- ----- ----- -----
-	   2   0.20
-	   3   0.10  0.16
-	   4   0.15  0.16  0.09
-	   5   0.17  0.10  0.08  0.17
+	   2   0.28
+	   3   0.14  0.43
+	   4   0.21  0.18  0.19
+	   5   0.36  0.44  0.36  0.32
 	No overly similar pairs (correlation > 0.60) found.
 
 	Random model letter frequencies (from --motif--):
-	A 0.104 C 0.007 D 0.053 E 0.109 F 0.020 G 0.045 H 0.018 I 0.036 K 0.060 
-	L 0.104 M 0.021 N 0.033 P 0.041 Q 0.065 R 0.071 S 0.085 T 0.056 V 0.052 
-	W 0.006 Y 0.012 
+	A 0.093 C 0.028 D 0.039 E 0.081 F 0.021 G 0.044 H 0.020 I 0.045 K 0.062 
+	L 0.123 M 0.020 N 0.049 P 0.017 Q 0.092 R 0.049 S 0.069 T 0.059 V 0.063 
+	W 0.012 Y 0.013 
 ********************************************************************************
 
 
@@ -78,21 +78,21 @@ SECTION I: HIGH-SCORING SEQUENCES
 
 SEQUENCE NAME                      DESCRIPTION                   E-VALUE  LENGTH
 -------------                      -----------                   -------- ------
-pdb|3MQB|A                         Crystal Structure of Ectod...  2.3e-29    115
-dbj|BAG64608.1|                    unnamed protein product [H...  2.6e-29    162
-gb|ADI58598.1|                     bone marrow stromal cell a...    3e-29    173
-ref|XP_030675274.1|                bone marrow stromal antige...    3e-29    173
-ref|NP_001295602.1|                bone marrow stromal antige...  3.1e-29    173
-ref|NP_004326.1|                   bone marrow stromal antige...  8.8e-29    180
-dbj|BAD96844.1|                    bone marrow stromal cell a...  8.8e-29    180
-ref|XP_018869871.1|                bone marrow stromal antige...    1e-28    185
-ref|NP_001266560.1|                bone marrow stromal antige...    1e-28    185
-ref|NP_001177409.1|                bone marrow stromal antige...  1.1e-28    185
-ref|NP_001266147.1|                bone marrow stromal antige...  1.2e-28    185
-ref|NP_001166058.1|                bone marrow stromal antige...  4.4e-27    172
-gb|ADI58596.1|                     bone marrow stromal cell a...  6.5e-27    184
-pdb|3MQC|A                         Crystal Structure of Ectod...  2.2e-26    115
-pdb|3MQ7|A                         Crystal Structure of Ectod...  7.4e-18    115
+ref|NP_001266147.1|                bone marrow stromal antige...  9.4e-55    185
+dbj|BAD96844.1|                    bone marrow stromal cell a...  9.6e-54    180
+ref|NP_004326.1|                   bone marrow stromal antige...    1e-53    180
+ref|NP_001177409.1|                bone marrow stromal antige...  4.3e-53    185
+ref|XP_018869871.1|                bone marrow stromal antige...  2.3e-52    185
+ref|NP_001266560.1|                bone marrow stromal antige...  5.5e-52    185
+gb|ADI58598.1|                     bone marrow stromal cell a...  2.2e-51    173
+ref|XP_030675274.1|                bone marrow stromal antige...  2.2e-51    173
+dbj|BAG64608.1|                    unnamed protein product [H...  9.1e-51    162
+ref|NP_001295602.1|                bone marrow stromal antige...    2e-47    173
+gb|ADI58596.1|                     bone marrow stromal cell a...  8.7e-46    184
+ref|NP_001166058.1|                bone marrow stromal antige...    2e-45    172
+pdb|3MQ7|A                         Crystal Structure of Ectod...  0.00048    115
+pdb|3MQB|A                         Crystal Structure of Ectod...  0.00063    115
+pdb|3MQC|A                         Crystal Structure of Ectod...   0.0014    115
 
 ********************************************************************************
 
@@ -121,21 +121,21 @@ SECTION II: MOTIF DIAGRAMS
 
 SEQUENCE NAME                      E-VALUE   MOTIF DIAGRAM
 -------------                      --------  -------------
-pdb|3MQB|A                          2.3e-29  12-[1]-69
-dbj|BAG64608.1|                     2.6e-29  58-[1]-70
-gb|ADI58598.1|                        3e-29  63-[1]-76
-ref|XP_030675274.1|                   3e-29  63-[1]-76
-ref|NP_001295602.1|                 3.1e-29  63-[1]-76
-ref|NP_004326.1|                    8.8e-29  58-[1]-88
-dbj|BAD96844.1|                     8.8e-29  58-[1]-88
-ref|XP_018869871.1|                   1e-28  63-[1]-88
-ref|NP_001266560.1|                   1e-28  63-[1]-88
-ref|NP_001177409.1|                 1.1e-28  63-[1]-88
-ref|NP_001266147.1|                 1.2e-28  63-[1]-88
-ref|NP_001166058.1|                 4.4e-27  63-[1]-75
-gb|ADI58596.1|                      6.5e-27  63-[1]-87
-pdb|3MQC|A                          2.2e-26  12-[1]-69
-pdb|3MQ7|A                          7.4e-18  12-[1]-69
+ref|NP_001266147.1|                 9.4e-55  [2]-33-[1]-58-[5]-24
+dbj|BAD96844.1|                     9.6e-54  [2]-28-[1]-58-[5]-24
+ref|NP_004326.1|                      1e-53  [2]-28-[1]-58-[5]-24
+ref|NP_001177409.1|                 4.3e-53  [2]-33-[1]-58-[5]-24
+ref|XP_018869871.1|                 2.3e-52  [2]-33-[1]-58-[5]-24
+ref|NP_001266560.1|                 5.5e-52  [2]-33-[1]-58-[5]-24
+gb|ADI58598.1|                      2.2e-51  [2]-33-[1]-58-[5]-12
+ref|XP_030675274.1|                 2.2e-51  [2]-33-[1]-58-[5]-12
+dbj|BAG64608.1|                     9.1e-51  [2]-28-[1]-58-[5]-6
+ref|NP_001295602.1|                   2e-47  [2]-33-[1]-58-[5]-12
+gb|ADI58596.1|                      8.7e-46  [2]-33-[1]-58-[5]-23
+ref|NP_001166058.1|                   2e-45  [2]-33-[1]-58-[5]-11
+pdb|3MQ7|A                          0.00048  104-[5]-5
+pdb|3MQB|A                          0.00063  104-[5]-5
+pdb|3MQC|A                           0.0014  104-[5]-5
 
 ********************************************************************************
 
@@ -167,261 +167,333 @@ SECTION III: ANNOTATED SEQUENCES
 ********************************************************************************
 
 
-pdb|3MQB|A
-  Crystal Structure of Ectodomain of BST-2/Tetherin/CD317 (C2) [Homo sapiens] 
-  LENGTH = 115  COMBINED P-VALUE = 1.54e-30  E-VALUE =  2.3e-29
-  DIAGRAM: 12-[1]-69
-
-                 [1]
-                 1.2e-33
-                 AVMECRNVTHHLQHQLTQAQEGFHDMEAQAATCN
-                 ++++++++++++++++++++ ++++ ++++++++
-1    KANSEACRDGLRAVMECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEIT
-
-
-dbj|BAG64608.1|
-  unnamed protein product [Homo sapiens]
-  LENGTH = 162  COMBINED P-VALUE = 1.76e-30  E-VALUE =  2.6e-29
-  DIAGRAM: 58-[1]-70
-
-                                                               [1]
-                                                               1.2e-33
-                                                               AVMECRNVTHHLQHQLT
-                                                               +++++++++++++++++
-1    MASTSYDYCRVPMEDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKADSEACRDGLRAVMECRNVTHLLQQELT
-
-     
-     
-     QAQEGFHDMEAQAATCN
-     +++ ++++ ++++++++
-76   EAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLGRENQVLSVRIAD
-
-
-gb|ADI58598.1|
-  bone marrow stromal cell antigen 2 [Hylobates agilis]
-  LENGTH = 173  COMBINED P-VALUE = 2.03e-30  E-VALUE =    3e-29
-  DIAGRAM: 63-[1]-76
-
-                                                                    [1]
-                                                                    2.1e-34
-                                                                    AVMECRNVTHHL
-                                                                    ++++++++++++
-1    MAPTLYDYCRVPMDGIWKKDGDKRCKLLLGIGILVLLIIVSLGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
-
-     
-     
-     QHQLTQAQEGFHDMEAQAATCN
-     ++++++++ +++++++++++++
-76   QQELTEAQKGFQDAEAQAATCNQTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLS
-
-
-ref|XP_030675274.1|
-  bone marrow stromal antigen 2 isoform X1 [Nomascus leucogenys] 
-  LENGTH = 173  COMBINED P-VALUE = 2.03e-30  E-VALUE =    3e-29
-  DIAGRAM: 63-[1]-76
-
-                                                                    [1]
-                                                                    2.1e-34
-                                                                    AVMECRNVTHHL
-                                                                    ++++++++++++
-1    MAPTLYDYCRVPMDDIWKKDGDKRCKLLLGIGILVLLIIVSLGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
-
-     
-     
-     QHQLTQAQEGFHDMEAQAATCN
-     ++++++++ +++++++++++++
-76   QQELTEAQKGFQDAEAQAATCNQTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLS
-
-
-ref|NP_001295602.1|
-  bone marrow stromal antigen 2 [Nomascus leucogenys] 
-  LENGTH = 173  COMBINED P-VALUE = 2.09e-30  E-VALUE =  3.1e-29
-  DIAGRAM: 63-[1]-76
-
-                                                                    [1]
-                                                                    2.1e-34
-                                                                    AVMECRNVTHHL
-                                                                    ++++++++++++
-1    MAPTLYDYCRGPMDDIWKKDGDKRCKLLLGIGILVLLIIVSLGVPLIIFTIKANSEACQDGLRAVMECRNVTHLL
-
-     
-     
-     QHQLTQAQEGFHDMEAQAATCN
-     ++++++++ +++++++++++++
-76   QQELTEAQKGFQDAEAQAATCNQTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLS
-
-
-ref|NP_004326.1|
-  bone marrow stromal antigen 2 precursor [Homo sapiens] 
-  LENGTH = 180  COMBINED P-VALUE = 5.89e-30  E-VALUE =  8.8e-29
-  DIAGRAM: 58-[1]-88
-
-                                                               [1]
-                                                               1.2e-33
-                                                               AVMECRNVTHHLQHQLT
-                                                               +++++++++++++++++
-1    MASTSYDYCRVPMEDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELT
-
-     
-     
-     QAQEGFHDMEAQAATCN
-     +++ ++++ ++++++++
-76   EAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIAD
-
-
-dbj|BAD96844.1|
-  bone marrow stromal cell antigen 2 variant, partial [Homo sapiens]
-  LENGTH = 180  COMBINED P-VALUE = 5.89e-30  E-VALUE =  8.8e-29
-  DIAGRAM: 58-[1]-88
-
-                                                               [1]
-                                                               1.2e-33
-                                                               AVMECRNVTHHLQHQLT
-                                                               +++++++++++++++++
-1    MASTSYDYCRVPMEDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELT
-
-     
-     
-     QAQEGFHDMEAQAATCN
-     +++ ++++ ++++++++
-76   EAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRREDQVLSVRIAD
-
-
-ref|XP_018869871.1|
-  bone marrow stromal antigen 2 isoform X1 [Gorilla gorilla gorilla] 
-  LENGTH = 185  COMBINED P-VALUE = 6.94e-30  E-VALUE =    1e-28
-  DIAGRAM: 63-[1]-88
-
-                                                                    [1]
-                                                                    1.2e-33
-                                                                    AVMECRNVTHHL
-                                                                    ++++++++++++
-1    MASTLYDYCRVPMDAILKKDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
-
-     
-     
-     QHQLTQAQEGFHDMEAQAATCN
-     ++++++++ ++++ ++++++++
-76   QQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLS
-
-
-ref|NP_001266560.1|
-  bone marrow stromal antigen 2 [Gorilla gorilla] 
-  LENGTH = 185  COMBINED P-VALUE = 6.94e-30  E-VALUE =    1e-28
-  DIAGRAM: 63-[1]-88
-
-                                                                    [1]
-                                                                    1.2e-33
-                                                                    AVMECRNVTHHL
-                                                                    ++++++++++++
-1    MASTLYDYCRVPMDAILKKDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
-
-     
-     
-     QHQLTQAQEGFHDMEAQAATCN
-     ++++++++ ++++ ++++++++
-76   QQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLS
-
-
-ref|NP_001177409.1|
-  bone marrow stromal antigen 2 [Pan troglodytes] 
-  LENGTH = 185  COMBINED P-VALUE = 7.48e-30  E-VALUE =  1.1e-28
-  DIAGRAM: 63-[1]-88
-
-                                                                    [1]
-                                                                    1.2e-33
-                                                                    AVMECRNVTHHL
-                                                                    ++++++++++++
-1    MASTLYDYCRVPMDDIWKKDGDKRCKLLLGIGILMLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
-
-     
-     
-     QHQLTQAQEGFHDMEAQAATCN
-     ++++++++ ++++ ++++++++
-76   QQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEEEITTLNHKLQDASAEVERLRRENQVLS
-
-
 ref|NP_001266147.1|
   bone marrow stromal antigen 2 [Pan paniscus] 
-  LENGTH = 185  COMBINED P-VALUE = 7.80e-30  E-VALUE =  1.2e-28
-  DIAGRAM: 63-[1]-88
+  LENGTH = 185  COMBINED P-VALUE = 6.25e-56  E-VALUE =  9.4e-55
+  DIAGRAM: [2]-33-[1]-58-[5]-24
 
-                                                                    [1]
-                                                                    1.2e-33
-                                                                    AVMECRNVTHHL
-                                                                    ++++++++++++
+     [2]                                            [1]
+     4.0e-15                                        1.3e-44
+     MAPSFYHYHPVPMD                                 YFAVKANSEACRDGLRAQMECRNTTHLL
+     ++++ +++++++++                                 +++++++++++++++++ ++++++++++
 1    MASTLYDYCRVPMDDIWKKDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
 
      
      
-     QHQLTQAQEGFHDMEAQAATCN
-     ++++++++ ++++ ++++++++
+     QRQLTRAQDSLLQAEAQANSCN
+     ++ ++ ++ +++++++++++++
 76   QQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEEEITTLNHKLQDASAEVERLRRENQVLS
 
+          [5]
+          2.4e-09
+          KFYYFS
+          ++++++
+151  VRIADKKYYPSSQDSSSAAAPQLLIVLLGLSALLQ
 
-ref|NP_001166058.1|
-  bone marrow stromal antigen 2 [Pongo abelii] 
-  LENGTH = 172  COMBINED P-VALUE = 2.91e-28  E-VALUE =  4.4e-27
-  DIAGRAM: 63-[1]-75
 
-                                                                    [1]
-                                                                    1.9e-32
-                                                                    AVMECRNVTHHL
-                                                                    ++++++++++++
-1    MASTLYDYCRVPMGDICKKDGDKRCKLLLGIGILVLLITVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
+dbj|BAD96844.1|
+  bone marrow stromal cell antigen 2 variant, partial [Homo sapiens]
+  LENGTH = 180  COMBINED P-VALUE = 6.39e-55  E-VALUE =  9.6e-54
+  DIAGRAM: [2]-28-[1]-58-[5]-24
+
+     [2]                                       [1]
+     4.1e-14                                   1.3e-44
+     MAPSFYHYHPVPMD                            YFAVKANSEACRDGLRAQMECRNTTHLLQRQLT
+     ++++ ++++++++                             +++++++++++++++++ ++++++++++++ ++
+1    MASTSYDYCRVPMEDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELT
 
      
      
-     QHQLTQAQEGFHDMEAQAATCN
-     ++++++++ ++++++++ ++++
-76   QQELTEAQKGFQDTEAQVTTCNQTVMALMASLDAEKAQGQKKVEELEGEITILNHKLQDASAEVERLRRENQVLS
+     RAQDSLLQAEAQANSCN
+      ++ +++++++++++++
+76   EAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRREDQVLSVRIAD
+
+     [5]
+     2.4e-09
+     KFYYFS
+     ++++++
+151  KKYYPSSQDSSSAAAPQLLIVLLGLSALLQ
+
+
+ref|NP_004326.1|
+  bone marrow stromal antigen 2 precursor [Homo sapiens] 
+  LENGTH = 180  COMBINED P-VALUE = 6.90e-55  E-VALUE =    1e-53
+  DIAGRAM: [2]-28-[1]-58-[5]-24
+
+     [2]                                       [1]
+     4.1e-14                                   1.3e-44
+     MAPSFYHYHPVPMD                            YFAVKANSEACRDGLRAQMECRNTTHLLQRQLT
+     ++++ ++++++++                             +++++++++++++++++ ++++++++++++ ++
+1    MASTSYDYCRVPMEDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLLQQELT
+
+     
+     
+     RAQDSLLQAEAQANSCN
+      ++ +++++++++++++
+76   EAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLSVRIAD
+
+     [5]
+     2.4e-09
+     KFYYFS
+     ++++++
+151  KKYYPSSQDSSSAAAPQLLIVLLGLSALLQ
+
+
+ref|NP_001177409.1|
+  bone marrow stromal antigen 2 [Pan troglodytes] 
+  LENGTH = 185  COMBINED P-VALUE = 2.86e-54  E-VALUE =  4.3e-53
+  DIAGRAM: [2]-33-[1]-58-[5]-24
+
+     [2]                                            [1]
+     4.0e-15                                        1.3e-44
+     MAPSFYHYHPVPMD                                 YFAVKANSEACRDGLRAQMECRNTTHLL
+     ++++ +++++++++                                 +++++++++++++++++ ++++++++++
+1    MASTLYDYCRVPMDDIWKKDGDKRCKLLLGIGILMLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
+
+     
+     
+     QRQLTRAQDSLLQAEAQANSCN
+     ++ ++ ++ +++++++++++++
+76   QQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEEEITTLNHKLQDASAEVERLRRENQVLS
+
+          [5]
+          1.9e-07
+          KFYYFS
+          ++++ +
+151  VRIADKKYYSSSQDSSSAAAPQLLIVLLGLSALLQ
+
+
+ref|XP_018869871.1|
+  bone marrow stromal antigen 2 isoform X1 [Gorilla gorilla gorilla] 
+  LENGTH = 185  COMBINED P-VALUE = 1.57e-53  E-VALUE =  2.3e-52
+  DIAGRAM: [2]-33-[1]-58-[5]-24
+
+     [2]                                            [1]
+     4.0e-15                                        1.3e-44
+     MAPSFYHYHPVPMD                                 YFAVKANSEACRDGLRAQMECRNTTHLL
+     ++++ +++++++++                                 +++++++++++++++++ ++++++++++
+1    MASTLYDYCRVPMDAILKKDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
+
+     
+     
+     QRQLTRAQDSLLQAEAQANSCN
+     ++ ++ ++ +++++++++++++
+76   QQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLS
+
+          [5]
+          5.0e-07
+          KFYYFS
+           +++++
+151  VRIADTKYYPSSQDSSSAAAPQLLFVLLGLSALLQ
+
+
+ref|NP_001266560.1|
+  bone marrow stromal antigen 2 [Gorilla gorilla] 
+  LENGTH = 185  COMBINED P-VALUE = 3.63e-53  E-VALUE =  5.5e-52
+  DIAGRAM: [2]-33-[1]-58-[5]-24
+
+     [2]                                            [1]
+     4.0e-15                                        1.3e-44
+     MAPSFYHYHPVPMD                                 YFAVKANSEACRDGLRAQMECRNTTHLL
+     ++++ +++++++++                                 +++++++++++++++++ ++++++++++
+1    MASTLYDYCRVPMDAILKKDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
+
+     
+     
+     QRQLTRAQDSLLQAEAQANSCN
+     ++ ++ ++ +++++++++++++
+76   QQELTEAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLS
+
+          [5]
+          5.0e-07
+          KFYYFS
+           +++++
+151  VRIADTKYYPSSQDSSSAAAPQLLFVLLGLSALPQ
+
+
+gb|ADI58598.1|
+  bone marrow stromal cell antigen 2 [Hylobates agilis]
+  LENGTH = 173  COMBINED P-VALUE = 1.45e-52  E-VALUE =  2.2e-51
+  DIAGRAM: [2]-33-[1]-58-[5]-12
+
+     [2]                                            [1]
+     1.4e-16                                        5.5e-45
+     MAPSFYHYHPVPMD                                 YFAVKANSEACRDGLRAQMECRNTTHLL
+     ++++ +++++++++                                 +++++++++++++++++ ++++++++++
+1    MAPTLYDYCRVPMDGIWKKDGDKRCKLLLGIGILVLLIIVSLGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
+
+     
+     
+     QRQLTRAQDSLLQAEAQANSCN
+     ++ ++ ++ +++++++++++++
+76   QQELTEAQKGFQDAEAQAATCNQTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLS
+
+          [5]
+          3.0e-05
+          KFYYFS
+          +++  +
+151  VRIADKKYSASSQDSSSAAAPQI
+
+
+ref|XP_030675274.1|
+  bone marrow stromal antigen 2 isoform X1 [Nomascus leucogenys] 
+  LENGTH = 173  COMBINED P-VALUE = 1.45e-52  E-VALUE =  2.2e-51
+  DIAGRAM: [2]-33-[1]-58-[5]-12
+
+     [2]                                            [1]
+     1.4e-16                                        5.5e-45
+     MAPSFYHYHPVPMD                                 YFAVKANSEACRDGLRAQMECRNTTHLL
+     ++++ +++++++++                                 +++++++++++++++++ ++++++++++
+1    MAPTLYDYCRVPMDDIWKKDGDKRCKLLLGIGILVLLIIVSLGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
+
+     
+     
+     QRQLTRAQDSLLQAEAQANSCN
+     ++ ++ ++ +++++++++++++
+76   QQELTEAQKGFQDAEAQAATCNQTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLS
+
+          [5]
+          3.0e-05
+          KFYYFS
+          +++  +
+151  VRIADKKYSASSQDSSSAAAPQI
+
+
+dbj|BAG64608.1|
+  unnamed protein product [Homo sapiens]
+  LENGTH = 162  COMBINED P-VALUE = 6.09e-52  E-VALUE =  9.1e-51
+  DIAGRAM: [2]-28-[1]-58-[5]-6
+
+     [2]                                       [1]
+     4.1e-14                                   9.3e-43
+     MAPSFYHYHPVPMD                            YFAVKANSEACRDGLRAQMECRNTTHLLQRQLT
+     ++++ ++++++++                             ++++++ ++++++++++ ++++++++++++ ++
+1    MASTSYDYCRVPMEDGDKRCKLLLGIGILVLLIIVILGVPLIIFTIKADSEACRDGLRAVMECRNVTHLLQQELT
+
+     
+     
+     RAQDSLLQAEAQANSCN
+      ++ +++++++++++++
+76   EAQKGFQDVEAQAATCNHTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLGRENQVLSVRIAD
+
+     [5]
+     2.4e-09
+     KFYYFS
+     ++++++
+151  KKYYPSSHFPST
+
+
+ref|NP_001295602.1|
+  bone marrow stromal antigen 2 [Nomascus leucogenys] 
+  LENGTH = 173  COMBINED P-VALUE = 1.36e-48  E-VALUE =    2e-47
+  DIAGRAM: [2]-33-[1]-58-[5]-12
+
+     [2]                                            [1]
+     9.9e-15                                        1.2e-42
+     MAPSFYHYHPVPMD                                 YFAVKANSEACRDGLRAQMECRNTTHLL
+     ++++ +++++ +++                                 +++++++++++ +++++ ++++++++++
+1    MAPTLYDYCRGPMDDIWKKDGDKRCKLLLGIGILVLLIIVSLGVPLIIFTIKANSEACQDGLRAVMECRNVTHLL
+
+     
+     
+     QRQLTRAQDSLLQAEAQANSCN
+     ++ ++ ++ +++++++++++++
+76   QQELTEAQKGFQDAEAQAATCNQTVMALMASLDAEKAQGQKKVEELEGEITTLNHKLQDASAEVERLRRENQVLS
+
+          [5]
+          3.0e-05
+          KFYYFS
+          +++  +
+151  VRIADKKYSASSQDSSPAAAPQI
 
 
 gb|ADI58596.1|
   bone marrow stromal cell antigen 2 [Pongo pygmaeus]
-  LENGTH = 184  COMBINED P-VALUE = 4.36e-28  E-VALUE =  6.5e-27
-  DIAGRAM: 63-[1]-87
+  LENGTH = 184  COMBINED P-VALUE = 5.77e-47  E-VALUE =  8.7e-46
+  DIAGRAM: [2]-33-[1]-58-[5]-23
 
-                                                                    [1]
-                                                                    1.9e-32
-                                                                    AVMECRNVTHHL
-                                                                    ++++++++++++
+     [2]                                            [1]
+     3.5e-13                                        2.1e-42
+     MAPSFYHYHPVPMD                                 YFAVKANSEACRDGLRAQMECRNTTHLL
+     ++++ ++++++++                                  +++++++++++++++++ ++++++++++
 1    MASTLYDYCRVPMGDICKKDGDKRCKLLLGIGILVLLITVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
 
      
      
-     QHQLTQAQEGFHDMEAQAATCN
-     ++++++++ ++++++++ ++++
+     QRQLTRAQDSLLQAEAQANSCN
+     ++ ++ ++ ++++++++  +++
 76   QQELTEAQKGFQDTEAQVTTCNQTVMALMASLDAEKAQGQKKVEELEGEITILNHKLQDASAEVERLRRENQVLS
 
+          [5]
+          3.0e-05
+          KFYYFS
+          +++  +
+151  VRIADKKYSASSQDSSSAAAPQLLILLLGPSALL
 
-pdb|3MQC|A
-  Crystal Structure of Ectodomain of BST-2/Tetherin/CD317 (P21) [Homo sapiens] 
-  LENGTH = 115  COMBINED P-VALUE = 1.45e-27  E-VALUE =  2.2e-26
-  DIAGRAM: 12-[1]-69
 
-                 [1]
-                 2.0e-31
-                 AVMECRNVTHHLQHQLTQAQEGFHDMEAQAATCN
-                 ++ +++++++++++++++++ ++++ ++++++++
-1    KANSEACRDGLRAVXECRNVTHLLQQELTEAQKGFQDVEAQAATCNHTVXALXASLDAEKAQGQKKVEELEGEIT
+ref|NP_001166058.1|
+  bone marrow stromal antigen 2 [Pongo abelii] 
+  LENGTH = 172  COMBINED P-VALUE = 1.34e-46  E-VALUE =    2e-45
+  DIAGRAM: [2]-33-[1]-58-[5]-11
+
+     [2]                                            [1]
+     3.5e-13                                        2.1e-42
+     MAPSFYHYHPVPMD                                 YFAVKANSEACRDGLRAQMECRNTTHLL
+     ++++ ++++++++                                  +++++++++++++++++ ++++++++++
+1    MASTLYDYCRVPMGDICKKDGDKRCKLLLGIGILVLLITVILGVPLIIFTIKANSEACRDGLRAVMECRNVTHLL
+
+     
+     
+     QRQLTRAQDSLLQAEAQANSCN
+     ++ ++ ++ ++++++++  +++
+76   QQELTEAQKGFQDTEAQVTTCNQTVMALMASLDAEKAQGQKKVEELEGEITILNHKLQDASAEVERLRRENQVLS
+
+          [5]
+          3.0e-05
+          KFYYFS
+          +++  +
+151  VRIADKKYSASSQDSSSAAAPQ
 
 
 pdb|3MQ7|A
   Crystal Structure of Ectodomain Mutant of BST-2/Tetherin/CD317 [Homo sapiens] 
-  LENGTH = 115  COMBINED P-VALUE = 4.96e-19  E-VALUE =  7.4e-18
-  DIAGRAM: 12-[1]-69
+  LENGTH = 115  COMBINED P-VALUE = 3.20e-05  E-VALUE =  0.00048
+  DIAGRAM: 104-[5]-5
 
-                 [1]
-                 3.2e-23
-                 AVMECRNVTHHLQHQLTQAQEGFHDMEAQAATCN
-                 ++ + +++++++++++++++ ++++ ++++++ +
-1    KANSEAARDGLRAVXEARNVTHLLQQELTEAQKGFQDVEAQAATANHTVXALXASLDAEKAQGQKKVEELEGEIT
+                                  [5]
+                                  2.4e-09
+                                  KFYYFS
+                                  ++++++
+76   TLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSS
+
+
+pdb|3MQB|A
+  Crystal Structure of Ectodomain of BST-2/Tetherin/CD317 (C2) [Homo sapiens] 
+  LENGTH = 115  COMBINED P-VALUE = 4.19e-05  E-VALUE =  0.00063
+  DIAGRAM: 104-[5]-5
+
+                                  [5]
+                                  2.4e-09
+                                  KFYYFS
+                                  ++++++
+76   TLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSS
+
+
+pdb|3MQC|A
+  Crystal Structure of Ectodomain of BST-2/Tetherin/CD317 (P21) [Homo sapiens] 
+  LENGTH = 115  COMBINED P-VALUE = 9.23e-05  E-VALUE =   0.0014
+  DIAGRAM: 104-[5]-5
+
+                                  [5]
+                                  2.4e-09
+                                  KFYYFS
+                                  ++++++
+76   TLNHKLQDASAEVERLRRENQVLSVRIADKKYYPSSQDSS
 
 ********************************************************************************
 
 
-CPU: b7de53890ff9
-Time 0.088 secs.
+CPU: ddd83f0a638f
+Time 0.051 secs.
 
 mast -bfile --motif-- -remcorr -oc /opt/project/data/motif/BST2/mast /opt/project/data/motif/BST2/meme/meme.txt /opt/project/data/homologue/BST2/NM_004335_BST2.fasta

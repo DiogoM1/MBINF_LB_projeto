@@ -1,137 +1,23 @@
 CLUSTAL O(1.2.4) multiple sequence alignment
 
 
-sp|P0DTC7|NS7A_SARS2                --------------------------MKII------------LFLALITLATCELYHYQE
-sp|Q3I5J0|NS7A_BCRP3                --------------------------MKII------------LFLTLIALASCELYHYQE
-sp|Q3LZX7|NS7A_BCHK3                --------------------------MKII------------LFLTLIALATCELYHYQE
-tr|A0A0U1UZF3|A0A0U1UZF3_SARS       --------------------------MKII------------LFLTLIALASCELYHYQE
-tr|A0A0K1Z075|A0A0K1Z075_SARS       --------------------------MKII------------LFLTLIVLATCELYHYQE
-sp|P59635|NS7A_SARS                 --------------------------MKII------------LFLTLIVFTSCELYHYQE
-tr|D2E271|D2E271_SARS               --------------------------MKII------------LFLTLIVFTSCELYHYQE
-sp|Q0Q470|NS7A_BC279                --------------------------MKII------------LFLTLIALASSELYHYQE
-tr|A0A0U1WHG5|A0A0U1WHG5_SARS       --------------------------MKII------------LLLILIVLATCELYHYQE
-tr|E0XIZ8|E0XIZ8_9BETC              --------------------------MKFL------------LLVAIVSIASAELYHYQE
-tr|A0A1R2AKP7|A0A1R2AKP7_9CILI      ------------------------------------------------------------
-tr|M1V4E0|M1V4E0_CYAM1              MVDFHLLLSRLWEKLVLTGPVTLCVGLQLLTTFRSFRQSEGDLLLRILRLATYELPFFMN
-tr|A0A4S8MSA5|A0A4S8MSA5_DENBC      --------------------------MKFFIQTVLFAVLATVIAAASVPDASEELLKRQG
-                                                                                                
+sp|P0DTC7|NS7A_SARS2      MKIILFLALITLATCELYHYQECVRGTTVLLKEPCSSGTYEGNSPFHPLADNKFALTCFS
+sp|Q3I5J0|NS7A_BCRP3      MKIILFLTLIALASCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTS
+sp|Q3LZX7|NS7A_BCHK3      MKIILFLTLIALATCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCSS
+sp|P59635|NS7A_SARS       MKIILFLTLIVFTSCELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTS
+sp|Q0Q470|NS7A_BC279      MKIILFLTLIALASSELYHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCIS
+                          *******:**.:::.******************** ********************** *
 
-sp|P0DTC7|NS7A_SARS2                CVRGTTVLLKEPCSSGTYEGNSPFHPLADN------KFA-L----TCFSTQFAFACPDGV
-sp|Q3I5J0|NS7A_BCRP3                CVRGTTVLLKEPCPSGTYEGNSPFHPLADN------KFA-L----TCTSTHFAFACADGT
-sp|Q3LZX7|NS7A_BCHK3                CVRGTTVLLKEPCPSGTYEGNSPFHPLADN------KFA-L----TCSSTHFAFACADGT
-tr|A0A0U1UZF3|A0A0U1UZF3_SARS       CVRGTTVLLKEPCPSGTYEGNSPFHPLADN------KFA-L----TCTSTRFAFACADGT
-tr|A0A0K1Z075|A0A0K1Z075_SARS       CVRGTTVLLEEPCPSGTYEGNSPFHPLADN------KFA-L----TCTSTHFAFACADGT
-sp|P59635|NS7A_SARS                 CVRGTTVLLKEPCPSGTYEGNSPFHPLADN------KFA-L----TCTSTHFAFACADGT
-tr|D2E271|D2E271_SARS               CVRGTTVLLKEPCPSGTYEGNSPFHPLADN------KFA-L----TCTSTHFAFACADGT
-sp|Q0Q470|NS7A_BC279                CVRGTTVLLKEPCPSGTYEGNSPFHPLADN------KFA-L----TCISTHFAFACADGT
-tr|A0A0U1WHG5|A0A0U1WHG5_SARS       CVRGTTVLLEEPCPSGTYEGNSPFHPLADN------KFA-L----TCISTHFAFACADGT
-tr|E0XIZ8|E0XIZ8_9BETC              CARGTTVLLKEPCQPNTYEGNSPYHPLADN------KFA-I----TCTNTKFSFVCQDET
-tr|A0A1R2AKP7|A0A1R2AKP7_9CILI      ------MESCIPCPSGTYNSNKGGSSYRQCYPCQSGTFNNKEGSSICYDCPIGFDCPMGS
-tr|M1V4E0|M1V4E0_CYAM1              LVFWTCTALAATLSSSSYTDRGNFHRSSVA------SFS-LGLFVFVDSTRFIFEHLEGS
-tr|A0A4S8MSA5|A0A4S8MSA5_DENBC      CIGGTTVFFPDPCPAGTLACNSAGS------------IT-L----CCSSC----------
-                                                   .:   .                :          .           
+sp|P0DTC7|NS7A_SARS2      TQFAFACPDGVKHVYQLRARSVSPKLFIRQEEV-QELYSPIFLIVAAIVFITLCFTLKRK
+sp|Q3I5J0|NS7A_BCRP3      THFAFACADGTRHTYQLRARSVSPKLFIRQEEVHQELYSPLFLIVAALVFITLCFTIKRK
+sp|Q3LZX7|NS7A_BCHK3      THFAFACADGTRHTYQLRARSVSPKLFIRQEEVYQELYSPLFLIVAALVFIILCFTIKRK
+sp|P59635|NS7A_SARS       THFAFACADGTRHTYQLRARSVSPKLFIRQEEVQQELYSPLFLIVAALVFLILCFTIKRK
+sp|Q0Q470|NS7A_BC279      THFAFACADGTRHTYQLRARSVSPKLFTRQEEVHQELYSPLFLIVAALVFIILCFTIKRK
+                          *:***** **.:*.************* ***** ******:******:**: ****:***
 
-sp|P0DTC7|NS7A_SARS2                KH----VYQLRARSVSPKLFIRQEEV--QELYSPIFLIVAAIVFITL-CFTLKRKTE---
-sp|Q3I5J0|NS7A_BCRP3                RH----TYQLRARSVSPKLFIRQEEVH-QELYSPLFLIVAALVFITL-CFTIKRKTE---
-sp|Q3LZX7|NS7A_BCHK3                RH----TYQLRARSVSPKLFIRQEEVY-QELYSPLFLIVAALVFIIL-CFTIKRKTE---
-tr|A0A0U1UZF3|A0A0U1UZF3_SARS       RH----TYQLRARSVSPKLFIRQEEVH-QELYSPLFLIVAAIVFIIL-CFTIKRKTE---
-tr|A0A0K1Z075|A0A0K1Z075_SARS       RH----TYQLRARSVSPKLFIRQEEVQ-QELYSPLFLIVAALVFLIL-CFTIKRKTE---
-sp|P59635|NS7A_SARS                 RH----TYQLRARSVSPKLFIRQEEVQ-QELYSPLFLIVAALVFLIL-CFTIKRKTE---
-tr|D2E271|D2E271_SARS               RH----TYQLRARSVSPKLFIRQEEVQ-QELYSPLFLIVAALVFLIL-CFTIKRKTE---
-sp|Q0Q470|NS7A_BC279                RH----TYQLRARSVSPKLFTRQEEVH-QELYSPLFLIVAALVFIIL-CFTIKRKTE---
-tr|A0A0U1WHG5|A0A0U1WHG5_SARS       RH----TYQLRARSVSPKLFTRQEKVY-QELYSPLFLIVAALVFIIL-CFTIKRKIE---
-tr|E0XIZ8|E0XIZ8_9BETC              RH----VFQLRARSISPRLFASPKHH--SDDFTPVILIIVTLLFVIY-CCMKRQ------
-tr|A0A1R2AKP7|A0A1R2AKP7_9CILI      KDPVKIVYTKVESSIQPKIYSTESSEKITSIYIISASVSLLIVLILLFTFKKIRDKIKNA
-tr|M1V4E0|M1V4E0_CYAM1              IF----QKRRLARPVQPA------NDP-HAVYIHLACIAVCLVYIFT-SFWKKWGVLSSD
-tr|A0A4S8MSA5|A0A4S8MSA5_DENBC      ------------------------------------------------------------
-                                                                                                
-
-sp|P0DTC7|NS7A_SARS2                ------------------------------------------------------------
-sp|Q3I5J0|NS7A_BCRP3                ------------------------------------------------------------
-sp|Q3LZX7|NS7A_BCHK3                ------------------------------------------------------------
-tr|A0A0U1UZF3|A0A0U1UZF3_SARS       ------------------------------------------------------------
-tr|A0A0K1Z075|A0A0K1Z075_SARS       ------------------------------------------------------------
-sp|P59635|NS7A_SARS                 ------------------------------------------------------------
-tr|D2E271|D2E271_SARS               ------------------------------------------------------------
-sp|Q0Q470|NS7A_BC279                ------------------------------------------------------------
-tr|A0A0U1WHG5|A0A0U1WHG5_SARS       ------------------------------------------------------------
-tr|E0XIZ8|E0XIZ8_9BETC              ------------------------------------------------------------
-tr|A0A1R2AKP7|A0A1R2AKP7_9CILI      DLYTEMHNHELLVPMIK----------KKNTIGGFFSLVFIIA-AVVYIG--SAIIEFSK
-tr|M1V4E0|M1V4E0_CYAM1              VTFVNFFT-ALIVIYVNRISLELACTAQQANSVEFFAGCELATKRVLLHGMISAILGFAV
-tr|A0A4S8MSA5|A0A4S8MSA5_DENBC      ------------------------------------------------------------
-                                                                                                
-
-sp|P0DTC7|NS7A_SARS2                ------------------------------------------------------------
-sp|Q3I5J0|NS7A_BCRP3                ------------------------------------------------------------
-sp|Q3LZX7|NS7A_BCHK3                ------------------------------------------------------------
-tr|A0A0U1UZF3|A0A0U1UZF3_SARS       ------------------------------------------------------------
-tr|A0A0K1Z075|A0A0K1Z075_SARS       ------------------------------------------------------------
-sp|P59635|NS7A_SARS                 ------------------------------------------------------------
-tr|D2E271|D2E271_SARS               ------------------------------------------------------------
-sp|Q0Q470|NS7A_BC279                ------------------------------------------------------------
-tr|A0A0U1WHG5|A0A0U1WHG5_SARS       ------------------------------------------------------------
-tr|E0XIZ8|E0XIZ8_9BETC              ------------------------------------------------------------
-tr|A0A1R2AKP7|A0A1R2AKP7_9CILI      SNIQESKVLVPLIILENESELLTANKIIVTSKIIGYGGECGVEGICNSQIFINITNLSGS
-tr|M1V4E0|M1V4E0_CYAM1              MWF----NMLPILMVVPSKR-TTRLEI-AIKRVA---ALPGCRRIISALLWRNLEGHWEA
-tr|A0A4S8MSA5|A0A4S8MSA5_DENBC      ------------------------------------------------------------
-                                                                                                
-
-sp|P0DTC7|NS7A_SARS2                ------------------------------------------------------------
-sp|Q3I5J0|NS7A_BCRP3                ------------------------------------------------------------
-sp|Q3LZX7|NS7A_BCHK3                ------------------------------------------------------------
-tr|A0A0U1UZF3|A0A0U1UZF3_SARS       ------------------------------------------------------------
-tr|A0A0K1Z075|A0A0K1Z075_SARS       ------------------------------------------------------------
-sp|P59635|NS7A_SARS                 ------------------------------------------------------------
-tr|D2E271|D2E271_SARS               ------------------------------------------------------------
-sp|Q0Q470|NS7A_BC279                ------------------------------------------------------------
-tr|A0A0U1WHG5|A0A0U1WHG5_SARS       ------------------------------------------------------------
-tr|E0XIZ8|E0XIZ8_9BETC              ------------------------------------------------------------
-tr|A0A1R2AKP7|A0A1R2AKP7_9CILI      LI-EYNCTNYYGNICIVTIVCNNC----A-------LLG-EATIFI---TTRELKSYASA
-tr|M1V4E0|M1V4E0_CYAM1              AVSMAVCDELSQH--LVASLARGCMKSCADDVTSMAVLERENAVPVRESRQTCERSFGTE
-tr|A0A4S8MSA5|A0A4S8MSA5_DENBC      ------------------------------------------------------------
-                                                                                                
-
-sp|P0DTC7|NS7A_SARS2                ------------------------------------------------------------
-sp|Q3I5J0|NS7A_BCRP3                ------------------------------------------------------------
-sp|Q3LZX7|NS7A_BCHK3                ------------------------------------------------------------
-tr|A0A0U1UZF3|A0A0U1UZF3_SARS       ------------------------------------------------------------
-tr|A0A0K1Z075|A0A0K1Z075_SARS       ------------------------------------------------------------
-sp|P59635|NS7A_SARS                 ------------------------------------------------------------
-tr|D2E271|D2E271_SARS               ------------------------------------------------------------
-sp|Q0Q470|NS7A_BC279                ------------------------------------------------------------
-tr|A0A0U1WHG5|A0A0U1WHG5_SARS       ------------------------------------------------------------
-tr|E0XIZ8|E0XIZ8_9BETC              ------------------------------------------------------------
-tr|A0A1R2AKP7|A0A1R2AKP7_9CILI      IFVNITSDSSIPGEVSNINNELYSSEDYIFIGSEANEFYCIMIPSLFTSESSRWPSRLTG
-tr|M1V4E0|M1V4E0_CYAM1              HFLDIEQAKSIPTASTCLMHNHAE------------------------------------
-tr|A0A4S8MSA5|A0A4S8MSA5_DENBC      ------------------------------------------------------------
-                                                                                                
-
-sp|P0DTC7|NS7A_SARS2                ------------------------------------------------------------
-sp|Q3I5J0|NS7A_BCRP3                ------------------------------------------------------------
-sp|Q3LZX7|NS7A_BCHK3                ------------------------------------------------------------
-tr|A0A0U1UZF3|A0A0U1UZF3_SARS       ------------------------------------------------------------
-tr|A0A0K1Z075|A0A0K1Z075_SARS       ------------------------------------------------------------
-sp|P59635|NS7A_SARS                 ------------------------------------------------------------
-tr|D2E271|D2E271_SARS               ------------------------------------------------------------
-sp|Q0Q470|NS7A_BC279                ------------------------------------------------------------
-tr|A0A0U1WHG5|A0A0U1WHG5_SARS       ------------------------------------------------------------
-tr|E0XIZ8|E0XIZ8_9BETC              ------------------------------------------------------------
-tr|A0A1R2AKP7|A0A1R2AKP7_9CILI      YHISNEKLNLKGSEALKTDLPVNAGFKIFIYMSKSSNGLYTQRLFKQNILILVSSIIGSV
-tr|M1V4E0|M1V4E0_CYAM1              ------------------------------------------------------------
-tr|A0A4S8MSA5|A0A4S8MSA5_DENBC      ------------------------------------------------------------
-                                                                                                
-
-sp|P0DTC7|NS7A_SARS2                --------------------------------------------------------
-sp|Q3I5J0|NS7A_BCRP3                --------------------------------------------------------
-sp|Q3LZX7|NS7A_BCHK3                --------------------------------------------------------
-tr|A0A0U1UZF3|A0A0U1UZF3_SARS       --------------------------------------------------------
-tr|A0A0K1Z075|A0A0K1Z075_SARS       --------------------------------------------------------
-sp|P59635|NS7A_SARS                 --------------------------------------------------------
-tr|D2E271|D2E271_SARS               --------------------------------------------------------
-sp|Q0Q470|NS7A_BC279                --------------------------------------------------------
-tr|A0A0U1WHG5|A0A0U1WHG5_SARS       --------------------------------------------------------
-tr|E0XIZ8|E0XIZ8_9BETC              --------------------------------------------------------
-tr|A0A1R2AKP7|A0A1R2AKP7_9CILI      FGIMSFIGFFMELTEGLLLKFNKNQTKIKGLLSIISKRKEIGGINFGNNKEILNKK
-tr|M1V4E0|M1V4E0_CYAM1              --------------------------------------------------------
-tr|A0A4S8MSA5|A0A4S8MSA5_DENBC      --------------------------------------------------------
-                                                                                            
+sp|P0DTC7|NS7A_SARS2      TE
+sp|Q3I5J0|NS7A_BCRP3      TE
+sp|Q3LZX7|NS7A_BCHK3      TE
+sp|P59635|NS7A_SARS       TE
+sp|Q0Q470|NS7A_BC279      TE
+                          **

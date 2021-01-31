@@ -1,0 +1,447 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/support/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2004-06-07" modified="2020-12-02" version="109">
+<accession>Q9QYE7</accession>
+<name>ITAD_RAT</name>
+<protein>
+<recommendedName>
+<fullName>Integrin alpha-D</fullName>
+</recommendedName>
+<cdAntigenName>CD11d</cdAntigenName>
+</protein>
+<gene>
+<name type="primary">Itgad</name>
+<name type="synonym">Itgax</name>
+</gene>
+<organism>
+<name type="scientific">Rattus norvegicus</name>
+<name type="common">Rat</name>
+<dbReference type="NCBI Taxonomy" id="10116"/>
+<lineage>
+<taxon>Eukaryota</taxon>
+<taxon>Metazoa</taxon>
+<taxon>Chordata</taxon>
+<taxon>Craniata</taxon>
+<taxon>Vertebrata</taxon>
+<taxon>Euteleostomi</taxon>
+<taxon>Mammalia</taxon>
+<taxon>Eutheria</taxon>
+<taxon>Euarchontoglires</taxon>
+<taxon>Glires</taxon>
+<taxon>Rodentia</taxon>
+<taxon>Myomorpha</taxon>
+<taxon>Muroidea</taxon>
+<taxon>Muridae</taxon>
+<taxon>Murinae</taxon>
+<taxon>Rattus</taxon>
+</lineage>
+</organism>
+<reference key="1">
+<citation type="submission" date="1997-08" db="EMBL/GenBank/DDBJ databases">
+<title>Cloning of rat alpha D, a novel beta 2 integrin.</title>
+<authorList>
+<person name="O'Brien M.M."/>
+<person name="VanderVieren M."/>
+<person name="Kilgannon P.D."/>
+<person name="Dietsch G."/>
+<person name="Gallatin W.M."/>
+</authorList>
+</citation>
+<scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+<source>
+<strain>Sprague-Dawley</strain>
+</source>
+</reference>
+<comment type="function">
+<text evidence="1">Integrin alpha-D/beta-2 is a receptor for ICAM3 and VCAM1. May play a role in the atherosclerotic process such as clearing lipoproteins from plaques and in phagocytosis of blood-borne pathogens, particulate matter, and senescent erythrocytes from the blood (By similarity).</text>
+</comment>
+<comment type="subunit">
+<text evidence="1">Heterodimer of an alpha and a beta subunit. Alpha-D associates with beta-2 (By similarity).</text>
+</comment>
+<comment type="subcellular location">
+<subcellularLocation>
+<location evidence="1">Membrane</location>
+<topology evidence="1">Single-pass type I membrane protein</topology>
+</subcellularLocation>
+</comment>
+<comment type="domain">
+<text>The integrin I-domain (insert) is a VWFA domain. Integrins with I-domains do not undergo protease cleavage.</text>
+</comment>
+<comment type="similarity">
+<text evidence="5">Belongs to the integrin alpha chain family.</text>
+</comment>
+<dbReference type="EMBL" id="AF021334">
+<property type="protein sequence ID" value="AAF21241.1"/>
+<property type="molecule type" value="mRNA"/>
+</dbReference>
+<dbReference type="RefSeq" id="NP_113879.1">
+<property type="nucleotide sequence ID" value="NM_031691.1"/>
+</dbReference>
+<dbReference type="SMR" id="Q9QYE7"/>
+<dbReference type="STRING" id="10116.ENSRNOP00000026855"/>
+<dbReference type="GlyGen" id="Q9QYE7">
+<property type="glycosylation" value="10 sites"/>
+</dbReference>
+<dbReference type="PaxDb" id="Q9QYE7"/>
+<dbReference type="PRIDE" id="Q9QYE7"/>
+<dbReference type="GeneID" id="64350"/>
+<dbReference type="KEGG" id="rno:64350"/>
+<dbReference type="UCSC" id="RGD:71075">
+<property type="organism name" value="rat"/>
+</dbReference>
+<dbReference type="CTD" id="3681"/>
+<dbReference type="RGD" id="71075">
+<property type="gene designation" value="Itgad"/>
+</dbReference>
+<dbReference type="eggNOG" id="KOG3637">
+<property type="taxonomic scope" value="Eukaryota"/>
+</dbReference>
+<dbReference type="InParanoid" id="Q9QYE7"/>
+<dbReference type="OrthoDB" id="73876at2759"/>
+<dbReference type="PhylomeDB" id="Q9QYE7"/>
+<dbReference type="Reactome" id="R-RNO-216083">
+<property type="pathway name" value="Integrin cell surface interactions"/>
+</dbReference>
+<dbReference type="PRO" id="PR:Q9QYE7"/>
+<dbReference type="Proteomes" id="UP000002494">
+<property type="component" value="Unplaced"/>
+</dbReference>
+<dbReference type="GO" id="GO:0008305">
+<property type="term" value="C:integrin complex"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="InterPro"/>
+</dbReference>
+<dbReference type="GO" id="GO:0046872">
+<property type="term" value="F:metal ion binding"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="GO" id="GO:0044877">
+<property type="term" value="F:protein-containing complex binding"/>
+<property type="evidence" value="ECO:0000353"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0050798">
+<property type="term" value="P:activated T cell proliferation"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0034113">
+<property type="term" value="P:heterotypic cell-cell adhesion"/>
+<property type="evidence" value="ECO:0000266"/>
+<property type="project" value="RGD"/>
+</dbReference>
+<dbReference type="GO" id="GO:0007229">
+<property type="term" value="P:integrin-mediated signaling pathway"/>
+<property type="evidence" value="ECO:0000501"/>
+<property type="project" value="UniProtKB-KW"/>
+</dbReference>
+<dbReference type="Gene3D" id="2.130.10.130">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Gene3D" id="3.40.50.410">
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013517">
+<property type="entry name" value="FG-GAP"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013519">
+<property type="entry name" value="Int_alpha_beta-p"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR000413">
+<property type="entry name" value="Integrin_alpha"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR013649">
+<property type="entry name" value="Integrin_alpha-2"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR018184">
+<property type="entry name" value="Integrin_alpha_C_CS"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR028994">
+<property type="entry name" value="Integrin_alpha_N"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR032695">
+<property type="entry name" value="Integrin_dom_sf"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR002035">
+<property type="entry name" value="VWF_A"/>
+</dbReference>
+<dbReference type="InterPro" id="IPR036465">
+<property type="entry name" value="vWFA_dom_sf"/>
+</dbReference>
+<dbReference type="Pfam" id="PF01839">
+<property type="entry name" value="FG-GAP"/>
+<property type="match status" value="2"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00357">
+<property type="entry name" value="Integrin_alpha"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF08441">
+<property type="entry name" value="Integrin_alpha2"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="Pfam" id="PF00092">
+<property type="entry name" value="VWA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PRINTS" id="PR01185">
+<property type="entry name" value="INTEGRINA"/>
+</dbReference>
+<dbReference type="SMART" id="SM00191">
+<property type="entry name" value="Int_alpha"/>
+<property type="match status" value="5"/>
+</dbReference>
+<dbReference type="SMART" id="SM00327">
+<property type="entry name" value="VWA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF53300">
+<property type="entry name" value="SSF53300"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="SUPFAM" id="SSF69179">
+<property type="entry name" value="SSF69179"/>
+<property type="match status" value="3"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS51470">
+<property type="entry name" value="FG_GAP"/>
+<property type="match status" value="7"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS00242">
+<property type="entry name" value="INTEGRIN_ALPHA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<dbReference type="PROSITE" id="PS50234">
+<property type="entry name" value="VWFA"/>
+<property type="match status" value="1"/>
+</dbReference>
+<proteinExistence type="evidence at transcript level"/>
+<keyword id="KW-0106">Calcium</keyword>
+<keyword id="KW-0130">Cell adhesion</keyword>
+<keyword id="KW-1015">Disulfide bond</keyword>
+<keyword id="KW-0325">Glycoprotein</keyword>
+<keyword id="KW-0401">Integrin</keyword>
+<keyword id="KW-0460">Magnesium</keyword>
+<keyword id="KW-0472">Membrane</keyword>
+<keyword id="KW-0479">Metal-binding</keyword>
+<keyword id="KW-0675">Receptor</keyword>
+<keyword id="KW-1185">Reference proteome</keyword>
+<keyword id="KW-0677">Repeat</keyword>
+<keyword id="KW-0732">Signal</keyword>
+<keyword id="KW-0812">Transmembrane</keyword>
+<keyword id="KW-1133">Transmembrane helix</keyword>
+<feature type="signal peptide" evidence="2">
+<location>
+<begin position="1"/>
+<end position="19"/>
+</location>
+</feature>
+<feature type="chain" description="Integrin alpha-D" id="PRO_0000016297">
+<location>
+<begin position="20"/>
+<end position="1161"/>
+</location>
+</feature>
+<feature type="topological domain" description="Extracellular" evidence="2">
+<location>
+<begin position="20"/>
+<end position="1100"/>
+</location>
+</feature>
+<feature type="transmembrane region" description="Helical" evidence="2">
+<location>
+<begin position="1101"/>
+<end position="1121"/>
+</location>
+</feature>
+<feature type="topological domain" description="Cytoplasmic" evidence="2">
+<location>
+<begin position="1122"/>
+<end position="1161"/>
+</location>
+</feature>
+<feature type="repeat" description="FG-GAP 1" evidence="4">
+<location>
+<begin position="21"/>
+<end position="78"/>
+</location>
+</feature>
+<feature type="repeat" description="FG-GAP 2" evidence="4">
+<location>
+<begin position="79"/>
+<end position="138"/>
+</location>
+</feature>
+<feature type="domain" description="VWFA" evidence="3">
+<location>
+<begin position="152"/>
+<end position="334"/>
+</location>
+</feature>
+<feature type="repeat" description="FG-GAP 3" evidence="4">
+<location>
+<begin position="341"/>
+<end position="392"/>
+</location>
+</feature>
+<feature type="repeat" description="FG-GAP 4" evidence="4">
+<location>
+<begin position="393"/>
+<end position="444"/>
+</location>
+</feature>
+<feature type="repeat" description="FG-GAP 5" evidence="4">
+<location>
+<begin position="445"/>
+<end position="505"/>
+</location>
+</feature>
+<feature type="repeat" description="FG-GAP 6" evidence="4">
+<location>
+<begin position="508"/>
+<end position="566"/>
+</location>
+</feature>
+<feature type="repeat" description="FG-GAP 7" evidence="4">
+<location>
+<begin position="571"/>
+<end position="631"/>
+</location>
+</feature>
+<feature type="calcium-binding region" evidence="2">
+<location>
+<begin position="467"/>
+<end position="475"/>
+</location>
+</feature>
+<feature type="calcium-binding region" evidence="2">
+<location>
+<begin position="531"/>
+<end position="539"/>
+</location>
+</feature>
+<feature type="calcium-binding region" evidence="2">
+<location>
+<begin position="594"/>
+<end position="602"/>
+</location>
+</feature>
+<feature type="short sequence motif" description="GFFKR motif">
+<location>
+<begin position="1126"/>
+<end position="1130"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="61"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="89"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="245"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="393"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="696"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="734"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="784"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="907"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="936"/>
+</location>
+</feature>
+<feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="2">
+<location>
+<position position="1045"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="69"/>
+<end position="76"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="108"/>
+<end position="126"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="656"/>
+<end position="711"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="769"/>
+<end position="775"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="845"/>
+<end position="860"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="993"/>
+<end position="1017"/>
+</location>
+</feature>
+<feature type="disulfide bond" evidence="1">
+<location>
+<begin position="1022"/>
+<end position="1027"/>
+</location>
+</feature>
+<evidence key="1" type="ECO:0000250"/>
+<evidence key="2" type="ECO:0000255"/>
+<evidence key="3" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00219"/>
+</source>
+</evidence>
+<evidence key="4" type="ECO:0000255">
+<source>
+<dbReference type="PROSITE-ProRule" id="PRU00803"/>
+</source>
+</evidence>
+<evidence key="5" type="ECO:0000305"/>
+<sequence length="1161" mass="126600" checksum="2258491A984A705E" modified="2000-05-01" version="1" precursor="true">MAGGVVILLCGWVLASCHGSNLDVEEPIVFREDAASFGQTVVQFGGSRLVVGAPLEAVAVNQTGRLYDCAPATGMCQPIVLRSPLEAVNMSLGLSLVTATNNAQLLACGPTAQRACVKNMYAKGSCLLLGSSLQFIQAVPASMPECPRQEMDIAFLIDGSGSINQRDFAQMKDFVKALMGEFASTSTLFSLMQYSNILKTHFTFTEFKNILDPQSLVDPIVQLQGLTYTATGIRTVMEELFHSKNGSRKSAKKILLVITDGQKYRDPLEYSDVIPAADKAGIIRYAIGVGDAFQEPTALKELNTIGSAPPQDHVFKVGNFAALRSIQRQLQEKIFAIEGTQSRSSSSFQHEMSQEGFSSALTSDGPVLGAVGSFSWSGGAFLYPPNTRPTFINMSQENVDMRDSYLGYSTAVAFWKGVHSLILGAPRHQHTGKVVIFTQEARHWRPKSEVRGTQIGSYFGASLCSVDVDRDGSTDLVLIGAPHYYEQTRGGQVSVFPVPGVRGRWQCEATLHGEQGHPWGRFGVALTVLGDVNGDNLADVAIGAPGEEESRGAVYIFHGASRLEIMPSPSQRVTGSQLSLRLQYFGQSLSGGQDLTQDGLVDLAVGAQGHVLLLRSLPLLKVELSIRFAPMEVAKAVYQCWERTPTVLEAGEATVCLTVHKGSPDLLGNVQGSVRYDLALDPGRLISRAIFDETKNCTLTGRKTLGLGDHCETVKLLLPDCVEDAVSPIILRLNFSLVRDSASPRNLHPVLAVGSQDHITASLPFEKNCKQELLCEGDLGISFNFSGLQVLVVGGSPELTVTVTVWNEGEDSYGTLVKFYYPAGLSYRRVTGTQQPHQYPLRLACEAEPAAQEDLRSSSCSINHPIFREGAKTTFMITFDVSYKAFLGDRLLLRAKASSENNKPDTNKTAFQLELPVKYTVYTLISRQEDSTNHVNFSSSHGGRRQEAAHRYRVNNLSPLKLAVRVNFWVPVLLNGVAVWDVTLSSPAQGVSCVSQMKPPQNPDFLTQIQRRSVLDCSIADCLHFRCDIPSLDIQDELDFILRGNLSFGWVSQTLQEKVLLVSEAEITFDTSVYSQLPGQEAFLRAQVETTLEEYVVYEPIFLVAGSSVGGLLLLALITVVLYKLGFFKRQYKEMLDGKAADPVTAGQADFGCETPPYLVS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>
