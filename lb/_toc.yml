@@ -5,9 +5,7 @@
 
 - part: Mêtodos
   chapters:
-  - file: 10_met/met_doc
   - file: 10_met/met_pubmed_scraper
-  - file: 10_met/met_genebank_search
 
 - part: Análise
   chapters:
@@ -19,7 +17,7 @@
       - file: 21_ORF7a/ORF7a_multi_align
       - file: 21_ORF7a/ORF7a_motif
       - file: 21_ORF7a/ORF7a_mutant_id
-  - file: 22_BST2/BTS2
+  - file: 22_BST2/BST2
     sections:
       - file: 22_BST2/BST2_genbank
       - file: 22_BST2/BST2_homolgue
