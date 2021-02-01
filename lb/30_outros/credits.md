@@ -13,7 +13,7 @@ Este projeto foi realizado por:
 
 
 
-## MÊTODOS
+## Mêtodos
 
 ### Pesquisa automatizada do Pubmed
 - Diogo Macedo
