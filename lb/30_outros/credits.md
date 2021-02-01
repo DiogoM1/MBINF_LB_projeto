@@ -6,7 +6,9 @@ Este projeto foi realizado por:
 - Pedro Gonçalves PG42879
 
 ## Tarefas
+
 ### Revisão bibliográfica:
+
 - Angelina Eiras
 - Pedro Gonçalves
 
@@ -14,6 +16,7 @@ Este projeto foi realizado por:
 ##MÊTODOS
 
 ###Pesquisa automatizada do Pubmed
+
 - Diogo Macedo
 - Pedro Gonçalves
 
@@ -23,31 +26,37 @@ Este projeto foi realizado por:
 ###ORF7a
 
 ####Recolha e análise de sequência de referência.
+
 - Angelina Eiras PG42861
 - Diogo Macedo PG42865
 - Pedro Gonçalves PG42879
 
 ####Identificação de Homólogos
+
 - Angelina Eiras PG42861
 - Diogo Macedo PG42865
 - Pedro Gonçalves PG42879
 
 ####Propriedades da Proteína
+
 - Angelina Eiras PG42861
 - Diogo Macedo PG42865
 - Pedro Gonçalves PG42879
 
 ####Filogenia
+
 - Angelina Eiras PG42861
 - Diogo Macedo PG42865
 - Pedro Gonçalves PG42879
 
 ####Identificação de Motifs
+
 - Angelina Eiras PG42861
 - Diogo Macedo PG42865
 - Pedro Gonçalves PG42879
 
 ####Identificação de Mutantes
+
 - Angelina Eiras PG42861
 - Diogo Macedo PG42865
 - Pedro Gonçalves PG42879
@@ -56,26 +65,31 @@ Este projeto foi realizado por:
 ###BST2
 
 ####Registo no GenBank
+
 - Angelina Eiras PG42861
 - Diogo Macedo PG42865
 - Pedro Gonçalves PG42879
 
 ####Identificação de Homólogos
+
 - Angelina Eiras PG42861
 - Diogo Macedo PG42865
 - Pedro Gonçalves PG42879
 
 ####Propriedades da Proteína
+
 - Angelina Eiras PG42861
 - Diogo Macedo PG42865
 - Pedro Gonçalves PG42879
 
 ####Filogenia
+
 - Angelina Eiras PG42861
 - Diogo Macedo PG42865
 - Pedro Gonçalves PG42879
 
 ####Identificação de Motifs
+
 - Angelina Eiras PG42861
 - Diogo Macedo PG42865
 - Pedro Gonçalves PG42879
@@ -84,26 +98,31 @@ Este projeto foi realizado por:
 ###ITGAL
 
 ####Registo no GenBank
+
 - Angelina Eiras PG42861
 - Diogo Macedo PG42865
 - Pedro Gonçalves PG42879
 
 ####Identificação de Homólogos
+
 - Angelina Eiras PG42861
 - Diogo Macedo PG42865
 - Pedro Gonçalves PG42879
 
 ####Propriedades da Proteína
+
 - Angelina Eiras PG42861
 - Diogo Macedo PG42865
 - Pedro Gonçalves PG42879
 
 ####Filogenia
+
 - Angelina Eiras PG42861
 - Diogo Macedo PG42865
 - Pedro Gonçalves PG42879
 
 ####Identificação de Motifs
+
 - Angelina Eiras PG42861
 - Diogo Macedo PG42865
 - Pedro Gonçalves PG42879
@@ -112,4 +131,5 @@ Este projeto foi realizado por:
 ##OUTROS
 
 ###Créditos
+
 - Angelina Eiras PG42861
