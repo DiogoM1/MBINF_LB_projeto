@@ -12,12 +12,16 @@ Este projeto foi realizado por:
 
 
 ##MÊTODOS
+
 ###Pesquisa automatizada do Pubmed
 - Diogo Macedo
 - Pedro Gonçalves
 
+
 ##ANÁLISE
+
 ###ORF7a
+
 ####Recolha e análise de sequência de referência.
 - Angelina Eiras PG42861
 - Diogo Macedo PG42865
@@ -50,6 +54,7 @@ Este projeto foi realizado por:
 
 
 ###BST2
+
 ####Registo no GenBank
 - Angelina Eiras PG42861
 - Diogo Macedo PG42865
@@ -77,6 +82,7 @@ Este projeto foi realizado por:
 
 
 ###ITGAL
+
 ####Registo no GenBank
 - Angelina Eiras PG42861
 - Diogo Macedo PG42865
@@ -102,6 +108,8 @@ Este projeto foi realizado por:
 - Diogo Macedo PG42865
 - Pedro Gonçalves PG42879
 
+
 ##OUTROS
+
 ###Créditos
 - Angelina Eiras PG42861
