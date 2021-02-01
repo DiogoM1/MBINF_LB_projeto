@@ -292,7 +292,7 @@
 </background_frequencies>
 </model>
 <motifs>
-<motif id="motif_1" name="YHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFAC" alt="MEME-1" width="50" sites="5" ic="212.7" re="204.8" llr="710" p_value="7.9e-140" e_value="1.6e-130" bayes_threshold="6.16591" elapsed_time="0.239535">
+<motif id="motif_1" name="YHYQECVRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTCTSTHFAFAC" alt="MEME-1" width="50" sites="5" ic="212.7" re="204.8" llr="710" p_value="7.9e-140" e_value="1.6e-130" bayes_threshold="6.16591" elapsed_time="0.224776">
 <scores>
 <alphabet_matrix>
 <alphabet_array>
@@ -2787,7 +2787,7 @@ YHYQECVRGTTVLLKEPC[PS]SGTYEGNSPFHPLADNKFALTC[TFIS]ST[HQ]FAFAC
 </contributing_site>
 </contributing_sites>
 </motif>
-<motif id="motif_2" name="ADGTRHTYQLRARSVSPKLFIRQEEVHQE" alt="MEME-2" width="29" sites="5" ic="118.8" re="115.2" llr="399" p_value="3.4e-075" e_value="2.5e-065" bayes_threshold="7.48691" elapsed_time="0.400772">
+<motif id="motif_2" name="ADGTRHTYQLRARSVSPKLFIRQEEVHQE" alt="MEME-2" width="29" sites="5" ic="118.8" re="115.2" llr="399" p_value="3.4e-075" e_value="2.5e-065" bayes_threshold="7.48691" elapsed_time="0.378986">
 <scores>
 <alphabet_matrix>
 <alphabet_array>
@@ -4253,7 +4253,7 @@ YHYQECVRGTTVLLKEPC[PS]SGTYEGNSPFHPLADNKFALTC[TFIS]ST[HQ]FAFAC
 </contributing_site>
 </contributing_sites>
 </motif>
-<motif id="motif_3" name="FLIVAALVFIILCFTIKRKTE" alt="MEME-3" width="21" sites="5" ic="87.6" re="76.6" llr="266" p_value="5.9e-043" e_value="6.5e-033" bayes_threshold="6.65535" elapsed_time="0.455133">
+<motif id="motif_3" name="FLIVAALVFIILCFTIKRKTE" alt="MEME-3" width="21" sites="5" ic="87.6" re="76.6" llr="266" p_value="5.9e-043" e_value="6.5e-033" bayes_threshold="6.65535" elapsed_time="0.428520">
 <scores>
 <alphabet_matrix>
 <alphabet_array>
@@ -5327,7 +5327,7 @@ FLIVAA[LI]VF[IL][IT]LCFT[IL]KRKTE
 </contributing_site>
 </contributing_sites>
 </motif>
-<motif id="motif_4" name="MKIILFLTLIALASC" alt="MEME-4" width="15" sites="5" ic="59.6" re="52.7" llr="183" p_value="3.1e-028" e_value="4.4e-018" bayes_threshold="7.68865" elapsed_time="0.486859">
+<motif id="motif_4" name="MKIILFLTLIALASC" alt="MEME-4" width="15" sites="5" ic="59.6" re="52.7" llr="183" p_value="3.1e-028" e_value="4.4e-018" bayes_threshold="7.68865" elapsed_time="0.463724">
 <scores>
 <alphabet_matrix>
 <alphabet_array>

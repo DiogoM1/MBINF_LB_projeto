@@ -23,7 +23,7 @@ REFERENCE
 DATABASE AND MOTIFS
 ********************************************************************************
 	DATABASE MN908947.3_ORF7a.fasta (peptide)
-	Last updated on Sun Jan 31 22:09:27 2021
+	Last updated on Sun Jan 31 23:38:08 2021
 	Database contains 40 sequences, 4764 residues
 
 	MOTIFS meme.txt (peptide)
@@ -860,7 +860,7 @@ gb|AAP82970.1|
 ********************************************************************************
 
 
-CPU: 0b1ef39dc9ef
-Time 0.041 secs.
+CPU: b67b83746b13
+Time 0.046 secs.
 
 mast -bfile --motif-- -remcorr -oc /opt/project/data/motif/ORF7a/mast /opt/project/data/motif/ORF7a/meme/meme.txt /opt/project/data/homologue/ORF7a/MN908947.3_ORF7a.fasta

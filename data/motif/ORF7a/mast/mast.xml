@@ -30,7 +30,7 @@
 	</alphabet>
 	<background source="--motif--" A="0.0763051" C="0.0477034" D="0.0175016" E="0.0652044" F="0.0763051" G="0.0334025" H="0.0350026" I="0.0620042" K="0.0509036" L="0.127008" M="0.00954107" N="0.0175016" P="0.0493035" Q="0.0366027" R="0.0477034" S="0.058804" T="0.0906059" V="0.0541037" W="0.0015906" Y="0.0429031"/>
 	<motif_dbs>
-		<motif_db source="/opt/project/data/motif/ORF7a/meme/meme.txt" last_mod_date="Sun Jan 31 22:12:31 2021">
+		<motif_db source="/opt/project/data/motif/ORF7a/meme/meme.txt" last_mod_date="Mon Feb  1 01:32:06 2021">
 			<background A="0.0763051" C="0.0477034" D="0.0175016" E="0.0652044" F="0.0763051" G="0.0334025" H="0.0350026" I="0.0620042" K="0.0509036" L="0.127008" M="0.00954107" N="0.0175016" P="0.0493035" Q="0.0366027" R="0.0477034" S="0.058804" T="0.0906059" V="0.0541037" W="0.0015906" Y="0.0429031"/>
 		</motif_db>
 	</motif_dbs>
@@ -168,7 +168,7 @@
 		<correlation idx_a="2" idx_b="3" value="0.46"/>
 	</correlations>
 	<sequence_dbs>
-		<sequence_db source="/opt/project/data/homologue/ORF7a/MN908947.3_ORF7a.fasta" last_mod_date="Sun Jan 31 22:09:27 2021" seq_count="40" residue_count="4764"/>
+		<sequence_db source="/opt/project/data/homologue/ORF7a/MN908947.3_ORF7a.fasta" last_mod_date="Sun Jan 31 23:38:08 2021" seq_count="40" residue_count="4764"/>
 	</sequence_dbs>
 	<sequences>
 		<sequence db="0" name="gb|ACU31037.1|" comment="hypothetical protein [SARS coronavirus Rs_672/2006] " length="122">
@@ -684,5 +684,5 @@ ALVFLILCFTIKRKTE
 			</seg>
 		</sequence>
 	</sequences>
-	<runtime host="0b1ef39dc9ef" when="Sun Jan 31 22:12:31 2021" cycles="41086" seconds="0.041"/>
+	<runtime host="b67b83746b13" when="Mon Feb  1 01:32:06 2021" cycles="46198" seconds="0.046"/>
 </mast>
