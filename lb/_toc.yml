@@ -24,11 +24,15 @@
       - file: 22_BST2/BST2_genbank
       - file: 22_BST2/BST2_homolgue
       - file: 22_BST2/BST2_protein
+      - file: 22_BST2/BST2_multi_align
+      - file: 22_BST2/BST2_motif
   - file: 23_ITGAL/ITGAL
     sections:
       - file: 23_ITGAL/ITGAL_genbank
       - file: 23_ITGAL/ITGAL_homolgue
       - file: 23_ITGAL/ITGAL_protein
+      - file: 23_ITGAL/ITGAL_multi_align
+      - file: 23_ITGAL/ITGAL_motif
 
 - part: Outros
   chapters:
